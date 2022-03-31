@@ -15,6 +15,33 @@ toc: true
 
 ## Get started
 
+Let us test something.
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.20.0/cytoscape.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    type="text/javascript"
+  ></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script>
+    let current_id = "107";
+  </script>
+  <style>
+    #cy {
+      height: 500px;
+      display: block;
+      background-color: #fff;
+    }
+  </style>
+
+   <div id="cy"></div>
+
+<script src="/js/basic.js"></script>
+
+
+
 There are two main ways to get started with Doks:
 
 ### Tutorial
