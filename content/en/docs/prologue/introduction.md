@@ -17,22 +17,8 @@ toc: true
 
 Let us test something.
 
-{{< header1 >}}
+{{< header1 107>}}
 
-  <script>
-    let current_id = "107";
-  </script>
-  <style>
-    #cy {
-      height: 500px;
-      display: block;
-      background-color: #fff;
-    }
-  </style>
-
-   <div id="cy"></div>
-
-<script src="/js/basic.js"></script>
 
 
 
