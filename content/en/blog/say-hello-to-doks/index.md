@@ -1,5 +1,5 @@
 ---
-title: "Say hello to Doks 👋"
+title: "Pntfx did it - Say hello to Doks 👋"
 description: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 lead: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 date: 2020-11-04T09:19:42+01:00
