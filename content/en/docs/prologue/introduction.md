@@ -20,8 +20,6 @@ Let us test something.
 {{< header1 107>}}
 
 
-
-
 There are two main ways to get started with Doks:
 
 ### Tutorial
