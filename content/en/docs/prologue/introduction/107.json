@@ -1,0 +1,98 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "107",
+                        "label": "Subsequences and\nAccumulation Values",
+                        "meta": " RA09 ",
+                        "content": "Ein Satz",
+                        "notes": "107-snippet.html",
+                        "video": "https://www.youtube.com/embed/xZ5vjdZzTUI?start=14",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "109",
+                        "label": "Limit inferior and\nlimit superior",
+                        "meta": "RA11+RA12 ",
+                        "content": "Ein Satz",
+                        "notes": "109-snippet.html",
+                        "video": "https://www.youtube.com/embed/-y0v2V0-_8E?start=21",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "110",
+                        "label": "Open, Closed,\nCompact sets",
+                        "meta": " RA13 ",
+                        "content": "Ein Satz",
+                        "notes": "110-snippet.html",
+                        "video": "https://www.youtube.com/embed/Wqo4Svs4erw?start=12",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Ein Satz",
+                        "notes": "101-snippet.html",
+                        "video": "https://www.youtube.com/embed/1SguKALJji8?start=367",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "108",
+                        "label": "Bolzano-Weierstrass",
+                        "meta": "RA10 ",
+                        "content": "Ein Satz",
+                        "notes": "108-snippet.html",
+                        "video": "https://www.youtube.com/embed/e2QaNklYZGg?start=10",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "107",
+                        "target": "109",
+                        "label": "Limit inferior and limit superior are the largest and smallest limit of a subsequence.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "107",
+                        "target": "110",
+                        "label": "Compactness is characterized by existence of converging subsequences.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "107",
+                        "label": "Transition to subsequences that converge ",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "107",
+                        "target": "108",
+                        "label": "Bolzano Weierstrass guarantees existence of accumulation values.",
+                        "color": "#084974"
+                  }
+            }
+      ]
+}
