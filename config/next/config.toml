@@ -1,1 +1,3 @@
+baseurl = "/"
 canonifyURLs = false
+
