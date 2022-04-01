@@ -81,10 +81,11 @@ $.getJSON(current_id + ".json" , function (data) {
 function node_clicked(evt) {
   var node = evt.target;
   const index = node.data()["id"];
+  const nr = index.slice(0, 1);
   if (index == current_id) {
     window.open(`../${index}/`,"_self")
   } else {
-    window.open(`../${index}/`,"_self")
+    window.open(`../../chapter${nr}/${index}/`,"_self")
   }
 }
 
