@@ -59,6 +59,7 @@ dev-review:
   environment:
     name: $CI_COMMIT_REF_NAME
     url: https://$PROXY_HOST_NAME$BASE_DIR
-  rules:
-    - if: $CI_COMMIT_REF_NAME == "dev"
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
