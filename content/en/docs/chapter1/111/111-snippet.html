@@ -1,0 +1,61 @@
+<div class="Theorem">
+<p><span>Theorem of Heine-Borel</span> For a subset <span
+class="math inline">\(C\subset\mathbb{K}\)</span>, the following
+statements are equivalent:</p>
+<ol type="i">
+<li><p><span class="math inline">\(C\)</span> is compact;</p></li>
+<li><p><span class="math inline">\(C\)</span> is bounded and
+closed.</p></li>
+</ol>
+</div>
+<p><span><em>Proof:</em></span><br />
+“(i)<span class="math inline">\(\Rightarrow\)</span>(ii)”: Let <span
+class="math inline">\(C\)</span> be compact.</p>
+<p>Let <span class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> be a
+convergent sequence in <span class="math inline">\(\mathbb{K}\)</span>
+with <span class="math inline">\(a_n\in C\)</span> and <span
+class="math inline">\(a:=\lim_{n\rightarrow\infty} a_n
+\in\mathbb{K}\)</span>. Since <span class="math inline">\(C\)</span> is
+compact, there is a subsequence <span
+class="math inline">\((a_{n_k})_{k\in\mathbb{N}}\)</span> such that
+<span class="math inline">\(b:=\lim_{k\rightarrow\infty} a_{n_k}\in
+C\)</span>. By Theorem <a href="#thm:convsubseq"
+data-reference-type="ref"
+data-reference="thm:convsubseq">[thm:convsubseq]</a> we have <span
+class="math inline">\(a=b\in C\)</span>.</p>
+<p>Now assume that <span class="math inline">\(C\)</span> is unbounded.
+Then for all <span class="math inline">\(n\in\mathbb{N}\)</span>, there
+exists some <span class="math inline">\(a_n\in C\)</span> with <span
+class="math inline">\(|a_n|\geq n\)</span>. Consider an arbitrary
+subsequence <span
+class="math inline">\((a_{n_k})_{k\in\mathbb{N}}\)</span>. Due to <span
+class="math inline">\(|a_{n_k}|\geq n_k\geq k\)</span>, we have that
+<span class="math inline">\((a_{n_k})_{k\in\mathbb{N}}\)</span> is
+unbounded, i.e., it cannot be convergent. This is also a contradiction
+to compactness.<br />
+ <br />
+“(ii)<span class="math inline">\(\Rightarrow\)</span>(i)”: Let <span
+class="math inline">\(C\)</span> be closed and bounded. Let <span
+class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> be a sequence in
+<span class="math inline">\(C\)</span>. The boundedness of <span
+class="math inline">\(C\)</span> then implies the boundedness of <span
+class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span>. By the Theorem of
+Bolzano-Weierstraß, there exists a convergent subsequence <span
+class="math inline">\((a_{n_k})_{k\in\mathbb{N}}\)</span>, i.e., <span
+class="math display">\[\lim_{k\To\infty}a_{n_k}=a\]</span> for some
+<span class="math inline">\(a\in\mathbb{K}\)</span>. For compactness, we
+now have to show that <span class="math inline">\(a\in C\)</span>.
+However, this is guaranteed by the closedness of <span
+class="math inline">\(C\)</span>.<span
+class="math inline">\(\Box\)</span></p>
+<div class="Remark">
+<p>Taking a closer look to the proof “(i)<span
+class="math inline">\(\Rightarrow\)</span>(ii)’, we did not explicitly
+use that we are dealing with one of the spaces <span
+class="math inline">\(\R\)</span> or <span
+class="math inline">\(\C\)</span>. Indeed, the implication that compact
+sets are bounded and closed holds true for all normed spaces. However,
+“(ii)<span class="math inline">\(\Rightarrow\)</span>(i)” does not hold
+true in arbitrary normed spaces. Indeed, there are examples of normed
+spaces that have bounded and closed subsets which are not compact.</p>
+</div>

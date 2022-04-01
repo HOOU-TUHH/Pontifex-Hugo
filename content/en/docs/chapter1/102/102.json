@@ -1,0 +1,138 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Boundedness",
+                        "meta": " RA03 ",
+                        "content": "Ein Satz",
+                        "notes": "102-snippet.html",
+                        "video": "https://www.youtube.com/embed/k-Wm6gJYfrw?start=221",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "002",
+                        "label": "Real Numbers",
+                        "meta": " SLR03  ",
+                        "content": "In a real analysis, the real numbers are the largest number set we need. They satisfy axioms that represent the idea of a number line.",
+                        "notes": "002-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and Preimage",
+                        "meta": " SLS05 ",
+                        "content": "Ein Satz",
+                        "notes": "005-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "100",
+                        "label": "Sequences",
+                        "meta": " RA02 ",
+                        "content": "Ein Satz",
+                        "notes": "100-snippet.html",
+                        "video": "https://www.youtube.com/embed/1SguKALJji8?start=17",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/cHoWtrbL_tqgrTzOA0Q0"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "104",
+                        "label": "Monotonicity and\nSandwich Theorem",
+                        "meta": " RA05 ",
+                        "content": "Ein Satz",
+                        "notes": "104-snippet.html",
+                        "video": "https://www.youtube.com/embed/Y6rRSip3QN4?start=14",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "108",
+                        "label": "Bolzano-Weierstrass",
+                        "meta": "RA10 ",
+                        "content": "Ein Satz",
+                        "notes": "108-snippet.html",
+                        "video": "https://www.youtube.com/embed/e2QaNklYZGg?start=10",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "002",
+                        "target": "102",
+                        "label": "The statement of boundedness involves a comparison of real numbers.",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "102",
+                        "label": "Boundedness is a property of sets.",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "005",
+                        "target": "102",
+                        "label": "Boundedness of a sequence means that the image of the sequence is a bounded set.",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "100",
+                        "target": "102",
+                        "label": "Boundedness is a property of sequences.",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "104",
+                        "label": "A bound for the sequence is also a bound for the limit.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "108",
+                        "label": "Bolzano Weierstrass requires a bounded sequence to begin with.",
+                        "color": "#084974"
+                  }
+            }
+      ]
+}

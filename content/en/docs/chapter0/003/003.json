@@ -1,0 +1,118 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "003",
+                        "label": "Maps",
+                        "meta": " SLS04 ",
+                        "content": "Maps are the mathematical formulation of machine that gets inputs and generate outputs. On both sides, sets are needed.",
+                        "notes": "003-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and Preimage",
+                        "meta": " SLS05 ",
+                        "content": "Ein Satz",
+                        "notes": "005-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "007",
+                        "label": "Composition",
+                        "meta": "  SLS07 ",
+                        "content": "Ein Satz",
+                        "notes": "007-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "100",
+                        "label": "Sequences",
+                        "meta": " RA02 ",
+                        "content": "Ein Satz",
+                        "notes": "100-snippet.html",
+                        "video": "https://www.youtube.com/embed/1SguKALJji8?start=17",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/cHoWtrbL_tqgrTzOA0Q0"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Ein Satz",
+                        "notes": "101-snippet.html",
+                        "video": "https://www.youtube.com/embed/1SguKALJji8?start=367",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "003",
+                        "label": "A mapping operates between two sets.",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "005",
+                        "label": "A mapping induces images and preimages.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "007",
+                        "label": "Composition is an operation on maps.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "100",
+                        "label": "A sequence is a map of natural numbers ",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "101",
+                        "label": "Association of convergent sequence with its limit acts like a map ",
+                        "color": "#084974"
+                  }
+            }
+      ]
+}

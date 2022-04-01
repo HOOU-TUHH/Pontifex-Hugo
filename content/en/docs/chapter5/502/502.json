@@ -1,0 +1,17 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "502",
+                        "label": "Chain rule",
+                        "meta": "RA36",
+                        "content": "Ein Satz",
+                        "notes": "502-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": []
+}

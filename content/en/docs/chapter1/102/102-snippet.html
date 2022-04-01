@@ -1,0 +1,47 @@
+<div class="Definition">
+<p><span>Boundedness of sequences</span> Let <span
+class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> be a sequence in
+<span class="math inline">\(\mathbb{K}\)</span>. Then <span
+class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> is called</p>
+<ul>
+<li><p><em>bounded</em> if there exists some <span
+class="math inline">\(c\in\mathbb{R}\)</span> such that for all <span
+class="math inline">\(n\in\mathbb{N}\)</span> holds <span
+class="math inline">\(|a_n|\leq c\)</span>;</p></li>
+<li><p><em>unbounded</em> if it is not bounded, i.e., for all <span
+class="math inline">\(c\in\mathbb{R}\)</span>, there exists some <span
+class="math inline">\(n\in\mathbb{N}\)</span> with <span
+class="math inline">\(|a_n|&gt; c\)</span>.</p></li>
+</ul>
+</div>
+<div class="Theorem">
+<p>Let <span class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> be
+a convergent sequence in <span
+class="math inline">\(\mathbb{K}\)</span>. Then <span
+class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> is bounded.</p>
+</div>
+<div class="proof">
+<p><em>Proof.</em> Suppose that <span
+class="math inline">\(\lim_{n\to\infty}a_n=a\)</span>.<br />
+Take <span class="math inline">\(\varepsilon=1\)</span>. Then there
+exists some <span class="math inline">\(N\)</span> such that for all
+<span class="math inline">\(n\geq N\)</span> holds <span
+class="math inline">\(|a_n-a|&lt;1\)</span>.<br />
+Thus, for all <span class="math inline">\(n\geq N\)</span> holds <span
+class="math display">\[|a_n|=|a_n-a+a|\leq
+|a_n-a|+|a|&lt;1+|a|.\]</span><br />
+Now choose <span
+class="math display">\[c=\max\{|a_1|,|a_2|,\ldots,|a_{N-1}|,|a|+1\}\]</span>
+and consider some arbitrary sequence element <span
+class="math inline">\(a_k\)</span>.<br />
+If <span class="math inline">\(k&lt;N\)</span>, then <span
+class="math inline">\(|a_k|\leq \max\{|a_1|,|a_2|,\ldots,|a_{N-1}|\}\leq
+c\)</span>.<br />
+In the case <span class="math inline">\(k\geq N\)</span>, the above
+calculations lead to <span class="math inline">\(|a_k|&lt;|a|+1\leq
+c\)</span>.<br />
+Altogether, this implies that <span class="math inline">\(|a_k|\leq
+c\)</span> for all <span class="math inline">\(k\in\mathbb{N}\)</span>,
+so <span class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> is
+bounded by <span class="math inline">\(c\)</span>. ◻</p>
+</div>

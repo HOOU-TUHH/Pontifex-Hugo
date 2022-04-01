@@ -1,0 +1,78 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "106",
+                        "label": "Completeness",
+                        "meta": " RA07 ",
+                        "content": "Ein Satz",
+                        "notes": "106-snippet.html",
+                        "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=14",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "105",
+                        "label": "Supremum and\nInfimum of sets",
+                        "meta": " RA06 ",
+                        "content": "Ein Satz",
+                        "notes": "105-snippet.html",
+                        "video": "https://www.youtube.com/embed/8Cyvdv7Sm2s?start=16",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "002",
+                        "label": "Real Numbers",
+                        "meta": " SLR03  ",
+                        "content": "In a real analysis, the real numbers are the largest number set we need. They satisfy axioms that represent the idea of a number line.",
+                        "notes": "002-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Ein Satz",
+                        "notes": "101-snippet.html",
+                        "video": "https://www.youtube.com/embed/1SguKALJji8?start=367",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "105",
+                        "target": "106",
+                        "label": "Existence of suprema of bounded sets is a characterization of completeness.",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "002",
+                        "target": "106",
+                        "label": "Real numbers are complete. Every Cauchy sequence of real numbers converges.",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "106",
+                        "label": "Convergence of Cauchy sequences characterizes completeness ",
+                        "color": "#297bb3"
+                  }
+            }
+      ]
+}

@@ -1,0 +1,198 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "000",
+                        "label": "Logical Statements and Operations",
+                        "meta": " SLL01",
+                        "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
+                        "notes": "000-snippet.html",
+                        "video": "https://www.youtube.com/embed/DU4wKBDm2Z4?start=7",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "003",
+                        "label": "Maps",
+                        "meta": " SLS04 ",
+                        "content": "Maps are the mathematical formulation of machine that gets inputs and generate outputs. On both sides, sets are needed.",
+                        "notes": "003-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "002",
+                        "label": "Real Numbers",
+                        "meta": " SLR03  ",
+                        "content": "In a real analysis, the real numbers are the largest number set we need. They satisfy axioms that represent the idea of a number line.",
+                        "notes": "002-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "004",
+                        "label": "Natural Numbers",
+                        "meta": " SLN01 + SLN02 + SLN03 + SLN04 ",
+                        "content": "Ein Satz",
+                        "notes": "004-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and Preimage",
+                        "meta": " SLS05 ",
+                        "content": "Ein Satz",
+                        "notes": "005-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Boundedness",
+                        "meta": " RA03 ",
+                        "content": "Ein Satz",
+                        "notes": "102-snippet.html",
+                        "video": "https://www.youtube.com/embed/k-Wm6gJYfrw?start=221",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "105",
+                        "label": "Supremum and\nInfimum of sets",
+                        "meta": " RA06 ",
+                        "content": "Ein Satz",
+                        "notes": "105-snippet.html",
+                        "video": "https://www.youtube.com/embed/8Cyvdv7Sm2s?start=16",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "110",
+                        "label": "Open, Closed,\nCompact sets",
+                        "meta": " RA13 ",
+                        "content": "Ein Satz",
+                        "notes": "110-snippet.html",
+                        "video": "https://www.youtube.com/embed/Wqo4Svs4erw?start=12",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "112",
+                        "label": "Interior, Closure,\nBoundary",
+                        "meta": " ",
+                        "content": "Ein Satz",
+                        "notes": "112-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "000",
+                        "target": "001",
+                        "label": "Logical statements usually contain sets and elements",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "003",
+                        "label": "A mapping operates between two sets.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "002",
+                        "label": "Real numbers are a set of numbers.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "004",
+                        "label": "Natural numbers are a set of numbers.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "005",
+                        "label": "Image and Preimage are special sets related to a mapping.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "102",
+                        "label": "Boundedness is a property of sets.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "105",
+                        "label": "Supremum and infimum are numbers associated to sets of real numbers.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "110",
+                        "label": "Open, closed and compact are properties of sets of numbers.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "112",
+                        "label": "The interior, the closure or the boundary of a set is a set again.",
+                        "color": "#084974"
+                  }
+            }
+      ]
+}

@@ -1,0 +1,192 @@
+<h1 id="natural-numbers-and-induction">Natural numbers and
+induction</h1>
+<p>The natural numbers are <span class="math inline">\(\NN = \{1,2,3
+\ldots \}\)</span>.</p>
+<ul>
+<li><p><em>Question 1:</em> When are two sets <span
+class="math inline">\(S,T\)</span> of the same size? Have the same
+<em>cardinality</em> <span class="math inline">\(|S|=|T|\)</span>?
+<em>Answer:</em> They have the same size if there is a bijective map
+<span class="math inline">\(S\to T\)</span>.</p></li>
+<li><p><em>Question 2:</em> When is a set <span
+class="math inline">\(S\)</span> finite? <em>Answer:</em> It is finite
+if removing one element changes the <em>cardinality</em> of <span
+class="math inline">\(S\)</span>.</p></li>
+</ul>
+<p>In mathematical language: “Natural numbers are equivalence classes of
+finite sets of the same cardinality.”</p>
+<h3 id="mathematical-induction">Mathematical induction</h3>
+<p>Mathematical induction is an important technique of proof: Proof step
+by step. It is a close relative to recursion in computer science.</p>
+<p>In mathematics:</p>
+<p>“If an assertion is true for <span class="math inline">\(n\)</span>,
+show that it is true for <span class="math inline">\(n+1\)</span>”</p>
+<div class="example">
+<p>What is the sum of the first <span class="math inline">\(n\)</span>
+natural numbers? <span class="math display">\[s_n := \sum_{k=1}^n k =
+\,?\]</span></p>
+<p>To make this practical, we need three ingredients:</p>
+<ul>
+<li><p>An idea what the result could be. (Induction hypothesis)</p></li>
+<li><p>The verification that our hypothesis is true for <span
+class="math inline">\(n=1\)</span> (Base case)</p></li>
+<li><p>A proof, that if it holds for <span
+class="math inline">\(n\)</span>, then also for <span
+class="math inline">\(n+1\)</span>. (Induction step)</p></li>
+</ul>
+<p>Ideas? Let’s take the hypothesis <span class="math display">\[s_n =
+\frac{(n+1)n}{2}\qquad  \mbox{ (Induction hypothesis). }\]</span> Very
+good! We can verify our formula for these examples. In particular: <span
+class="math display">\[s_1 = \frac{(1+1)1}{2}=1 \qquad  \mbox{ (Base
+case). }\]</span> <em>Induction step:</em> We have to show <span
+class="math display">\[\frac{(n+2)(n+1)}{2} \mbox{ is equal to }
+s_{n+1}=s_n + (n+1)
+= \frac{(n+1)n}{2}+n+1\]</span> where we used the induction hypothesis
+in the last step. So let us compute:</p>
+</div>
+<p>We will get plenty of other examples later.</p>
+<div class="Faust">
+<p><span>Mathematical induction</span> To show that the predicate <span
+class="math inline">\(A(n)\)</span> is true <span
+class="math inline">\(n \in \NN\)</span>, we have to show two
+things:</p>
+<ol type="1">
+<li><p>Show that <span class="math inline">\(A(1)\)</span> is
+true.</p></li>
+<li><p>Show that <span class="math inline">\(A(n+1)\)</span> is true
+under the assumption that <span class="math inline">\(A(n)\)</span> is
+true.</p></li>
+</ol>
+</div>
+<h1 id="summary">Summary</h1>
+<ul>
+<li><p>For doing Mathematics, we need logic and sets. A set is just a
+gathering of its elements.</p></li>
+<li><p>Important symbols: <span class="math inline">\(\in,\ \not\in,\
+\varnothing,\ \forall,\ \exists,\ \subset,\ \subsetneq,\ \cap,\ \cup,\
+\setminus\)</span></p></li>
+<li><p>Implication <span class="math inline">\(A\Rightarrow B\)</span>:
+If <span class="math inline">\(A\)</span> holds, then also <span
+class="math inline">\(B\)</span>.</p></li>
+<li><p>Equivalence <span class="math inline">\(A\Leftrightarrow
+B\)</span>: The statement <span class="math inline">\(A\)</span> holds
+if and only if <span class="math inline">\(B\)</span> holds.</p></li>
+<li><p>Sums and products <span class="math inline">\(\Sigma,
+\Pi\)</span></p></li>
+<li><p>A <em>map</em> or <em>function</em> <span
+class="math inline">\(f:X\to Y\)</span> sends each <span
+class="math inline">\(x\in X\)</span> to exactly one <span
+class="math inline">\(y\in Y\)</span>.</p></li>
+<li><p><span class="math inline">\(f\)</span> is <em>surjective</em>:
+Each <span class="math inline">\(y\in Y\)</span> is “hit” (one or more
+times).</p></li>
+<li><p><span class="math inline">\(f\)</span> is <em>injective</em>:
+Each <span class="math inline">\(y\in Y\)</span> is “hit” at most one
+time.</p></li>
+<li><p><span class="math inline">\(f\)</span> is <em>bijective</em>:
+Each <span class="math inline">\(y\in Y\)</span> is “hit” exactly
+once.</p></li>
+<li><p>Is <span class="math inline">\(f:X\to Y\)</span> bijective, then
+the <em>inverse map</em> <span class="math inline">\(f^{-1}:Y\to
+X\)</span> sends each <span class="math inline">\(y\in Y\)</span> to
+exactly one <span class="math inline">\(x\in X\)</span>.</p></li>
+<li><p>The composition <span class="math inline">\(g\circ f:X\to
+Z\)</span> is the application of the function <span
+class="math inline">\(g:Y\to Z\)</span> to the result of another
+function <span class="math inline">\(f:X\to Y\)</span>: <span
+class="math inline">\((g\circ f)(x)=g(f(x))\)</span>.</p></li>
+<li><p>Mathematical induction is a tool for proving mathematical
+statements for all natural numbers at once. You have to show a base case
+and then do the induction step.</p></li>
+</ul>
+<h1 id="exercises">Exercises</h1>
+<h2 class="unnumbered" id="exercise-1">Exercise 1</h2>
+<p>Calculate the following numbers and sets:</p>
+<div class="multicols">
+<p><span>4</span></p>
+<ol type="a">
+<li><p><span class="math inline">\(\prod\limits_{j=2}^{4}
+\frac{j}{j+1}\)</span>,</p></li>
+<li><p><span class="math inline">\(\sum\limits_{i=0}^{4}
+3\)</span>,</p></li>
+<li><p><span class="math inline">\(\bigcup\limits_{n=0}^{5} [2n,
+2n+2)\)</span>,</p></li>
+<li><p><span
+class="math inline">\(\sum\limits_{k=1}^{50}k\)</span>.</p></li>
+</ol>
+</div>
+<h2 class="unnumbered" id="exercise-2">Exercise 2</h2>
+<ol type="a">
+<li><p>Consider the two functions <span class="math inline">\(f_1:\, \R
+\to \R\)</span>, <span class="math inline">\(x \mapsto x^2\)</span> and
+<span class="math inline">\(f_2:\, [0, \infty) \to \R\)</span>, <span
+class="math inline">\(x \mapsto x^2\)</span>. For both functions
+calculate preimages of the sets <span
+class="math inline">\(\{1\}\)</span>, <span
+class="math inline">\([4,9)\)</span> and <span
+class="math inline">\((-1,0)\)</span>.</p></li>
+<li><p>Consider the two functions <span class="math inline">\(g_1:\, \R
+\to [0,1]\)</span>, <span class="math inline">\(x \mapsto \abs{\sin
+(x)}\)</span> and <span class="math inline">\(g_2:\, [0, 2\pi] \to
+\R\)</span>, <span class="math inline">\(x \mapsto \sin (x)\)</span>.
+For both functions calculate images of the sets <span
+class="math inline">\((0, \pi/2)\)</span>, <span
+class="math inline">\([0,\pi)\)</span> and <span
+class="math inline">\((0,2\pi]\)</span>.</p></li>
+<li><p>Consider the two functions <span class="math inline">\(h_1:\, \R
+\to \R\)</span> and <span class="math inline">\(h_2:\, [-1, 1] \to
+[\sqrt{3},2]\)</span> given by <span class="math display">\[x =
+\left(h_1(x)+2\right)^2-2 \quad \text{and} \quad x^2 + h_2(x)^2 =
+4.\]</span> Check whether <span class="math inline">\(h_1\)</span> and
+<span class="math inline">\(h_2\)</span> respectively are correctly
+defined.</p></li>
+<li><p>Consider all 6 functions from above and find out which of them
+are injective, surjective and bijective. Try to provide proofs and
+counterexamples.</p></li>
+</ol>
+<h2 class="unnumbered" id="exercise-3">Exercise 3</h2>
+<p>Let <span class="math inline">\(X\)</span> be the set of all fish in
+a given aquarium. Define a function <span class="math inline">\(f:X \to
+Y\)</span> by mapping every fish on its species where <span
+class="math inline">\(Y\)</span> denotes the set of all species of fish.
+What does it mean if <span class="math inline">\(f\)</span> is injective
+or surjective or bijective?</p>
+<h2 class="unnumbered" id="exercise-4">Exercise 4</h2>
+<p>In the lecture you already learnt about the example <span
+class="math inline">\((A \rightarrow B) \; \Leftrightarrow \; (\neg B
+\rightarrow \neg A)\)</span> of two logically equivalent statements.
+Show that the following statements are also logically equivalent by
+using truth tables:</p>
+<ol type="a">
+<li><p><span class="math inline">\(\neg (A \wedge \neg B) \;
+\Leftrightarrow \: (A \rightarrow B),\)</span></p></li>
+<li><p><span class="math inline">\(\neg (A \wedge B) \; \Leftrightarrow
+\; \neg A \vee \neg B.\)</span></p></li>
+</ol>
+<h2 class="unnumbered" id="exercise-5">Exercise 5</h2>
+<p>One usually deals with subsets <span
+class="math inline">\(A\)</span>, <span
+class="math inline">\(B\)</span>, etc. of a given fixed set <span
+class="math inline">\(X\)</span>. In such a situation it is useful to
+introduce <span class="math inline">\(A^{\text{c}} := X \setminus
+A\)</span> which is called the <em>complement</em> of <span
+class="math inline">\(A\)</span> (with respect to (w.r.t.) the set <span
+class="math inline">\(X\)</span>). Show for <span
+class="math inline">\(A,B \subset X\)</span></p>
+<ol type="a">
+<li><p><span class="math inline">\(A \setminus B = A \cap
+B^{\text{c}}\)</span>,</p></li>
+<li><p><span class="math inline">\((A \cap B)^{\text{c}} = A^{\text{c}}
+\cup B^{\text{c}}\)</span>.</p></li>
+</ol>
+<h2 class="unnumbered" id="exercise-6">Exercise 6</h2>
+<p>Let <span class="math inline">\(A,B\)</span> and <span
+class="math inline">\(C\)</span> be sets.</p>
+<ol type="a">
+<li><p>Show <span class="math inline">\(A \times (B \cup C) = (A \times
+B) \cup (A \times C)\)</span>.</p></li>
+<li><p>Let <span class="math inline">\(\abs{A}=n\)</span> and <span
+class="math inline">\(\abs{B}=m\)</span> where <span
+class="math inline">\(n,m \in \N\)</span>. Show that <span
+class="math display">\[\abs{A \times B} = n \cdot m.\]</span></p></li>
+</ol>

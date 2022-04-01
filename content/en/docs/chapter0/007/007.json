@@ -1,0 +1,38 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "007",
+                        "label": "Composition",
+                        "meta": "  SLS07 ",
+                        "content": "Ein Satz",
+                        "notes": "007-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "003",
+                        "label": "Maps",
+                        "meta": " SLS04 ",
+                        "content": "Maps are the mathematical formulation of machine that gets inputs and generate outputs. On both sides, sets are needed.",
+                        "notes": "003-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "007",
+                        "label": "Composition is an operation on maps.",
+                        "color": "#297bb3"
+                  }
+            }
+      ]
+}

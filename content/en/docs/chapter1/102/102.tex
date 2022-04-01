@@ -1,0 +1,25 @@
+\begin{Definition}{Boundedness of sequences}
+  Let $(a_n)_{n\in\mathbb{N}}$ be a~sequence in $\mathbb{K}$. Then $(a_n)_{n\in\mathbb{N}}$ is called
+\begin{itemize}
+  \item[--] \emph{bounded} if there exists some $c\in\mathbb{R}$ such that for all $n\in\mathbb{N}$ holds $|a_n|\leq c$;
+  \item[--] \emph{unbounded} if it is not bounded, i.e., for all $c\in\mathbb{R}$, there exists some $n\in\mathbb{N}$ with $|a_n|> c$.
+\end{itemize}
+\end{Definition}
+
+\begin{Theorem}
+  Let $(a_n)_{n\in\mathbb{N}}$ be a~convergent sequence in $\mathbb{K}$. Then $(a_n)_{n\in\mathbb{N}}$ is bounded.
+\end{Theorem}
+
+\begin{proof}
+Suppose that $\lim_{n\to\infty}a_n=a$.\\
+Take $\varepsilon=1$. Then there exists some $N$ such that for all $n\geq N$ holds $|a_n-a|<1$.\\
+Thus, for all $n\geq N$ holds
+\[|a_n|=|a_n-a+a|\leq |a_n-a|+|a|<1+|a|.\]\\
+Now choose
+\[c=\max\{|a_1|,|a_2|,\ldots,|a_{N-1}|,|a|+1\}\]
+and consider some arbitrary sequence element $a_k$.\\
+If $k<N$, then $|a_k|\leq \max\{|a_1|,|a_2|,\ldots,|a_{N-1}|\}\leq c$.\\
+In the case $k\geq N$, the above calculations lead to $|a_k|<|a|+1\leq c$.\\
+Altogether, this implies that $|a_k|\leq c$ for all $k\in\mathbb{N}$, so $(a_n)_{n\in\mathbb{N}}$ is bounded by $c$.
+\end{proof}
+

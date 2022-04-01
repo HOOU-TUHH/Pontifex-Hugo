@@ -82,9 +82,9 @@ function node_clicked(evt) {
   var node = evt.target;
   const index = node.data()["id"];
   if (index == current_id) {
-    window.open(`../${index}/${index}-node.html`,"_self")
+    window.open(`../${index}/`,"_self")
   } else {
-    window.open(`../${index}/${index}.html`,"_self")
+    window.open(`../${index}/`,"_self")
   }
 }
 

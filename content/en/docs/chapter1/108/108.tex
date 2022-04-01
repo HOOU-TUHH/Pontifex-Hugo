@@ -1,0 +1,35 @@
+Next we present the famous Theorem of Bolzano-Weierstra\ss. 
+\begin{Theorem}{Theorem of Bolzano-Weierstra\ss}\label{thm:bzr}
+Let $(a_n)_{n\in\mathbb{N}}$ be a~bounded sequence in $\mathbb{K}$. Then there exists some convergent subsequence $(a_{n_k})_{k\in\mathbb{N}}$.
+\end{Theorem}
+{\em Proof:} First we consider the case $\mathbb{K}=\mathbb{R}$. 
+Since $(a_n)_{n\in\mathbb{N}}$ is bounded, there exist some $A,B\in\mathbb{R}$ such that for all $n\in\mathbb{N}$ holds $A\leq a_n\leq B$. 
+We will now successively construct subintervals $[A_n,B_n]\subset[A,B]$ which still include infinitely many sequence elements of $(a_n)_{n\in\mathbb{N}}$.
+
+Inductively define $A_0=A$, $B_0=B$ and for $k\geq1$,
+\begin{itemize}
+ \item[a)] $A_k=A_{k-1}$, $B_k=\frac{A_{k-1}+B_{k-1}}2$, if the interval $[A_{k-1},\frac{A_{k-1}+B_{k-1}}2]$ contains
+           infinitely many sequence elements of $(a_n)_{n\in\mathbb{N}}$, and
+ \item[b)] $A_k=\frac{A_{k-1}+B_{k-1}}2$, $B_k=B_{k-1}$, else.
+\end{itemize}
+By the construction of $A_k$ and $B_k$, we have that each interval $[A_k,B_k]$ has infinitely many sequence elements of $(a_n)_{n\in\mathbb{N}}$. 
+We furthermore have $B_1-A_1=\frac12(B-A)$, $B_2-A_2=\frac14(B-A)$, $\ldots$, $B_k-A_k=\frac1{2^k}(B-A)$. 
+Moreover, the sequence $(A_n)_{n\in\mathbb{N}}$ is monotonically increasing and bounded from above by $B$, i.e., it is convergent by
+Theorem~\ref{thm:monbndseq}. The relation $B_k-A_k=\frac1{2^k}(B-A)$ moreover implies that $(B_n)_{n\in\mathbb{N}}$ is also convergent and has 
+the same limit as $(A_n)_{n\in\mathbb{N}}$. Denote
+\[a=\lim_{n\to\infty}A_{n}=\lim_{n\to\infty}B_{n}.\]
+Define a~subsequence $(a_{n_k})_{k\in\mathbb{N}}$ by $n_1=1$ and $n_k$ with $n_k>n_{k-1}$ and $a_{n_k}\in[A_k,B_k]$ 
+(which is possible since $[A_k,B_k]$ contains infinitely many elements of $(a_{n})_{n\in\mathbb{N}}$).
+Then $A_k\leq a_{n_k}\leq B_k$. Theorem~\ref{thm:monseq} then implies that
+\[a=\lim_{k\to\infty}a_{n_k}.\]
+
+Finally we consider the case $\mathbb{K}=\C$. Write $a_n=b_n+ic_n$ where $i$ is the imaginary unit, 
+$b_n:=\mathbb{R}e(a_n)$ denotes the real part and $c_n:={\Im}(a_n)$ denotes the imaginary part of $a_n$. 
+Since $|a_n|=\sqrt{b_n^2+c_n^2}\geq \max\{|b_n|,|c_n|\}\geq 0$, the boundedness of the complex sequence $(a_n)_{n\in\mathbb{N}}$ implies
+the boundedness of both real sequences $(b_n)_{n\in\mathbb{N}}$ and $(c_n)_{n\in\mathbb{N}}$. Then, by the previous, we now that 
+$(b_n)_{n\in\mathbb{N}}$ has a convergent subsequence $(b_{n_k})_{k\in\mathbb{N}}$. Since the subsequence $(c_{n_k})_{k\in\mathbb{N}}$ of the bounded sequence $(c_n)_{n\in\mathbb{N}}$
+is also bounded, it also has a convergent subsequence $(c_{n_{k_m}})_{m\in\mathbb{N}}$. The subsequence $(b_{n_{k_m}})_{m\in\mathbb{N}}$ of the 
+convergent sequence $(b_{n_k})_{k\in\mathbb{N}}$ also converges. Hence $(a_{n_{k_m}})_{m\in\mathbb{N}} = (b_{n_{k_m}}+ic_{n_{k_m}})_{m\in\mathbb{N}}$ 
+is a convergent subsequence of $(a_n)_{n\in\mathbb{N}}$ with 
+$\lim_{m\rightarrow \infty} a_{n_{k_m}} = \lim_{m\rightarrow \infty} b_{n_{k_m}} + i\cdot  \lim_{m\rightarrow \infty} c_{n_{k_m}} \ .$
+\hfill$\Box$

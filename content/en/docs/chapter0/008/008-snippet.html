@@ -1,0 +1,124 @@
+<div class="definition">
+<p><strong>Definition 1</strong> (Conditional <span
+class="math inline">\(A \rightarrow B\)</span> (“If <span
+class="math inline">\(A\)</span> then <span
+class="math inline">\(B\)</span>”)). <em><span class="math inline">\(A
+\rightarrow B\)</span> is only false if <span
+class="math inline">\(A\)</span> is true but <span
+class="math inline">\(B\)</span> is false.</em></p>
+</div>
+<p><span class="math display">\[\mbox{ Truth table }\qquad
+    \begin{array}{cc|c}
+     A &amp; B &amp; A \rightarrow B \\ \hline
+     T &amp; T&amp; T\\
+     T &amp; F &amp; F\\
+     F &amp; T &amp; T\\
+     F &amp; F &amp; T
+    \end{array}\]</span></p>
+<div class="definition">
+<p><strong>Definition 2</strong> (Biconditional <span
+class="math inline">\(A \leftrightarrow B\)</span> (“<span
+class="math inline">\(A\)</span> if and only if <span
+class="math inline">\(B\)</span>”)). <em><span class="math inline">\(A
+\leftrightarrow B\)</span> is true if and only if <span
+class="math inline">\(A \rightarrow B\)</span> and <span
+class="math inline">\(B \rightarrow A\)</span> is true.</em></p>
+</div>
+<p><span class="math display">\[\mbox{ Truth table }\qquad
+    \begin{array}{cc|c}
+     A &amp; B &amp; A \leftrightarrow B \\ \hline
+     T &amp; T&amp; T\\
+     T &amp; F &amp; F\\
+     F &amp; T &amp; F\\
+     F &amp; F &amp; T
+    \end{array}\]</span></p>
+<p>If a conditional or biconditional is true, we have a short notation
+for this that is used throughout the whole field of mathematics:</p>
+<div class="definition">
+<p><strong>Definition 3</strong> (Implication and equivalence). <em>If
+<span class="math inline">\(A \rightarrow B\)</span> is true, we call
+this an and write: <span class="math display">\[A \Rightarrow
+B  \,.\]</span> If <span class="math inline">\(A \leftrightarrow
+B\)</span> is true, we call this an and write: <span
+class="math display">\[A \Leftrightarrow B  \,.\]</span></em></p>
+</div>
+<p>This means that we speak of <em>equivalence</em> of <span
+class="math inline">\(A\)</span> and <span
+class="math inline">\(B\)</span> if the truth values in the truth table
+are exactly the same. For example, we have <span
+class="math display">\[A \leftrightarrow B ~~ \Leftrightarrow
+        ~~
+        (A \rightarrow B) \wedge (B \rightarrow A)
+        \,.\]</span></p>
+<p>Now one can ask: <em>What to do with truth-tables?</em> Let us show
+that <span class="math inline">\(\neg B \rightarrow \neg A\)</span> is
+the same as <span class="math inline">\(A \rightarrow B\)</span>. <span
+class="math display">\[\mbox{ Truth table }\qquad
+    \begin{array}{cc|cc|c}
+     A &amp; B &amp;  \neg A &amp; \neg B &amp;\neg B \rightarrow \neg A
+\\ \hline
+     T &amp; T &amp;   F &amp; F &amp; T\\
+     T &amp; F &amp;   F &amp; T &amp; F\\
+     F &amp; T &amp;   T &amp; F &amp; T\\
+     F &amp; F &amp;   T &amp; T &amp; T
+    \end{array}\]</span> Therefore: <span class="math display">\[(A
+\rightarrow B) ~~ \Leftrightarrow
+        ~~
+        (\neg B \rightarrow \neg A) \,.\]</span> This is the <em>proof
+by contraposition</em>:</p>
+<p>“Assume that <span class="math inline">\(B\)</span> does not hold,
+then we can show that <span class="math inline">\(A\)</span> cannot hold
+as well”. Hence <span class="math inline">\(A\)</span> implies <span
+class="math inline">\(B\)</span>.</p>
+<div class="Boxx">
+<p><strong>Concept 4</strong> (Contraposition). If <span
+class="math inline">\(A \Rightarrow B\)</span>, then also <span
+class="math inline">\(\neg B \Rightarrow \neg A\)</span>.</p>
+</div>
+<div class="Faust">
+<p><strong>Rule of Thumb 5</strong> (Contraposition). To get the
+contraposition <span class="math inline">\(A\Rightarrow B\)</span>, you
+should exchange <span class="math inline">\(A\)</span> and <span
+class="math inline">\(B\)</span> and set a <span
+class="math inline">\(\neg\)</span>-sign in front of both: <span
+class="math inline">\(\ \neg B\Rightarrow\neg A\)</span>.</p>
+<p>It is clear: The contraposition of the contraposition is again <span
+class="math inline">\(A\Rightarrow B\)</span>.</p>
+</div>
+<p>The contraposition is an example of a , which basically tells us how
+to get new true proposition from other true propositions. The most
+important deduction rules are given just by using the implication.</p>
+<div class="Boxx">
+<p><strong>Concept 6</strong> (Modus ponens). If <span
+class="math inline">\(A \Rightarrow B\)</span> and <span
+class="math inline">\(A\)</span> is true, then also <span
+class="math inline">\(B\)</span> is true.</p>
+</div>
+<div class="Boxx">
+<p><strong>Concept 7</strong> (Chain syllogism). If <span
+class="math inline">\(A \Rightarrow B\)</span> and <span
+class="math inline">\(B \Rightarrow C\)</span>, then also <span
+class="math inline">\(A \Rightarrow C\)</span>.</p>
+</div>
+<div class="Boxx">
+<p><strong>Concept 8</strong> (Reductio ad absurdum). If <span
+class="math inline">\(A \Rightarrow B\)</span> and <span
+class="math inline">\(A \Rightarrow \neg B\)</span>, then <span
+class="math inline">\(\neg A\)</span> is true.</p>
+</div>
+<p>One can easily prove these rules by truth tables. However, here we do
+not state every deduction in this formal manner. We may still use
+deduction in the intuitive way as well. Try it here:</p>
+<div class="exercise">
+<p><strong>Exercise 9</strong>. <em>Let <em>“All birds can fly”</em> be
+a true proposition (axiom). Are the following deductions
+correct?</em></p>
+<ul>
+<li><p><em>If Seagulls are birds, then Seagulls can fly.</em></p></li>
+<li><p><em>If Penguins are birds, then Penguins can fly.</em></p></li>
+<li><p><em>If Butterflies are birds, then Butterflies can
+fly.</em></p></li>
+<li><p><em>If Butterflies can fly, then Butterflies are
+birds.</em></p></li>
+</ul>
+</div>

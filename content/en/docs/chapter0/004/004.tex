@@ -1,0 +1,310 @@
+\section{Natural numbers and induction}
+The natural numbers are $\NN = \{1,2,3 \ldots \}$.
+
+\white{}{
+Using natural numbers is our first mathematical abstraction. We learn this as children in the kindergarden. 
+
+What is this abstraction? A number is an abstraction for all finite sets of the same size.
+}
+
+\begin{itemize}
+ \item \emph{Question 1:} When are two sets $S,T$ of the same size?  Have the same \emph{cardinality} $|S|=|T|$?
+ \emph{Answer:} They have the same size
+ if there is a bijective map $S\to T$.
+ \white{3cm}{For example, $\NN$ and the set of all even numbers have the same cardinality.}
+ \item \emph{Question 2:} When is a set $S$ finite? \emph{Answer:}
+ It is finite if removing one element changes the \emph{cardinality} of $S$. 
+ \white{3cm}{}
+\end{itemize}
+
+In mathematical language: ``Natural numbers are equivalence classes of finite sets of the same cardinality.'' 
+
+
+\subsubsection{Mathematical induction}
+
+Mathematical induction is an important technique of proof: Proof step by step. It is a close relative to 
+recursion in computer science. 
+
+\white{}{
+``Assume I can solve a problem of size $n$. How can I solve one of size $n+1$?''
+}
+
+
+In mathematics:
+
+``If an assertion is true for $n$, show that it is true for $n+1$''
+
+
+\white{3cm}{}
+
+
+\begin{example}
+What is the sum of the first $n$ natural numbers?
+\[
+ s_n := \sum_{k=1}^n k = \,?
+\]
+
+
+To make this practical, we need three ingredients:
+\begin{itemize}
+ \item[(i)] An idea what the result could be. (Induction hypothesis)
+ \item[(ii)] The verification that our hypothesis is true for $n=1$ (Base case)
+ \item[(iii)] A proof, that if it holds for $n$, then also for $n+1$. (Induction step)
+\end{itemize}
+\white{5cm}{
+Getting the first ingredient is often the most difficult one. Often one has to try it out:
+\begin{align*}
+ s_1 = 1\\
+ s_2 = s_1+2 = 3\\
+ s_3 = s_2+3 = 6\\
+ s_4 = s_3+4=10\\
+ s_5 = s_4+5=15\\
+ s_{n+1}=s_n+n+1
+\end{align*}
+}
+Ideas? Let's take the hypothesis
+\[
+ s_n = \frac{(n+1)n}{2}\qquad  \mbox{ (Induction hypothesis). }
+\]
+Very good! We can verify our formula for these examples. In particular:
+\[
+ s_1 = \frac{(1+1)1}{2}=1 \qquad  \mbox{ (Base case). }
+\]
+\emph{Induction step:} We have to show
+\[
+ \frac{(n+2)(n+1)}{2} \mbox{ is equal to } s_{n+1}=s_n + (n+1)
+ = \frac{(n+1)n}{2}+n+1
+\]
+where we used the induction hypothesis in the last step.
+So let us compute:
+\white{4cm}{
+\begin{align*}
+ s_n + (n+1) 
+ = \frac{(n+1)n}{2}+n+1&=\frac{n^2+n+2n+2}{2} =
+ \frac{(n+2)(n+1)}{2}
+ \,.
+\end{align*}
+This proves that $s_n = \frac{(n+1)n}{2}$ for all $n \in \NN$.}
+\end{example}
+
+
+We will get plenty of other examples later. 
+
+\begin{Faust}{Mathematical induction}
+ To show that the predicate $A(n)$ is true \emphblue{for all} $n \in \NN$,
+ we have to show two things:
+ 	\begin{enumerate}[(1)]
+ 		\item Show that $A(1)$ is true.
+ 		\item Show that $A(n+1)$ is true under the assumption that $A(n)$
+ 		is true.
+ 	\end{enumerate}
+\end{Faust}
+
+\white{4cm}{
+Sometimes it can happen that a claim $A(n)$ is indeed false
+for finitely many natural numbers, but it is eventually true. This means
+that the base case cannot be shown for $n=1$ but
+for some other natural number $n_0 \in \NN$. Then the induction proof
+shows that $A(n)$ is true for all natural number $n \geq n_0$.
+}
+% 
+% \subsubsection{A very important algorithmic idea of induction:}
+% 
+% Consider a large $n\times n$ matrix:
+% \[
+%  A=\left(
+%  \begin{array}{ccc}
+%   a_{11} & \dots & a_{1n}\\
+%   \vdots &  & \vdots\\
+%   a_{n1} & \dots & a_{nn}
+%   \end{array}
+% \right)
+% \]
+% Suppose, we have a clever algorithm (Alg. Column) that:
+% \begin{itemize}
+%  \item can delete all entries of a column of an arbitrary matrix $A$, 
+% except for the first
+% \item maybe some other useful property
+% \end{itemize}
+% Example: a few steps of Gauss elimination. 
+% 
+% So we can compute:
+% \[
+%  A=\left(
+%  \begin{array}{ccc}
+%    a_{11} & \dots & a_{1n}\\
+%    \vdots &  & \vdots\\
+%    a_{n1} & \dots & a_{nn}
+%   \end{array}
+% \right)\to \hat A
+% =\left(
+%  \begin{array}{cccc}
+%    \hat a_{11} &\hat a_{12}& \dots & \hat a_{1n}\\
+%    0 & \hat a_{22} & \dots & \hat a_{2n}\\
+%    \vdots & \vdots & & \vdots\\
+%    0 &\hat a_{n2}& \dots & \hat a_{nn}
+%   \end{array}
+% \right)
+% \]
+% Then we can put any square $n\times n$ matrix $A$ into triangular form:
+% \[
+%  R = \left(
+%  \begin{array}{ccc}
+%    r_{11} & \dots & r_{1n}\\
+%    0 & \ddots & \vdots\\
+%    0 & 0 & r_{nn}
+%   \end{array}
+% \right)
+% \]
+% Induction hypothesis: we have an algorithm that can put $A \to R$, where $A$ is an $n\times n$ matrix. .
+% 
+% Base case: $n=1$: we have to do nothing, because $A=a_{11}$ is already ''triangular``.
+% 
+% \emph{Recursive algorithm:} (Alg. Rec.)
+% 
+% Suppose, we have $A$ of the size $n+1\times n+1$. Do the following algorithm:
+% 
+% \begin{itemize}
+%  \item Apply (Alg. Column) to $A$, deleting the entries of its the first non-zero column (except for the first) $\to \hat A$:
+% \[
+%  \hat A
+% =\left(
+%  \begin{array}{cccc}
+%    \hat a_{11} &\hat a_{12}& \dots & \hat a_{1n}\\
+%     0 & & \tilde A & \\
+%   \end{array}
+% \right)
+% \]
+%  \item Apply (Alg. Rec.) to the matrix $\tilde A$ which results from deleting the first row and column
+% \[
+%  R=\left(
+%  \begin{array}{cccc}
+%    \hat a_{11} &\hat a_{12}& \dots & \hat a_{1n}\\
+%     0 & & \tilde R & \\
+%   \end{array}
+% \right)
+% \]
+% \end{itemize}
+% 
+% Application: the famous Gauss-Algorithm for the solution of linear systems of equations is such a kind of algorithm.
+% 
+% Triangular systems $Rx=b$ can easily be solved by substitution.
+% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+\section{Summary}
+\begin{itemize}
+	\item For doing Mathematics, we need logic and sets. A set
+	is just a gathering of its elements.
+\item Important symbols: $\in,\ \not\in,\ \varnothing,\ \forall,\ \exists,\ \subset,\ \subsetneq,\ \cap,\ \cup,\ \setminus$
+\item Implication $A\Rightarrow B$: If $A$ holds, then also $B$.
+\item Equivalence $A\Leftrightarrow B$: The statement $A$
+holds if and only if $B$ holds.
+\item Sums and products $\Sigma, \Pi$
+\item A \textsl{map} or \textsl{function} $f:X\to Y$ 
+sends each $x\in X$ to exactly one $y\in Y$.
+\white{40mm}{}
+\item $f$ is  \textsl{surjective}: Each $y\in Y$ is ``hit'' (one or more times).
+\item $f$ is  \textsl{injective}: Each $y\in Y$ is ``hit'' at most one time.
+\item $f$ is \textsl{bijective}: Each $y\in Y$ is  ``hit'' exactly once.
+\item Is $f:X\to Y$ bijective, then the \textsl{inverse map} $f^{-1}:Y\to X$ sends each $y\in Y$ to exactly one $x\in X$.
+\item The composition $g\circ f:X\to Z$ is the application 
+of the function $g:Y\to Z$ to the result of another function $f:X\to Y$:
+$(g\circ f)(x)=g(f(x))$.
+\item Mathematical induction is a tool for proving mathematical statements for
+all natural numbers at once. You have to show a base case and then do the induction step.
+\end{itemize}
+
+
+\section{Exercises}
+\subsection*{Exercise 1}
+	Calculate the following numbers and sets:
+	\begin{multicols}{4}
+		\begin{enumerate}[(a)]
+			\item
+			$\prod\limits_{j=2}^{4} \frac{j}{j+1}$, 
+			
+			\item
+			$\sum\limits_{i=0}^{4} 3$, 
+			
+			\item
+			$\bigcup\limits_{n=0}^{5} [2n, 2n+2)$, 
+			
+			\item
+			$\sum\limits_{k=1}^{50}k$. 
+		\end{enumerate}
+	\end{multicols}
+
+\subsection*{Exercise 2}
+\begin{enumerate}[(a)]
+	\item
+	Consider the two functions $f_1:\, \R \to \R$, $x \mapsto x^2$ and $f_2:\, [0, \infty) \to \R$, $x \mapsto x^2$. 
+	For both functions calculate preimages of the sets $\{1\}$, $[4,9)$ and $(-1,0)$. 
+	
+	\item
+	Consider the two functions $g_1:\, \R \to [0,1]$, $x \mapsto \abs{\sin (x)}$ and $g_2:\, [0, 2\pi] \to \R$, $x \mapsto \sin (x)$. 
+	For both functions calculate images of the sets $(0, \pi/2)$, $[0,\pi)$ and $(0,2\pi]$.
+	
+	\item
+	Consider the two functions $h_1:\, \R \to \R$ and $h_2:\, [-1, 1] \to [\sqrt{3},2]$ given by
+	\[
+	x = \left(h_1(x)+2\right)^2-2 \quad \text{and} \quad x^2 + h_2(x)^2 = 4. 
+	\] 
+	Check whether $h_1$ and $h_2$ respectively are correctly defined. 
+	
+	\item
+	Consider all 6 functions from above and find out which of them are injective, surjective and bijective. 
+	Try to provide proofs and counterexamples. 
+\end{enumerate}
+
+\subsection*{Exercise 3}
+Let $X$ be the set of all fish in a given aquarium. 
+Define a function $f:X \to Y$ by mapping every fish on its species where $Y$ denotes the set of all species of fish. 
+What does it mean if $f$ is injective or surjective or bijective? 
+
+\subsection*{Exercise 4}
+In the lecture you already learnt about the example $(A \rightarrow B) \; \Leftrightarrow \; (\neg B \rightarrow \neg A)$ of two logically equivalent statements. 
+Show that the following statements are also logically equivalent by using truth tables:
+\begin{enumerate}[(a)]
+	\item
+	$\neg (A \wedge \neg B) \; \Leftrightarrow \: (A \rightarrow B),$
+	\item
+	$\neg (A \wedge B) \; \Leftrightarrow \; \neg A \vee \neg B.$
+\end{enumerate}
+
+
+\subsection*{Exercise 5}
+One usually deals with subsets $A$, $B$, etc.\ of a given fixed set $X$. 
+In such a situation it is useful to introduce $A^{\text{c}} := X \setminus A$ which is called the \emph{complement} of $A$ (with respect to (w.r.t.) the set $X$). 
+Show for $A,B \subset X$
+\begin{enumerate}[(a)]
+	\item
+	$A \setminus B = A \cap B^{\text{c}}$, 
+	
+	\item
+	$(A \cap B)^{\text{c}} = A^{\text{c}} \cup B^{\text{c}}$. 
+\end{enumerate}
+
+
+\subsection*{Exercise 6}
+Let $A,B$ and $C$ be sets. 
+\begin{enumerate}[(a)]
+	\item
+	Show $A \times (B \cup C) = (A \times B) \cup (A \times C)$. 
+	
+	\item
+	Let $\abs{A}=n$ and $\abs{B}=m$ where $n,m \in \N$. 
+	Show that
+	\[
+	\abs{A \times B} = n \cdot m. 
+	\]	
+\end{enumerate}
+
+
+

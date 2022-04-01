@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sets</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ "HTML-CSS": { width:"container", scale:100,linebreaks: { automatic: true } }, SVG: { linebreaks: { automatic: true } }});
+      MathJax.Hub.Queue(function () {
+        $(".collapse").removeClass("in");
+        });
+    </script>
+    <script>
+      (function () {
+        var head = document.getElementsByTagName("head")[0],
+          script;
+        script = document.createElement("script");
+        script.type = "text/x-mathjax-config";
+        script[window.opera ? "innerHTML" : "text"] =
+          "MathJax.Hub.Config({\n" +
+          " tex2jax: { inlineMath: [['$','$'], ['\\\\(','\\\\)']] }\n" +
+          "});";
+        head.appendChild(script);
+        script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src =
+          "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1//MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+        head.appendChild(script);
+      })();
+    </script>
+    <link rel="stylesheet" type="text/css" href="../content.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sets</h1>
+      <p>
+        Study this concept with the material of your choice: Read the lecture
+        notes, watch the video or listen to a podcast episode. In the end, you
+        need to solve the exercise.
+      </p>
+      <p>Take me <a href="./001.html">back</a> to the landing page.</p>
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#notes">Notes</a></li>
+        <li><a data-toggle="tab" href="#video">Video</a></li>
+        <li><a data-toggle="tab" href="#podcast">Podcast</a></li>
+        <li><a data-toggle="tab" href="#discuss">Discussion</a></li>
+      </ul>
+
+      <div class="tab-content">
+         <div id="notes" class="tab-pane fade in active">
+              <h2 class="unnumbered" id="sets">Sets</h2>
+              <p>Modern mathematics does not say what sets are, but only specifies
+              rules. This is, however, too difficult for us right now, and we rather
+              cite the attempt of a definition by Georg Cantor:</p>
+              <div class="Boxx">
+              <p><strong>Concept 1</strong>. “Unter einer ‚Menge‘ verstehen wir jede
+              Zusammenfassung von bestimmten wohlunterschiedenen Objekten unserer
+              Anschauung oder unseres Denkens zu einem Ganzen.”</p>
+              </div>
+              <div class="Definition">
+              <p>A <em>set</em> is a collection into a whole of definite, distinct
+              objects of our perception or of our thought. Such an object <span
+              class="math inline">\(x\)</span> of a set <span
+              class="math inline">\(M\)</span> is called an <em>element</em> of <span
+              class="math inline">\(M\)</span> and one writes <span
+              class="math inline">\(x\in M\)</span>. If <span
+              class="math inline">\(x\)</span> is not such an object of <span
+              class="math inline">\(M\)</span>, we write <span
+              class="math inline">\(x\not\in M\)</span>.</p>
+              </div>
+              <p>A set is defined by giving all its elements <span
+              class="math inline">\(M:=\{1,4,9\}\)</span>.</p>
+              <div class="Boxx">
+              <p><strong>Concept 2</strong>. The symbol “<span
+              class="math inline">\(:=\)</span>” is read as and means that the symbol
+              <span class="math inline">\(M\)</span> is newly introduced as a set by
+              the given elements.</p>
+              </div>
+              <div class="example">
+              <p><strong>Example 3</strong>. </p>
+              <ul>
+              <li><p>The empty set <span class="math inline">\(\{\} = \emptyset =
+              \varnothing\)</span> is the unique set that has no elements at
+              all.</p></li>
+              <li><p>The set that contains the empty set <span
+              class="math inline">\(\{ \varnothing \}\)</span>, which is non-empty
+              since it has exactly one element.</p></li>
+              <li><p>A finite set of numbers is <span class="math inline">\(\{
+              1,2,3\}\)</span>.</p></li>
+              </ul>
+              </div>
+              <div class="notation">
+              <p><strong>Notation 4</strong>. Let <span
+              class="math inline">\(A,B\)</span> be sets:</p>
+              <ul>
+              <li><p><span class="math inline">\(x \in A\)</span> means <span
+              class="math inline">\(x\)</span> is an element of <span
+              class="math inline">\(A\)</span></p></li>
+              <li><p><span class="math inline">\(x\not\in A\)</span> means <span
+              class="math inline">\(x\)</span> is not an element of <span
+              class="math inline">\(A\)</span></p></li>
+              <li><p><span class="math inline">\(A \subset B\)</span> means <span
+              class="math inline">\(A\)</span> is a subset of <span
+              class="math inline">\(B\)</span>: every element of <span
+              class="math inline">\(A\)</span> is contained in <span
+              class="math inline">\(B\)</span></p></li>
+              <li><p><span class="math inline">\(A \supset B\)</span> means <span
+              class="math inline">\(A\)</span> is a superset of <span
+              class="math inline">\(B\)</span>: every element of <span
+              class="math inline">\(B\)</span> is contained in <span
+              class="math inline">\(A\)</span></p></li>
+              <li><p><span class="math inline">\(A=B\)</span> means <span
+              class="math inline">\(A \subset B \wedge A \supset B\)</span>. Note that
+              the order of the elements does not matter in sets. If we want the order
+              to matter, we rather define <em>tuples</em>: <span
+              class="math inline">\((1,2,3) \neq (1,3,2)\)</span>. For sets, we always
+              have <span class="math inline">\(\{ 1,2,3 \} = \{1,
+              3,2\}\)</span>.</p></li>
+              <li><p><span class="math inline">\(A \subsetneq B\)</span> means <span
+              class="math inline">\(A\)</span> is a “proper” subset of <span
+              class="math inline">\(B\)</span>, every element of <span
+              class="math inline">\(A\)</span> is contained in <span
+              class="math inline">\(B\)</span>, but <span class="math inline">\(A \neq
+              B\)</span>.</p></li>
+              </ul>
+              </div>
+              <div class="Boxx">
+              <p><strong>Concept 5</strong> (The important number sets). </p>
+              <ul>
+              <li><p><span class="math inline">\(\N\)</span> is the set of the natural
+              numbers <span class="math inline">\(1,2,3,\ldots\)</span>;</p></li>
+              <li><p><span class="math inline">\(\N_0\)</span> is the set of the
+              natural numbers and zero: <span class="math inline">\(0, 1, 2,
+              3,\dots\)</span>;</p></li>
+              <li><p><span class="math inline">\(\Z\)</span> is the set of the
+              integers, which means <span
+              class="math inline">\(\ldots,-3,-2,-1,0,1,2,3,\ldots\)</span>;</p></li>
+              <li><p><span class="math inline">\(\Q\)</span> is the set of the
+              rational numbers, which means all fractions <span
+              class="math inline">\(\frac pq\)</span> with <span
+              class="math inline">\(p\in\Z\)</span> and <span
+              class="math inline">\(q\in\N\)</span>;</p></li>
+              <li><p><span class="math inline">\(\R\)</span> is the set of the real
+              numbers (see next semester).</p></li>
+              </ul>
+              </div>
+              <p>Other ways to define sets: <span
+              class="math display">\[\begin{aligned}
+              A &amp;= \{ n \in \mathbb{N} : 1 \le n \le 300 \}\\
+              \mathbf{P}(B) &amp;= \{ M : M \subset B \} \mbox{ power set: set of all
+              subsets of } B\\
+              I &amp;= \{ x\in \mathbb{R} : 1 \le x &lt; \pi \} = [1,\pi) \mbox{
+              half-open interval }\end{aligned}\]</span></p>
+              <div class="Definition">
+              <p>We use vertical bars <span class="math inline">\(|\cdot|\)</span>
+              around a set to denote the number of elements. For example, we have
+              <span class="math inline">\(|\{1,4,9\}|=3\)</span>. The number of
+              elements is called the <em>cardinality</em> of the set.</p>
+              </div>
+              <div class="example">
+              <p><strong>Example 6</strong>. <span
+              class="math inline">\(|\{1,3,3,1\}|=2\)</span>, <span
+              class="math inline">\(\quad |\{1,2,3, \ldots, n \}| = n\)</span>, <span
+              class="math inline">\(\quad | \mathbb{N} | = \infty\)</span> (?)</p>
+              </div>
+              <div class="exercise">
+              <p><strong>Exercise 7</strong> (Which of the following logical
+              statements are true?). <em><span class="math display">\[\corr{3\in \N},
+              \qquad \corr{12034\in\N}, \qquad \false{-1\in\N}, \qquad \false{0\in\N},
+              \qquad \corr{0\in\N_0}\]</span> <span
+              class="math display">\[\corr{-1\in\Z}, \qquad \false{0\notin\Z}, \qquad
+              \false{-2.7\in\Z}, \qquad \false{\tfrac23\in\Z},\]</span> <span
+              class="math display">\[\corr{\tfrac23\in\Q}, \qquad \corr{-3\in\Q},
+              \qquad \corr{-2.7\in\Q}, \qquad \false{\sqrt{2}\in\Q},\]</span> <span
+              class="math display">\[\corr{\sqrt{2}\in\R}, \qquad
+              \false{\sqrt{-2}\in\R}, \qquad \corr{-\tfrac23\in\R}, \qquad
+              \corr{0\in\R}.\]</span></em></p>
+              </div>
+
+        </div>
+        <div id="video" class="tab-pane fade">
+          <h3>Video</h3>
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div id="podcast" class="tab-pane fade">
+          <h3>Podcast</h3>
+          <h4>Episode 102: Catchy title here</h4>
+          <audio controls>
+            <source src="" type="PODCAST_real" />
+            Your browser does not support the audio element.
+          </audio>
+          <br />
+          <a href="" class="btn btn-primary btn-lg" download="convergence.wav"
+            >Download</a
+          >
+        </div>
+        <div id="discuss" class="tab-pane fade">
+          <h3>Discussion</h3>
+          <h4>Discuss your questions by typing below</h4>
+
+          <iframe
+            style="border: 2px solid pink"
+            class="embed-responsive-item"
+            name="embed_readwrite"
+            src="https://pads.rz.tuhh.de/p/"
+            width="100%"
+            height="600"
+          ></iframe>
+        </div>
+      </div>
+
+      <h2>WeBWorK Test</h2>
+      <!--<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#webwork">Open Test</button>-->
+      <!--<div id="webwork" class="collapse in">-->
+      <iframe
+        class="embed-responsive-item"
+        style="border: 2px solid pink"
+        src="https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple"
+        width="100%"
+        height="600"
+      >
+      </iframe>
+      <!--  </div> -->
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        ><img
+          alt="Creative Commons License"
+          style="border-width: 0"
+          src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
+      ><br />This work is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >.
+    </div>
+  </body>
+</html>

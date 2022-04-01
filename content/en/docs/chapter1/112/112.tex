@@ -1,0 +1,27 @@
+
+\begin{Definition}{Interior{,} closure{,} boundary}
+For $C\subset \mathbb{K}$, we define the
+\begin{enumerate}[(i)]
+ \item \textit{interior of $C$} by the set
+\[\mathring{C}=\{x\in C\,:\,\text{ there exists some }\varepsilon>0\text{ such that }B_{\eps}(x)\subset C\}.\]
+The elements of $\mathring{C}$ are called \textit{inner points of $C$}.
+ \item \textit{closure of $C$} by the set
+\[\overline{C}=\{x\in \mathbb{K}\,:\,\text{ there exists a~sequ.\ }(a_n)_{n\in\N}\text{ in $C$ with }\lim_{n\To\infty}a_{n}=x\}.\]
+The elements of $\overline{C}$ are called \textit{osculation points of $C$}.
+ \item \textit{boundary of $C$} by the set
+\[\partial C=\overline{C}\backslash \mathring{C}.\]
+The elements of $\partial{C}$ are called \textit{boundary points of $C$}.
+\end{enumerate}
+\end{Definition}
+\begin{Remark}{}
+The relation $\mathring{C}\subset C\subset \overline{C}$ holds true for arbitrary subsets $C\subset \mathbb{K}$. The first inclusion holds true by definition of $\mathring{C}$. To verify $C\subset \overline{C}$ we take an arbitrary $x\in C$ and consider the constant sequence $(x)_{n\in\N}$. Since this sequence is completely contained in $C$ and converges to $x\in C$, we must have that $x\in\overline{C}$.\\
+It can be shown that for all sets $C$, $\mathring{C}$ is always open and $\overline{C}, \partial C$ are always closed sets. In particular, if $C$ is open (closed), then we have $\mathring{C}=C$ (resp.\ $\overline{C}=C$)
+\end{Remark}
+
+\begin{example}
+These are examples in the case $\mathbb{K} = \mathbb{R}$:
+\begin{enumerate}[(a)]
+ \item $C=[0,1]$, then $\mathring{C}=(0,1)$, $\overline{C}=[0,1]$ and $\partial C=\{0,1\}$;
+ \item $C=\{\frac1n\,:\,n\in\N\}$, then $\mathring{C}=\emptyset$ and $\overline{C}=\partial C=\{0\}\cup \{\frac1n\,:\,n\in\N\}$.
+\end{enumerate}
+\end{example}

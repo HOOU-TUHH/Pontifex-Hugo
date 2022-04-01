@@ -1,0 +1,289 @@
+\section{Real Numbers}
+\white{6cm}{
+Everybody has got to know at school, the rational numbers, the real, and basic arithmetics. There are certain rules that 
+we can apply, and usually we do not think about them. 
+
+In our lecture, we will get to know other objects than real numbers (vectors, matrices), where some of these laws do not 
+apply any more. So try to have a fresh look at those well known laws:
+
+We can add ($a+b$) and multiply ($ab$ or $a\cdot b$) real numbers and use parentheses $($,$)$ to 
+describe the order of the computations. We have the notational \emph{convention}
+that multiplication binds stronger than addition: ($ab+c$ means $(ab)+c$ and not $ab+c=a(b+c)$)
+}
+
+Some \emph{laws} apply:
+\begin{align*}
+ a+(b+c)&=(a+b)+c, \qquad a(bc)=(ab)c  & \mbox{ associative law }\\
+ a+b &=b+a \qquad \qquad \;  ab = ba & \mbox{ commutative law }\\
+ a(b+c) &= ab+ac  & \mbox{ distributive law }
+\end{align*}
+Furthermore, we are used to have the neutral numbers $0$ and $1$ with special properties:
+\begin{align*}
+ a+0 = a \qquad a \cdot 1 = a
+\end{align*}
+and additive inverse element $-a$ and also the multiplicative inverse $a^{-1}=1/a$
+for $a \neq 0$. They fulfil $a+(-a)=0$ and $a a^{-1}=1$. 
+
+A set with such properties is called a \defi{field}. Here we have the field of real numbers $\R$.
+
+\white{3cm}{
+It is also well known that the real numbers can be ordered, i.e., the relation $a < b$ makes sense. It has
+turned out, that the following rules are sufficient to derive all known rules concerning ordering of numbers. 
+}
+\begin{itemize}
+ \item For any $a \in \mathbb{R}$ exactly one of the three relations hold
+ \[
+  a < 0, \mbox{ or } a > 0 \mbox{ or } a = 0   
+ \]
+ \item For all $a,b\in \mathbb{R}$ with $a>0$ and $b>0$ one has $a+b > 0$ and $a b > 0$.
+\end{itemize}
+
+Then, as a definition we write:
+$$
+ a < b \quad : \Leftrightarrow \quad a-b < 0
+$$
+and
+$$
+ a \leq b  \quad : \Leftrightarrow \quad a-b < 0  \text{ or } a = b \,.
+$$
+
+\white{5cm}{
+In particular, we have for $a \neq 0$ that always $a^2 > 0$, because $a^2=(-a)^2 > 0$ by the last rule applied to one of these terms.
+
+The order relations are the reason, why we can think of the real numbers as a line, the ''real line``. 
+}
+
+For describing subsets of the real numbers, we will use \defi{intervals}. 
+Let $a,b\in\R$. Then we define
+\begin{align*}
+[a,b] &:= \{x\in\R\st a\le x\le b\}\\
+(a,b] &:= \{x\in\R\st a< x\le b\} \\
+[a,b) &:= \{x\in\R\st a\le x< b\}\\
+(a,b) &:= \{x\in\R\st a< x< b\}.
+\end{align*}
+
+Obviously, in the case $a>b$, all the sets above are empty.
+We also can define unbounded intervals:
+\white{20mm}{}
+\begin{align*}
+[a,\infty) := \{x\in\R\st a\le x\}&,\qquad
+(a,\infty) := \{x\in\R\st a< x\} \\
+(-\infty,b] := \{x\in\R\st x\le b\}&,\qquad
+(-\infty,b) := \{x\in\R\st x< b\}.
+\end{align*}
+\white{20mm}{}
+
+
+\begin{Definition}{Absolute value for real numbers}
+The \defi{absolute value} of a number $x\in\R$ is defined by
+\[
+|x|:=\begin{cases}
+~~x & \text{ if } x\ge 0,\\
+-x & \text{ if } x< 0.
+\end{cases}
+\]
+\end{Definition}
+%
+\begin{question}
+Which of the following claims are true?
+\[
+\corr{|-3.14|=3.14}, \quad \corr{|3|=3}, \quad \corr{|-\tfrac75|=\tfrac75}, 
+\quad \false{-|-\tfrac35|=\tfrac35},
+\quad \false{|0| \text{ is not well-defined}}.
+\]
+%(Antwort: Die \textit{falschen} Aussagen sind durchgestrichen.)
+\end{question}
+
+
+\white{3cm}{}
+
+\begin{Proposition}{Two important properties}
+For any two real numbers $x,y\in\R$, one has
+\begin{abc}
+\item $|x\cdot y| = |x| \cdot |y|$, ($\abs{\cdot}$ is multiplicative),
+\item $|x+y| \le |x| + |y|$, ($\abs{\cdot}$ fulfils the triangle inequality).
+\end{abc}
+\end{Proposition}
+%
+%Mit $x=3$ und $y=-2$ ergibt sich zum Beispiel:\\
+%{\bf a)} $|3\cdot (-2)| = |-6| =6=3\cdot 2=|3| \cdot |-2|$, \quad
+%{\bf b)} $|3+(-2)|=|3-2|=1 \le 5 = |3| + |-2|$.
+
+
+\white{3cm}{
+}
+
+
+
+
+%In particular, the commutative law for the multiplication and existence of an inverse are something ''unusual``. 
+
+
+
+
+\begin{Addinfo}{Real numbers}
+The real numbers are a non-empty set $\RR$
+together with the operations $+ : \RR \times \RR \rightarrow \RR$
+and  $\cdot : \RR \times \RR \rightarrow \RR$
+and an ordering relation $<: \RR \times \RR \rightarrow \{\text{True}, \text{False}\}$
+that fulfil the following rules
+\begin{enumerate}
+	\item[(A)] Addition
+	\begin{enumerate}[(1)]
+		\item[(A1)]  associative: $x + (y + z) = (x + y) + z$
+		\item[(A2)]  neutral element: There is a (unique) element $0$
+		with $x + 0 = x$ for all $x$.
+		\item[(A3)]  inverse element: For all $x$ there is a (unique) $y$
+		with $x + y = 0$. We write for this element simply $-x$.
+		\item[(A4)]  commutative: $x + y = y + x$
+	\end{enumerate}
+ 	\item[(M)]  Multiplication
+	\begin{enumerate}[(1)]
+		\item[(M1)] associative: $x \cdot (y \cdot z) = (x \cdot y) \cdot z$
+		\item[(M2)] neutral element: There is a (unique) element $1 \! \neq \! 0$
+		with $x \! \cdot \! 1 = x$ for all $x$.
+		\item[(M3)] inverse element: For all $x \neq 0$ there is a (unique) $y$
+		with $x \cdot y = 1$. We write for this element simply $x^{-1}$.
+		\item[(M4)] commutative: $x \cdot y = y \cdot x$
+	\end{enumerate}
+	\item[(D)]  Distributivity: $x \cdot (y + z) = x \cdot y + x \cdot z$.
+	\item[(O)]  Ordering
+		\begin{enumerate}[(1)]
+			\item[(O1)] for given $x,y$ exactly one of the following three
+			assertions is true: $x<y$, $y<x$, $x=y$.
+			\item[(O2)] transitive: $x<y$ and $y<z$ imply $x<z$.
+			\item[(O3)] $x < y$ implies $x + z < y + z$ for all $z$.
+			\item[(O4)] $x < y$ implies $x \cdot z < y \cdot z$ for all $z>0$.
+			\item[(O5)] $x>0$ and $\eps>0$ implies $x < \eps + \cdots + \eps$ for
+			sufficiently many summands.
+		\end{enumerate}
+	\item[(C)]  Completeness: Every sequence $(a_n)_{n\in \NN}$ with the
+	property \emph{[For all $\eps > 0$ there is an $N \in \NN$
+	with $\abs{a_n - a_m} < \eps$ for all $n,m > N$]} has a limit.
+\end{enumerate}
+\end{Addinfo}
+
+
+\begin{Addinfo}{Definition: field}
+Every set $M$
+together with two the operations $+ : M \times M \rightarrow M$
+and  $\cdot : M \times M \rightarrow M$
+that fulfil (A), (M) and (D) is called a \defi{field}.
+\end{Addinfo}
+
+
+\subsection*{Sums and products}
+We will use the following notations.
+\begin{align*}
+ \sum_{i=1}^n a_i &= a_1+a_2+\dots+a_{n-1}+a_n\\
+ \prod_{i=1}^n a_i &= a_1 \cdot a_2 \cdot \dots \cdot a_{n-1}\cdot a_n\\
+ \bigcup_{i=1}^n A_i &= A_1 \cup A_2 \cup \dots \cup A_{n-1}\cup A_n
+\end{align*}
+The union works also for an arbitrary index set $\cI$:
+$$
+	\bigcup_{i \in \cI} A_i = \{ x \,:\, \exists i \in \cI \text{ with } x \in A_i \} \,.
+$$
+
+The first is a useful notation for a \defi{sum} which is
+the result of an addition. Two or
+more \defi{summands} added. Instead of using points, we use the Greek letter $\sum$. For example,
+\[
+3+7+15+\ldots+127 
+\]
+is not an unambiguous way to describe the sum. 
+Using the sum symbol, there is no confusion:
+\begin{equation*} %\label{eq:sum1}
+\sum_{i=2}^7 (2^i-1).
+\end{equation*}
+Of course, the parentheses are necessary here.
+You can read this as a {\texttt{for}} loop:
+
+\begin{Boxx}{for loop for the sum above}
+\textnormal{\texttt{
+\hspace*{10mm}sum := 0;\\
+\hspace*{10mm}for i:=2 to 7 do \{\\
+\hspace*{15mm}sum := sum + ($2^\texttt{i}$-1);\\
+\hspace*{10mm}\}
+}
+}
+\end{Boxx}
+
+
+\begin{Faust}{Let $i$ run from $2$ to $7${,} calculate $2^i-1$
+and add.}
+%\begin{tabular}{|ccrrrr|}
+\begin{tabular}{ccrrrr}
+%\hline
+index variable: & $i=2$, & first summand: & $2^i-1=2^2-1=$&$4-1=$&$3$\\
+index variable: & $i=3$, & second summand: & $2^i-1=2^3-1=$&$8-1=$&$7$\\
+index variable: & $i=4$, & third summand: & $2^i-1=2^4-1=$&$16-1=$&$15$\\
+% & $\vdots$ & & $\vdots$\\
+index variable: & $i=5$, & fourth summand: & $2^i-1=2^5-1=$&$32-1=$&$31$\\
+index variable: & $i=6$, & fifth summand: & $2^i-1=2^6-1=$&$64-1=$&$63$\\
+index variable: & $i=7$, & last summand: & $2^i-1=2^7-1=$&\!\!$128-1=$&$127$\\
+\hline
+ & & Sum: & & &$246$
+%\hline
+\end{tabular}
+\end{Faust}
+
+
+\begin{example}{}
+\[
+\sum\limits_{i=1}^{10} (2i-1) = 1+3+5+\ldots+19 \stackrel?= 100
+\]
+\[
+\sum\limits_{i=-10}^{10} i = -10-9-8-\ldots-1+0+1+\dots+8+9+10 \stackrel?=0
+\]
+\end{example}
+
+With the same construction,
+we describe the result of a multiplication, called a \defi{product}, which consists of two or
+more \defi{factors}. There we use the Greek letter $\prod$. 
+For example:
+\[
+\prod_{i=1}^8 (2i) = (2\cdot 1)\cdot (2\cdot 2)\cdot (2\cdot 3)\cdot \ldots \cdot (2\cdot 8) 
+\stackrel?= 10321920.
+\]
+
+
+\pbpres
+
+
+
+\subsection*{Rational versus real numbers}
+
+
+For most practical purposes the rational numbers (all fractions)
+\[
+ \mathbb{Q} = \left\{ x : x = \frac{n}{d} \text{ with }  n \in \mathbb{Z}, ~ d \in \mathbb{N} \right\}
+\]
+are enough. All numbers that can somehow be stored sensibly on a computer are rational. 
+
+\white{5cm}{
+But not all quantities can be written as a fraction, such as the zeros of the following function:
+\[
+ f(x)=x^2-2
+\]
+We can, however, approximate these ``numbers'' (we cannot call it a number, yet) to arbitrary precision in $\mathbb{Q}$. 
+
+How to finally arrive at an explanation of what this number really is (we cannot just write it down) is a topic of analysis (see next semester!)
+
+Now we just give it a name, namely $\pm \sqrt{2}$, and remark that the real numbers $\mathbb{R} \supset \mathbb{Q}$ is 
+a larger set of numbers, that can all be approximated by $\mathbb{Q}$, and the other way round: if something can be approximated to arbitrary precision by rational numbers, it is in $\mathbb{R}$ ``by definition''. 
+}
+
+Mathematicians say: $\mathbb{R}$ is complete, $\mathbb{Q}$ is dense in $\mathbb{R}$, $\mathbb{R}$ is the completion of $\mathbb{Q}$. 
+
+We come back to this in the lecture Mathematical Analysis.
+%Real numbers are like public transport. While quite easy to use, it is not easy to understand in detail why and how it works. (The only difference: real numbers can be used reliably). 
+
+%\subsection*{Order relations}
+
+
+
+
+
+
+
+

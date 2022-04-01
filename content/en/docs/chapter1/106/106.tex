@@ -1,0 +1,127 @@
+\section{Cauchy Sequences}
+\begin{Definition}{Cauchy sequences}
+A sequence $(a_n)_{n\in\mathbb{N}}$ in $\mathbb{K}$ is called \textit{Cauchy sequence} if for all $\varepsilon>0$, there exists some $N$ such that for all $n,m\geq N$ holds
+\[|a_n-a_m|<\varepsilon.\]
+\end{Definition}
+\begin{Remark}{}
+By the expression ``$n,m\geq N$'', we mean that both $n$ and $m$ are greater or equal than $N$, i.e., $n\geq N$ \underline{and} $m\geq N$.
+\end{Remark}
+
+Now we show that convergent sequences are indeed Cauchy sequences.
+\begin{Theorem}{}\label{thm:convcauch}
+Let $(a_n)_{n\in\mathbb{N}}$ be a~convergent sequence. Then $(a_n)_{n\in\N}$ is a~Cauchy sequence.
+\end{Theorem}
+\white{4cm}{
+{\em Proof:}
+Let $a=\lim_{n	o\infty}a_{n}$ and $\varepsilon>0$. Then there exists some $N$ such that for all $k\geq N$ holds $|a-a_k|<\frac{\eps}2$. Hence, for all $m,n\geq N$ holds
+\[|a_n-a_m|=|(a_n-a)+(a-a_m)|\leq|a_n-a|+|a-a_m|< \frac{\varepsilon}2+\frac{\eps}2=\eps.\]
+\hfill$\Box$
+}
+
+The following theorem is closely related to Theorem~\ref{thm:convseqbnd}.
+\begin{Theorem}{Cauchy sequences are bounded}\label{thm:cauchseqbnd}
+Let $(a_n)_{n\in\mathbb{N}}$ be a~Cauchy sequence. Then $(a_n)_{n\in\N}$ is bounded.
+\end{Theorem}
+\white{8cm}{
+{\em Proof:} Take $\varepsilon=1$. Then there exists some $N$ such that for all $n,m\geq N$ holds $|a_n-a_m|<1$. Thus, for all $n\geq N$ holds
+\[|a_n|=|a_n-a_N+a_N|\leq |a_n-a_N|+|a_N|<1+|a_N|.\]
+Now choose
+\[c=\max\{|a_1|,|a_2|,\ldots,|a_{N-1}|,|a_N|+1\}\]
+and consider some arbitrary sequence element $a_k$.\\
+If $k<N$, we have that $|a_k|\leq \max\{|a_1|,|a_2|,\ldots,|a_{N-1}|\}\leq c$.\\
+If $k\geq N$, we have, by the above calculations, that $|a_k|<|a_N|+1\leq c$.\\
+Altogether, this implies that $|a_k|\leq c$ for all $k\in\mathbb{N}$, so $(a_n)_{n\in\N}$ is bounded by $c$.\hfill$\Box$
+}
+
+Now we show that Cauchy sequences in $\mathbb{K}$ are even convergent:
+\begin{Theorem}{}\label{thm:Rcompl}
+Every Cauchy sequence $(a_n)_{n\in\mathbb{N}}$ in $\mathbb{K}$ converges.
+\end{Theorem}
+
+{\em Proof:} 
+By Theorem~\ref{thm:cauchseqbnd}, $(a_n)_{n\in\mathbb{N}}$ is bounded. By Theorem \ref{thm:bzr} of Bolzano-Weierstra\ss \ it has a convergent 
+subsequence $(a_{n_k})_{k\in\mathbb{N}}$. Set $a:=\lim_{k\rightarrow\infty} a_{n_k}$. For given $\varepsilon>0$ there exist $N_1,N_2\in\N$ such 
+that $|a_{n_k}-a|<\varepsilon/2$ for all $k\geq N_1$ and $|a_n-a_m|<\eps/2$ for all $n,m\geq N_2$. Thus for $n\geq N:=\max\{N_1,N_2\}$ holds
+$n_n\geq n\geq N$ and $$|a_n-a|\leq|a_n-a_{n_n}+a_{n_n}-a|\leq|a_n-a_{n_n}|+|a_{n_n}-a|< \varepsilon/2+\eps/2=\eps \ . \qquad\Box$$
+
+
+Theorem \ref{thm:Rcompl} is not true for arbitrary normed $\mathbb{K}$-vector spaces. 
+Those normed $\mathbb{K}$-vector spaces $(V,||\cdot||)$ for which every Cauchy sequence has a limit in $V$ are called complete
+or Banach spaces (in honour of the Polish mathematician Stefan Banach). 
+Without proof we state that all finite dimensional normed $\mathbb{K}$-vector spaces are Banach spaces.
+
+The next result concerns the special property of the real numbers that supremum and infimum are defined for all subsets of the real numbers. This theorem goes back to \textsc{Julius Wilhelm Richard Dedekind} (1831--1916). It follows from the completeness axiom (C):
+\begin{Theorem}{Dedekind's Theorem}
+\label{thm:bndmonseq}
+ Every non-empty bounded set $M\subset \mathbb{R}$ has a~supremum and an~infimum with $\sup M,\inf M\in\R$.
+\end{Theorem}
+
+
+We make essential use of Dedekind's theorem to prove the following result:
+\begin{Theorem}{Convergence of bounded and monotonic sequences}\label{thm:monbndseq}
+ Let $(a_n)_{n\in\mathbb{N}}$ be a~real sequence that has one of the following properties:
+\begin{itemize}
+ \item[--] $(a_n)_{n\in\mathbb{N}}$ is monotonically increasing and bounded from above;
+ \item[--] $(a_n)_{n\in\mathbb{N}}$ is monotonically decreasing and bounded from below;
+\end{itemize}
+Then $(a_n)_{n\in\mathbb{N}}$ is convergent.
+\end{Theorem}
+{\em Proof:} Let us first assume that $(a_n)_{n\in\mathbb{N}}$ is monotonically increasing and bounded from above. Define the set $M=\{a_n\,:\,n\in\N\}$. 
+\white{6cm}{Since $M$ is bounded, Dedekind's theorem implies that there exists some $K\in\mathbb{R}$ such that \[K=\sup M.\]
+%
+%
+We show that $K$ is indeed the limit of the sequence $(a_n)_{n\in\mathbb{N}}$.\\
+Let $\varepsilon>0$. By the definition of the supremum, we have that $a_n\leq K$ for all $n\in\mathbb{N}$ and there exists some $N\in\N$ such that $a_N>K-\eps$. The monotonicity of $(a_n)_{n\in\N}$ implies that for all $n\geq N$ holds $a_N\leq a_n$. Altogether, we have \[K-\eps<a_N\leq a_n\leq K\]
+and thus $|K-a_n|=K-a_n<\varepsilon$ for all $n\geq N$. This implies convergence to $K$.\\
+To prove that convergence is also guaranteed in the case where $(a_n)_{n\in\mathbb{N}}$ is monotonically decreasing and bounded from below, we consider the sequence $(-a_n)_{n\in\N}$, which is now bounded from above and monotonically increasing. By the (already proven) first statement of this theorem, the sequence $(-a_n)_{n\in\N}$ is convergent, whence $(a_n)_{n\in\N}$ is convergent as well.\hfill$\Box$
+}
+
+\begin{Remark}{}\label{rem:monseqgen}
+ By the same argumentation as in Remark from page \pageref{rem:n_0mon}, the monotone increase (decrease) of $(a_n)_{n\in\mathbb{N}}$ can be slightly relaxed by only claiming that $a_n\leq a_{n+1}$ ($a_n\geq a_{n+1}$) for all $n\geq n_0$ for some $n_0$ in $\N$. In such a~case, the limit of the sequence is then given by $\sup\{a_n\,:\,n\geq n_0\}$ (resp.\ $\inf\{a_n\,:\,n\geq n_0\}$).
+\end{Remark}
+
+\begin{example}{}\label{ex:monseqconv}
+ \begin{enumerate}[a)]
+  \item Consider the sequence $(a_n)_{n\in\mathbb{N}}$ which is recursively defined via $a_1=1$ and 
+  \[a_{n+1}=\frac{a_n+\frac2{a_n}}{2}\;\text{  for $n\geq 1$.}\] 
+  We now prove that this sequence is convergent by showing that
+it is bounded from below and for all $n\geq2$ holds $a_{n+1}\leq a_n$.\\[2ex]
+{\em Proof:} To show boundedness from below, we use the inequality $\sqrt{xy}\leq\frac{x+y}2$ for all nonnegative $x,y\in\mathbb{R}$. This inequality is a~consequence of
+\white{3cm}{
+\[0\leq\frac{(\sqrt{x}-\sqrt{y})^2}2=\frac{x+y}2-\sqrt{xy}.\]
+The first inequality is a consequence of the fact that squares of real numbers cannot be negative.\\
+}
+Using this inequality, we obtain for $n\geq1$
+\[a_{n+1}=\frac{a_n+\frac{2}{a_n}}{2}\geq \sqrt{a_n\cdot\frac2{a_n}}=\sqrt{2}.\]
+Thus, $(a_n)$ is bounded from below. For showing monotonicity, we consider
+\[a_{n+1}-a_n=\frac{a_n+\frac2{a_n}}{2}-a_n=\frac{1}{2a_n}(2-a_n^2).\]
+In particular, if $n\geq2$, we have that $a_n>0$ and $2-a_n^2\leq0$. Thus, $a_{n+1}-a_n\leq0$ for $n\geq2$. An~application of Theorem~\ref{thm:bndmonseq} (resp.\ the slight generalisation in Remark %\ref{rem:monseqgen}
+from above) 
+now leads to the existence of some $a\in\mathbb{R}$ with $a=\lim_{n	o\infty}a_n$.\\[2ex]
+To compute the limit, we make use of the relation $\lim_{n	o\infty}a_n=\lim_{n\To\infty}a_{n+1}$ (follows directly from Definition~\ref{def:convlim}) and the formulae for limits in Theorem~\ref{thm:limformnormed}. This yields
+\[a=\lim_{n	o\infty}a_n=\lim_{n\To\infty}a_{n+1}=\lim_{n\To\infty}\frac{a_n+\frac2{a_n}}{2}=\frac{a+\frac2{a}}{2}.\]
+\white{3cm}{
+This relation leads to the equation $2-a^2=0$, i.e., we either have $a=\sqrt{2}$ or $a=-\sqrt{2}$. However, the latter solution cannot be a limit since all sequence elements are positive. Therefore, we have
+\[\lim_{n	o\infty}a_n=\sqrt{2}.\]
+}
+\item Let $x\in\mathbb{R}$ with $x>1$. Consider the sequence $(\sqrt[n]{x})_{n\in\mathbb{N}}$. It can be directly seen that $(\sqrt[n]{x})_{n\in\N}$ is monotonically decreasing and bounded from below by one. Therefore, the limit
+\[a=\lim_{n	o\infty}\sqrt[n]{x}\]
+exists with $a\geq1$. To show that $a=1$, we assume that $a>1$ and lead this to a~contradiction.\\
+The equation $a>1$ leads to the existence of some $n\in\mathbb{N}$ with $a^n>x$, and thus $a>\sqrt[n]{x}$. On the other hand, the monotone decrease of $(\sqrt[n]{x})_{n\in\N}$ implies that
+\[a=\lim_{n	o\infty}\sqrt[n]{x}=\inf\{\sqrt[n]{x}\,:\,n\in\mathbb{N}\}<a,\]
+which is a~contradiction.
+\item Let $x\in\mathbb{R}$ with $0< x<1$. Consider the sequence $(a_n)_{n\in\mathbb{N}}=(\sqrt[n]{x})_{n\in\N}$. Then we have by Example b) and Theorem~\ref{thm:limformnormed} that
+\[\lim_{n	o\infty}\sqrt[n]{x}=\frac1{\lim_{n\To\infty}\sqrt[n]{\frac1x}}=\frac11=1.\]
+\item Let $(a_{n})$ be a nonnegative sequence with $a_{n}\rightarrow a$ and $k\in\mathbb{N}$. Then for all $\varepsilon>0$ there exists $N>0$ such that $|a_{n}-a|<\varepsilon^{k}$. From this it follows that
+$$
+|\sqrt[k]{a_{n}}-\sqrt[k]{a}|\leq \sqrt[k]{|a_{n}-a|}<\varepsilon.
+$$
+Thus $(\sqrt[k]{a_{n}})$ is convergent with limit $\sqrt[k]{a}$.\\
+\item The sequence $(a_{n})_{n\in\mathbb{N}}$ defined as $a_{n} := \left(1+\frac{1}{n}\right)^{n}$ is convergent.\\
+\end{enumerate}
+\end{example}
+
+\begin{Remark}{}
+The limit of the sequence \[(a_n)_{n \in \mathbb{N}N} = \left(  \Big(1+\frac{1}{n} \,\Big)^{n}\right)_{n \in \NN},\] 
+i.e. $e:=\lim_{n\rightarrow\infty}\left(1+\frac{1}{n}\right)^{n}$ is well known as \textit{Euler's number}. Later on we will define the exponential function $\exp$. It holds that $e=\exp(1)\approx 2.7182818...$ . Indeed, we will show later on that $e^{z}=\lim_{n\rightarrow\infty}\left(1+\frac{z}{n}\right)^{n}=\exp(z)$.
+\end{Remark}

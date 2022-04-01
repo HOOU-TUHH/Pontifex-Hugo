@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.20.0/cytoscape.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    type="text/javascript"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #cy {
+      height: 700px;
+      display: block;
+      background-color: #fff;
+    }
+  </style>
+
+  <script>
+    let current_id = "301";
+  </script>
+
+  <body>
+    <div class="container">
+      <h1 id="headertag">Topic: <a href="301-node.html">Pointwise convergence</a></h1>
+
+      <p>
+        Go back:
+        <a href="../Chap0/demo_new.html">Chapter 0</a>
+        <a href="../Chap1/demo_new.html">Chapter 1</a>
+        <a href="../Chap2/demo_new.html">Chapter 2</a>
+        <a href="../Chap3/demo_new.html">Chapter 3</a>
+        <a href="../Chap4/demo_new.html">Chapter 4</a>
+        <a href="../Chap5/demo_new.html">Chapter 5</a>
+        <a href="../Chap6/demo_new.html">Chapter 6</a>
+        <img src="../../Logo/Pontifex_3.svg" alt="Pontifex-Logo" height="87" width="100" />
+      </p>
+
+      <h2>Navigation</h2>
+      <ul class="nav nav-tabs">
+        <li class="active">
+          <a data-toggle="tab" href="#graph">Level III View</a>
+        </li>
+        <li><a data-toggle="tab" href="#pre">Predecessors</a></li>
+        <li><a data-toggle="tab" href="#suc">Successors</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="graph" class="tab-pane fade in active">
+          <div id="cy"></div>
+        </div>
+        <div id="pre" class="tab-pane fade">
+          <div class="table-responsive-sm">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Concept</th>
+                  <th scope="col">Content</th>
+                </tr>
+              </thead>
+              <tbody>
+
+        <tr>
+          <th scope="row"><a href="../300/300-node.html">Sequences of functions</a></th>
+          <td>Ein Satz</td>
+        </tr>
+        
+        <tr class="bg-danger">
+          <th scope="row"><a href="../301/301-node.html">Pointwise convergence</a></th>
+          <td>Ein Satz</td>
+        </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div id="suc" class="tab-pane fade">
+          <div class="table-responsive-sm">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Concept</th>
+                  <th scope="col">Content</th>
+                </tr>
+              </thead>
+              <tbody>
+
+        <tr class="bg-danger">
+          <th scope="row"><a href="../301/301-node.html">Pointwise convergence</a></th>
+          <td>Ein Satz</td>
+        </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="../basic.js"></script>
+</html>

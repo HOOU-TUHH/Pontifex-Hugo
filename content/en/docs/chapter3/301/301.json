@@ -1,0 +1,38 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "301",
+                        "label": "Pointwise convergence",
+                        "meta": "RA24",
+                        "content": "Ein Satz",
+                        "notes": "301-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "300",
+                        "label": "Sequences of functions",
+                        "meta": "RA23",
+                        "content": "Ein Satz",
+                        "notes": "300-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "301",
+                        "label": " ",
+                        "color": "#297bb3"
+                  }
+            }
+      ]
+}
