@@ -1,0 +1,138 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "100",
+                        "label": "Sequences",
+                        "meta": " RA02 ",
+                        "content": "Ein Satz",
+                        "notes": "100-snippet.html",
+                        "video": "https://www.youtube.com/embed/1SguKALJji8?start=17",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/cHoWtrbL_tqgrTzOA0Q0"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Boundedness",
+                        "meta": " RA03 ",
+                        "content": "Ein Satz",
+                        "notes": "102-snippet.html",
+                        "video": "https://www.youtube.com/embed/k-Wm6gJYfrw?start=221",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "002",
+                        "label": "Real Numbers",
+                        "meta": " SLR03  ",
+                        "content": "In a real analysis, the real numbers are the largest number set we need. They satisfy axioms that represent the idea of a number line.",
+                        "notes": "002-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "003",
+                        "label": "Maps",
+                        "meta": " SLS04 ",
+                        "content": "Maps are the mathematical formulation of machine that gets inputs and generate outputs. On both sides, sets are needed.",
+                        "notes": "003-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "004",
+                        "label": "Natural Numbers",
+                        "meta": " SLN01 + SLN02 + SLN03 + SLN04 ",
+                        "content": "Ein Satz",
+                        "notes": "004-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Ein Satz",
+                        "notes": "101-snippet.html",
+                        "video": "https://www.youtube.com/embed/1SguKALJji8?start=367",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "200",
+                        "label": "Partial sums",
+                        "meta": "RA15",
+                        "content": "Ein Satz",
+                        "notes": "200-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "100",
+                        "target": "102",
+                        "label": "Boundedness is a property of sequences.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "002",
+                        "target": "100",
+                        "label": "A sequence is a map having the real numbers as domain ",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "100",
+                        "label": "A sequence is a map of natural numbers ",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "004",
+                        "target": "100",
+                        "label": "A sequence is a map having the natural numbers as domain ",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "100",
+                        "target": "101",
+                        "label": "Having a limit is a property of a sequence ",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "100",
+                        "target": "200",
+                        "label": "A series is a special sequence",
+                        "color": "#084974"
+                  }
+            }
+      ]
+}
