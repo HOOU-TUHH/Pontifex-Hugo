@@ -6,10 +6,17 @@
 #image: bpack/hugo-npm
 image: node:17-bullseye
 
+stages:
+  - testing
+  - build
+  - review
+  - deploy
+
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 test:
+  stage: testing
   script:
     - npm install
     - npm run build
@@ -21,6 +28,7 @@ test:
       - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
 www3-dev-build:
+  stage: build
   script:
     - sed -i -e 's;baseurl.*;baseurl = "/e-10/pontifex/";' config/production/config.toml
     - cat config/production/config.toml
@@ -32,3 +40,25 @@ www3-dev-build:
   only:
     variables:
       - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+dev-review:
+  image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
+  stage: review
+  script:
+#
+# SSH Setup
+#
+    - eval $(ssh-agent -s)  #variablen initialisieren
+    - echo "${REVIEW_SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add -  #private key laden
+    - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts  # .ssh Verzeichnis anlegen und known_hosts dummy
+    - echo "${REVIEW_SSH_KNOWN_HOSTS}" >> ~/.ssh/known_hosts #dummy mit Inhalt füllen 
+    - chmod 700 ~/.ssh   # Berechtigungen setzen
+    - scp -r -P ${REVIEW_SSH_PORT} public/* ${REVIEW_SSH_USER}@${REVIEW_HOST_NAME}:${REVIEW_WEBSERVER_ROOT}/ # möglicherweise ist rsync nicht installiert, dann scp nutzen
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+  environment:
+    name: $CI_COMMIT_REF_NAME
+    url: https://$PROXY_HOST_NAME$BASE_DIR
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "dev"
+
