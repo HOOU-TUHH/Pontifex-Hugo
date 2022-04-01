@@ -19,3 +19,16 @@ test:
   only:
     variables:
       - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+www3-dev-build:
+  script:
+    - sed -i -e 's;baseurl.*;baseurl = "/e10/pontifex/";' config/production/config.toml
+    - cat config/production/config.toml
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - public
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
