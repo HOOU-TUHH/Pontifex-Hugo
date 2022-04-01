@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Logical Statements and Operations</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ "HTML-CSS": { width:"container", scale:100,linebreaks: { automatic: true } }, SVG: { linebreaks: { automatic: true } }});
+      MathJax.Hub.Queue(function () {
+        $(".collapse").removeClass("in");
+        });
+    </script>
+    <script>
+      (function () {
+        var head = document.getElementsByTagName("head")[0],
+          script;
+        script = document.createElement("script");
+        script.type = "text/x-mathjax-config";
+        script[window.opera ? "innerHTML" : "text"] =
+          "MathJax.Hub.Config({\n" +
+          " tex2jax: { inlineMath: [['$','$'], ['\\\\(','\\\\)']] }\n" +
+          "});";
+        head.appendChild(script);
+        script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src =
+          "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1//MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+        head.appendChild(script);
+      })();
+    </script>
+    <link rel="stylesheet" type="text/css" href="../content.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Logical Statements and Operations</h1>
+      <p>
+        Study this concept with the material of your choice: Read the lecture
+        notes, watch the video or listen to a podcast episode. In the end, you
+        need to solve the exercise.
+      </p>
+      <p>Take me <a href="./000.html">back</a> to the landing page.</p>
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#notes">Notes</a></li>
+        <li><a data-toggle="tab" href="#video">Video</a></li>
+        <li><a data-toggle="tab" href="#podcast">Podcast</a></li>
+        <li><a data-toggle="tab" href="#discuss">Discussion</a></li>
+      </ul>
+
+      <div class="tab-content">
+         <div id="notes" class="tab-pane fade in active">
+              <h2 class="unnumbered" id="logical-statements-and-operations">Logical
+              Statements and Operations</h2>
+              <p>Basic logic is something, we usually accomplish intuitively right.
+              However, in mathematics we have to define it in an unambiguous way and
+              it may differ a little bit from the everyday logic. It is very important
+              and useful to bring into our attention some of the basic rules and
+              notations of logic. For Computer Science students, logic is considered
+              in more detail in other courses.</p>
+              <p>Let us start with a definition:</p>
+              <div class="definition">
+              <p><strong>Definition 1</strong> (logical statement<span>,</span>
+              proposition). <em>A <em>logical statement</em> (or <em>proposition</em>)
+              is a statement, which means a meaningful declarative sentence, that is
+              either true or false.</em></p>
+              </div>
+              <p>Instead of <em>true</em>, one often writes <span
+              class="math inline">\(T\)</span> or <span
+              class="math inline">\(1\)</span> and instead of <em>false</em>, one
+              often writes <span class="math inline">\(F\)</span> or <span
+              class="math inline">\(0\)</span>.</p>
+              <p>Not every meaningful declarative fulfils this requirement. There are
+              opinions, alternative facts, self-contradictory statements, undecidable
+              statements and so on. In fact, a lot of examples here, outside the
+              mathematical world, work only if we give the words unambiguous
+              definitions which we will implicitly do.</p>
+              <div class="example">
+              <p><strong>Example 2</strong>. Which of these are logical
+              statements?</p>
+              <ol type="a">
+              <li><p>Hamburg is a city.</p></li>
+              <li><p><span class="math inline">\(1 + 1 = 2\)</span>.</p></li>
+              <li><p>The number <span class="math inline">\(5\)</span> is smaller than
+              the number <span class="math inline">\(2\)</span>.</p></li>
+              <li><p>Good morning!</p></li>
+              <li><p><span class="math inline">\(x + 1 = 1\)</span>.</p></li>
+              <li><p>Today is Tuesday.</p></li>
+              </ol>
+              </div>
+              <p>The last two examples are not logical statements but so-called
+              predicates and will be considered later. For given logical statements,
+              one can form new logical statements with so-called <em>logical
+              operations</em>. In the following, we will consider two logical
+              statements <span class="math inline">\(A\)</span> and <span
+              class="math inline">\(B\)</span>.</p>
+              <div class="definition">
+              <p><strong>Definition 3</strong> (Negation <span
+              class="math inline">\(\neg A\)</span> (“not <span
+              class="math inline">\(A\)</span>”)). <em><span
+              class="math inline">\(\neg A\)</span> is true if and only if <span
+              class="math inline">\(A\)</span> is false.</em></p>
+              </div>
+              <p><span class="math display">\[\mbox{ Truth table }\qquad
+                  \begin{array}{c|c}
+                   A &amp; \neg A\\ \hline
+                   T &amp; F\\
+                   F &amp; T
+                  \end{array}\]</span></p>
+              <div class="example">
+              <p><strong>Example 4</strong>. What are the negations of the following
+              logical statements?</p>
+              <ol type="a">
+              <li><p>The wine bottle is full.</p></li>
+              <li><p>The number <span class="math inline">\(5\)</span> is smaller than
+              the number <span class="math inline">\(2\)</span>.</p></li>
+              <li><p>All students are in the lecture hall.</p></li>
+              </ol>
+              </div>
+              <div class="definition">
+              <p><strong>Definition 5</strong> (Conjunction <span
+              class="math inline">\(A \wedge B\)</span> (“<span
+              class="math inline">\(A\)</span> and <span
+              class="math inline">\(B\)</span>”)). <em><span class="math inline">\(A
+              \wedge B\)</span> is true if and only if both <span
+              class="math inline">\(A\)</span> and <span
+              class="math inline">\(B\)</span> are true.</em></p>
+              </div>
+              <p><span class="math display">\[\mbox{ Truth table }\qquad
+                  \begin{array}{cc|c}
+                   A &amp; B &amp; A \wedge B\\ \hline
+                   T &amp; T&amp; T\\
+                   T &amp; F &amp; F\\
+                   F &amp; T &amp; F\\
+                   F &amp; F &amp; F
+                  \end{array}\]</span></p>
+              <div class="definition">
+              <p><strong>Definition 6</strong> (Disjunction <span
+              class="math inline">\(A \vee B\)</span> (“<span
+              class="math inline">\(A\)</span> or <span
+              class="math inline">\(B\)</span>”)). <em><span class="math inline">\(A
+              \vee B\)</span> is true if and only if at least one of <span
+              class="math inline">\(A\)</span> or <span
+              class="math inline">\(B\)</span> is true.</em></p>
+              </div>
+              <p><span class="math display">\[\mbox{ Truth table }\qquad
+              \begin{array}{cc|c}
+                A &amp; B &amp; A \vee B \\ \hline
+                T &amp; T&amp; T\\
+                T &amp; F &amp; T\\
+                F &amp; T &amp; T\\
+                F &amp; F &amp; F
+              \end{array}\]</span></p>
+
+        </div>
+        <div id="video" class="tab-pane fade">
+          <h3>Video</h3>
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/DU4wKBDm2Z4?start=7"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div id="podcast" class="tab-pane fade">
+          <h3>Podcast</h3>
+          <h4>Episode 102: Catchy title here</h4>
+          <audio controls>
+            <source src="" type="PODCAST_real" />
+            Your browser does not support the audio element.
+          </audio>
+          <br />
+          <a href="" class="btn btn-primary btn-lg" download="convergence.wav"
+            >Download</a
+          >
+        </div>
+        <div id="discuss" class="tab-pane fade">
+          <h3>Discussion</h3>
+          <h4>Discuss your questions by typing below</h4>
+
+          <iframe
+            style="border: 2px solid pink"
+            class="embed-responsive-item"
+            name="embed_readwrite"
+            src="https://pads.rz.tuhh.de/p/"
+            width="100%"
+            height="600"
+          ></iframe>
+        </div>
+      </div>
+
+      <h2>WeBWorK Test</h2>
+      <!--<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#webwork">Open Test</button>-->
+      <!--<div id="webwork" class="collapse in">-->
+      <iframe
+        class="embed-responsive-item"
+        style="border: 2px solid pink"
+        src="https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple"
+        width="100%"
+        height="600"
+      >
+      </iframe>
+      <!--  </div> -->
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        ><img
+          alt="Creative Commons License"
+          style="border-width: 0"
+          src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
+      ><br />This work is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >.
+    </div>
+  </body>
+</html>
