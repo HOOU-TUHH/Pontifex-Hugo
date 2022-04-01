@@ -22,7 +22,7 @@ test:
 
 www3-dev-build:
   script:
-    - sed -i -e 's;baseurl.*;baseurl = "/e10/pontifex/";' config/production/config.toml
+    - sed -i -e 's;baseurl.*;baseurl = "/e-10/pontifex/";' config/production/config.toml
     - cat config/production/config.toml
     - npm install
     - npm run build
