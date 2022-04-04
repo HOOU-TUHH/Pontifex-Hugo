@@ -32,7 +32,6 @@ www3-dev-build:
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}\";" config/production/config.toml
     - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
-    - cat config/production/config.toml
     - npm install
     - npm run build
   artifacts:
