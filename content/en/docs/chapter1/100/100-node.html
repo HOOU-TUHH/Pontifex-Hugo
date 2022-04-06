@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sequences</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ "HTML-CSS": { width:"container", scale:100,linebreaks: { automatic: true } }, SVG: { linebreaks: { automatic: true } }});
+      MathJax.Hub.Queue(function () {
+        $(".collapse").removeClass("in");
+        });
+    </script>
+    <script>
+      (function () {
+        var head = document.getElementsByTagName("head")[0],
+          script;
+        script = document.createElement("script");
+        script.type = "text/x-mathjax-config";
+        script[window.opera ? "innerHTML" : "text"] =
+          "MathJax.Hub.Config({\n" +
+          " tex2jax: { inlineMath: [['$','$'], ['\\\\(','\\\\)']] }\n" +
+          "});";
+        head.appendChild(script);
+        script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src =
+          "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1//MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+        head.appendChild(script);
+      })();
+    </script>
+    <link rel="stylesheet" type="text/css" href="../content.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sequences</h1>
+      <p>
+        Study this concept with the material of your choice: Read the lecture
+        notes, watch the video or listen to a podcast episode. In the end, you
+        need to solve the exercise.
+      </p>
+      <p>Take me <a href="./100.html">back</a> to the landing page.</p>
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#notes">Notes</a></li>
+        <li><a data-toggle="tab" href="#video">Video</a></li>
+        <li><a data-toggle="tab" href="#podcast">Podcast</a></li>
+        <li><a data-toggle="tab" href="#discuss">Discussion</a></li>
+      </ul>
+
+      <div class="tab-content">
+         <div id="notes" class="tab-pane fade in active">
+              <div class="Definition">
+              <p>Let <span class="math inline">\(M\)</span> be a set. A <em>sequence
+              in <span class="math inline">\(M\)</span></em> is a map <span
+              class="math inline">\(a:\mathbb{N}\to M\)</span> or <span
+              class="math inline">\(a:\mathbb{N}_0 \to M\)</span>.</p>
+              </div>
+              <p>We use the following symbols for sequences: <span
+              class="math display">\[(a_n)_{n\in\mathbb{N}},\qquad (a_n),\qquad
+              (a_n)_{n=1}^\infty,\quad (a_1,a_2,a_3,\ldots).\]</span></p>
+              <div class="Remark">
+              <p><span class="math inline">\(M\)</span> is usually a real subset
+              (<span class="math inline">\(M\subset\mathbb{R}\)</span>), but <span
+              class="math inline">\(M\)</span> can also be a complex subset (<span
+              class="math inline">\(M\subset\C\)</span>) or a subset of some normed
+              space (or <span class="math inline">\(M=\mathbb{R}\)</span>, <span
+              class="math inline">\(M=\C\)</span>, <span
+              class="math inline">\(M\)</span> a normed space itself).</p>
+              </div>
+              <div class="example">
+              <ol type="a">
+              <li><p><span class="math inline">\(a_n=(-1)^n\)</span>, then <span
+              class="math inline">\((a_n)_{n\in\mathbb{N}}=((-1)^n)_{n\in\mathbb{N}}=(-1,1,-1,1,-1,1,\ldots)\)</span>;</p></li>
+              <li><p><span class="math inline">\(a_n=\frac1n\)</span>, then <span
+              class="math inline">\((a_n)_{n\in\mathbb{N}}=(\frac1n)_{n\in\mathbb{N}}=(1,\frac12,\frac13,\frac14,\frac15,\frac16,\ldots)\)</span>;</p></li>
+              <li><p><span class="math inline">\(a_n=\mathrm{i}^n\)</span> (<span
+              class="math inline">\(\mathrm{i}\)</span> is the imaginary unit), then
+              <span
+              class="math inline">\((a_n)_{n\in\mathbb{N}}=(\mathrm{i}^n)_{n\in\mathbb{N}}=(\mathrm{i},-1,-\mathrm{i},1,\mathrm{i},-1,\ldots)\)</span>;</p></li>
+              <li><p><span class="math inline">\(a_n=\frac1{2^n}\)</span>, then <span
+              class="math inline">\((a_n)_{n\in\mathbb{N}}=(\frac1{2^n})_{n\in\mathbb{N}}=(1,\frac12,\frac14,\frac18,\frac1{16},\frac1{32},\ldots)\)</span>;</p></li>
+              </ol>
+              </div>
+
+        </div>
+        <div id="video" class="tab-pane fade">
+          <h3>Video</h3>
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/1SguKALJji8?start=17"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div id="podcast" class="tab-pane fade">
+          <h3>Podcast</h3>
+          <h4>Episode 102: Catchy title here</h4>
+          <audio controls>
+            <source src="" type="PODCAST_real" />
+            Your browser does not support the audio element.
+          </audio>
+          <br />
+          <a href="" class="btn btn-primary btn-lg" download="convergence.wav"
+            >Download</a
+          >
+        </div>
+        <div id="discuss" class="tab-pane fade">
+          <h3>Discussion</h3>
+          <h4>Discuss your questions by typing below</h4>
+
+          <iframe
+            style="border: 2px solid pink"
+            class="embed-responsive-item"
+            name="embed_readwrite"
+            src="https://pads.rz.tuhh.de/p/cHoWtrbL_tqgrTzOA0Q0"
+            width="100%"
+            height="600"
+          ></iframe>
+        </div>
+      </div>
+
+      <h2>WeBWorK Test</h2>
+      <!--<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#webwork">Open Test</button>-->
+      <!--<div id="webwork" class="collapse in">-->
+      <iframe
+        class="embed-responsive-item"
+        style="border: 2px solid pink"
+        src="https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple"
+        width="100%"
+        height="600"
+      >
+      </iframe>
+      <!--  </div> -->
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        ><img
+          alt="Creative Commons License"
+          style="border-width: 0"
+          src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
+      ><br />This work is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >.
+    </div>
+  </body>
+</html>
