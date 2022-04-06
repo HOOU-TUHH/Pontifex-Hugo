@@ -1,5 +1,5 @@
 ---
-title : "Chapter3"
+title : "Chapter 3"
 description: "Chapter 3 about Logic and Sets"
 lead: ""
 date: 2020-10-06T08:48:45+00:00
