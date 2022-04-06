@@ -1,0 +1,58 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "010",
+                        "label": "Operations on Sets",
+                        "meta": " SLL03",
+                        "content": "Sets can be joined or intersected in order to create new sets.",
+                        "notes": "010-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/logicAndSetTheory/prob03.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "110",
+                        "label": "Open, Closed,\nCompact sets",
+                        "meta": " RA13 ",
+                        "content": "Ein Satz",
+                        "notes": "110-snippet.html",
+                        "video": "https://www.youtube.com/embed/Wqo4Svs4erw?start=12",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "010",
+                        "label": "We use different operations to work with multiple sets.",
+                        "color": "#297bb3"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "010",
+                        "target": "110",
+                        "label": "Set operations may be used to modify set properties like opennes, closedness or compactness.",
+                        "color": "#084974"
+                  }
+            }
+      ]
+}

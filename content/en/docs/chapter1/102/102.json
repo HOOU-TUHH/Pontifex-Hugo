@@ -19,8 +19,8 @@
                         "meta": " SLR03  ",
                         "content": "In a real analysis, the real numbers are the largest number set we need. They satisfy axioms that represent the idea of a number line.",
                         "notes": "002-snippet.html",
-                        "video": "https://www.youtube.com/embed/",
-                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "video": "https://www.youtube.com/embed/E2MAvASTcg4?start=19",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Compound_Inequalities/P_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
                         "discussion": "https://pads.rz.tuhh.de/p/"
                   }
             },
@@ -41,10 +41,10 @@
                         "id": "005",
                         "label": "Image and Preimage",
                         "meta": " SLS05 ",
-                        "content": "Ein Satz",
+                        "content": "Via images and preimages we describe how functions work on sets.",
                         "notes": "005-snippet.html",
-                        "video": "https://www.youtube.com/embed/",
-                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "video": "https://www.youtube.com/embed/twBYYTJdcjc?start=14",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
                         "discussion": "https://pads.rz.tuhh.de/p/"
                   }
             },

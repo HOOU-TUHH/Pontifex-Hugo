@@ -1,0 +1,69 @@
+\input{packs}
+
+\subsection*{Composition of maps}
+
+\begin{Definition}{}
+If $f:X \to Y$ and $g : Y\to Z$, we may compose, or concatenate these maps:
+\begin{align*}
+ g \circ f : X &\to  Z\\
+            x &\mapsto g(f(x))
+\end{align*}
+We call $g \circ f$ the \emph{composition} of the two functions.
+\end{Definition}
+
+Usually, $g\circ f \neq f\circ g$, the latter does not even make sense, in general. 
+\[
+ X \to Y \to Z
+\]
+
+\begin{center}
+  \centering
+     \begin{tikzpicture}[scale=1]
+\draw (0,0) ellipse (1 and 1.3);
+\draw (3,0) ellipse (1 and 1.3);
+\draw (6,0) ellipse (1 and 1.3);
+\fill (0,0) circle (0.07);
+\node at (-0.25,0) {\begin{small} $x$ \end{small}};
+\fill (3,0) circle (0.07);
+\node at (2.9,-0.3) {\begin{small} $y$ \end{small}};
+\fill (6,0) circle (0.07);
+\node at (6.15,0) {\begin{small} $z$ \end{small}};
+
+\node at (1.5,0.3) {$f$};
+\node at (0,0.8) {\begin{small} $X$ \end{small}};
+\node at (3,0.8) {\begin{small} $Y$ \end{small}};
+\draw[->] (0,0) -- (2.8,0);
+\node at (4.5,0.3) {$g$};
+\node at (6,0.8) {\begin{small} $Z$ \end{small}};
+\draw[->] (3,0) -- (5.8,0);
+\draw[->] (0,0) to[out=-55, in=-125] (5.9,-0.05);
+\node at (3,-1.7) {$g \circ f$};
+\end{tikzpicture}
+\end{center}
+
+
+
+
+\begin{example}{} \label{Bsp:Komposition}
+%\begin{enumerate}[\bf a)]
+\begin{abc}
+%\itemsep0.7mm
+\item $f: \mathbb{R} \rightarrow \mathbb{R}$, $x\mapsto x^2$;~ $g:\mathbb{R} \rightarrow \mathbb{R}$, $x\mapsto \sin(x)$
+\begin{align*}
+g\circ f: \mathbb{R} &\rightarrow \mathbb{R} \\
+x &\mapsto \sin(x^2) \\
+f\circ g: \mathbb{R} &\rightarrow \mathbb{R} \\
+x &\mapsto (\sin(x))^2
+\end{align*}
+\item Let $X$ be a set. Then $\id_X: X\rightarrow X$ with $x\mapsto x$ is called the \defi{identity map}.
+If there is no confusion, one usually writes $\id$ instead of $\id_X$. 
+Let $f: X\rightarrow X$ be a function. Then
+\[
+f\circ \id=f=\id\circ f.
+\]
+\end{abc}
+\white{40mm}{}
+%\end{enumerate}
+\end{example}
+
+

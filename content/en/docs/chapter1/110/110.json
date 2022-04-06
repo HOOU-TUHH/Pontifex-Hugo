@@ -71,6 +71,18 @@
                         "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
                         "discussion": "https://pads.rz.tuhh.de/p/"
                   }
+            },
+            {
+                  "data": {
+                        "id": "010",
+                        "label": "Operations on Sets",
+                        "meta": " SLL03",
+                        "content": "Sets can be joined or intersected in order to create new sets.",
+                        "notes": "010-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/logicAndSetTheory/prob03.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
             }
       ],
       "edges": [
@@ -112,6 +124,14 @@
                         "target": "112",
                         "label": "Interior is an open set, closure and boundary are closed sets.",
                         "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "010",
+                        "target": "110",
+                        "label": "Set operations may be used to modify set properties like opennes, closedness or compactness.",
+                        "color": "#297bb3"
                   }
             }
       ]

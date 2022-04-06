@@ -39,12 +39,12 @@
             {
                   "data": {
                         "id": "004",
-                        "label": "Natural Numbers",
+                        "label": "Natural Numbers and Induction",
                         "meta": " SLN01 + SLN02 + SLN03 + SLN04 ",
-                        "content": "Ein Satz",
+                        "content": "Using natural numbers is our first mathematical abstraction as children. Mathematical induction is an important technique of proof.",
                         "notes": "004-snippet.html",
-                        "video": "https://www.youtube.com/embed/",
-                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "video": "https://www.youtube.com/embed/WMgiYh7tac0?start=13",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/MC/Proofs/EssayProofs/InductionDivisibility01.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
                         "discussion": "https://pads.rz.tuhh.de/p/"
                   }
             },
@@ -202,7 +202,7 @@
                   "data": {
                         "source": "004",
                         "target": "200",
-                        "label": "A partial sum uses natural numbers",
+                        "label": "Partial sums are sequences of finite sums.",
                         "color": "#297bb3"
                   }
             },

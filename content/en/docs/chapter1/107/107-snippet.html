@@ -1,7 +1,7 @@
 <h1 id="subsequences-and-accumulation-values">Subsequences and
 accumulation values</h1>
 <div class="Definition">
-<p><span>Subsequence</span> Let <span
+<p><strong>Definition 1</strong>. <em><span>Subsequence</span> Let <span
 class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> be a sequence in
 <span class="math inline">\(\mathbb{K}\)</span>. Let <span
 class="math inline">\((n_k)_{k\in\mathbb{N}}\)</span> be a strongly
@@ -9,13 +9,13 @@ monotonically increasing sequence with <span
 class="math inline">\(n_k\in\mathbb{N}\)</span> for all <span
 class="math inline">\(k\in\mathbb{N}\)</span>. Then <span
 class="math inline">\((a_{n_k})_{k\in\mathbb{N}}\)</span> is called
-a <span><em>subsequence</em></span>.</p>
+a <span><em>subsequence</em></span>.</em></p>
 </div>
 <div class="center">
 <p><embed src="107-tikz.pdf" /></p>
 </div>
 <div class="example">
-<p><strong>Example 1</strong>. Consider the sequence <span
+<p><strong>Example 2</strong>. Consider the sequence <span
 class="math inline">\((a_n)_{n\in\mathbb{N}}=(\frac1n)_{n\in\mathbb{N}}\)</span>.
 Then some subsequences are given by</p>
 <ul>
@@ -42,7 +42,8 @@ convergent with <span
 class="math display">\[\lim_{k\to\infty}a_{n_k}=a.\]</span></p>
 </div>
 <div class="Attention">
-<p>The existence of a convergent subsequence <span
+<p><strong>Attention 3</strong>. The existence of a convergent
+subsequence <span
 class="math inline">\((a_{n_k})_{k\in\mathbb{N}}\)</span> does in
 general <u>not</u> imply the convergence of <span
 class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span>. For instance,
@@ -95,33 +96,31 @@ class="math inline">\(a-\varepsilon&lt;a_{n_K}\leq a_n\leq a_{n_n}\leq
 a\)</span>. In particular, we have that <span class="math display">\[|a-
 a_n|=a-a_n&lt;\varepsilon.\]</span><span
 class="math inline">\(\Box\)</span></p>
-<div class="Definition">
-<p><span>Accumulation value</span> <span id="def:accuPointNormedSpace"
-label="def:accuPointNormedSpace"></span> Let <span
-class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> be a sequence in
-<span class="math inline">\(\mathbb{K}\)</span>. Then <span
-class="math inline">\(a\in \mathbb{K}\)</span> is called if there exists
-some subsequence <span
+<div id="def:accuPointNormedSpace" class="Definition">
+<p><strong>Definition 4</strong>. <em><span>Accumulation value</span>
+Let <span class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> be
+a sequence in <span class="math inline">\(\mathbb{K}\)</span>. Then
+<span class="math inline">\(a\in \mathbb{K}\)</span> is called if there
+exists some subsequence <span
 class="math inline">\((a_{n_k})_{k\in\mathbb{N}}\)</span> with <span
-class="math display">\[a=\lim_{k\to\infty}a_{n_k}.\]</span></p>
+class="math display">\[a=\lim_{k\to\infty}a_{n_k}.\]</span></em></p>
 </div>
 <div class="Attention">
-<p><span>Names</span> Accumulation values are often called by other
-names, like , or .</p>
+<p><strong>Attention 5</strong>. <span>Names</span> Accumulation values
+are often called by other names, like , or .</p>
 </div>
 <div class="Proposition">
-<p><span class="math inline">\(a\in \mathbb{K}\)</span> is an
-accumulation value if and only if in every <span
-class="math inline">\(\varepsilon\)</span>-neighbourhood of <span
+<p><strong>Proposition 6</strong>. <em><span class="math inline">\(a\in
+\mathbb{K}\)</span> is an accumulation value if and only if in every
+<span class="math inline">\(\varepsilon\)</span>-neighbourhood of <span
 class="math inline">\(a\)</span>, there are infinitely many elements of
 the sequence <span
-class="math inline">\((a_{n})_{n\in\mathbb{N}}\)</span>.</p>
+class="math inline">\((a_{n})_{n\in\mathbb{N}}\)</span>.</em></p>
 </div>
-<div class="Definition">
-<p><span>Accumulation values <span
-class="math inline">\(\pm\infty\)</span></span><span id="accinf"
-label="accinf"></span> A real sequence <span
+<div id="accinf" class="Definition">
+<p><strong>Definition 7</strong>. <em><span>Accumulation values <span
+class="math inline">\(\pm\infty\)</span></span>A real sequence <span
 class="math inline">\((a_n)_{n\in\mathbb{N}}\)</span> is said to have
 the if it is not bounded from above. Analogously, we define the if it is
-not bounded from below.</p>
+not bounded from below.</em></p>
 </div>

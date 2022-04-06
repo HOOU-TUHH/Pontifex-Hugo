@@ -3,12 +3,12 @@
             {
                   "data": {
                         "id": "004",
-                        "label": "Natural Numbers",
+                        "label": "Natural Numbers and Induction",
                         "meta": " SLN01 + SLN02 + SLN03 + SLN04 ",
-                        "content": "Ein Satz",
+                        "content": "Using natural numbers is our first mathematical abstraction as children. Mathematical induction is an important technique of proof.",
                         "notes": "004-snippet.html",
-                        "video": "https://www.youtube.com/embed/",
-                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "video": "https://www.youtube.com/embed/WMgiYh7tac0?start=13",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/MC/Proofs/EssayProofs/InductionDivisibility01.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
                         "discussion": "https://pads.rz.tuhh.de/p/"
                   }
             },
@@ -21,6 +21,18 @@
                         "notes": "001-snippet.html",
                         "video": "https://www.youtube.com/embed/",
                         "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+                        "discussion": "https://pads.rz.tuhh.de/p/"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "011",
+                        "label": "Sums and Products",
+                        "meta": " SLL03",
+                        "content": "An important shorthand notation for calculations.",
+                        "notes": "011-snippet.html",
+                        "video": "https://www.youtube.com/embed/",
+                        "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setIntSigmaNotation/an6_4_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
                         "discussion": "https://pads.rz.tuhh.de/p/"
                   }
             },
@@ -73,6 +85,14 @@
             {
                   "data": {
                         "source": "004",
+                        "target": "011",
+                        "label": "Sums and Products usually are indexed with natural or integer Numbers.",
+                        "color": "#084974"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "004",
                         "target": "100",
                         "label": "A sequence is a map having the natural numbers as domain ",
                         "color": "#084974"
@@ -90,7 +110,7 @@
                   "data": {
                         "source": "004",
                         "target": "200",
-                        "label": "A partial sum uses natural numbers",
+                        "label": "Partial sums are sequences of finite sums.",
                         "color": "#084974"
                   }
             }
