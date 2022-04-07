@@ -49,7 +49,7 @@
   name = "HOOU"
   weight = 30
   identifier = "hoou"
-  url = "https:hoou.de/"
+  url = "https://hoou.de"
   parent = "get-started"
 
 [[main]]
