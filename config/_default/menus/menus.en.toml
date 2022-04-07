@@ -29,27 +29,34 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Docs"
+  name = "Network"
   url = "/docs/chapter0/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "News"
+  url = "/news/"
   weight = 20
 
 [[main]]
-  name = "Get Started"
+  name = "Information"
   weight = 30
   identifier = "get-started"
   url = "/docs/chapter0/"
 
 [[main]]
-  name = "Tutorial"
+  name = "HOOU"
+  weight = 30
+  identifier = "hoou"
+  url = "https:hoou.de/"
+  parent = "get-started"
+
+[[main]]
+  name = "TUHH Math"
   weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
+  identifier = "tuhhmath"
+  url = "https://www.mat.tuhh.de"
   parent = "get-started"
 
 [[social]]
