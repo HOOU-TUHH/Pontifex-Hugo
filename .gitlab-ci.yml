@@ -15,17 +15,8 @@ stages:
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-curl-test:
-  stage: testing
-  image: ubuntu
-  script:
-    - apt update && apt install -y curl unzip
-    - 'curl --location --output artifacts.zip --header "PRIVATE-TOKEN: zyG98VG64AkTdDKS3cnb" "https://collaborating.tuhh.de/api/v4/projects/6786/jobs/artifacts/dev/download?job=hugo-build"'
-    - unzip artifacts.zip
-  allow_failure: true
-
-test:
-  stage: testing
+local-build:
+  stage: build
   script:
     - npm install
     - npm run build
