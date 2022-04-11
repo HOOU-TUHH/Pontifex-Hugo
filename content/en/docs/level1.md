@@ -9,4 +9,5 @@ images: []
 ---
 
 The search bar should be your starting point. However,
-if you are not sure what to search for, you could start with [logic](../chapter0/000).
+if you are not sure what to search for, you could start with
+{{< rawhtml >}}<a href="../chapter0/000">logic</a>{{< /rawhtml >}}.
