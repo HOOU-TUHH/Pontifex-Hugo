@@ -63,7 +63,7 @@
   name = "About Pontifex"
   weight = 60
   identifier = "aboutpntfx"
-  url = "/news/"
+  url = "/news/aboutpntfx/"
   parent = "get-started"
 
 [[social]]
