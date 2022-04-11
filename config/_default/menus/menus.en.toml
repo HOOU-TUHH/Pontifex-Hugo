@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Network"
-  url = "/docs/chapter0/"
+  url = "/docs/level1/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
