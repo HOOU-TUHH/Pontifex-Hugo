@@ -79,7 +79,7 @@
   url = "https://twitter.com/...."
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+[[footer]]
+  name = "Privacy"
+  url = "/privacy-policy/"
+  weight = 10
