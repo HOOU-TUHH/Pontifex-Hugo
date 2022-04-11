@@ -19,9 +19,9 @@ curl-test:
   stage: testing
   image: ubuntu
   script:
-    - apt update && apt install -y curl
-    - curl --location --output artifacts.zip --header "PRIVATE-TOKEN:zyG98VG64AkTdDKS3cnb" "https://collaborating.tuhh.de/e-10/hoou/pontifex/-/jobs/artifacts/dev/download?job=hugo-build"
-    - cat artifacts.zip
+    - apt update && apt install -y curl unzip
+    - curl --location --output artifacts.zip --header "PRIVATE-TOKEN: zyG98VG64AkTdDKS3cnb" "https://collaborating.tuhh.de/api/v4/projects/6786/jobs/artifacts/dev/download?job=hugo-build"
+    - unzip artifacts.zip
   allow_failure: true
 
 test:
