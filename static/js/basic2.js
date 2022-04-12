@@ -255,13 +255,16 @@
 ]
   );
   cy.userZoomingEnabled( false );
-  cy.userPanningEnabled( false )
-  cy.on("click", "node", function (evt) {
-  var node = evt.target;
-  const index = node.data()["id"];
-  const first = index[0];
-  window.open(`../chapter${first}/${index}/`,"_self")
-  });
+  cy.userPanningEnabled( false );
+  cy.on("click", "node", node_clicked);
+  cy.on("tap", "node", node_clicked);
+  
+  function node_clicked(evt) {
+    var node = evt.target;
+    const index = node.data()["id"];
+    const first = index[0];
+    window.open(`../chapter${first}/${index}/`,"_self")
+  };
 
   cy.on("click", "edge", function (evt) {
     var edge = evt.target;
