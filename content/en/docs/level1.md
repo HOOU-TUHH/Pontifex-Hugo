@@ -10,4 +10,6 @@ images: []
 
 The search bar should be your starting point. However,
 if you are not sure what to search for, you could start with
-{{< rawhtml >}}<a href="https://www3-dev.tuhh.de/e-10/pontifex/docs/chapter0/000/">logic</a>{{< /rawhtml >}}.
+one of chapters below. Just click on the topic to start with the first lecture in the corresponding chapter.
+
+{{< header2 "000">}}
