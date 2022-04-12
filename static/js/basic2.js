@@ -260,7 +260,7 @@
   var node = evt.target;
   const index = node.data()["id"];
   const first = index[0];
-  window.open(`../chapter${first}/${index}`,"_self")
+  window.open(`../chapter${first}/${index}/`,"_self")
   });
 
   cy.on("click", "edge", function (evt) {
