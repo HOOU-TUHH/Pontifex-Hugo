@@ -3,8 +3,8 @@
 ## Homepage
 title = "pntfx"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Building Bridges between Mathematical Concepts"
+description = "pntfx is a HOOU project."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -16,27 +16,27 @@ domainTLD = "doks.netlify.app"
 titleHome = "Doks Theme"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@..."
+twitterCreator = "@..."
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaAuthor = "JPG and FNAG"
+schemaAuthorTwitter = "https://twitter.com/..."
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/..."
 schemaAuthorGitHub = "https://github.com/h-enk"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "pntfx.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "pnfx.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = "https://twitter.com/..."
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/..."
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -54,10 +54,10 @@ lqipWidth = "20x"
 smallLimit = "300"
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www3-dev.tuhh.de/e-10/pontifex/nodes/\">Pontifex</a>"
+footer = "Powered by <a class=\"text-muted\" href=\"https://www3-dev.tuhh.de/e-10/pontifex/nodes/\">Pontifex</a> - <a class=\"text-muted\" href=\"https://www.mat.tuhh.de/informationen/impressum.html\">Impressum</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2020-2022 Pontifex"
 
 # Alert
 alert = false
@@ -69,7 +69,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/..."
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false

@@ -3,3 +3,4 @@ resources
 public
 .netlify
 .hugo_build.lock
+content
