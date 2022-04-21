@@ -15,17 +15,8 @@ stages:
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-curl-test:
-  stage: testing
-  image: ubuntu
-  script:
-    - apt update && apt install -y curl unzip
-    - 'curl --location --output artifacts.zip --header "PRIVATE-TOKEN: zyG98VG64AkTdDKS3cnb" "https://collaborating.tuhh.de/api/v4/projects/6786/jobs/artifacts/dev/download?job=hugo-build"'
-    - unzip artifacts.zip
-  allow_failure: true
-
-test:
-  stage: testing
+local-build:
+  stage: build
   script:
     - npm install
     - npm run build
@@ -41,6 +32,7 @@ www3-dev-build:
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}\";" config/production/config.toml
     - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}js/basic2.js;" layouts/shortcodes/header2.html
     - 'curl --location --output artifacts.zip --header "PRIVATE-TOKEN: zyG98VG64AkTdDKS3cnb" "https://collaborating.tuhh.de/api/v4/projects/6786/jobs/artifacts/dev/download?job=hugo-build"'
     - unzip artifacts.zip
     - cp -rf hugoDocs/* content/en/docs/
