@@ -73,9 +73,7 @@ $.getJSON(current_id + ".json" , function (data) {
   });
   cy.userZoomingEnabled( false );
   cy.userPanningEnabled( false )
-  cy.on("click", "node", node_clicked);
   cy.on("tap", "node", node_clicked);
-  cy.on("click", "edge", edge_clicked);
   cy.on("tap", "edge", edge_clicked);
   cy.getElementById(current_id).style("background-color", "red"); //alt. border-color
 }
@@ -95,7 +93,7 @@ function node_clicked(evt) {
 function edge_clicked(evt) {
   var edge = evt.target;
   console.clear();
-  console.log(edge);
+  console.log(edge.style("label"));
   if (edge.style("label") == "") {
     edge.style("label", edge.data("label"));
   } else {
