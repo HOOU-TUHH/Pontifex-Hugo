@@ -95,7 +95,7 @@ function node_clicked(evt) {
 function edge_clicked(evt) {
   var edge = evt.target;
   console.clear();
-  console.log(edge.id());
+  console.log(edge);
   if (edge.style("label") == "") {
     edge.style("label", edge.data("label"));
   } else {
