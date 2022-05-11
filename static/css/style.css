@@ -1,0 +1,54 @@
+X.wrap.container-xxl {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 991px) {
+    
+    .keyvisual-bg img {
+        display: none;
+    } 
+
+}
+
+@media screen and (min-width: 991px) {
+    
+.keyvisual-bg {
+    position: relative;
+    text-align: center;
+}
+.keyvisual-bg img {
+    max-width: 100%;
+}
+
+.keyvisual-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+}
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-bg {
+    height: 70px;
+    width: 70px;
+    border-radius: 60px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 50px;
+}
+
+.logos img {
+    height: 80px;
+    margin: 10px 20px 10px 20px;
+}
