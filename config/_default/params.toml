@@ -36,9 +36,9 @@ schemaLogoHeight = 512
 schemaImage = "pnfx.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/..."
+schemaTwitter = ""
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/..."
+schemaGitHub = "https://collaborating.tuhh.de/e-10/hoou/pontifex"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -56,7 +56,7 @@ lqipWidth = "20x"
 smallLimit = "300"
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://collaborating.tuhh.de/e-10/hoou/pontifex\">Pontifex</a> - This work is licensed under a <a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a> - <a class=\"text-muted\" href=\"https://www.mat.tuhh.de/informationen/impressum.html\">Impressum</a>"
+footer = "Powered by <a href=\"https://collaborating.tuhh.de/e-10/hoou/pontifex\">Pontifex</a> - This work is licensed under a <a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a> - <a href=\"https://www.mat.tuhh.de/informationen/impressum.html\">Impressum</a>"
 
 # Feed
 copyRight = "Copyright (c) 2020-2022 Pontifex"
