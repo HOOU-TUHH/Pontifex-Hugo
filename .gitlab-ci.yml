@@ -18,6 +18,9 @@ variables:
 local-build:
   stage: build
   script:
+    - 'curl --location --output artifacts.zip --header "PRIVATE-TOKEN: zyG98VG64AkTdDKS3cnb" "https://collaborating.tuhh.de/api/v4/projects/6786/jobs/artifacts/dev/download?job=hugo-build"'
+    - unzip artifacts.zip
+    - cp -rf hugoDocs/* content/en/docs/
     - npm install
     - npm run build
   artifacts:
