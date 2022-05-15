@@ -48,6 +48,15 @@ X.wrap.container-xxl {
     width: 50px;
 }
 
+
+.topic {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+
 .logos img {
     height: 80px;
     margin: 10px 20px 10px 20px;
