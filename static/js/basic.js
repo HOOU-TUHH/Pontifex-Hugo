@@ -99,7 +99,7 @@ function edge_clicked(evt) {
   const std_text = "Click on an edge to get a description of the connection!";
   //if (edge.style("label") == std_text ) {
     //edge.style("label", edge.data("label"));
-    document.getElementById('edge-message').innerHTML = edge.data("label");
+    document.getElementById('edge-message').innerHTML = "<b>Description of the connection</b>: edge.data("label");
   //} else {
     //edge.style("label", "");
   //  document.getElementById('edge-message').innerHTML = std_text;
