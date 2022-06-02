@@ -75,15 +75,15 @@ review-deploy:
     - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts  # .ssh Verzeichnis anlegen und known_hosts dummy
     - echo "${SSH_KNOWN_HOSTS}" >> ~/.ssh/known_hosts #dummy mit Inhalt füllen 
     - chmod 700 ~/.ssh   # Berechtigungen setzen
-    - scp -r -P ${SSH_PORT} public/* ${SSH_USER}@${HOST_NAME}:${WEBSERVER_ROOT}/ # möglicherweise ist rsync nicht installiert, dann scp nutzen
+    - ssh -v -p ${SSH_PORT}  ${SSH_USER}@${HOST_NAME}  "mkdir -p /usr/local/apache2/htdocs/${CI_COMMIT_REF_NAME}/" # möglicherweise ist rsync nicht installiert, dann scp nutzen
+    - scp -r -P ${SSH_PORT} public/* ${SSH_USER}@${HOST_NAME}:${WEBSERVER_ROOT}/${CI_COMMIT_REF_NAME} # möglicherweise ist rsync nicht installiert, dann scp nutzen
   cache:
     key: "$CI_COMMIT_REF_SLUG"
   environment:
     name: $CI_COMMIT_REF_NAME
     url: https://$PROXY_HOST_NAME$BASE_DIR
-  only:
-    variables:
-      - $CI_COMMIT_BRANCH == "pontifex-nodes-integration"
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
 
 
 
