@@ -52,9 +52,9 @@ review-build:
   stage: build
   image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
   script:
-    - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/basic2.js;${BASE_DIR}js/basic2.js;" layouts/shortcodes/header2.html
+    - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}${CI_COMMIT_REF_NAME}\";" config/production/config.toml
+    - sed -i -e "s;/js/basic.js;${BASE_DIR}${CI_COMMIT_REF_NAME}js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/basic2.js;${BASE_DIR}${CI_COMMIT_REF_NAME}js/basic2.js;" layouts/shortcodes/header2.html
     - /pontifex/bin/build_pontifex.sh
   artifacts:
     paths:
@@ -80,7 +80,7 @@ review-deploy:
     key: "$CI_COMMIT_REF_SLUG"
   environment:
     name: $CI_COMMIT_REF_NAME
-    url: https://$PROXY_HOST_NAME$BASE_DIR
+    url: https://$PROXY_HOST_NAME${BASE_DIR}${CI_COMMIT_REF_NAME}
   rules:
     - if: $CI_MERGE_REQUEST_ID
 
