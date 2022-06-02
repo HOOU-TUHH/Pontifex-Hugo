@@ -1,0 +1,88 @@
+\input{packs}
+
+\begin{Definition}[Limit superior - limit inferior]
+\label{defliminfsup}
+Let $(a_n)_{n\in\mathbb{N}}$ be a~real sequence. A number $a\in\mathbb{R}\cup\{\infty,-\infty\}$ is called
+\begin{itemize}
+ \item \emph{limit superior of $(a_n)_{n\in\mathbb{N}}$} if $a$ is the largest accumulation value of $(a_n)_{n\in\mathbb{N}}$. In this case, we write
+\[a=\limsup_{n\rightarrow\infty} a_n.\]
+ \item \emph{limit inferior of $(a_n)_{n\in\mathbb{N}}$} if $a$ is the smallest accumulation value of $(a_n)_{n\in\mathbb{N}}$. In this case, we write
+\[a=\liminf_{n\rightarrow\infty} a_n.\]
+\end{itemize}
+\end{Definition}
+
+\begin{Remark}
+Almost needless to say, we define the ordering between infinity and real numbers by $-\infty<a<\infty$ for all $a\in\mathbb{R}$. It can be shown that (in contrast to the limit) the limit superior and limit inferior always exist for any real sequence. This will follow from the subsequent results.
+\end{Remark}
+
+\begin{Lemma}
+Let $(a_n)_{n\in\mathbb{R}}$ be a~real sequence. Then the following statements hold
+\begin{enumerate}[a)]
+\item
+$\displaystyle \liminf_{n\rightarrow\infty} a_n=\lim_{n\rightarrow\infty}\inf\{a_k\,| \,k\geq n\}$ \\
+\item
+$\displaystyle \limsup_{n\rightarrow\infty} a_n=\lim_{n\rightarrow\infty}\sup\{a_k\,|\,k\geq n\}$ \\
+\item
+A sequence is convergent if and only if $\liminf_{n\rightarrow\infty} a_n=\limsup_{n\rightarrow\infty} a_n\not\in\{\pm\infty\}$. In this case holds $\lim_{n\rightarrow\infty}a_n=\liminf_{n\rightarrow\infty} a_n=\limsup_{n\rightarrow\infty} a_n$.\\
+\item
+A sequence is divergent to $\infty$ if and only if $\liminf_{n\rightarrow\infty} a_n=\infty$. In this case also holds $\lim_{n\rightarrow\infty}a_n=\limsup_{n\rightarrow\infty} a_n=\infty$.\\
+\item
+A sequence is divergent to $-\infty$ if and only if $\limsup_{n\rightarrow\infty} a_n=-\infty$. In this case also holds $\lim_{n\rightarrow\infty}a_n=\liminf_{n\rightarrow\infty} a_n=-\infty$.\\
+\end{enumerate}
+
+\end{Lemma}
+
+{\em Proof:}
+\begin{enumerate}[a)]
+\item If $(a_n)$ is not bounded from below, $-\infty$ is an accumulation value of $(a_n)$ which necessarily must be
+      the smallest one. By the definition of the limit inferior $\lim\inf a_n=-\infty$. On the other hand, the unboundedness from below 
+      of $(a_n)$ implies $s_n:=\inf\{a_k\,|\,k\geq n\}=-\infty$ for all $n\in\mathbb{N}$ and therefore also $\lim_{n\rightarrow \infty} s_n = -\infty$.
+      Note that formally we only defined limits for sequences with values in $\mathbb{R}$ and not with values in $\mathbb{R}\cup\{-\infty,\infty\}$. 
+      Here we implicitely used the obvious extension, namely we said that the limit of the sequence $(s_n)$ which is constantly
+      $-\infty$ has the limit $-\infty$. 
+
+      Next we consider the case where $(a_n)$ is divergent to $+\infty$. In particular, $(a_n)$ is not bounded from above and therefore $+\infty$
+      is an accumulation value by Definition~\ref{accinf}. This is also the only accumulation value, since each subsequence 
+      of $(a_n)$ also diverges to $+\infty$. Hence, by the definition of the limit inferior ,  $\lim\inf a_n=+\infty$.
+      On the other hand for each $c>0$ there is an $N\in\mathbb{N}$ such that $a_n\geq  c$ for all $n\geq N$. Therfore  
+      $s_n=\inf\{a_k\,|\,k\geq n\}\geq c$ for all $n\geq N$ which shows that also $(s_n)$ diverges to $+\infty$, 
+      i.e. $\lim_{n\rightarrow \infty} s_n = +\infty$. 
+
+      Finally we consider the remaining case where $(a_n)$ is bounded from below and not divergent to $+\infty$. 
+      Then there exist constants $c_1,c_2\in \mathbb{R}$ such that $c_1\leq a_n$ for all $n\in\mathbb{N}$ and $a_n\leq c_2$ for infinitely
+      many $n\in\mathbb{N}$. This implies $$c_1\leq s_n=\inf\{a_k\,|\,k\geq n\} \leq c_2$$ for all $n\in\mathbb{N}$,  i.e. $(s_n)$ is bounded. 
+      Since $(s_n)$ is also monotonically increasing as
+      $$s_{n+1}=\inf\{a_k\,|\,k\geq n+1\} \geq \min\{\inf\{a_k\,|\,k\geq n+1\},a_{n}\} = \inf\{a_k\,|\,k\geq n\} = s_n \ ,$$
+      it must be convergent. Set $s:=\lim_{n\rightarrow\infty}s_n$. We can recursively define a subsequence $(a_{n_k})$ of $(a_n)$ 
+      with $n_1=1$ and $n_{k+1} > n_k$ such that $$s_{(n_k+1)} =\inf\{a_m\,|\,m\geq n_k+1\}\leq a_{n_{k+1}} \leq  s_{(n_{k}+1)}+\frac{1}{k} \ .$$ 
+      Since the right- and left-hand sides of this inequality converge to $s$ for $k\rightarrow \infty$, 
+      we also have $\lim_{k\rightarrow \infty} a_{n_{k}} = s$ which shows
+      that $s$ is an accumulation value of $(a_n)$. On the other hand, if $x$ is any other accumulation value of $(a_n)$ and if 
+      $(a_{j_k})$ is a corresponding subsequence such that $\lim_{k\rightarrow\infty}a_{j_k} = x$, then 
+      $$s_{j_k}=\inf\{a_m~|~ m\geq j_k\} \leq a_{j_k}$$ shows that $s=\lim_{k\rightarrow\infty} s_{j_k} \leq \lim_{k\rightarrow\infty} a_{j_k}=x$
+      which means that $s$ is indeed the smallest accumulation value of $(a_n)$, that is $\lim\inf a_n=s.$  
+
+\item Analogous to a).
+
+\item ``$\Rightarrow$'': Since the sequence $(a_{n})$ is convergent every subsequence is convergent with the same limit. By Definition~\ref{def:accuPointNormedSpace} there exists only one accumulation value and thus $\lim\inf a_n=\lim\sup a_n$.\\%
+``$\Leftarrow$'': Let $s:=\lim\inf a_n=\lim\sup a_n$. Then for all $\varepsilon>0$ there exists an $N\in\mathbb{N}$ such that for all $n\geq N$ we have $s-\varepsilon<a_{n}<s+\varepsilon$. This implies convergence of $(a_{n})_{n\in\mathbb{N}}$ to $s$.
+%We have $\inf\{a_{k}:k\geq n\}\leq a_{n}\leq \sup\{a_{k}:k\geq n\}$. Thus by theorem \ref{thm:monseq} $\lim_{n\rightarrow\infty}a_{n}=\lim\inf a_n=\lim\sup a_n$.
+
+\item Let $s_{n}:=\inf \{a_{k}:k\geq n\}$.\\
+``$\Rightarrow$'': We have for any $c>0$ an $N\in\mathbb{N}$ such that $a_{n}> c+1$ for all $n\geq N$. Thus $s_{n}>c$ for all $n\geq N$.\\
+``$\Leftarrow$'': By definition of $s_{n}$ we have $a_{n}\geq s_{n}$. Thus $a_{n}\rightarrow\infty$ since $s_{n}\rightarrow\infty$.
+
+\item Analogous to d).
+\end{enumerate}
+$\Box$
+
+\begin{example}
+ \begin{enumerate}[(a)]
+  \item $(a_n)_{n\in\mathbb{N}}=(n)_{n\in\mathbb{N}}$. Then $\infty$ is the only accumulation value and consequently $\lim\sup_{n \rightarrow \infty} a_n=\lim\inf_{n \rightarrow \infty} a_n=\infty$.
+  \item $(a_n)_{n\in\mathbb{N}}=((-1)^nn)_{n\in\mathbb{N}}=(-1,2,-3,4,-5,6,\ldots)$. Then $\infty$ and $-\infty$ are the only accumulation values and consequently $\lim\sup a_n=\infty$ and $\lim\inf a_n=-\infty$.
+  \item $(a_n)_{n\in\mathbb{N}}=((-1)^n)_{n\in\mathbb{N}}$. Then $1$ and $-1$ are the only accumulation values and consequently $\lim\sup a_n=1$ and $\lim\inf a_n=-1$.
+  \item $(a_n)_{n\in\mathbb{N}}$ with
+\[a_n=\begin{cases}(-1)^n&:\text{ if }n\text{ is divisible by }3,\\n&:\text{ else.}\end{cases}\]
+Then we have $(a_n)_{n\in\mathbb{N}}=(1,2,-1,4,5,1,7,8,-1,9,10,\ldots)$ and the set of accumulation values is given by $\{-1,1,\infty\}$. Thus, we have $\lim\sup a_n=\infty$ and $\lim\inf a_n=-1$.
+ \end{enumerate}
+\end{example}

@@ -1,0 +1,39 @@
+\input{packs}
+
+We will now give an example of an integral that will be computed according to the definition. This will turn out to be really exhausting even for this quite simple example.
+
+\begin{example}
+Consider the function $f:[0,1]\to\mathbb{R}$ with $f(x)=x$. Determine $\int_0^1f(x)\, dx=\int_0^1x\, dx$.
+First we consider two sequences of step functions $(\phi_n)_{n\in\mathbb{N}}$, $(\psi_n)_{n\in\mathbb{N}}$
+with
+\[
+\begin{aligned}
+\phi_n(x)&=\frac{k-1}n\text{ for }x\in\left[\frac{k-1}n,\frac{k}n\right),\qquad k\in\{1,\ldots,n\},\\
+\psi_n(x)&=\frac{k}n\text{ for }x\in\left[\frac{k-1}n,\frac{k}n\right),\qquad k\in\{1,\ldots,n\}.
+\end{aligned}
+\]
+Then for all $n\in\mathbb{N}$ holds $\phi_n\leq f\leq \psi_n$. Now we calculate
+\[
+\begin{aligned}
+\int_0^1\phi_n(x)\, dx&=\sum_{k=1}^n\frac{k-1}n\cdot\left(\frac{k}n-\frac{k-1}n\right)\\
+&=
+\sum_{k=1}^n\frac{k-1}{n}\cdot\frac{1}n\\&=\frac{1}{n^2}\sum_{k=1}^n(k-1)\\&=\frac{1}{n^2}\cdot\frac{n(n-1)}2=\frac12-\frac{1}{2n}
+\end{aligned}
+\]
+and
+\[\begin{aligned}
+\int_0^1\psi_n(x)\, dx&=\sum_{k=1}^n\frac{k}n\cdot\left(\frac{k}n-\frac{k-1}n\right)\\&=
+\sum_{k=1}^n\frac{k}{n}\cdot\frac{1}n\\&=\frac{1}{n^2}\sum_{k=1}^nk\\&=\frac{1}{n^2}\cdot\frac{n(n+1)}2=\frac12+\frac{1}{2n}.
+\end{aligned}
+\]
+In particular, we have for all $n\in\mathbb{N}$ that
+\[\frac12-\frac{1}{2n}=\int_0^1\phi_n(x)\, dx\leq\int_0^1x\, dx\leq \int_0^1\psi_n(x)\, dx=\frac12+\frac{1}{2n}\]
+and thus
+\[\int_0^1x\, dx=\frac12.\]
+\end{example}
+
+By the definition of the integral, it is not difficult to obtain that for $f\in\mathcal{R}([a,b])$ and $c\in(a,b)$ holds
+\[\int_a^bf(x)\, dx=\int_a^cf(x)\, dx+\int_c^bf(x)\, dx.\]
+To make this formula also valid for $c\geq b$ or $c\leq a$, we define for $a\geq b$ that
+\[\int_a^bf(x)\, dx:=-\int_b^af(x)\, dx.\]
+

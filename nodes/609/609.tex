@@ -1,0 +1,112 @@
+\input{packs}
+
+We now collect some rules for the integration of more complicated functions. Unfortunately, integration is not as straightforward as differentiation and one often has to have an ``inspired guess'' to find out the antiderivative.
+\subsection{Integration by Substitution}
+
+\begin{Theorem}[Integration by Substitution]
+Let $I$ be an Interval, $f:I\to\mathbb{R}$ be continuous and $\phi:[a,b]\to I$ be continuously differentiable. Then
+\[\int_a^bf(\phi(t))\phi'(t)\,dt=\int_{\phi(a)}^{\phi(b)}f(x)\, dx.\]
+\end{Theorem}
+{\em Proof:} Let $F: I\to\mathbb{R}$ be an antiderivative of $f$. Then, according to the chain rule, the function $F\circ\phi:[a,b]\to\mathbb{R}$ is differentiable with
+\[(F\circ\phi)'(t)=F'(\phi(t))\phi'(t)=f(\phi(t))\phi'(t).\]
+Therefore,
+\[\int_a^bf(\phi(t))\phi'(t)\,dt=\int_a^b(F\circ\phi)'(t)dt=\left.(F\circ\phi)(t)\right|_{t=a}^{t=b}=\left.F(x)\right|_{x=\phi(a)}^{x=\phi(b)}=\int_{\phi(a)}^{\phi(b)}f(x)\, dx.\]
+\hfill$\Box$
+
+As a~direct conclusion of this results, we can formulate the following:
+\begin{Theorem}[Integration by Substitution II]
+Let $I$ be an interval,
+$g:I\to \mathbb{R}$ be continuously differentiable and injective with inverse function $g^{-1}:g(I)\to \mathbb{R}$. Let $f:J\to\mathbb{R}$ with $J\subset g(I)$. Then
+\[\int_{a}^{b}f(x)\, dx=\int_{g^{-1}(a)}^{g^{-1}(b)}f(g(t))g'(t)\,dt.\]
+\end{Theorem}
+
+\begin{example}
+We can use the substitution rule to determine the area of an ellipse. The equation of an ellipse is given by
+\[\frac{x^2}{a^2}+\frac{y^2}{b^2}=1.\]
+This leads to
+\[y=\pm b\sqrt{1-\frac{x^2}{a^2}},\qquad x\in[-{a},a].\]
+As a~consequence, the area of an ellipse is given by
+\[A=2\int_{-a}^ab\sqrt{1-\frac{x^2}{a^2}}\, dx=2b\int_{-a}^a\sqrt{1-\frac{x^2}{a^2}}\, dx\]
+Now we set $g(t)=a\sin(t)$ and $f(x)=\sqrt{1-\frac{x^2}{a^2}}$. According to the substitution rule, we now have
+\[
+\begin{aligned}
+\int_{-a}^a\sqrt{1-\frac{x^2}{a^2}}\, dx&=\int_{\arcsin\left(-\frac{a}a\right)}^{\arcsin\left(\frac{a}a\right)}\sqrt{1-\frac{a^2\sin^2(t)}{a^2}}(a\sin)'(t)\,dt\\
+&=\int_{-\frac\pi2}^{\frac\pi2}\sqrt{1-\sin^2(t)}a\cos(t)\,dt=a\int_{-\frac\pi2}^{\frac\pi2}\cos^2(t)\,dt.
+\end{aligned}
+\]
+With
+\[\cos^2(t)=\frac14(\exp(it)+\exp(-it))^2=\frac14(\exp(2it)+2+\exp(-2it))=\frac12\cos(2t)+\frac12,\]
+we obtain
+\[
+\begin{aligned}
+A=&2\int_{-a}^ab\sqrt{1-\frac{x^2}{a^2}}\, dx
+=2ab\int_{-\frac\pi2}^{\frac\pi2}\cos^2(t)dt\\=&2ab\int_{-\frac\pi2}^{\frac\pi2}\frac12\cos(2t)+\frac12dt
+=ab\int_{-\frac\pi2}^{\frac\pi2}\cos(2t)+1dt\\
+=&ab\cdot\left(\left.\frac{1}2\sin(2t)+t\right|_{t=-\frac\pi2}^{t=\frac\pi2}\right)
+=ab\cdot\left(\frac12\sin(\pi)-\frac12\sin\left(-\pi\right)+\frac\pi2+\frac\pi2\right)=\pi ab.
+\end{aligned}
+\]
+\end{example}
+
+Note that integration by substitution can also be applied by using the following formalism for determining $\int_a^b f(x)\, dx$:
+Consider the substitution $x=g(t)$ $\Rightarrow$ $g'(t)=\frac{d}{dt}g(t)=\frac{dx}{dt}$ and ``a formal multiplication with $dt$ yields $dx=g'(t)dt$. For a~formal determination of the integration bounds, we consider the equations $a=g(t_l)$, $b=g(t_u)$ and thus $t_l=g^{-1}(a)$, $t_u=g^{-1}(b)$. Integration by substitution can then be formally done by
+\[\underbrace{\int_a^b}_{\int_{g^{-1}(a)}^{g^{-1}(b)}} f(\underbrace{x}_{=g(t)})\underbrace{dx}_{=g'(t)dt}=\int_{g^{-1}(a)}^{g^{-1}(b)}f(g(t))g'(t)dt.\]
+
+\begin{example}
+\begin{enumerate}[a)]
+\item For $a,b\in\mathbb{R}$, determine
+\[\int_a^bx^2\sin(x^3)dx.\]
+Consider the ``new variable'' $t=x^3$. Then $x=\sqrt[3]{t}=t^{1/3}$ and $\frac{dx}{dt}=\frac13t^{-2/3}$ and thus $dx=\frac13t^{-2/3}dt$. The integration bounds are given by $t_l=a^3$ and $t_u=b^3$ and thus
+\[\int_{a^3}^{b^3}t^{2/3}\sin(t)\frac13t^{-2/3}dt=\frac13\int_{a^3}^{b^3}\sin(t)dt=-\frac13\left.\cos(t)\right|_{t=a^3}^{t=b^3}=-\frac13\left.\cos(x^3)\right|_{x=a}^{x=b}.\]
+ \item For $a\geq0$, $b\geq0$, determine
+\[\int_a^b\exp(\sqrt{x})dx.\]
+Consider the substitution $x=t^2$. Then $\frac{dx}{dt}=2t$ and thus $dx=2tdt$. For the integration bounds, consider $a=t_l^2$ and $b=t_u^2$ which yields $t_l=\sqrt{a}$, $t_u=\sqrt{b}$. We now get
+\[\begin{aligned}
+\int_a^b\exp(\sqrt{x})dx=&\int_{\sqrt{a}}^{\sqrt{b}}\exp(t)2tdt\\=&2\int_{\sqrt{a}}^{\sqrt{b}}t\exp(t)dt\\
+=&\left.2\exp(t)(t-1)\right|_{t=\sqrt{a}}^{t=\sqrt{b}}
+=\left.2\exp(\sqrt{x})(\sqrt{x}-1)\right|_{x={a}}^{x={b}}.
+\end{aligned}
+\]
+\item For $a,b\in[-1,\infty)$, determine
+\[\int_a^b\frac{x^2+1}{\sqrt{x+1}}dx.\]
+Consider the ``new variable'' $t=\sqrt{x+1}$. Then $x=t^2-1$ and $\frac{dx}{dt}=2t\Rightarrow dx=2tdt$ and
+\[
+\begin{aligned}
+\int_a^b\frac{x^2+1}{\sqrt{x+1}}dx&=\int_{\sqrt{a+1}}^{\sqrt{b+1}}\frac{(t^2-1)^2+1}{t}2tdt\\
+&=\int_{\sqrt{a+1}}^{\sqrt{b+1}}2t^4-4t^2+4dt\\
+&=\left.\frac25t^5-\frac43t^3+4t\right|_{t=\sqrt{a+1}}^{t=\sqrt{b+1}}\\
+&=\left.\frac25\sqrt{x+1}^5-\frac43\sqrt{x+1}^3+4\sqrt{x+1}\right|_{x=a}^{x=b}.
+\end{aligned}
+\]
+\end{enumerate}
+\end{example}
+By using the substitution rule, we can also integrate expressions of type $\frac{g'(x)}{g(x)}$.
+
+
+
+\begin{Corollary}{}
+For a differentiable function $g:[a,b]\to\mathbb{R}$ with $g(x)\neq0$ for all $x\in[a,b]$ holds
+\[\int_a^b\frac{g'(x)}{g(x)}dx=\left.\log(|g(x)|)\right|_{x=a}^{x=b}.\]
+\end{Corollary}
+\whiteskip
+
+{\em Proof:} For $f(y)=\frac1y$, the above integral is of type
+\[\int_a^bf(g(x))g'(x)dx\]
+and thus, the result follows by the substitution rule.\hfill$\Box$
+\whiteskip
+
+\begin{example}
+\begin{enumerate}[a)]
+\item
+For $a,b\in\left[-\frac\pi2,\frac\pi2\right]$ holds
+\[\begin{aligned}
+\int_a^b\tan(x)dx&=\int_a^b\frac{\sin(x)}{\cos(x)}dx=\int_a^b\frac{-\cos'(x)}{\cos(x)}dx\\&=-\left.\log(|\cos(x)|)\right|_{x=a}^{x=b}
+.\end{aligned}
+\]
+\item For $a,b\in\mathbb{R}$ holds
+\[\begin{aligned}
+\int_a^b\frac{x}{x^2+1}dx=&\frac12\int_a^b\frac{2x}{x^2+1}dx\\=&\frac12\int_a^b\frac{(x^2+1)'}{x^2+1}dx\\=&\frac12\left.\log(|x^2+1|)\right|_{x=a}^{x=b}
+.\end{aligned}\]
+\end{enumerate}
+\end{example}
+

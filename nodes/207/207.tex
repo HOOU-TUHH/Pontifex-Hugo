@@ -1,0 +1,31 @@
+\input{packs}
+
+The following criterion can be seen as a ``series version'' of the comparison criterion for sequences.  
+\begin{Theorem}[Majorant criterion]
+\label{thm:majcrit}
+Let $\sum_{k=1}^\infty a_k$ be a~series in $\mathbb{K}$. Moreover, let $n_0\in \mathbb{N}$ and let $\sum_{k=1}^\infty b_k$ 
+be a~real convergent series such that $|a_k|\leq b_k$ for all $k\geq n_0$. Then $\sum_{k=1}^\infty a_k$ converges absolutely.
+\end{Theorem}
+{\em Proof:} Let $\varepsilon>0$. By the Cauchy criterion applied to $\sum_{k=1}^\infty b_k$ there is an $N\geq n_0$ such that for all $n\geq m\geq N$ holds
+\[0\leq \sum_{k=m}^n|a_k|\leq\sum_{k=m}^nb_k=\left|\sum_{k=m}^nb_k\right|<\varepsilon.\]
+The Cauchy criterion now implies that $\sum_{k=1}^\infty |a_k|$ converges.\hfill$\Box$
+%
+%
+\begin{Remark}{}
+ The series $\sum_{k=1}^\infty b_k$ with the properties as stated in Theorem about the majorant criterion is called a~{\em majorant of $\sum_{k=1}^\infty a_k$}.
+\end{Remark}
+%
+%
+Now we present a~kind of {\em reversed majorant criterion} that gives us a~sufficient criterion for divergence.
+\begin{Theorem}[Minorant criterion]\label{thm:mincrit}
+Let $\sum_{k=1}^\infty a_k$ be a~real series. Moreover, let $n_0\in \mathbb{N}$ and $\sum_{k=1}^\infty b_k$ 
+be a~divergent series such that $a_k\geq b_k\geq 0$ for all $k\geq n_0$. Then $\sum_{k=1}^\infty a_k$ diverges.
+\end{Theorem}
+{\em Proof:} We prove the result by contradiction: Let $\sum_{k=1}^\infty b_k$ be divergent. 
+Assume that $\sum_{k=1}^\infty a_k$ converges. Then, due to $a_k\geq b_k\geq 0$, the majorant criterion implies the convergence of 
+$\sum_{k=1}^\infty b_k$, too. This is a~contradiction to our assumption.\hfill$\Box$
+
+\begin{Remark}{}
+ The series $\sum_{k=1}^\infty b_k$ with the properties as stated in the minorant criterion is called a~{\em minorant of $\sum_{k=1}^\infty a_k$}.
+\end{Remark}
+%

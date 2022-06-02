@@ -1,0 +1,90 @@
+\input{packs}
+
+%\subsection*{Image and preimage}
+
+For every well-defined map $f: X\to Y$ and $A\subset X$, $B \subset Y$ we are interested in the following sets:
+\begin{Definition}{} 
+Let $f: X\rightarrow Y$ be a function
+and $A\subset X$ and $B\subset Y$ some sets.
+
+%\begin{figure}[htbp]
+  \begin{minipage}[l]{0.5\textwidth}
+    \begin{center}
+$f(A):= \lbrace f(x): x\in A\rbrace$ \\ is called the \emph{image} 
+of $A$ under $f$.
+\end{center}
+  \end{minipage}
+  \begin{minipage}[r]{0.5\textwidth}
+  \flushright 
+     \begin{tikzpicture}[scale=0.8]
+% Ellipsen
+\draw (-0.3,0) ellipse (3/2 and 2);
+\draw (5,0) ellipse (3/2 and 2);
+\draw[fill=black!15] (0,0) ellipse (0.75 and 1);
+\draw[fill=black!15] (5,0) ellipse (1 and 1/2);
+% Pfeile
+\draw[->] (2,0) -- (3,0);
+\draw (0,1) -- (5,1/2);
+\draw (0,-1) -- (5,-1/2);
+\draw[->] (2,1.1) to[out=45, in=135] (3,1.1);
+% Beschriftungen
+\node at (2.5,1.6) {\begin{footnotesize} $f$ \end{footnotesize}};
+\node at (-0.6,1.5) {\begin{footnotesize} $X$ \end{footnotesize}};
+\node at (5.3,1.5) {\begin{footnotesize} $Y$ \end{footnotesize}};
+\node (A) at (0,0) {\begin{footnotesize} $A$ \end{footnotesize}};
+\node (B) at (5,0) {\begin{footnotesize} $f(A)$ \end{footnotesize}};
+\end{tikzpicture}
+  \end{minipage}
+%\end{figure}
+
+~\\
+
+%\begin{figure}[htbp]
+  \begin{minipage}[l]{0.5\textwidth}
+    \begin{center}
+    $f^{-1}(B):= \lbrace x\in X: f(x) \in B \rbrace$ \\ is called
+    the \emph{preimage} of $B$ under $f$.
+\end{center}
+  \end{minipage}
+  \begin{minipage}[r]{0.5\textwidth}
+  \flushright
+\begin{tikzpicture}[scale=0.8]
+% Ellipsen
+\draw (-0.3,0) ellipse (3/2 and 2);
+\draw (5,0) ellipse (3/2 and 2);
+\draw[fill=black!15] (0,0) ellipse (0.9 and 1);
+\draw[fill=black!15] (5,0) ellipse (1 and 1/2);
+% Pfeile
+\draw[<-] (2,0) -- (3,0);
+\draw (0,1) -- (5,1/2);
+\draw (0,-1) -- (5,-1/2);
+%\draw[->] (2,1.1) to[out=45, in=135] (3,1.1);
+% Beschriftungen
+\node at (2.5,1.6) {\begin{footnotesize}  \end{footnotesize}};
+\node at (-0.6,1.5) {\begin{footnotesize} $X$ \end{footnotesize}};
+\node at (5.3,1.5) {\begin{footnotesize} $Y$ \end{footnotesize}};
+\node (A) at (0,0) {\begin{footnotesize} $f^{-1}(B)$ \end{footnotesize}};
+\node (B) at (5,0) {\begin{footnotesize} $B$ \end{footnotesize}};
+\end{tikzpicture}
+  \end{minipage}
+%\end{figure}
+\end{Definition}
+%
+Note that the preimage can also be the empty set if none of the
+elements in $B$ are ``hit'' by the map.
+
+To describe the behaviour of a map,
+the following sets are very important:
+
+\begin{Definition}[Range and fiber]
+Let $f: X\rightarrow Y$ be a map. Then
+\begin{align*}
+ \mathrm{Ran}(f) &:= f(X) = \{ f(x) : x \in X \} 
+\end{align*}
+is called the \emph{range} of $f$.
+For each $y\in Y$ the set
+\begin{align*}
+ f^{-1}(\{y \}) &:= \{ x \in X : f(x) = y \} 
+\end{align*}
+is called a \emph{fiber} of $f$.
+\end{Definition}

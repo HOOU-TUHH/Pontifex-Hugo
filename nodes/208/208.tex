@@ -1,0 +1,148 @@
+\input{packs}
+
+\begin{Theorem}[Quotient criterion]
+\label{thm:quotkrit}
+Let $n_0\in\mathbb{N}$ and let $\sum_{k=1}^\infty a_k$ be a~series in $\mathbb{K}$ with the following properties:
+\begin{itemize}
+ \item[--] $a_k\neq0$ for all $k\geq n_0$;
+ \item[--] there exists some $q\in(0,1)$ such that for all $k\geq n_0$ holds
+\[\frac{|a_{k+1}|}{|a_{k}|}\leq q.\]
+\end{itemize}
+Then $\sum_{k=1}^\infty a_k$ converges absolutely.
+\end{Theorem}
+%
+{\em Proof:} We inductively obtain that for all $k\geq n_0$ holds
+\[|a_k|\leq q^{k-n_0}|a_{n_0}| \ .\]
+Therefore, the series $\sum_{k=1}^\infty q^{k-n_0}|a_{n_0}|$ is a majorant of $\sum_{k=1}^\infty a_k$. However, the majorant is convergent due to
+\[\sum_{k=1}^\infty q^{k-n_0}|a_{n_0}|=\frac{|a_{n_0}|}{(1-q)q^{n_0-1}}\qquad\text{(see Example~\ref{ex:geomharm} a))}.\]
+The majorant criterion then implies convergence.$\Box$
+
+\begin{Remark}{}
+Note that the quotient criterion is different from claiming $\frac{|a_{k+1}|}{|a_{k}|}<1$ (which is for instance fulfilled by the divergent harmonic series). 
+There has to exist some $q<1$ such that the quotient is below $q$.\\
+The quotient criterion is only sufficient for convergence and indeed, there are examples of absolutely convergent 
+series that do not fulfill the quotient criterion. For instance, consider the absolutely convergent series
+\[\sum_{k=1}^\infty \frac1{k^2}.\]
+Observing that
+\[\frac{|a_{k+1}|}{|a_{k}|}=\left|\frac{k}{k+1}\right|^2,\]
+the fact that this expression converges to $1$ implies that there does not exist some $q<1$ for which the quotient criterion is fulfilled.
+ However, this series is convergent as we have proven in the Example on the geometric series..\\
+We could also formulate ``an alternative quotient criterion'' that gives us a~sufficient criterion for divergence. 
+Namely, consider a~real series $\sum_{k=1}^\infty a_k$ with positive $a_k$ and assume that $\frac{a_{k+1}}{a_{k}}\geq 1$ 
+for all $k\geq n_0$ for some fixed $n_0\in\mathbb{N}$. This gives us $0< a_{k}\leq a_{k+1}$, i.e., the sequence $(a_n)_{n\in\mathbb{N}}$ is positive and monotonically increasing. 
+Such a~sequence cannot converge to zero and thus, $\sum_{k=1}^\infty a_k$ is divergent.
+\end{Remark}
+Now we present a~``limit form'' of the quotient criterion:
+\begin{Theorem}{Quotient criterion (limit form)}
+\label{thm:quotkritlim}
+Let $\sum_{k=1}^\infty a_k$ be a~series in $\mathbb{K}$ and assume that there exists some $n_0\in \mathbb{N}$ such that $a_k\neq0$ for all $k\geq n_0$.
+If\[\limsup_{k \rightarrow \infty} \frac{|a_{k+1}|}{|a_{k}|}<1,\]
+then $\sum_{k=1}^\infty a_k$ converges absolutely.
+\end{Theorem}
+%
+{\em Proof:} Set $c:=\lim\sup\frac{|a_{k+1}|}{|a_{k}|}<1$. Since $\lim\sup$ is defined to be the largest accumulation point of a~sequence, 
+we have for every $\varepsilon>0$ that $\frac{|a_{k+1}|}{|a_{k}|}\geq c+\varepsilon$ holds true for at most finitely many $k\in\mathbb{N}$. 
+Hence, for $\varepsilon:=\frac{1-c}2,$ there exists some $N\in\mathbb{N}$ such that for all $k\geq N$ holds
+\[\frac{|a_{k+1}|}{|a_{k}|}<c+\varepsilon=c+\frac{1-c}2=\frac{1+c}2.\]
+Thus, the quotient criterion holds true for $q:=\frac{1+c}2$ which satisfies $q<1$ due to $c<1$.
+
+$\Box$
+
+\begin{Remark}{}
+Since, in case of convergence of $\frac{|a_{k+1}|}{|a_{k}|}$, the limit and limes superior coincide, the criterion
+\[\lim_{k\to\infty}\frac{|a_{k+1}|}{|a_{k}|}<1\]
+is also sufficient for absolute convergence of $\sum_{k=1}^\infty a_k$. However, this criterion requires the convergence of the quotient sequence and is therefore weaker than the above one.
+\end{Remark}
+
+
+\begin{example}\label{ex:expser}
+ For $x\in\mathbb{K}$, consider the series
+\[\sum_{k=0}^\infty\frac{x^k}{k!}.\]
+Then an application of the limit form of the quotient criterion yields
+\[\begin{aligned}
+&\,\limsup_{k \rightarrow \infty}\frac{\left|\frac{x^{k+1}}{(k+1)!}\right|}{\left|\frac{x^k}{k!}\right|}
+=\limsup_{k \rightarrow \infty}\frac{|x|^{k+1}}{|x|^k}\frac{k!}{(k+1)!}\\
+=&\,\limsup_{k \rightarrow \infty}|x|\frac1{k+1}
+=\,\lim_{k\to\infty}|x|\frac1{k+1}=0<1.
+\end{aligned}\]
+Hence, the series converges absolutely. The series $\sum_{k=0}^\infty\frac{x^k}{k!}$ is called \emph{exponential series} and we will indeed define $\exp(x)$ by this expression.
+\end{example}
+
+\begin{Theorem}{}
+Let $x\in\mathbb{K}$. Then
+$$
+\lim_{n\rightarrow\infty}\left(1+\frac{x}{n}\right)^{n} = \sum_{k=0}^{\infty}\frac{x^{k}}{k!}.
+$$
+\end{Theorem}
+{\em Proof:}
+First we show that for fixed $k\in\mathbb{N}_0$ holds
+\begin{eqnarray}\label{seqexp}
+ \lim_{n\rightarrow \infty} \frac{n!}{(n-k)!n^k} = 1.
+\end{eqnarray}\label{seqexp2}
+Note that $\frac{n!}{(n-k)!n^k}$ is well defined for $n\geq k$. For such an $n\in\mathbb{N}$ we have
+\begin{eqnarray}
+  1\geq \prod_{j=0}^{k-1} \frac{n-j}{n} = \frac{n!}{(n-k)!n^k}\geq \frac{(n-k+1)^k}{n^k}=(1-\frac{k-1}{n})^k \ .
+\end{eqnarray}
+Since the right-hand side converges to $1$ for $n\rightarrow \infty$, the claim of the theorem follows.
+\\ \\
+Now let $\varepsilon>0$ and let $K\in\mathbb{N}$ be big enough such that 
+$$
+\sum_{k=K}^{\infty}\frac{|x|^{k}}{k!}<\frac{\varepsilon}{3}.
+$$
+By the convergence of the auxiliary sequence $\frac{n!}{(n-k)!n^k}$, there is an $N\geq K$ such that for all $n\geq N$ also
+$$\sum_{k=0}^{K-1}\left|\frac{n!}{(n-k)!n^k}-1\right|\frac{|x|^{k}}{k!} <\frac{\varepsilon}{3} \ . $$
+
+For $n\geq N$ we estimate
+\begin{align*}
+\left|\left(1+\frac{x}{n}\right)^{n}-\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right| 
+&= \left|\sum_{k=0}^{n}\binom{n}{k}\frac{x^{k}}{n^{k}}-\sum_{k=0}^{\infty}\frac{x^{k}}{k!} \right|\\
+&\leq \sum_{k=0}^{K-1}\left|\binom{n}{k}\frac{x^{k}}{n^{k}}-\frac{x^{k}}{k!}\right|+\sum_{k=K}^{n} \binom{n}{k}\frac{|x|^{k}}{n^{k}}
++\underbrace{\sum_{k=K}^{\infty}\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3}. \\
+&= \underbrace{\sum_{k=0}^{K-1}\left|\frac{n!}{(n-k)!n^k}-1\right|\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3}
++\underbrace{\sum_{k=K}^{n} \underbrace{\frac{n!}{(n-k)!n^k}}_{\leq 1}\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3}
++\underbrace{\sum_{k=K}^{\infty}\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3} \\ & < \varepsilon.
+\end{align*}
+
+$\Box$
+
+The following criterion of Raabe refines the quotient criterion.
+
+\begin{Theorem}[Raabe criterion] \label{th:raabecrit}
+Let $(a_k)_{k\in\mathbb{N}}$ be  a sequence in $\mathbb{K}$.
+\begin{itemize}
+ \item[a)] If there is a $k_0\in\mathbb{N}$ and a $\beta\in\;(1,\infty)$ such that $a_k\neq 0$ and 
+          $$\frac{|a_{k+1}|}{|a_k|} \leq 1-\frac{\beta}{k}$$ for all $k\geq k_0$, 
+          then the series $\sum_{k=1}^{\infty}a_k$ converges absolutely.
+ \item[b)] If $\mathbb{K}=\mathbb{R}$ and if there is a $k_0\in\mathbb{N}$ such that $a_k\neq 0$ and 
+           $$\frac{a_{k+1}}{a_k} \geq 1-\frac{1}{k}$$ for all $k\geq k_0$, 
+           then the series $\sum_{k=1}^{\infty}a_k$ diverges.
+\end{itemize}
+\end{Theorem}
+{\em Proof:}
+  a) For $k\geq k_0$ holds $\frac{|a_{k+1}|}{|a_k|} \leq \frac{k-\beta}{k}$. Thus 
+     $k|a_{k+1}|\leq (k-\beta)|a_k|$ and therefore $\beta|a_k|\leq k |a_k|-k|a_{k+1}|$. 
+     Since $\beta>1$ and $|a_k|>0$ subtracting $|a_k|$ from both sides of this inequality yields
+     \begin{eqnarray}\label{l1:raabecrit}
+	0<(\beta-1)|a_k|\leq (k-1) |a_k|-k|a_{k+1}|=:b_k \ .
+     \end{eqnarray}
+     In particular, this shows that $(k|a_{k+1}|)_{k\geq k_0-1}$ is monotonically decreasing. 
+     Since it is bounded from below by zero, it must converge to some limit $s:=\lim_{k\rightarrow \infty}k|a_{k+1}|$. 
+     Thus also the telescoping series $\sum_{k=k_0}^\infty b_k$ converges to  
+     $\sum_{k=k_0}^\infty (k-1) |a_k|-k|a_{k+1}| = (k_0-1)|a_{k_0}|-s$.
+     From the above estimation and definition of $b_k$, we conclude that $\frac{1}{\beta-1}\sum_{k=k_0}^\infty b_k$ is a convergent majorant
+     of $\sum_{k=k_0}^\infty |a_k|$. By the majorant criterion, $\sum_{k=1}^\infty a_k$ is absolutely convergent.
+\\ \\
+  b) We may assume that $k_0>1$. For $k\geq k_0$ holds $0\neq\frac{a_{k+1}}{a_k} \geq \frac{k-1}{k}>0$. Since the right-hand side is nonnegative,
+     $a_{k}$ and $a_{k+1}$ must have the same sign (either + or -). Since for the same reason $a_{k+1}$ and $a_{k+2}$
+     must also have the same sign we see that all $a_k$ have the same sign for $k\geq k_0$. Without loss of generality
+     we may therefore assume that $a_k>0$ for all $k\geq k_0$. (Otherwise consider the sequence $(-a_k)_{k\in\mathbb{N}}$.)
+     Then $ka_{k+1}\geq (k-1)a_k$ shows that $ka_{k+1}\geq (k_0-1)a_{k_0}=:\alpha >0$ for all $k\geq k_0$, that is 
+     $a_{k+1}\geq \frac{\alpha}{k}$ for $k\geq k_0$.  
+     Consequently, $\sum_{k=k_0}^{\infty}\frac{\alpha}{k}$ is a divergent minorant for the series $\sum_{k=k_0}^{\infty}a_{k+1}$ 
+     so that the minorant criterion implies the divergence of $\sum_{k=1}^{\infty}a_k$.
+$\Box$
+
+We want to remark that the assumption $\mathbb{K}=\mathbb{R}$ in b) is not essential. The assertion also holds for $\mathbb{K}=\mathbb{C}$. In this case we have 
+to argue that for $k\geq k_0$ all $a_k = |a_k|e^{i\varphi_k}$ must have the same argument $\varphi_k\in [0,2\pi)$. Then again without loss
+of generality we may assume that $\varphi_k = 0$ for all $k\geq k_0$.
+

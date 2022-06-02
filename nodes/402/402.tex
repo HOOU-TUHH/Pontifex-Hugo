@@ -1,0 +1,32 @@
+\input{packs}
+
+%\section{Polynomials}
+\begin{Definition}{Polynomials}
+Let $a_0,\ldots,a_n\in\mathbb{K}$. Then a~real (complex) \emph{polynomial} is a~function $p:\mathbb{K}\to\mathbb{K}$ with
+\[p(x)=\sum_{k=0}^na_kx^k.\]
+If $a_n\neq0$, then $a_n$ is called \emph{leading coefficient} and $n$ is called \emph{degree of $p$}. 
+We write $n=:\deg p$. If $p$ is the zero polynomial, we set $\deg p:=-\infty$.\\
+The set of polynomials in $\mathbb{K}$ is denoted by $\mathbb{K}[x]$. Moreover, we set
+\[\mathbb{K}_n[x]:=\{p\in\mathbb{K}[x]\;|\;\deg p\leq n\}.\]
+\end{Definition}
+\begin{Remark}{}
+Since sums and scalar multiples of polynomials are again polynomials, they form a~vector space.
+\end{Remark}
+\begin{Theorem}{Rules for the degree}
+For $p,q\in\mathbb{K}[x]$ holds
+\[\deg(p\cdot q)=\deg(p)+\deg(q),\qquad \deg(p+q)\leq\max\{\deg(p),\deg(q)\}.\]
+\end{Theorem}
+\begin{proof}
+Let $p(x)=\sum_{k=0}^na_kx^k$, $q(x)=\sum_{k=0}^mb_kx^k$ with $a_n\neq0$, $b_m\neq0$. The formula for $\deg(p\cdot q)$ follows from
+\[p(x)\cdot q(x)=\sum_{k=0}^{n+m}c_kx^k\;\;\text{ for }c_k=\sum_{l=0}^ka_lb_{k-l} \ ,\]
+where $a_r:=0=:b_s$ for $r\not\in\{0,...,n\}$ and $s\not\in\{0,...,m\}$.  
+For the proof of the formula $\deg(p+q)$, we assume without loss of generality that $n\geq m$. Then
+\[p(x)+q(x)=\sum_{k=0}^{m}(a_k+b_k)x^k+\sum_{k=m+1}^{n}a_kx^k.\]
+As~a consequence, we have $\deg(p+q)\leq n=\max\{\deg(p),\deg(q)\}$.
+\end{proof}
+\begin{Remark}{}
+As the example $p(x)=x$ and $q(x)=-x+1$ shows, it may indeed happen that $\deg(p+q)<\max\{\deg(p),\deg(q)\}$.\\
+Since $\deg(0\cdot p)=\deg(0)=-\infty=-\infty+\deg(p)$ and $\deg(0+p)=\deg(p)=\max\{-\infty,\deg(p)\}$, the choice of $\deg p=-\infty$ 
+makes indeed sense for preserving the above formulas. However, this belongs to the ``not so important facts'' of mathematical analysis.
+\end{Remark}
+

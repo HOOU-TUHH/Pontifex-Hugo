@@ -1,0 +1,72 @@
+\input{packs}
+%\subsection*{Sums and products}
+We will use the following notations.
+\begin{align*}
+ \sum_{i=1}^n a_i &= a_1+a_2+\dots+a_{n-1}+a_n\\
+ \prod_{i=1}^n a_i &= a_1 \cdot a_2 \cdot \dots \cdot a_{n-1}\cdot a_n\\
+ \bigcup_{i=1}^n A_i &= A_1 \cup A_2 \cup \dots \cup A_{n-1}\cup A_n
+\end{align*}
+The union works also for an arbitrary index set $\mathcal{I}$:
+$$
+	\bigcup_{i \in \mathcal{I}} A_i = \{ x \,:\, \exists i \in \mathcal{I} \text{ with } x \in A_i \} \,.
+$$
+
+The first is a useful notation for a \emph{sum} which is the result of an addition. Two or
+more \emph{summands} added. Instead of using points, we use the Greek letter $\sum$. For example,
+\[
+3+7+15+\ldots+127 
+\]
+is not an unambiguous way to describe the sum. 
+Using the sum symbol, there is no confusion:
+\begin{equation*} %\label{eq:sum1}
+\sum_{i=2}^7 (2^i-1).
+\end{equation*}
+Of course, the parentheses are necessary here.
+You can read this as a {\texttt{for}} loop:
+
+\begin{Boxx}[for loop for the sum above]
+\textnormal{\texttt{
+\hspace*{10mm}sum := 0;\\
+\hspace*{10mm}for i:=2 to 7 do \{\\
+\hspace*{15mm}sum := sum + 2^i-1);\\
+\hspace*{10mm}\}
+}
+}
+\end{Boxx}
+
+\begin{Faust}
+Let $i$ run from $2$ to $7${,} calculate $2^i-1$
+and add.
+%\begin{tabular}{|ccrrrr|}
+\begin{tabular}{ccrrrr}
+%\hline
+index variable: & $i=2$, & first summand: & $2^i-1=2^2-1=$&$4-1=$&$3$\\
+index variable: & $i=3$, & second summand: & $2^i-1=2^3-1=$&$8-1=$&$7$\\
+index variable: & $i=4$, & third summand: & $2^i-1=2^4-1=$&$16-1=$&$15$\\
+% & $\vdots$ & & $\vdots$\\
+index variable: & $i=5$, & fourth summand: & $2^i-1=2^5-1=$&$32-1=$&$31$\\
+index variable: & $i=6$, & fifth summand: & $2^i-1=2^6-1=$&$64-1=$&$63$\\
+index variable: & $i=7$, & last summand: & $2^i-1=2^7-1=$&\!\!$128-1=$&$127$\\
+\hline
+ & & Sum: & & &$246$
+\end{tabular}
+\end{Faust}
+
+\begin{example}{}
+\[
+\sum\limits_{i=1}^{10} (2i-1) = 1+3+5+\ldots+19 \stackrel?= 100
+\]
+\[
+\sum\limits_{i=-10}^{10} i = -10-9-8-\ldots-1+0+1+\dots+8+9+10 \stackrel?=0
+\]
+\end{example}
+
+With the same construction,
+we describe the result of a multiplication, called a \emph{product}, which consists of two or
+more \emph{factors}. There we use the Greek letter $\prod$. 
+For example:
+\[
+\prod_{i=1}^8 (2i) = (2\cdot 1)\cdot (2\cdot 2)\cdot (2\cdot 3)\cdot \ldots \cdot (2\cdot 8) 
+\stackrel?= 10321920.
+\]
+

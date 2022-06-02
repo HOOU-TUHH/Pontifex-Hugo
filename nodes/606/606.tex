@@ -1,0 +1,48 @@
+\input{packs}
+
+The next result now states that integrals can be determined by inversion of differentiation.
+\begin{Theorem}[Fundamental theorem of differentiation and integration]
+Let $I$ be an interval and a~continuous $f:I\to\mathbb{R}$ be given. Let $F:I\to\mathbb{R}$ be an antiderivative of $f$. Then for all $a,b\in I$ holds
+\[\int_a^bf(x)\, dx=F(b)-F(a).\]
+We write
+\[\int_a^bf(x)\, dx=\left. F(x)\right|_{x=a}^{x=b}.\]
+\end{Theorem}
+\white{13cm}{
+{\em Proof:} Consider the function $F_0: I\to\mathbb{R}$ defined by
+\[F_0(x)=\int_a^xf(\xi)d\xi.\]
+By Theorem~\ref{thm:antider}, we know that $F_0$ is an antiderivative of $f$. 
+In particular, we have that $F_0(a)=\int_a^af(\xi)d\xi=0$ and thus $F_0(b)-F_0(a)=F_0(b)=\int_a^bf(\xi)d\xi=\int_a^bf(x)\, dx$. 
+Let $FI:\to\mathbb{R}$ be an antiderivative of $f$. Theorem~\ref{thm:antider_diff} now implies that there exists some 
+$c\in\mathbb{R}$ with $F(x)=F_0(x)+c$ for all $x\in I$. Therefore
+ \[F(b)-F(a)=(F_0(b)+c)-(F_0(a)+c)=F_0(b)-F_0(a)=\int_a^bf(x)\, dx.\]
+\hfill$\Box$
+}
+
+The above result gives rise to the following notation for an antiderivative:
+\[\int f(x)\, dx:=F(x).\]
+Based on our knowledge about differentiation, we now collect some antiderivatives of important functions in the following table.
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[h!]\label{tab:SomeAntiderivatives}\begin{center}
+\begin{tabular}{|c|c|}
+\hline $f(x)$&$\int f(x)\, dx$\\
+\hline\hline&\\[-0.7cm]
+    $\displaystyle x^n,\quad n\in\mathbb{N}$& $\displaystyle \frac1{n+1}x^{n+1}$\\\hline
+$\displaystyle x^{-1},\quad x\neq0$& $\displaystyle \log(|x|)$\\\hline
+    $\displaystyle x^{-n},\quad x\neq0,n\in\mathbb{N}, n\neq1$& $\displaystyle \frac1{1-n}x^{1-n}$\\\hline
+$\displaystyle \exp(x)$& $\displaystyle \exp(x)$\\\hline
+$\displaystyle \sinh(x)$& $\displaystyle \cosh(x)$\\\hline
+$\displaystyle \cosh(x)$& $\displaystyle \sinh(x)$\\\hline
+$\displaystyle \frac1{\sqrt{1+x^2}}$&$\displaystyle\operatorname{arsinh}(x)$\\\hline 
+$\displaystyle \frac1{\sqrt{x^2-1}},\quad x>1$&$\displaystyle\operatorname{arcosh}(x)$\\\hline
+$\displaystyle \frac1{1-x^2},\quad |x|<1$&$\displaystyle\operatorname{artanh}(x)$\\\hline
+$\displaystyle \sin(x)$& $\displaystyle-\cos(x)$\\\hline
+$\displaystyle \cos(x)$& $\displaystyle\sin(x)$\\\hline
+$\displaystyle \frac1{\cos^2(x)}=1+\tan^2(x)$& $\displaystyle \tan(x)$\\\hline
+$\displaystyle \frac1{\sqrt{1-x^2}},\quad|x|<1$& $\displaystyle \arcsin(x)$\\\hline
+$\displaystyle -\frac1{\sqrt{1-x^2}},\quad|x|<1$& $\displaystyle \arccos(x)$\\\hline
+$\displaystyle \frac1{1+x^2}$& $\displaystyle \arctan(x)$\\\hline
+\end{tabular}~\\~\\\caption{Some antiderivatives}\label{tab:antider}\end{center}
+\end{table}
+\renewcommand{\arraystretch}{1}
+
+

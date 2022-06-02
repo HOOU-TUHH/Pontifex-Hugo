@@ -1,0 +1,55 @@
+\input{packs}
+
+\begin{Definition}[Cauchy sequences]
+A sequence $(a_n)_{n\in\mathbb{N}}$ in $\mathbb{K}$ is called \textit{Cauchy sequence} if for all $\varepsilon>0$, there exists some $N$ such that for all $n,m\geq N$ holds
+\[|a_n-a_m|<\varepsilon.\]
+\end{Definition}
+\begin{Remark}{}
+By the expression ``$n,m\geq N$'', we mean that both $n$ and $m$ are greater or equal than $N$, i.e., $n\geq N$ \underline{and} $m\geq N$.
+\end{Remark}
+
+Now we show that convergent sequences are indeed Cauchy sequences.
+\begin{Theorem}{}\label{thm:convcauch}
+    Let $(a_n)_{n\in\mathbb{N}}$ be a~convergent sequence. Then $(a_n)_{n\in\mathbb{N}}$ is a~Cauchy sequence.
+\end{Theorem}
+{\em Proof:}
+Let $a=\lim_{n	o\infty}a_{n}$ and $\varepsilon>0$. Then there exists some $N$ such that for all $k\geq N$ holds $|a-a_k|<\frac{\varepsilon}2$. Hence, for all $m,n\geq N$ holds
+\[|a_n-a_m|=|(a_n-a)+(a-a_m)|\leq|a_n-a|+|a-a_m|< \frac{\varepsilon}2+\frac{\varepsilon}2=\varepsilon.\]
+$\Box$
+
+We know that convergent sequences are bounded.
+The following theorem shows that this is also the case for Cauchy sequences. 
+\begin{Theorem}[Cauchy sequences are bounded]\label{thm:cauchseqbnd}
+    Let $(a_n)_{n\in\mathbb{N}}$ be a~Cauchy sequence. Then $(a_n)_{n\in\mathbb{N}}$ is bounded.
+\end{Theorem}
+{\em Proof:} Take $\varepsilon=1$. Then there exists some $N$ such that for all $n,m\geq N$ holds $|a_n-a_m|<1$. Thus, for all $n\geq N$ holds
+\[|a_n|=|a_n-a_N+a_N|\leq |a_n-a_N|+|a_N|<1+|a_N|.\]
+Now choose
+\[c=\max\{|a_1|,|a_2|,\ldots,|a_{N-1}|,|a_N|+1\}\]
+and consider some arbitrary sequence element $a_k$.\\
+If $k<N$, we have that $|a_k|\leq \max\{|a_1|,|a_2|,\ldots,|a_{N-1}|\}\leq c$.\\
+If $k\geq N$, we have, by the above calculations, that $|a_k|<|a_N|+1\leq c$.\\
+Altogether, this implies that $|a_k|\leq c$ for all $k\in\mathbb{N}$, so $(a_n)_{n\in\mathbb{N}}$ is bounded by $c$.\hfill$\Box$
+
+Now we show that Cauchy sequences in $\mathbb{K}$ are even convergent:
+\begin{Theorem}{}\label{thm:Rcompl}
+Every Cauchy sequence $(a_n)_{n\in\mathbb{N}}$ in $\mathbb{K}$ converges.
+\end{Theorem}
+
+{\em Proof:} 
+By Theorem~\ref{thm:cauchseqbnd}, $(a_n)_{n\in\mathbb{N}}$ is bounded. By Theorem of Bolzano-Weierstra\ss \ it has a convergent 
+subsequence $(a_{n_k})_{k\in\mathbb{N}}$. Set $a:=\lim_{k\rightarrow\infty} a_{n_k}$. For given $\varepsilon>0$ there exist $N_1,N_2\in\mathbb{N}$ such 
+that $|a_{n_k}-a|<\varepsilon/2$ for all $k\geq N_1$ and $|a_n-a_m|<\varepsilon/2$ for all $n,m\geq N_2$. Thus for $n\geq N:=\max\{N_1,N_2\}$ holds
+$n_n\geq n\geq N$ and $$|a_n-a|\leq|a_n-a_{n_n}+a_{n_n}-a|\leq|a_n-a_{n_n}|+|a_{n_n}-a|< \varepsilon/2+\varepsilon/2=\varepsilon \ . \qquad\Box$$
+
+Theorem \ref{thm:Rcompl} is not true for arbitrary normed $\mathbb{K}$-vector spaces. 
+Those normed $\mathbb{K}$-vector spaces $(V,||\cdot||)$ for which every Cauchy sequence has a limit in $V$ are called complete
+or Banach spaces (in honour of the Polish mathematician Stefan Banach). 
+Without proof we state that all finite dimensional normed $\mathbb{K}$-vector spaces are Banach spaces.
+
+The next result concerns the special property of the real numbers that supremum and infimum are defined for all subsets of the real numbers. This theorem goes back to \textsc{Julius Wilhelm Richard Dedekind} (1831--1916). It follows from the completeness axiom (C):
+\begin{Theorem}[Dedekind's Theorem]
+\label{thm:bndmonseq}
+    Every non-empty bounded set $M\subset \mathbb{R}$ has a~supremum and an~infimum with $\sup M,\inf M\in\mathbb{R}$.
+\end{Theorem}
+

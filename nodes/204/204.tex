@@ -1,0 +1,35 @@
+\input{packs} 
+
+\begin{Theorem}[Cauchy Criterion]
+A~series $\displaystyle\sum_{k=1}^\infty a_k$ in $\K$ is convergent if and only if for all $\varepsilon>0$, there exists some $N$ such that for all $n\geq m\geq N$ holds
+\[\left|\sum_{k=m}^n a_k\right|<\varepsilon.\]
+\end{Theorem}
+
+{\em Proof:} By the theorems on completeness and convergence of cauchy sequences, a~series converges if and only if the sequence $(s_{n})_{n\in\mathbb{N}}$ of partial sums is a~Cauchy sequence.\\
+On the other hand, for $n\geq m$, we have
+\[\left|s_n-s_{m-1}\right|=\left|\sum_{k=m}^n a_k\right|.\]
+Therefore, the Cauchy criterion is really equivalent to the fact that $(s_{n})_{n\in\mathbb{N}}$ is a~Cauchy sequence in $\K$.\hfill$\Box$
+
+\begin{Remark}{}
+%For incomplete spaces, the Cauchy criterion is only necessary (but not sufficient) for convergence of a~series. This is a~consequence of the fact that %the Cauchy criterion is equivalent to the fact that
+%the sequence of partial sums is a~Cauchy sequence.\\
+Reconsidering the example at the very beginning of this chapter, the divergence of this sequence can be directly verified be employing the Cauchy criterion.
+\end{Remark}
+As a corollary, we can formulate the following criterion.
+
+\begin{Theorem}[Necessary criterion for convergence of series]
+\label{eq:conv0}
+Let \[\sum_{k=1}^\infty a_k\] be a~convergent series in $\K$. Then $(a_n)_{n \in \mathbb{N}}$ is convergent with
+\[\lim_{n\to\infty}a_n=0.\]
+\end{Theorem}
+{\em Proof:}
+Since the series converges, the Cauchy criterion implies that for all $\varepsilon>0$, there exists some $N$ such that for all $n\geq m\geq N$ holds
+\[\left|\sum_{k=m}^n a_k\right|<\varepsilon.\]
+Now considering the special case $n=m$, we have that for all $n\geq N$ holds
+\[|a_n|<\varepsilon.\]
+However, this is nothing but convergence of $(a_n)_{n\in\mathbb{N}}$ to zero.
+\hfill$\Box$
+\begin{Remark}{}
+The zero convergence of $(a_n)_{n\in\mathbb{N}}$ is by far not sufficient for convergence. We have already seen that the harmonic series diverges though the sequence $(a_n)_{n\in\mathbb{N}}=(\frac1n)_{n\in\mathbb{N}}$ converges to zero.
+\end{Remark}
+

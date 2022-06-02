@@ -1,0 +1,16 @@
+\input{packs}
+
+The integral can be seen as~a mapping from the space $\mathcal{T}([a,b])$ to $\mathbb{R}$. In the literature, 
+mappings from vector spaces to a~field (in this case $\mathbb{R}$) are called \emph{functionals}. 
+The following result shows that the integral is a~linear and monotone functional.
+\begin{Theorem}{}
+$\int_a^b:\mathcal{T}([a,b])\to\mathbb{R}$ is linear and monotonic, that is, for all $\phi,\psi\in\mathcal{T}([a,b])$ and all $\lambda,\mu\in\mathbb{R}$ holds
+\begin{enumerate}[(i)]
+\item \[\int_a^b
+\Big(\lambda\phi(x)+\mu\psi(x)\Big)\, dx=\lambda\int_a^b\phi(x)\, dx+\mu\int_a^b\psi(x)\, dx\]
+\item if $\phi(x)\leq\psi(x)$ for all $x\in[a,b]$ ($\phi\leq\psi$) , then
+\[\int_a^b\phi(x)\, dx\leq\int_a^b\psi(x)\, dx.\]
+\end{enumerate}
+\end{Theorem}
+{\em Proof:} This directly follows by the definition of the integral.\hfill$\Box$
+

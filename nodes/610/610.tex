@@ -1,0 +1,68 @@
+\input{packs}
+
+In this part we integrate products of functions.
+
+\begin{Theorem}[Integration by Parts]
+Let $I$ be an Interval and $f,g:I\to\mathbb{R}$ be differentiable. Then for $a,b\in I$ holds
+\[\int_a^bf'(x)g(x)dx=\left.f(x)g(x)\right|_{x=a}^{x=b}-\int_a^bf(x)g'(x)dx.\]
+\end{Theorem}
+\whiteskip
+{\em Proof:} The product rule of differentiation implies
+\[(f(x)g(x))'=f'(x)g(x)+f(x)g'(x)\]
+and thus
+\[\begin{aligned}
+&\left.f(x)g(x)\right|_{x=a}^{x=b}=\int_a^b(f(x)g(x))'dx\\=&\int_a^bf'(x)g(x)+f(x)g'(x)dx=
+\int_a^bf'(x)g(x)dx+\int_a^bf(x)g'(x)dx.\end{aligned}
+\]
+Solving this equation for $\int_a^bf'(x)g(x)dx$, we get the desired equation.\hfill$\Box$
+\whiteskip
+\begin{example}
+\begin{enumerate}[a)]
+\item For $a,b\in\mathbb{R}$, determine
+\[\int_a^bx\exp(x)dx.\]
+We use integration by parts with $f'(x)=f(x)=\exp(x)$ and $g(x)=x$. Then
+\[\begin{aligned}
+\int_a^b\exp(x)xdx=&\left.x\exp(x)\right|_{x=a}^{x=b}-\int_a^b\exp(x)dx\\
+=&\left.x\exp(x)\right|_{x=a}^{x=b}-\left.\exp(x)\right|_{x=a}^{x=b}\\=&\left.(x-1)\exp(x)\right|_{x=a}^{x=b}.
+\end{aligned}
+\]
+It is very important to note that an unlucky choice of $f$ and $g$ may be misleading. For instance, if we choose $f'(x)=x$ and $g(x)=\exp(x)$. Then integration by parts gives
+\[\int_a^bx\exp(x)dx=\left.\frac12x^2\exp(x)\right|_{x=a}^{x=b}-\int_a^b\frac12x^{2}\exp(x)dx.\]
+This formula is mathematically correct, but it does not lead to the explicit determination of the integral.
+\item Integrate $\sin(x)\cos(x)$:
+\[
+\begin{aligned}
+&\int_a^b\underbrace{\sin(x)}_{f'(x)=-\cos'(x)}\underbrace{\cos(x)}_{=g(x)}dx\\=&\left.-\cos^2(x)\right|_{x=a}^{x=b}-\int_a^b(-\cos(x))(-\sin(x))dx\\
+=&\left.-\cos^2(x)\right|_{x=a}^{x=b}-\int_a^b\cos(x)\sin(x)dx.
+\end{aligned}
+\]
+Solving this equation for $\int_a^b\sin(x)\cos(x)dx$, we obtain
+\[\int_a^b\sin(x)\cos(x)dx=\left.-\frac12\cos^2(x)\right|_{x=a}^{x=b}.\]
+\item For $a,b\in(0,\infty)$ and $\lambda\in\mathbb{R}\backslash\{-1\}$, determine the integral
+\[\int_a^bx^\lambda\log(x)dx.\]
+Defining $f(x)=\frac1{\lambda+1}x^{\lambda+1}$, $g(x)=\log(x)$, integration by parts leads to
+\[
+\begin{aligned}
+&\int_a^bx^\lambda\log(x)dx\\
+=&\left.\frac1{\lambda+1}x^{\lambda+1}\log(x)\right|_{x=a}^{x=b}-\int_a^b\frac1{\lambda+1}x^{\lambda+1}\frac1xdx\\
+=&\left.\frac1{\lambda+1}x^{\lambda+1}\log(x)\right|_{x=a}^{x=b}-\int_a^b\frac1{\lambda+1}x^{\lambda}dx\\
+=&\left.\frac1{\lambda+1}x^{\lambda+1}\log(x)\right|_{x=a}^{x=b}-\left.\frac1{(\lambda+1)^2}x^{\lambda+1}\right|_{x=a}^{x=b}\\
+=&\left.\frac1{\lambda+1}x^{\lambda+1}\left(\log(x)-\frac1{\lambda+1}\right)\right|_{x=a}^{x=b}.
+\end{aligned}
+\]
+\item For $a,b\in(0,\infty)$, determine the integral
+\[\int_a^b\frac{\log(x)}xdx.\]
+Defining $f(x)=g(x)=\log(x)$, integration by parts leads to
+\[
+\int_a^b\frac{\log(x)}xdx
+=\left.\log^2(x)\right|_{x=a}^{x=b}-\int_a^b\frac{\log(x)}xdx.
+\]
+Solving this for $\int_a^b\frac{\log(x)}xdx$, we obtain
+\[
+\int_a^b\frac{\log(x)}xdx
+=\frac12\left.\log^2(x)\right|_{x=a}^{x=b}.
+\]
+\end{enumerate}
+\end{example}
+
+
