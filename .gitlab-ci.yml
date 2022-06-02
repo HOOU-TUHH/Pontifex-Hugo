@@ -19,8 +19,9 @@ review-build:
   artifacts:
     paths:
       - public
-  rules:
-    - if: $CI_MERGE_REQUEST_ID
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == "dev"
 
 master-build:
   stage: build
@@ -57,8 +58,11 @@ review-deploy:
   environment:
     name: $CI_COMMIT_REF_NAME
     url: https://$REVIEW_PROXY_HOST_NAME$REVIEW_BASE_DIR
-  rules:
-    - if: $CI_MERGE_REQUEST_ID
+  # rules:
+  #   - if: $CI_MERGE_REQUEST_ID
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == "dev"
 
 ###### DEPLOY ########
 
