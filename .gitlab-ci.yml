@@ -59,9 +59,8 @@ review-build:
   artifacts:
     paths:
       - public
-  only:
-    variables:
-      - $CI_COMMIT_BRANCH == "pontifex-nodes-integration"
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
 
 review-deploy:
   image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
