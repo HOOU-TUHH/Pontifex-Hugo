@@ -68,17 +68,16 @@ review-deploy:
 # SSH Setup
 #
     - eval $(ssh-agent -s)  #variablen initialisieren
-    - echo "${SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add -  #private key laden
+    - echo "${REVIEW_SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add -  #private key laden
     - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts  # .ssh Verzeichnis anlegen und known_hosts dummy
-    - echo "${SSH_KNOWN_HOSTS}" >> ~/.ssh/known_hosts #dummy mit Inhalt füllen 
+    - echo "${REVIEW_SSH_KNOWN_HOSTS}" >> ~/.ssh/known_hosts #dummy mit Inhalt füllen 
     - chmod 700 ~/.ssh   # Berechtigungen setzen
-    - ssh -v -p ${SSH_PORT}  ${SSH_USER}@${HOST_NAME}  "mkdir -p /usr/local/apache2/htdocs/${CI_COMMIT_REF_NAME}/" # möglicherweise ist rsync nicht installiert, dann scp nutzen
-    - scp -r -P ${SSH_PORT} public/* ${SSH_USER}@${HOST_NAME}:${WEBSERVER_ROOT}/${CI_COMMIT_REF_NAME} # möglicherweise ist rsync nicht installiert, dann scp nutzen
+    - scp -r -P ${REVIEW_SSH_PORT} public/* ${REVIEW_SSH_USER}@${REVIEW_HOST_NAME}:${REVIEW_WEBSERVER_ROOT}/ # möglicherweise ist rsync nicht installiert, dann scp nutzen
   cache:
     key: "$CI_COMMIT_REF_SLUG"
   environment:
     name: $CI_COMMIT_REF_NAME
-    url: https://$PROXY_HOST_NAME$BASE_DIR
+    url: https://$REVIEW_PROXY_HOST_NAME$REVIEW_BASE_DIR
   rules:
     - if: $CI_MERGE_REQUEST_ID
 
