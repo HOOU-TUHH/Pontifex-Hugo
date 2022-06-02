@@ -48,6 +48,21 @@ www3-dev-build:
     variables:
       - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
+review-build:
+  stage: build
+  image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
+  script:
+    - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}\";" config/production/config.toml
+    - sed -i -e "s;/js/basic.js;${BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/basic2.js;${BASE_DIR}js/basic2.js;" layouts/shortcodes/header2.html
+    - /pontifex/bin/build_pontifex.sh
+  artifacts:
+    paths:
+      - public
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == "pontifex-nodes-integration"
+
 dev-review:
   image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
   stage: review
