@@ -63,6 +63,30 @@ review-build:
     variables:
       - $CI_COMMIT_BRANCH == "pontifex-nodes-integration"
 
+review-deploy:
+  image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
+  stage: review
+  script:
+#
+# SSH Setup
+#
+    - eval $(ssh-agent -s)  #variablen initialisieren
+    - echo "${SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add -  #private key laden
+    - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts  # .ssh Verzeichnis anlegen und known_hosts dummy
+    - echo "${SSH_KNOWN_HOSTS}" >> ~/.ssh/known_hosts #dummy mit Inhalt füllen 
+    - chmod 700 ~/.ssh   # Berechtigungen setzen
+    - scp -r -P ${SSH_PORT} public/* ${SSH_USER}@${HOST_NAME}:${WEBSERVER_ROOT}/ # möglicherweise ist rsync nicht installiert, dann scp nutzen
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+  environment:
+    name: $CI_COMMIT_REF_NAME
+    url: https://$PROXY_HOST_NAME$BASE_DIR
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == "pontifex-nodes-integration"
+
+
+
 dev-review:
   image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
   stage: review
