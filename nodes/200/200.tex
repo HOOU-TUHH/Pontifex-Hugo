@@ -1,0 +1,36 @@
+\input{packs}
+
+%\section{Partial Sums and Series}
+
+The topic of this part are ``infinite sums'' of the form
+\[\sum_{k=1}^\infty a_k\]
+for some sequence  $(a_n)_{n\in\mathbb{N}}$. 
+Before we present a~mathematically precise definition, we present ``a little paradoxon'' 
+that aims to show that one really has to be careful with series.
+Consider the case where $(a_n)_{n\in\mathbb{N}}=((-1)^n)_{n\in\mathbb{N}}$. On the one hand we can compute
+\begin{align*}
+ \sum_{k=1}^\infty (-1)^k=&\,-1+1-1+1-1+1-1+1-1+1-\ldots\\[-0.4cm]=&\,(-1+1)+(-1+1)+(-1+1)+(-1+1)+(-1+1)+\ldots\\=&\,0+0+0+0+0+\ldots=0
+\end{align*}
+and on the other hand
+
+\begin{align*}
+ \sum_{k=1}^\infty (-1)^k=&\,-1+1-1+1-1+1-1+1-1+1-\ldots\\[-0.4cm]=&\,-1+(1-1)+(1-1)+(1-1)+(1-1)+(1-1)+\ldots\\=&\,-1+0+0+0+0+0+\ldots=-1.
+\end{align*}
+This is a~very dramatic contradiction! To exclude such awkward phenomena, we have to use a~precise mathematical definition
+of ``infinite sums''.
+
+\begin{Definition}[Infinite series]
+    Let $(a_n)_{n\in\mathbb{N}}$ be a~sequence in $\mathbb{K}$. Then the sequence $(s_n)_{n\in\mathbb{N}}$ defined by
+\[s_n:=\sum_{k=1}^na_k\]
+is called \emph{infinite series} (or just ``\emph{series}''). The sequence element $s_n$ is called \emph{$n$-th partial sum of $(a_n)_{n\in\mathbb{N}}$}.  
+The series is called \emph{convergent} if  $(s_n)_{n\in\mathbb{N}}$ is convergent. In this case, we write
+\[\sum_{k=1}^\infty a_k:=\lim_{n\to\infty}s_n.\]
+\end{Definition}
+\begin{Remark}{}
+In the literature, the symbol $\sum_{k=1}^\infty a_k$ is also called series. So this symbol has a~twofold meaning, 
+namely the limit of the series (if existent) and the series itself. At the accordant places of this manuscript, the concrete meaning will be clear from the context.\\
+The above definition formally does not include infinite sums of kind
+\[\sum_{k=0}^\infty a_k,\qquad\sum_{k=2}^\infty a_k,\;\;\;\text{ or }\;\;\; \sum_{k=n_0}^\infty a_k\;\text{ for some }n_0\in\mathbb{N}.\]
+However, their meaning is straightforward to define and we will call these expressions infinite series, too.
+\end{Remark}
+

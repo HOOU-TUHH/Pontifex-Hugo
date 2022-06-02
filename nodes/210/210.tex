@@ -1,0 +1,26 @@
+\input{packs}
+
+\begin{Definition}[Reordering]
+ Let $\sum_{k=1}^\infty a_k$ be a~series in $\mathbb{K}$ and let $\tau:\mathbb{N}\to\mathbb{N}$ be a~bijective mapping. Then the series
+\[\sum_{k=1}^\infty a_{\tau(k)}\]
+is called a~\emph{reordering} of $\sum_{k=1}^\infty a_k$.
+\end{Definition}
+
+\begin{Theorem}[Reordering of absolutely convergent series]
+Let $\sum_{k=1}^\infty a_k$ be an absolutely convergent series in  $\mathbb{K}$ and let $\sum_{k=1}^\infty a_{\tau(k)}$ be a~reordering. Then $\sum_{k=1}^\infty a_{\tau(k)}$ is also absolutely convergent. Moreover,
+\[\sum_{k=1}^\infty a_{\tau(k)}=\sum_{k=1}^\infty a_{k}.\]
+\end{Theorem}
+
+{\em Proof:} Let $a=\sum_{k=1}^\infty a_k$ and let $\tau:\mathbb{N}\to\mathbb{N}$ be~bijective. Let $\varepsilon>0$. Since we have absolute convergence, there exists some $N_1$ such that
+\[\sum_{k=N_1}^\infty |a_k|<\frac\varepsilon2\]
+and thus
+\[\left|a-\sum_{k=1}^{N_1-1} a_k\right|=\left|\sum_{k=N_1}^{\infty} a_k\right|\leq\sum_{k=N_1}^{\infty} |a_k|<\frac\varepsilon2.\]
+Now choose $N:=\max\{\tau^{-1}(1),\tau^{-1}(2),...,\tau^{-1}(N_1-1)\}$.Then
+\[\{1,2,\ldots,N_1-1\}\subset\{\tau(1),\tau(2),\ldots,\tau(N)\}.\]
+Then, for all $n\geq N$ holds
+\[\left|a-\sum_{k=1}^{n} a_{\tau(k)}\right|\leq
+\left|a-\sum_{k=1}^{N_1-1} a_k\right|+\left|\sum_{k=1}^{N_1-1} a_k-\sum_{k=1}^{n} a_{\tau(k)}\right|< \frac\varepsilon2+\sum_{k=N_1}^{\infty} |a_k|<\frac\varepsilon2+\frac\varepsilon2=\varepsilon.
+\]
+The absolute convergence of $\sum_{k=1}^\infty a_{\tau(k)}$ can be shown by an application of the above argumentation to the series $\sum_{k=1}^\infty |a_k|$ and $\sum_{k=1}^\infty |a_{\tau(k)}|$.
+\hfill$\Box$
+

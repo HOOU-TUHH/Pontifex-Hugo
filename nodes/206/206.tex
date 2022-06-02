@@ -1,0 +1,30 @@
+\input{packs}
+
+%\section{Absolute Convergence and Criteria}
+
+\begin{Definition}[Absolute convergence]
+  Let $(a_n)_{n\in\mathbb{N}}$ be a~sequence in $\mathbb{K}$. Then the series $\sum_{k=1}^\infty a_k$
+is called \emph{absolutely convergent} if the real series
+$\sum_{k=1}^\infty |a_k|$
+converges.
+\end{Definition}
+%
+\begin{Remark}{}
+We will see that absolute convergence is really a~stronger requirement than convergence. However, for real series $\sum_{k=1}^\infty a_k$ with $a_k\geq0$ for all $k\in\mathbb{N}$, absolute convergence and convergence are equivalent. This is a~direct consequence of the fact that $a_k\geq0$ implies $|a_k|=a_k$.
+\end{Remark}
+
+
+\begin{Theorem}[Absolute convergence implies convergence]
+  Let $\sum_{k=1}^\infty a_k$  be an absolutely convergent series in $\mathbb{K}$. Then the series is also convergent.
+\end{Theorem}
+\white{7cm}{
+{\em Proof:} Let $\varepsilon>0$. By the absolute convergence of the series, the necessity of Cauchy's convergence criterion implies that there exists some $N$ such that for all $n\geq m\geq N$ holds
+\[\sum_{k=m}^n|a_k|<\varepsilon.\]
+A~use of the triangular inequality gives
+\[\left|\sum_{k=m}^na_k\right|\leq \sum_{k=m}^n|a_k|<\varepsilon.\]
+Then the sufficiency of Cauchy's convergence criterion implies the convergence of $\sum_{k=1}^\infty a_k$.
+}
+\begin{example}
+The alternating harmonic series is convergent as we have seen in the examples on the Leibniz criterion, but it is not absolutely convergent, since the series of absolute values is the harmonic series.
+\end{example}
+

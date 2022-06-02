@@ -1,0 +1,138 @@
+\input{packs}
+
+So far, we have integrated bounded functions on compact intervals $[a,b]$. In this part we skip these two assumptions by extending the integral notion to functions that may have a pole and/or are defined on unbounded intervals.
+\subsection{Unbounded Interval}
+\begin{Definition}[Integration on unbounded intervals]
+Let $f:[a,\infty)\to\mathbb{R}$ be a~function with the property that for all $b>a$ the restriction of $f$ to $[a,b]$ belongs to $\mathcal{R}([a,b])$. If
+\[\lim_{b\to\infty}\int_a^bf(x)dx\]
+exists, then we say that
+\[\int_a^\infty f(x)dx\]
+is \emph{convergent}. Otherwise, we speak of \emph{divergence}.
+\end{Definition}
+\begin{example}\label{ex:infint}
+\begin{enumerate}[a)]
+\item For integrating the function $\exp(-x)$ on the interval $[0,\infty)$, we compute
+\[
+\begin{aligned}
+\int_0^\infty\exp(-x)dx=&\lim_{b\to\infty}\int_0^b\exp(-x)dx\\=&\lim_{b\to\infty}\left.-\exp(-x)\right|_{x=0}^{x=b}\\
+=&1-\lim_{b\to\infty}\exp(-b)=1.
+\end{aligned}
+\]
+\item For $\alpha>0$, consider
+\[\int_1^\infty \frac1{x^\alpha}dx.\]
+We know that for $b>1$ holds 
+\[
+\int_1^b\frac1{x^\alpha}dx=\begin{cases}\left.\frac1{1-\alpha}\frac1{x^{\alpha-1}}\right|_{x=1}^{x=b}&:\alpha\neq1,\\\left.\log(x)\right|_{x=1}^{x=b}&:\alpha=1.
+\end{cases}\]
+Since $\lim_{b\to\infty}\log(b)=\infty$ and
+\[\lim_{b\to\infty}\frac1{x^{\alpha-1}}=\begin{cases}0&:\alpha>1,\\\infty&:\alpha<1,\end{cases}\]
+we have
+\[\int_1^\infty \frac1{x^\alpha}dx=\begin{cases}\frac1{\alpha-1}&:\alpha>1,\\\infty&:\alpha\leq1.\end{cases}\]
+\end{enumerate}
+\end{example}
+It is straightforward to define the integral of a function defined on some interval unbounded from below by
+\[\int_{-\infty}^af(x)dx=\lim_{b\to-\infty}\int_{b}^af(x)dx.\]
+We now define the integral of functions defined on the whole real axis.
+
+
+
+
+\begin{Definition}{}
+Let $f:\mathbb{R}\to\mathbb{R}$ be a~function with the property that for all $a,b\in\mathbb{R}$ the restriction of $f$ to $[a,b]$ belongs to $\mathcal{R}([a,b])$. If there exists some $c\in\mathbb{R}$ such that both integrals
+\[\int_c^\infty f(x)dx,\qquad \int_{-\infty}^c f(x)dx\]
+exist, then we say that
+\[\int_{-\infty}^\infty f(x)dx\]
+is \emph{convergent}. Otherwise, we speak of \emph{divergence}.
+In case of convergence we set
+\[\int_{-\infty}^\infty f(x)dx=\int_{-\infty}^c f(x)dx+\int_c^\infty f(x)dx.\]
+\end{Definition}
+We remark without proof that the above definition is independent of $c$.
+
+\begin{example}
+\begin{enumerate}[a)]
+\item Consider
+\[
+\begin{aligned}
+\int_{-\infty}^\infty\frac1{1+x^2}dx=&
+\int_{-\infty}^0\frac1{1+x^2}dx+\int_0^\infty \frac1{1+x^2}dx\\
+=&\lim_{a\to-\infty}\int_{a}^0\frac1{1+x^2}dx+\lim_{b\to\infty}\int_{0}^b\frac1{1+x^2}dx\\
+=&\lim_{a\to-\infty}\left.\arctan(x)\right|_{x=a}^{x=0}+\lim_{b\to\infty}\left.\arctan(x)\right|_{x=0}^{x=b}\\
+=&-\lim_{a\to-\infty}\arctan(a)+\lim_{b\to\infty}\arctan(b)\\
+=&\frac\pi2+\frac\pi2=\pi.
+\end{aligned}
+\]
+\item The integral
+\[
+\int_{-\infty}^\infty xdx
+\]
+diverges since both integrals
+\[
+\begin{aligned}
+\int_{-\infty}^0 xdx&=\lim_{a\to-\infty}\int_{a}^0 xdx=\lim_{a\to-\infty}\left.\frac12x^2\right|_{x=a}^{x=0}=-\infty\\
+\int_{0}^\infty xdx&=\lim_{b\to\infty}\int_{0}^b xdx=\lim_{b\to\infty}\left.\frac12x^2\right|_{x=0}^{x=b}=\infty
+\end{aligned}
+\]
+diverge. This example shows that the convergence of $\int_{-\infty}^\infty f(x)dx$ is not equivalent to the existence of the limit
+\[\lim_{a\to\infty}\int_{-a}^af(x)dx.\]
+However, in case of convergence, the integral $\int_{-\infty}^\infty f(x)dx$ coincides with the above limit.
+\end{enumerate}
+\end{example}
+The majorant criterion for series says that if the absolut values of the addends of a given series can be bounded from above 
+by the addends of a convergent series, then (absolut) convergence of the given series can be concluded. 
+
+Conversely, the minorant criterion for series says that if the addends of a given series can be bounded from below by the addends 
+of a series that diverges to $+\infty$, then also the given series diverges to $+\infty$.
+
+Analogue criteria hold true for integrals. We skip the proofs since they are totally analogous to those of the majorant and minorant criteria.
+
+\begin{Theorem}{}
+Let $f,g:[a,\infty)\to\mathbb{R}$ such that for all $b\in [a,\infty)$, the restrictions of $f$ and $g$ to $[a,b]$ are Riemann-integrable.
+\begin{enumerate}[(i)]
+\item If $|f(x)|\leq g(x)$ for all $x\in [a,\infty)$ and $\int_{a}^\infty g(x)dx$ converges, then also $\int_{a}^\infty f(x)dx$ converges
+and it holds that
+\[
+\left|\int_{a}^\infty f(x)dx\right|\leq \int_{a}^\infty |f(x)|dx\leq \int_{a}^\infty g(x)dx.
+\]
+\item If $g(x)\leq f(x)$ for all $x\in [a,\infty)$ and $\int_{a}^\infty g(x)dx=+\infty$, then $\int_{a}^\infty f(x)dx=+\infty$.
+\end{enumerate}
+\end{Theorem}
+
+
+
+
+
+\begin{example}
+\begin{enumerate}[a)]
+\item Consider
+\[\int_1^\infty\frac{x}{x^2+1}dx.\]
+We have
+\[\lim_{x\to\infty}x\cdot\frac{x}{x^2+1}=1.\]
+For large enough $x\in\mathbb{R}$, we therefore have
+\[\left|x\cdot\frac{x}{x^2+1}\right|=\frac{x^2}{x^2+1}\geq\frac12\]
+and thus
+\[\frac{x}{x^2+1}\geq\frac1{2x}.\]
+Since
+\[\int_1^\infty\frac{1}{2x}dx\]
+is divergent,
+\[\int_1^\infty\frac{x}{x^2+1}dx\]
+is divergent, too.
+\item Consider
+\[\int_1^\infty\frac{\sqrt{x}}{x^2+1}dx.\]
+We have
+\[\lim_{x\to\infty}x^{3/2}\cdot\frac{\sqrt{x}}{x^2+1}=1.\]
+For large enough $x\in\mathbb{R}$, we therefore have
+\[\left|x^{3/2}\cdot\frac{\sqrt{x}}{x^2+1}\right|=\frac{x^2}{x^2+1}\leq2\]
+and thus
+\[\frac{\sqrt{x}}{x^2+1}\leq\frac2{x^{3/2}}.\]
+Since
+\[\int_1^\infty\frac2{x^{3/2}}dx\]
+is convergent, so
+\[\int_1^\infty\frac{\sqrt{x}}{x^2+1}dx\]
+is convergent, too.
+\end{enumerate}
+\end{example}
+
+
+
+
+

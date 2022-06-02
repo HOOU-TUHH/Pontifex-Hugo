@@ -1,0 +1,44 @@
+\input{packs}
+
+\begin{Definition}{}
+Let $I$ be an interval and $f:I\to\mathbb{R}$ be continuous. Then a
+differentiable function $F:I \to\mathbb{R}$ is called an \emph{antiderivative of $f$} if $F'=f$.
+\end{Definition}
+
+\begin{Theorem}{}
+\label{thm:antider}
+Let $I$ be an interval, $f:I\to\mathbb{R}$ be continuous and $a\in I$. For $x\in I$ define
+\[F(x)=\int_a^xf(\xi)d\xi.\]
+Then $F$ is differentiable and an antiderivative of $f$.
+\end{Theorem}
+{\em Proof:} Let $x\in I$ and $h\neq0$ such that $x+h\in I$. Then, by using the mean value theorem of integration we obtain
+\[
+\begin{aligned}
+\frac1h \left(F(x+h)-F(x)\right)=&\;\frac1h\left(\int_a^{x+h}f(\xi)d\xi-\int_a^xf(\xi)d\xi\right)\\
+=&\frac1h\int_x^{x+h}f(\xi)d\xi=\frac1h\cdot h f(\hat{x})=f(\hat{x})
+\end{aligned}
+\]
+for some $\hat{x}$ between $x$ and $x+h$. If $h$ tends to $0$ then $\hat{x}\to x$ and thus
+\[\lim_{h\to0}\frac1h \left(F(x+h)-F(x)\right)=f(x).\]
+This shows the desired result.$\Box$
+
+Now we consider how two antiderivatives of a~given continuous $f:I\to\mathbb{R}$ differ.
+\begin{Theorem}{}\label{thm:antider_diff}
+Let $I$ be an interval, $f:I\to\mathbb{R}$ be given and let $F:I\to\mathbb{R}$ be an antiderivative of $f$, i.e., $F'=f$. Then $G:I\to\mathbb{R}$ is an antiderivative of $f$ if and only if $F-G$ is constant.
+\end{Theorem}
+{\em Proof:}
+``$\Rightarrow$'': Let $G:I\to\mathbb{R}$ be an antiderivative of $f$. Then \[(F-G)'=F'-G'=f-f=0\] and hence, $F-G$ is constant due to the mean value theorem of differentiation.\\
+``$\Leftarrow$'': If $F-G$ is constant, i.e.,  $F(x)-G(x)=c$ for some $c\in\mathbb{R}$ and all $x\in I$, then $0=(F-G)'=F'-G'$ and thus $f=F'=G'$.
+$\Box$
+
+
+\begin{Remark}{}
+It is very important to note that the statement of Theorem~\ref{thm:antider_diff} is only valid for functions defined on intervals. For instance, consider the function $f:\mathbb{R}\backslash\{0\}\to\mathbb{R}$ with $f(x)=\frac1x$. An antiderivative is given by
+$F:\mathbb{R}\backslash\{0\}\to\mathbb{R}$ with
+\[F(x)=\begin{cases}\log(x)&:x>0,\\\log(-x)&:x<0\end{cases}=\log(|x|).\]
+Another antiderivative is given by
+\[G(x)=\begin{cases}\log(x)&:x>0,\\\log(-x)+1&:x<0\end{cases}.\]
+The difference between $G$ and $F$ is given by
+\[G(x)-F(x)=\begin{cases}0&:x>0,\\1&:x<0\end{cases}\]
+and therefore not constant.
+\end{Remark}

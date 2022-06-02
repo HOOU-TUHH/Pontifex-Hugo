@@ -1,0 +1,58 @@
+\inte{packs}
+
+\begin{Theorem}{Generalisations of l'Hospital's Theorem}
+\begin{itemize}
+ \item \textbf{Expressions of type $\frac\infty\infty$, Limit as $x\to x_0$} \\
+     Let $f,g:I\backslash\{x_0\}\to\mathbb{R}$ be differentiable functions with $\lim_{x\to x_0}f(x)=\infty$,  $\lim_{x\to x_0}g(x)=\infty$.
+Then, if $\lim_{x\to x_0}\frac{f'(x)}{g'(x)}$ exists, then also $\lim_{x\to x_0}\frac{f(x)}{g(x)}$ exists with
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{f'(x)}{g'(x)}.\]
+ \item \textbf{Expressions of type $\frac00$, Limit as $x\to\infty$}\\
+     Let $f,g:[t_0,\infty)\to\mathbb{R}$ be differentiable functions with $\lim_{x\to \infty}f(x)=0$,  $\lim_{x\to \infty}g(x)=0$.
+        Assume that there exists some $x_1\in\mathbb{R}$ such that $g'(x)\neq0$ for all $x>x_1$. Then, if $\lim_{x\to\infty}\frac{f'(x)}{g'(x)}$ exists, then also $\lim_{x\to\infty}\frac{f(x)}{g(x)}$ exists with
+\[\lim_{x\to\infty}\frac{f(x)}{g(x)}=\lim_{x\to\infty}\frac{f'(x)}{g'(x)}.\]
+\item \textbf{Expressions of type $\frac\infty\infty$, Limit as $x\to\infty$}\\
+ Let $f,g:[t_0,\infty)$  be differentiable functions with $\lim_{x\to \infty}f(x)=\infty$,  $\lim_{x\to \infty}g(x)=\infty$.
+Then, if $\lim_{x\to\infty}\frac{f'(x)}{g'(x)}$ exists, then also $\lim_{x\to\infty}\frac{f(x)}{g(x)}$ exists with
+\[\lim_{x\to\infty}\frac{f(x)}{g(x)}=\lim_{x\to\infty}\frac{f'(x)}{g'(x)}.\]
+\end{itemize}
+\end{Theorem}
+{\em Proof:} The first result follows by an application of l'Hospital's Theorem to
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{\frac1{g(x)}}{\frac1{f(x)}}=\lim_{x\to x_0}\frac{\frac{g'(x)}{(g(x))^2}}{\frac{f'(x)}{(f(x))^2}}=\frac1{\lim_{x\to x_0}\frac{f'(x)}{g'(x)}}\left(\lim_{x\to x_0}\frac{f(x)}{g(x)}\right)^2.\]
+The second and third statement follow by a substitution $y=\frac1x$ and the consideration of
+\[\lim_{x\to\infty}\frac{f(x)}{g(x)}=\lim_{y\to0}\frac{f\left(\frac1y\right)}{g\left(\frac1y\right)}
+=\lim_{y\to0}\frac{-\frac1{y^2}f'\left(\frac1y\right)}{-\frac1{y^2}g'\left(\frac1y\right)}
+=\lim_{y\to0}\frac{f'\left(\frac1y\right)}{g'\left(\frac1y\right)}
+=\lim_{x\to\infty}\frac{f'(x)}{g'(x)}.\]
+$\Box$
+
+Note that we can also treat expressions of type ``$\infty-\infty$'' by l'Hospitals's Theorem. Namely, for $f,g$ with $\lim_{x\to x_0}f(x)=0$,  $\lim_{x\to x_0}g(x)=0$, we get that
+\[\lim_{x\to x_0}(\frac{1}{f(x)}-\frac{1}{g(x)})=\lim_{x\to x_0}\frac{g(x)-f(x)}{f(x)\cdot g(x)}=\lim_{x\to x_0}\frac{g'(x)-f'(x)}{f'(x)\cdot g(x)+f(x)\cdot g'(x)}.\]
+Also, expressions of type ``$0\cdot\infty$'' can be treated by a~special trick. Namely, for $f,g$ with $\lim_{x\to x_0}f(x)=0$,  
+$\lim_{x\to x_0}g(x)=\infty$, we get that
+\[\lim_{x\to x_0}f(x)\cdot g(x)=\lim_{x\to x_0}\frac{f(x)}{\frac1{g(x)}}=\lim_{x\to x_0}\frac{f'(x)}{-\frac{g'(x)}{(g(x))^2}}=-\lim_{x\to x_0}\frac{f'(x) (g(x))^2}{g'(x)}.\]
+You do not have to keep the above two formulas in mind. These can always be derived in concrete examples.
+\begin{example}
+\begin{enumerate}[a)]
+\item Let $n\in\mathbb{N}$ and consider
+\[\lim_{x\to\frac\pi2,x<\frac\pi2}\left(x-\frac\pi2\right)^n\cdot\tan(x).\]
+This is an expression of type ``$0\cdot\infty$'' and we can make use of
+\[
+\begin{aligned}
+\lim_{x\to\frac\pi2,x<\frac\pi2}\left(x-\frac\pi2\right)^n\cdot\tan(x)=&\lim_{x\to\frac\pi2,x<\frac\pi2}\frac{\left(x-\frac\pi2\right)^n}{\frac1{\tan(x)}}\\=&
+\lim_{x\to\frac\pi2,x<\frac\pi2}\frac{n\cdot\left(x-\frac\pi2\right)^{n-1}}{-\frac1{\tan^2(x)}\frac1{\cos^2(x)}}\\=&
+\lim_{x\to\frac\pi2,x<\frac\pi2}\frac{n\cdot\left(x-\frac\pi2\right)^{n-1}}{-\frac1{\sin^2(x)}}\\
+=&-\lim_{x\to\frac\pi2,x<\frac\pi2}n\cdot\left(x-\frac\pi2\right)^{n-1}\sin^2(x)\\
+=&\begin{cases}-1&\text{ if }n=1,\\0&\text{ else.}\end{cases}
+\end{aligned}
+\]
+ \item In this example, we first need to bring both terms into a common fraction
+\[
+\begin{aligned}\lim_{x\to0}\left(\frac1{\sin(x)}-\frac1x\right)=&
+\lim_{x\to0}\frac{x-\sin(x)}{x\sin(x)}\\=&
+\lim_{x\to0}\frac{1-\cos(x)}{\sin(x)+x\cos(x)}\\=&
+\lim_{x\to0}\frac{\sin(x)}{\cos(x)-x\sin(x)+\cos(x)}=0.
+\end{aligned}
+\]
+\end{enumerate}
+\end{example}
+

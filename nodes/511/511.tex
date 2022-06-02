@@ -1,0 +1,14 @@
+\input{packs}
+
+The aim of this part is to approximate a~sufficiently smooth (that means sufficiently often differentiable) function by a~polynomial. 
+More precisely, we will perform the approximation by
+\[f(x_0+h)\approx\sum_{k=0}^n\frac{f^{(k)}(x_0)}{k!}h^k=f(x_0)+f'(x_0)h+\frac{f^{\prime \prime}(x_0)}2h^2+\frac{f^{\prime\prime\prime}(x_0)}6h^3+\ldots+\frac{f^{(n)}(x_0)}{n!}h^n.\]
+We will also estimate the approximation error.
+
+\begin{Theorem}[Taylor's formula]
+    Let $I$ be an interval and assume that $f:I\to\mathbb{R}$ is $n+1$-times differentiable. Let $x_0\in I$ and $h\in\mathbb{R}$ such that $x_0+h\in I$. 
+Then there exists some $\theta\in(0,1)$ such that
+\[f(x_0+h)=\underbrace{\sum_{k=0}^n\frac{f^{(k)}(x_0)}{k!}h^k}_{\text{``Taylor polynomial''}}+\underbrace{\frac{f^{(n+1)}(x_0+\theta h)}{(n+1)!}h^{n+1}}_{\text{``remainder term''}}.\]
+The number $x_0$ is called \emph{expansion point}.
+\end{Theorem}
+

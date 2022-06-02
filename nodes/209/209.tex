@@ -1,0 +1,79 @@
+\input{packs}
+
+\begin{Theorem}[Root criterion]\label{thm:rootkrit}
+Let $n_0\in\mathbb{N}$ and let $\sum_{k=1}^\infty a_k$ be a~series in $\mathbb{K}$ and assume that there exists some $q\in(0,1)$ such that for all $k\geq n_0$ holds
+\[\sqrt[k]{|a_{k}|} \leq q.\]
+Then $\sum_{k=1}^\infty a_k$ converges absolutely.
+\end{Theorem}
+
+{\em Proof:} Taking the $k$-th power of the inequality $\sqrt[k]{|a_{k}|}<q$, we obtain that for all $k\geq n_0$ holds
+\[|a_k|< q^{k}\]
+Therefore, the convergent geometric series $\sum_{k=1}^\infty q^{k}$ is a majorant of $\sum_{k=1}^\infty a_k$ and thus, 
+we have absolute convergence.\hfill$\Box$
+
+\begin{Theorem}[Root criterion (limit form)]\label{thm:rootkritlim}
+Let $\sum_{k=1}^\infty a_k$ be a~series in $\mathbb{K}$ and assume that
+\[\limsup_{k \rightarrow \infty} \sqrt[k]{|a_{k}|}<1.\]
+Then $\sum_{k=1}^\infty a_k$ converges absolutely.
+\end{Theorem}
+\white{4cm}{
+{\em Proof:} The argumentation is analogous as in the proof of Theorem~\ref{thm:quotkritlim}. Let $c:=\lim\sup\sqrt[k]{|a_{k}|}<1$. 
+Then for $\varepsilon:=\frac{1-c}2,$ there exists some $N\in\mathbb{N}$ such that for all $k\geq N$ holds
+\[\sqrt[k]{|a_{k}|}<c+\varepsilon=c+\frac{1-c}2=\frac{1+c}2<1.\]
+The root criterion with $q:=\frac{1+c}{2}<1$  now implies convergence. \hfill$\Box$}
+
+\begin{example}
+ Consider the series
+\[\sum_{k=1}^\infty \frac{k^5}{3^k}.\]
+Then we have
+\[\limsup_{k \rightarrow \infty} \sqrt[k]{\left|\frac{k^5}{3^k}\right|}
+=\limsup_{k \rightarrow \infty} \frac{\sqrt[k]{k}^5}{3}
+\]
+Since we know that $\sqrt[k]{k}$ converges to $1$, the whole expression converges to $\frac13<1$. Hence, the series converges.
+\end{example}
+
+%  We will now state two convergence criteria for series of the form $\sum_{k=1}^\infty a_kb_k$.
+%  They are easily deduced from the following lemma.
+%  
+%  \begin{Lemma}[Abel's partial sums] \label{lem:abelsum}
+%    For $n\in\mathbb{N}$ and $a_1,...,a_n,b_1,...,b_{n+1}\in\mathbb{K}$ holds 
+%    $$ \sum_{k=1}^na_kb_k = A_nb_{n+1}+\sum_{k=1}^nA_k(b_k-b_{k+1})~ ,$$
+%    where $A_k:=\sum_{i=1}^ka_i$ for $k\in\{1,...,n\}$. 
+%  \end{Lemma}
+%  \textit{Proof:} If we additionally define $A_0:=0$, then 
+%  \begin{eqnarray*}
+%    \sum_{k=1}^na_kb_k &=& \sum_{k=1}^n(A_k-A_{k-1})b_k =\sum_{k=1}^nA_kb_k-\sum_{k=1}^nA_{k-1}b_k 
+%                       = \sum_{k=1}^nA_kb_k-\sum_{k=1}^{n-1}A_kb_{k+1}    \\
+%                       &=& \sum_{k=1}^nA_kb_k-\sum_{k=1}^{n}A_kb_{k+1}+A_nb_{n+1} 
+%                       = \sum_{k=1}^nA_k(b_k-b_{k+1})+A_nb_{n+1}  \ .
+%  \end{eqnarray*}
+%  
+%  \begin{Theorem}[Abel criterion]\label{th:abelcrit}
+%    If the series $\sum_{k=1}^\infty a_k$ in $\mathbb{K}$ converges and if the real sequence $(b_{k})_{k\in\mathbb{N}}$ is monotonic and bounded, then 
+%    the series $\sum_{k=1}^\infty a_kb_k$ converges.
+%  \end{Theorem}
+%  {\em Proof:}
+%    Set $A_k:=\sum_{i=1}^k a_i$. By assumption both sequences $(A_k)_{k\in\mathbb{N}}$ and $(b_k)_{k\in\mathbb{N}}$ converge so that 
+%    $(A_kb_{k+1})_{k\in\mathbb{N}}$ converges also. Since $(b_{k})_{k\in\mathbb{N}}$ is monotonic,
+%    the telescoping series $\sum_{k=1}^\infty (b_k-b_{k+1})$ converges absolutely as
+%    $$\sum_{k=1}^n |b_k-b_{k+1}|= |\sum_{k=1}^n (b_k-b_{k+1})| 
+%    = |b_1-b_{n+1}| 
+%    \xrightarrow{n \rightarrow \infty} |b_1-\lim_{k\rightarrow\infty}b_k| \ .$$
+%    Since $(A_k)_{k\in\mathbb{N}}$ is bounded, $\sum_{k=1}^\infty A_k(b_k-b_{k+1})$ is also absolutely convergent. Summing up,
+%    Lemma~\ref{lem:abelsum} implies that the series $\sum_{k=1}^\infty a_kb_k$ converges to the limit
+%    $$\sum_{k=1}^\infty a_kb_k =  \lim_{n\rightarrow\infty}A_n b_{n+1} + \sum_{k=1}^\infty A_k(b_k-b_{k+1})\ . $$
+%  \hfill$\Box$
+%  
+%  \begin{Theorem}[Dirichlet criterion]\label{th:dirichletcrit}
+%    If the series $\sum_{k=1}^\infty a_k$ in $\mathbb{K}$ is bounded and if the real sequence $(b_{k})_{k\in\mathbb{N}}$ converges monotonically to zero, then 
+%    the series $\sum_{k=1}^\infty a_kb_k$ converges.
+%  \end{Theorem}
+%  {\em Proof:}
+%    Set $A_k:=\sum_{i=1}^k a_i$. By assumption $(A_k)_{k\in\mathbb{N}}$ is bounded. Hence $(A_kb_{k+1})_{k\in\mathbb{N}}$ converges to zero.
+%    By the same argument as in the proof of Theorem \ref{th:abelcrit}, the series $\sum_{k=1}^\infty A_k(b_k-b_{k+1})$ is absolutely convergent. 
+%    Lemma~\ref{lem:abelsum} again implies that the series $\sum_{k=1}^\infty a_kb_k$ converges to the limit
+%    $$\sum_{k=1}^\infty a_kb_k =  \underbrace{\lim_{n\rightarrow\infty}A_n b_{n+1}}_{=0} + \sum_{k=1}^\infty A_k(b_k-b_{k+1})\ . $$
+%  \hfill$\Box$
+%  \\ \\
+%  Note that the Leibniz criterion follows from the Dirichlet criterion by taking $a_k:=(-1)^k$.
+

@@ -1,0 +1,18 @@
+\input{packs}
+
+\begin{Theorem}[Continuous functions defined on a compact set]\label{thm:fctcompact}
+Let $I\subset\mathbb{K}$ be compact and let $f:I\to\mathbb{K}$ be continuous. Then $f(I)$ is compact. In particular, by the Theorem of Heine-Borel,
+$f(I)$ is bounded and closed. If further $f(I) \subset \mathbb{R}$, so that there exist $x^+,x^-\in I$ such that
+\[f(x^+)=\max\{f(x)\,:\,x\in I\},\qquad f(x^-)=\min\{f(x)\,:\,x\in I\}.\]
+\end{Theorem}
+\begin{proof}
+Let $(y_n)_{n\in\mathbb{N}}$ be a sequence in $f(I)$. Then for each $n\in\mathbb{N}$ there is an $x_n\in I$ such that $y_n=f(x_n)$. 
+Since $I$ is compact, there exists a subsequence $(x_{n_k})_{k\in\mathbb{N}}$ that converges to some $x\in I$. 
+Now, since $f$ is continuous, we have $$\lim_{k\rightarrow \infty} y_{n_k} = \lim_{k\rightarrow \infty} f(x_{n_k}) = f(x)=:y \in f(I).$$
+Hence we found a subsequence $(y_{n_k})_{k\in\mathbb{N}}$ of $(y_n)_{n\in\mathbb{N}}$ that converges in $f(I)$. Therefore $f(I)$ is compact.
+\end{proof}
+
+% As a~consequence of the above result, we have for compact $I$ holds that the set of continuous functions
+% \[C(I)=\{f: I\to\mathbb{R}\,:\,f\text{ continuous on $I$}\}\]
+% fulfills $C(I)\subset\mathcal{B}(I)$. Since sums and scalar multiples of continuous functions are again continuous by Theorem~\ref{eq:sumscont}, $C(I)$ is even a~subspace of $\mathcal{B}(I)$ (provided that $I$ is compact!).
+

@@ -1,0 +1,44 @@
+\input{packs} 
+
+For some particular cases, we nevertheless are able to show convergence.
+\begin{Theorem}[Leibniz Convergence Criterion]
+\label{th:Leibnizcrit}
+Let $(a_n)_{n\in\mathbb{N}}$ be a~monotonically decreasing real sequence with
+\[\lim_{n\to\infty}a_n=0.\]
+Then the alternating sequence
+\[\sum_{k=1}^\infty (-1)^ka_k\]
+converges.
+\end{Theorem}
+{\em Proof:} Since $(a_n)_{n\in\mathbb{N}}$ is convergent to zero and monotonically decreasing, we have $a_n\geq0$ for all $n\in\mathbb{N}$. Let $(s_n)_{n\in\mathbb{N}}$ be the corresponding sequence of partial sums.
+Then we have for all $l\in \mathbb{N}$ that
+\[s_{2l+2}-s_{2l}=-a_{2l+1}+a_{2l+2}\leq 0,\quad s_{2l+3}-s_{2l+1}=a_{2l+2}-a_{2l+3}\geq 0,\]
+i.e., the subsequence $(s_{2l})_{l\in\mathbb{N}}$ is monotonically decreasing and $(s_{2l+1})_{l\in\mathbb{N}}$ is monotonically increasing. Furthermore, due to $s_{2l+1}-s_{2l}=-a_{2l+1}\leq0$ holds
+\[s_{2l+1}\leq s_{2l}.\]
+
+Altogether, the $(s_{2l})_{l\in\mathbb{N}}$ is monotonically decreasing and bounded from below, and $(s_{2l+1})_{l\in\mathbb{N}}$ is monotonically increasing and bounded from above.
+By the Theorem on monotonic and bounded sequences, both subsequences are convergent. Due to
+\[\lim_{l\to\infty}(s_{2l+1}-s_{2l})=\lim_{l\to\infty}a_{2l+1}=0,\]
+an application of Theorem on the formulae for convergent sequences yields that both subsequence have the same limit, i.e.,
+\[\lim_{l\to\infty}s_{2l+1}=\lim_{l\to\infty}s_{2l}=s\]
+for some $s\in\mathbb{R}$. Let $\varepsilon>0$. Then there exists some $N_1$ such that for all $l\geq N_1$ holds $|s_{2l}-s|<\varepsilon$. Furthermore, there exists some $N_2$ such that for all $l\geq N_2$ holds $|s_{2l+1}-s|<\varepsilon$. Now choosing $N=\max\{2N_1,2N_2+1\}$, we can say the following for some $m\geq N$:\\
+In the case where $m$ is even, we have some $l\in\mathbb{N}$ with $m=2l$. By the choice of $N$, we also have $l\geq N_1$ and thus
+\[|s_{m}-s|=|s_{2l}-s|<\varepsilon.\]
+In the case where $m$ is odd, we have some $l\in\mathbb{N}$ with $m=2l+1$. By the choice of $N$, we also have $l\geq N_2$ and thus
+\[|s_{m}-s|=|s_{2l+1}-s|<\varepsilon.\]
+\hfill$\Box$
+
+\begin{example}\label{ex:leib}
+\begin{enumerate}[(a)]
+ \item  The {\em alternating harmonic series}
+\[\sum_{k=1}^\infty \frac{(-1)^k}{k}.\]
+converges. The limit is (without proof) $\log(2)$.
+ \item  The {\em alternating Leibniz series}
+\[\sum_{k=1}^\infty \frac{(-1)^k}{2k+1}.\]
+converges. The limit is (without proof) $\frac\pi4$.
+ \item  The series
+\[\sum_{k=1}^\infty \frac{(-1)^k}{\sqrt{k}}.\]
+converges. The limit is not expressible in a closed form.
+\end{enumerate}
+\end{example}
+We will later treat the topic of {\em Taylor series}. Thereafter we will be able to determine some further limits of sequences.
+
