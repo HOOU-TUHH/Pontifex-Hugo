@@ -1,0 +1,63 @@
+\input{packs}
+
+\section{Integration of Rational Functions}
+We know by Theorem \ref{thm:rat_polyprop} that every rational function $f(x)$ possesses a representation as the sum of some polynomial $r$ and a strict proper rational function $\frac{p(x)}{q(x)}$, i.e
+$$
+f(x) = r(x) + \frac{p(x)}{q(x)},\quad \deg(p)<\deg(q).
+$$
+By using linearity of the integral, we can integrate each summand separately. Thus we restrict our discussion here to strict proper rational functions. Furthermore by Theorem \ref{thm:pfd} we can write every strict proper rational function as a sum of partial fractions $\frac{A}{(x-x_{0})^{s}}$, with $x_{0}$ being a root of $q$ and $A$ being some constant and $s\geq 1$.
+
+Altogether we have that it is enough to know the antiderivative of the partial fractions in order to integrate arbitrary rational functions.\\
+Let us first restrict to the case $x_{0}\in\mathbb{R}$ and $s=1$. Then we have
+\begin{align*}
+\int \frac{A}{x-x_{0}}\, dx = A \log|x-x_{0}|+const.,\qquad x_{0}\in\mathbb{R}.
+\end{align*}
+It is clear that this equality is only valid in the case $x_{0}\in\mathbb{R}$ since the antiderivative is a real valued function.\\
+Now consider $x_{0}\in\mathbb{C}\setminus\mathbb{R}$. Because of $q$ having only real coefficients we know that also $\overline{x_{0}}$ is a root of $q$ thus the partial fraction decomposition at least has the terms $\frac{A}{x-x_{0}}$ and $\frac{B}{x-\overline{x_{0}}}$ included in the sum. Then setting $x_{0}:=\alpha+i\beta$
+\begin{align*}
+\int \frac{A}{x-x_{0}}+\frac{B}{x-\overline{x_{0}}}\, dx &= \int \frac{\overbrace{(A+B)}^{=:a}(x-\alpha)+i\overbrace{(A-B)}^{=:b}\beta}{\beta^{2}+(x-\alpha)^{2}}\, dx.
+\end{align*}
+Two integrals arise in this case. For the first one the antiderivative can be calculated using the substitution $t=\frac{x-\alpha}{\beta}$, $dt = \frac{dx}{\beta}$
+\begin{align*}
+\int \frac{a(x-\alpha)}{\beta^{2}+(x-\alpha)^{2}}\, dx &= a\int \frac{\frac{x-\alpha}{\beta}}{1+(\frac{x-\alpha}{\beta})^{2}}\, \frac{dx}{\beta}=a\int \frac{t}{1+t^{2}}\,dt\\
+& = \frac{a}{2}\log(1+t^{2})+const. = \frac{a}2\log\left(1+\left(\frac{x-\alpha}{\beta}\right)^{2}\right)+const.
+\end{align*}
+For the second term we have again using the same substitution as above
+\begin{align*}
+\int \frac{b\beta}{\beta^{2}+(x-\alpha)^{2}}\, dx & = b\int \frac{1}{1+(\frac{x-\alpha}{\beta})^{2}}\, \frac{dx}{\beta}=b\int \frac{1}{1+t^{2}}\,dt\\
+& = b \arctan(t) + const = b \arctan\left(\frac{x-\alpha}{\beta}\right) + const.
+\end{align*}
+Altogether we have for $x_{0}\in\mathbb{C}\setminus\mathbb{R}$ and $s=1$
+\begin{align*}
+\int \frac{A}{x-x_{0}}+\frac{B}{x-\overline{x_{0}}}\, dx = \frac{A+B}2\log\left(1+\left(\frac{x-\alpha}{\beta}\right)^{2}\right)+i(A-B)\arctan\left(\frac{x-\alpha}{\beta}\right) + const.
+\end{align*}
+Now we want to investigate the case $s>1$. Here it is not relevant if $x_{0}$ is real or complex. We have
+\begin{align*}
+\int \frac{A}{(x-x_{0})^{s}}\, dx = \frac{A}{1-s}(x-x_{0})^{1-s}+const.
+\end{align*}
+\begin{example}
+We want to integrate $f(x)=\frac{x^{5}+2x^{3}+4x^{2}-3x}{(x^{2}+1)^{2}}$. First of all we decompose $f$ into a polynomial part and a strict proper function using polynomial division
+$$
+\frac{x^{5}+2x^{3}+4x^{2}-3x}{(x^{2}+1)^{2}} = x + \frac{4x^{2}-4x}{(x^{2}+1)^{2}} = x +  \frac{4x^{2}-4x}{(x+i)^{2}(x-i)^{2}}.
+$$
+The polynomial part has the antiderivative
+$$
+\int x\,dx = \frac{x^2}{2}+const.
+$$
+The strict proper part has a partial fraction decomposition
+$$
+\frac{4x^{2}-4x}{(x+i)^{2}(x-i)^{2}} = \frac{A}{x+i}+\frac{B}{(x+i)^{2}}+\frac{\overline{A}}{x-i}+\frac{\overline{B}}{(x-i)^{2}},
+$$
+with $A=i$ and $B=1-i$. Thus we have
+\begin{align*}
+\int \frac{i}{x+i} - \frac{i}{x-i}\, dx &= 2\arctan(x)+const.\\
+\int \frac{1-i}{(x+i)^{2}}\,dx &= -\frac{1-i}{x+i}+const.\\
+\int \frac{1+i}{(x-i)^{2}}\,dx &= -\frac{1+i}{x-i}+const.
+\end{align*}
+Altogether the antiderivative is
+\begin{align*}
+\int f(x)\, dx &= \frac12 x^2+2\arctan(x) -\frac{1-i}{x+i}-\frac{1+i}{x-i} + const.\\
+&= \frac12 x^2+2\arctan(x)-\frac{2x-2}{x^{2}+1} + const.
+\end{align*}
+\end{example}
+

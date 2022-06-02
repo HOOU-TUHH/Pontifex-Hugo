@@ -1,0 +1,116 @@
+\input{packs}
+%\section{Maps}% \label{sec:map}
+
+\begin{Definition}[Function or map]% \label{Def:Funktion}
+Let $X,Y$ be non-empty sets. A rule 
+that assigns to 
+each \defi{argument} $x\in X$ a unique \defi{value} $y\in Y$
+is called a \defi{map} or \defi{function}
+from $X$ into $Y$. One writes for this $y$ usually $f(x)$.\\[0.5em]
+Notation:\\[-2em]
+\begin{align*}
+f:X &\rightarrow Y \\
+x &\mapsto f(x)
+\end{align*}
+Here, $X$ is called \emph{domain} of $f$, and $Y$ is called \emph{codomain}. 
+\end{Definition} 
+
+\begin{Attention}[Two arrows!]
+We use the arrow `` $\to$ '' only between the sets, domain and codomain,
+and `` $\mapsto$ '' only between the elements.
+\end{Attention}
+
+\begin{example}{} %\label{Bsp:Funktion}
+%\begin{itemize}
+%\itemsep0.7mm
+%\item 
+$f:\mathbb{N} \rightarrow \mathbb{N}$ with $f(x)=x^2$ 
+maps each natural number to its square.
+% \begin{center}
+     % \begin{tikzpicture}[scale=0.9]
+% %% Mengen:
+% \draw (0,0) ellipse (2 and 5/2);
+% \draw (5,0) ellipse (2 and 5/2);
+% %% linke Menge:
+% \node at (-0.7,1.2) {$1$};
+% \fill (-0.5,1.2) circle (0.07);
+% \node at (0.3,0.6) {$2$};
+% \fill (0.5,0.6) circle (0.07);
+% \node at (-0.7,0) {$3$};
+% \fill (-0.5,0) circle (0.07);
+% \node at (0.3,-0.6) {$4$};
+% \fill (0.5,-0.6) circle (0.07);
+% \node at (-0.7,-1.2) {$5$};
+% \fill (-0.5,-1.2) circle (0.07);
+% \node at (0,-1.7) {$\dots$};
+% %% rechte Menge:
+% %Erste Zeile:
+% \fill (4,1.2) circle (0.05); \fill (4.9,1.2) circle (0.05); \fill (5.8,1.2) circle (0.05);
+% \node at (4.2,1.2) {$1$}; \node at (5.1,1.2) {$2$}; \node at (6,1.2) {$3$};
+% % Zweite zeile:
+% \fill (3.7,0.72) circle (0.05); \fill (4.3,0.72) circle (0.05); \fill (4.9,0.72) circle (0.05); \fill (5.5,0.72) circle (0.05); \fill (6.1,0.72) circle (0.05);
+% \node at (3.9,0.72) {$4$}; \node at (4.5,0.72) {$5$}; \node at (5.1,0.72) {$6$}; \node at (5.7,0.72) {$7$}; \node at (6.3,0.72) {$8$}; 
+% % Dritte Zeile:
+ % \fill (3.7,0.24) circle (0.05); \fill (4.5,0.24) circle (0.05); \fill (5.3,0.24) circle (0.05); \fill (6.1,0.24) circle (0.05);
+% \node at (3.9,0.24) {$9$}; \node at (4.75,0.24) {$10$}; \node at (5.55,0.24) {$11$}; \node at (6.35,0.24) {$12$};
+% % Vierte Zeile:
+% \fill (4.2,-0.24) circle (0.05); \fill (4.9,-0.24) circle (0.05); \fill (5.6,-0.24) circle (0.05);
+% \node at (4.45,-0.24) {$13$}; \node at (5.15,-0.24) {$14$}; \node at (5.85,-0.24) {$15$};
+% % Fünfte Zeile:
+% \fill (4.7,-0.72) circle (0.05); \node at (5.7,-0.72) {$\dots$};
+% \node at (4.95,-0.72) {$16$};
+% % Sechste Zeile:
+% \fill (4.9,-1.2) circle (0.05);
+% \node at (4.9,-1.7) {$\dots$};
+% \node at (5.2,-1.2) {$25$};
+% %% Beschriftung:
+% \node at (2.5,1.5) {$f$};
+% \node at (0,2.8) {$X=\mathbb{N}$};
+% \node at (5,2.8) {$Y=\mathbb{N}$};
+% %% Pfeile:
+% \draw[->] (-0.5,1.2) -- (3.9,1.2);
+% \draw[->] (0.5,0.6) -- (3.6,0.72);
+% \draw[->] (-0.5,0) -- (3.6,0.24);
+% \draw[->] (0.5,-0.6) -- (4.6,-0.72);
+% \draw[->] (-0.5,-1.2) -- (4.8,-1.2);
+% \end{tikzpicture}
+% \end{center}
+% \item  
+% \begin{align*}
+ % f : \mathbb{R}^2 &\to \mathbb{R}\\
+       % (x_1,x_2) &\mapsto x_1^2 + x_2^2\\
+% \end{align*}
+% \item
+% \begin{align*}
+ % f : \mathbb{Z}&\times \mathbb{N} \to \mathbb{Q} \\      
+       % (q,p) &\mapsto \frac{q}{p}
+% \end{align*}
+% \end{itemize}
+\end{example}
+
+\subsection*{Well-definedness}
+What can go wrong with the definition of a map? 
+Sometimes, when defining a function, it is not completely clear, if this makes sense. 
+Then one has to work and make this function well-defined. 
+
+\subsubsection{Example: the square-root}
+
+Try to define a map $a \to \sqrt{a}$ in a mathematically rigorous way.
+
+Naive definition:
+\begin{align*}
+ \sqrt{\hphantom{x}} : \mathbb{R} &\to \mathbb{R}\\
+         a &\mapsto \mbox{ the solution of } x^2=a.
+\end{align*}
+Problem of well-definedness: As we all know, the above equation has two ($a>0$), one ($a=0$), or zero ($a<0$) solutions.
+
+\emph{First way}: restrict the domain of definition and the codomain
+\[
+ \mathbb{R}^+_0 =  \{ a \in \mathbb{R}: a \ge 0 \}
+\]
+Then:
+\begin{align*}
+ \sqrt{\hphantom{x}} : \mathbb{R}^+_0 &\to \mathbb{R}^+_0\\
+         a &\mapsto  \mbox{ the non-negative solution of } x^2=a.
+\end{align*}
+This yields the classical square-root. 

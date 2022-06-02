@@ -1,0 +1,95 @@
+\input{packs}
+
+%\subsection*{Sets}
+%
+Modern mathematics does not say what sets are, but only specifies rules. This is, however, too difficult for us right now, 
+and we rather cite the attempt of a definition by Georg Cantor:
+
+\begin{Boxx}{}
+``Unter einer ‚Menge‘ verstehen wir jede Zusammenfassung von bestimmten wohlunterschiedenen Objekten unserer Anschauung oder unseres Denkens zu einem Ganzen.''
+\end{Boxx}
+
+\begin{Definition}[Set{,} element]
+A \emph{set} is a collection into a whole of definite, distinct objects of our perception or of our thought.
+Such an object $x$ of a set $M$ is called an \textit{element} of $M$ 
+and one writes $x\in M$. If $x$ is not such an object of $M$, we write $x\not\in M$.
+\end{Definition}
+
+A set is defined by giving all its elements $M:=\{1,4,9\}$.
+
+\begin{Boxx}{}
+The symbol ``$:=$'' is read as \emphblue{defined by} and
+means that the symbol $M$ is newly introduced as a set by the given elements.
+\end{Boxx}
+%
+
+\begin{example}
+\begin{itemize}
+ \item The empty set $\{\} = \emptyset = \varnothing$
+ is the unique set that has no elements at all.
+ \item The set that contains the empty set $\{ \varnothing \}$, which is non-empty
+ since it has exactly one element.
+ \item A finite set of numbers is $\{ 1,2,3\}$.
+\end{itemize}
+\end{example}
+
+\begin{notation}
+Let $A,B$ be sets:
+\begin{itemize}
+ \item $x \in A$ means $x$ is an element of $A$
+ \item $x\not\in A$ means $x$ is not an element of $A$
+ \item $A \subset B$ means $A$ is a subset of $B$: every element of $A$ is contained in $B$
+ \item $A \supset B$ means $A$ is a superset of $B$: every element of $B$ is contained in $A$
+ \item $A=B$ means $A \subset B \wedge A \supset B$. 
+ Note that the order of the elements does not matter in sets.
+ If we want the order to matter, we rather define \emph{tuples}:
+$(1,2,3) \neq (1,3,2)$. For sets, we always have $\{ 1,2,3 \} = \{1, 3,2\}$.
+ \item $A \subsetneq B$ means $A$ is a ``proper'' subset of $B$, every element of $A$ is contained in $B$, but $A \neq B$. 
+ \end{itemize}
+\end{notation}
+
+\begin{Boxx}[The important number sets]
+\begin{itemize}\itemsep0mm
+    \item $\mathbb{N}$ is the set of the natural numbers $1,2,3,\ldots$\index{natural numbers}; 
+    \item $\mathbb{N}_0$ is the set of the natural numbers and zero: $0, 1, 2, 3,\dots$;
+    \item $\mathbb{Z}$ is the set of the integers, which means  $\ldots,-3,-2,-1,0,1,2,3,\ldots$;
+\item $\mathbb{Q}$ is the set of the rational numbers, which means 
+  all fractions $\frac pq$ with $p\in\mathbb{Z}$ and $q\in\mathbb{N}$;
+\item $\mathbb{R}$ is the set of the real numbers.
+\end{itemize}
+\end{Boxx}
+
+Other ways to define sets:
+\begin{align*}
+ A &= \{ n \in \mathbb{N} : 1 \le n \le 300 \}\\
+ \mathbf{P}(B) &= \{ M : M \subset B \} \mbox{ power set: set of all subsets of } B\\
+ I &= \{ x\in \mathbb{R} : 1 \le x < \pi \} = [1,\pi) \mbox{ half-open interval }
+\end{align*}
+%
+
+\begin{Definition}[Cardinality]
+We use vertical bars $|\cdot|$ around a set
+to denote the number of elements.
+For example, we have $|\{1,4,9\}|=3$. The number of elements is called the \emph{cardinality} of the set. 
+\end{Definition}
+
+\begin{example}
+ $|\{1,3,3,1\}|=2$, $ \quad |\{1,2,3, \ldots, n \}| = n$,
+  $ \quad | \mathbb{N} | = \infty$ (?)
+\end{example}
+
+% \begin{exercise}[Which of the following logical statements are true?]
+% $$
+%   \corr{3\in \mathbb{N}}, \qquad \corr{12034\in\mathbb{N}}, \qquad \false{-1\in\mathbb{N}}, \qquad \false{0\in\mathbb{N}}, \qquad \corr{0\in\mathbb{N}_0}
+% $$
+% $$
+%   \corr{-1\in\mathbb{Z}}, \qquad \false{0\notin\mathbb{Z}}, \qquad \false{-2.7\in\mathbb{Z}}, \qquad \false{\tfrac23\in\mathbb{Z}},
+% $$
+% $$
+%   \corr{\tfrac23\in\mathbb{Q}}, \qquad \corr{-3\in\mathbb{Q}}, \qquad \corr{-2.7\in\mathbb{Q}}, \qquad \false{\sqrt{2}\in\mathbb{Q}},
+% $$
+% $$
+% \corr{\sqrt{2}\in\R}, \qquad \false{\sqrt{-2}\in\R}, \qquad \corr{-\tfrac23\in\R}, \qquad \corr{0\in\R}.
+% $$
+% \end{exercise}
+

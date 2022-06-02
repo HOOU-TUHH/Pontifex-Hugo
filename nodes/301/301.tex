@@ -1,0 +1,36 @@
+\input{packs}
+
+%It is clear from the definition that $\mathcal{A}(I)$ is a~vector space if we define addition by $(f+g)(x)=f(x)+g(x)$ and scalar multiplication by $(\lambda f)(x)=\lambda f(x)$. It can be further seen that $\mathcal{B}(I)$ is a~subspace of $\mathcal{A}(I)$. By the choice of an~appropriate norm, $\mathcal{B}(I)$ is even a~normed space.
+In the following, we consider sequences of functions and introduce some convergence concepts.
+% \begin{theorem}
+%  Let $I$ be a~set. Then $\mathcal{B}(I)$ equipped with the norm
+% \[\|f\|=\sup\{|f(x)|\,:\,x\in I\}\]
+% is a~normed space.
+% \end{theorem}
+% {\em Proof:} We have to show the following statements a), b) and c) of Definition~\ref{def:norm}:
+% \begin{enumerate}[a)]
+%  \item The fact $\|f\|\geq 0$ for all $f$ directly follows by definition of $\|\cdot\|$. Now assume that $\|f\|=0$. Then $\sup\{|f(x)|\,:\,x\in I\}=0$ and thus $|f(x)|\leq 0$ for all $x\in I$. Therefore,
+% $f(x)=0$ for all $x\in I$, i.e., $f=0$.
+%  \item This statement follows from $|\lambda f(x)|=|\lambda| |f(x)|$ for all $x\in I$.
+%  \item
+% \[\begin{aligned}\|f+g\|=&\sup\{|f(x)+g(x)|\,:\,x\in I\}\leq\sup\{|f(x)|+|g(x)|\,:\,x\in I\}\\
+% \leq&\sup\{|f(x)|\,:\,x\in I\}+\sup\{|g(x)|\,:\,x\in I\}= \|f\|+\|g\|
+%   \end{aligned}
+% \]\hfill$\Box$
+% \end{enumerate}
+
+\begin{Definition}[Pointwise convergence]
+A~sequence $(f_n)_{n\in\mathbb{N}}$ of functions $f_n:I\to\mathbb{K}$ is called \emph{pointwisely convergent} to $f:I\to\mathbb{K}$ if for all $x\in I$ holds
+\[\lim_{n\to\infty}f_n(x)=f(x).\]
+Using logical quantifiers this reads:
+\begin{equation}\label{def:lptwconv}
+	\forall x\in I
+		\quad \forall \varepsilon > 0 
+	\quad \exists N \in \mathbb{N}
+	\quad \forall n \geq N
+	\quad : \quad
+	|f_n(x)-f(x)|<\varepsilon \ .
+\end{equation}
+\end{Definition}
+Pointwise convergence means nothing else but that for all $x\in I$, the sequence $(f_n(x))_{n\in\mathbb{N}}$ in $\mathbb{K}$ converges to $f(x)$. 
+

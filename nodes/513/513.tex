@@ -1,0 +1,45 @@
+\input{packs}
+
+Here, we will prove the theorem below.
+
+\begin{Theorem}{Taylor's formula}
+    Let $I$ be an interval and assume that $f:I\to\mathbb{R}$ is $n+1$-times differentiable. Let $x_0\in I$ and $h\in\mathbb{R}$ such that $x_0+h\in I$. 
+Then there exists some $\theta\in(0,1)$ such that
+\[f(x_0+h)=\underbrace{\sum_{k=0}^n\frac{f^{(k)}(x_0)}{k!}h^k}_{\text{``Taylor polynomial''}}+\underbrace{\frac{f^{(n+1)}(x_0+\theta h)}{(n+1)!}h^{n+1}}_{\text{``remainder term''}}.\]
+The number $x_0$ is called \emph{expansion point}.
+\end{Theorem}
+{\em Proof:} Remember the generalised mean value theorem
+\[\frac{F(x_1)-F(x_0)}{g(x_1)-g(x_0)}=\frac{F'(x_0+\theta(x_1-x_0))}{g'(x_0+\theta(x_1-x_0))}\]
+for some $\theta\in(0,1)$,
+which can be reformulated as (with $h=x_1-x_0$)
+\begin{equation}
+F(x_0+h)-F(x_0)=\frac{g(x_0+h)-g(x_0)}{g'(x_0+\theta h)}\cdot F'(x_0+\theta h).\label{eq:genmean}
+\end{equation}
+Now consider the functions
+\[F(x):=\sum_{k=0}^n\frac{f^{(k)}(x)}{k!}(x_0+h-x)^k,\qquad g(x):=(x_0+h-x)^{n+1}.\]
+Then we have
+\[F'(x)=\sum_{k=0}^n\frac{f^{(k+1)}(x)}{k!}(x_0+h-x)^k-\sum_{k=1}^n\frac{f^{(k)}(x)}{(k-1)!}(x_0+h-x)^{k-1}=\frac{f^{(n+1)}(x)}{n!}(x_0+h-x)^{n}.\]
+and
+\[g'(x)=-(n+1)(x_0+h-x)^{n}.\]
+Moreover, we have
+\[F(x_0)=\sum_{k=0}^n\frac{f^{(k)}(x_{0})}{k!}h^k,\quad F(x_0+h)=f(x_0+h),\quad g(x_0)=h^{n+1},\quad g(x_0+h)=0.\]
+Then using (\ref{eq:genmean}), we obtain
+\[
+\begin{aligned}
+&f(x_0+h)- \sum_{k=0}^n\frac{f^{(k)}(x_0)}{k!}h^k\\
+=&F(x_0+h)-F(x_0)\\
+=&\frac{g(x_0+h)-g(x_0)}{g'(x_0+\theta h)}\cdot F'(x_0+\theta h)\\
+=&\frac{-h^{n+1}}{-(n+1)((1-\theta) h)^{n}}\cdot
+\frac{f^{(n+1)}(x_0+\theta h)}{n!}((1-\theta) h)^{n}\\
+=&\frac{f^{(n+1)}(x_0+\theta h)}{(n+1)!}h^{n+1}.
+\end{aligned}
+\]
+This implies Taylor's formula.$\Box$
+
+Note that, by the substitution $h:=x-x_0$, Taylor's formula can also be written as follows:
+\begin{Theorem}{Taylor's formula{,} alternative version}
+    Let $I$ be an interval and assume that $f:I\to\mathbb{R}$ is $n+1$-times differentiable. Let $x_0,x\in I$. Then there exists some $\hat{x}$ between $x_0$ and $x$ 
+such that
+\[f(x)=\underbrace{\sum_{k=0}^n\frac{f^{(k)}(x_0)}{k!}(x-x_0)^k}_{=:T_n(x,x_0)}+\underbrace{\frac{f^{(n+1)}(\hat{x})}{(n+1)!}(x-x_0)^{n+1}}_{=:R_n(x,x_0)}.\]
+\end{Theorem}
+
