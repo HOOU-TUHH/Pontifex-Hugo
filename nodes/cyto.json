@@ -1041,7 +1041,7 @@
     "002-100": {
       "source": "002",
       "target": "100",
-      "label": "A sequence is a map having the real numbers as domain "
+      "label": "A sequence is a map having the real numbers as codomain "
     },
     "002-101": {
       "source": "002",
@@ -1056,7 +1056,7 @@
     "003-100": {
       "source": "003",
       "target": "100",
-      "label": "A sequence is a map of natural numbers "
+      "label": "A sequence is a map that assigns to each natural number a value."
     },
     "003-101": {
       "source": "003",
