@@ -57,7 +57,7 @@
     },
     "005": {
       "id": "005",
-      "label": "Image and Preimage",
+      "label": "Image and\nPreimage",
       "meta": " SLS05 ",
       "content": "Via images and preimages we describe how functions work on sets.",
       "notes": "005-snippet.html",
@@ -244,7 +244,7 @@
     },
     "108": {
       "id": "108",
-      "label": "Bolzano-Weierstrass",
+      "label": "Bolzano-\nWeierstrass",
       "meta": "RA10 ",
       "content": "Every bounded sequence has at least one converging subsequence.",
       "notes": "108-snippet.html",
@@ -321,7 +321,7 @@
     },
     "115": {
       "id": "115",
-      "label": "Cauchy Sequences",
+      "label": "Cauchy\nSequences",
       "meta": " RA07 ",
       "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
       "notes": "115-snippet.html",
