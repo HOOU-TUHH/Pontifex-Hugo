@@ -13,3 +13,13 @@
       "target": "115",
       "label": "We need Limit theorems in order to derive properties of Cauchy sequences (not true?)."
     },
+    "102-300": {
+      "source": "102",
+      "target": "300",
+      "label": "Boundedness of a function relates to the boundedness of a certain set associated to the function (confusing?)."
+    },
+    "102-603": {
+      "source": "102",
+      "target": "603",
+      "label": "Revisiting the concept of boundedness in a continuous setting (confusing?)."
+    },

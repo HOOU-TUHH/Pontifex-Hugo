@@ -178,7 +178,7 @@
     },
     "102": {
       "id": "102",
-      "label": "Bounded Sequences",
+      "label": "Bounded\nSequences",
       "meta": " RA03 ",
       "content": "Sequences can be bounded from above and from below.",
       "notes": "102-snippet.html",
@@ -959,6 +959,11 @@
       "target": "005",
       "label": "Image and Preimage are special sets related to a mapping."
     },
+    "101-102": {
+      "source": "101",
+      "target": "102",
+      "label": "Convergent sequences are bounded."
+    },
     "002-102": {
       "source": "002",
       "target": "102",
@@ -1217,12 +1222,12 @@
     "102-104": {
       "source": "102",
       "target": "104",
-      "label": "A bound for the sequence is also a bound for the limit."
+      "label": "A bound for the sequence is also a bound for the limit by the monotonicity of limits."
     },
     "102-108": {
       "source": "102",
       "target": "108",
-      "label": "Bolzano Weierstrass requires a bounded sequence to begin with."
+      "label": "The Bolzano Weierstrass Theorem guarantees the existence of accumulation points for bounded sequences."
     },
     "103-203": {
       "source": "103",
@@ -1474,11 +1479,6 @@
       "target": "300",
       "label": "Bounded functions on an interval form a set."
     },
-    "102-300": {
-      "source": "102",
-      "target": "300",
-      "label": "Boundedness of a function relates to the boundedness of a certain set associated to the function."
-    },
     "300-301": {
       "source": "300",
       "target": "301",
@@ -1713,11 +1713,6 @@
       "source": "601",
       "target": "602",
       "label": "The definition of the Riemann integral gives rise to nice properties."
-    },
-    "102-603": {
-      "source": "102",
-      "target": "603",
-      "label": "Revisiting the concept of boundedness in a continuous setting."
     },
     "603-609": {
       "source": "603",
