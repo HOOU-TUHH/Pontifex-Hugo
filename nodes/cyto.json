@@ -1,0 +1,1893 @@
+{
+  "nodes": {
+    "000": {
+      "id": "000",
+      "label": "Logical Statements\nand Operations",
+      "meta": " SLL01",
+      "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
+      "notes": "000-snippet.html",
+      "video": "https://www.youtube.com/embed/DU4wKBDm2Z4?start=7",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto000?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "001": {
+      "id": "001",
+      "label": "Sets",
+      "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+      "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+      "notes": "001-snippet.html",
+      "video": "https://www.youtube.com/embed/iA-Dtf7529M?start=14",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto001?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/4dhxy6YLYN7ItlWa0QgsG1?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "002": {
+      "id": "002",
+      "label": "Real Numbers",
+      "meta": " SLR03  ",
+      "content": "In a real analysis, the real numbers are the largest number set we need. They satisfy axioms that represent the idea of a number line.",
+      "notes": "002-snippet.html",
+      "video": "https://www.youtube.com/embed/E2MAvASTcg4?start=19",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Compound_Inequalities/P_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto002?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/1i62R3ZdwhjASp1TNJ2Bcy?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "003": {
+      "id": "003",
+      "label": "Maps",
+      "meta": " SLS04 ",
+      "content": "Maps are the mathematical formulation of a machine that gets inputs and generate outputs. On both sides, sets are needed.",
+      "notes": "003-snippet.html",
+      "video": "https://www.youtube.com/embed/JoLDwNh1lZ8?start=260",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Functions_Evaluating/Quad_No_Constant.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto003?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "004": {
+      "id": "004",
+      "label": "Natural Numbers\nand Induction",
+      "meta": " SLN01 + SLN02 + SLN03 + SLN04 ",
+      "content": "Using natural numbers is our first mathematical abstraction as children. Mathematical induction is an important technique of proof.",
+      "notes": "004-snippet.html",
+      "video": "https://www.youtube.com/embed/WMgiYh7tac0?start=13",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/MC/Proofs/EssayProofs/InductionDivisibility01.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto004?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/30dINCx7oSXMkCcSIOIBrv?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "005": {
+      "id": "005",
+      "label": "Image and\nPreimage",
+      "meta": " SLS05 ",
+      "content": "Via images and preimages we describe how functions work on sets.",
+      "notes": "005-snippet.html",
+      "video": "https://www.youtube.com/embed/twBYYTJdcjc?start=14",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto005?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "006": {
+      "id": "006",
+      "label": "Injectivity, Surjectivity,\nBijectivity",
+      "meta": " SLS06 ",
+      "content": "These are important notions for maps.",
+      "notes": "006-snippet.html",
+      "video": "https://www.youtube.com/embed/CSzJchEvfpE?start=9",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMass-Amherst/Abstract-Algebra/PS-Functions/Functions2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto006?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "007": {
+      "id": "007",
+      "label": "Composition",
+      "meta": "  SLS07 ",
+      "content": "The composition for maps is just applying two maps in a row.",
+      "notes": "007-snippet.html",
+      "video": "https://www.youtube.com/embed/NiJ1yWKM9CU?start=13",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/algebraKaufmannSchwitters/ks_8_6_18.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto007?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "008": {
+      "id": "008",
+      "label": "Logical Deduction",
+      "meta": " SLL03",
+      "content": "How to get new true proposition from other true propositions.",
+      "notes": "008-snippet.html",
+      "video": "https://www.youtube.com/embed/AjdIPOXRgoQ?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setDiscrete/katie5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto008?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "009": {
+      "id": "009",
+      "label": "Predicates and Quantifiers",
+      "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+      "content": "Formal mathematical statements are often built by predicates.",
+      "notes": "009-snippet.html",
+      "video": "https://www.youtube.com/embed/yIdECC6QExY?start=11",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Predicates/predicateB8.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto009?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "010": {
+      "id": "010",
+      "label": "Operations on Sets",
+      "meta": " SLL03",
+      "content": "Sets can be joined or intersected in order to create new sets.",
+      "notes": "010-snippet.html",
+      "video": "https://www.youtube.com/embed/",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/logicAndSetTheory/prob03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto010?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "011": {
+      "id": "011",
+      "label": "Sums and Products",
+      "meta": " SLL03",
+      "content": "An important shorthand notation for calculations.",
+      "notes": "011-snippet.html",
+      "video": "https://www.youtube.com/embed/S5DdXfxl3ac?start=3",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setIntSigmaNotation/an6_4_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto011?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "012": {
+      "id": "012",
+      "label": "Countable Sets",
+      "meta": "",
+      "content": "A notion of cardinality that covers finite sets and thos that can be enumerated via the natural numbers.",
+      "notes": "012-snippet.html",
+      "video": "https://www.youtube.com/embed/",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto012?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/6JdbJSYkihEiLJQijcPkYO?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "013": {
+      "id": "013",
+      "label": "Bounded Sets,\nMaxima and Minima",
+      "meta": "",
+      "content": "The values inside a set of real numbers can be bounded.",
+      "notes": "013-snippet.html",
+      "video": "https://www.youtube.com/embed/",
+      "webwork": "",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto013?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "100": {
+      "id": "100",
+      "label": "Sequences",
+      "meta": " RA02 ",
+      "content": "These object are needed to define limits later on.",
+      "notes": "100-snippet.html",
+      "video": "https://www.youtube.com/embed/1SguKALJji8?start=17",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto100?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "101": {
+      "id": "101",
+      "label": "Convergence",
+      "meta": " RA02 ",
+      "content": "Convergent sequences have a well-defined limit.",
+      "notes": "101-snippet.html",
+      "video": "https://www.youtube.com/embed/1SguKALJji8?start=367",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto101?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "102": {
+      "id": "102",
+      "label": "Bounded\nSequences",
+      "meta": " RA03 ",
+      "content": "Sequences can be bounded from above and from below.",
+      "notes": "102-snippet.html",
+      "video": "https://www.youtube.com/embed/k-Wm6gJYfrw?start=221",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto102?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "103": {
+      "id": "103",
+      "label": "Limit Theorems",
+      "meta": " RA04 ",
+      "content": "Combining limits is a useful tool.",
+      "notes": "103-snippet.html",
+      "video": "https://www.youtube.com/embed/237VMLNVtQs?start=18",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Dartmouth/setStewartCh12S1/problem_7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto103?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "104": {
+      "id": "104",
+      "label": "Monotonicity and\nSandwich Theorem",
+      "meta": " RA05 ",
+      "content": "Sandwich a sequence by two converging sequences to get its limit.",
+      "notes": "104-snippet.html",
+      "video": "https://www.youtube.com/embed/Y6rRSip3QN4?start=14",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto104?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "105": {
+      "id": "105",
+      "label": "Supremum and\nInfimum of Sets",
+      "meta": " RA06 ",
+      "content": "Bounded sets always have an supremum and infimum which are generalizations of maximum and minimum.",
+      "notes": "105-snippet.html",
+      "video": "https://www.youtube.com/embed/8Cyvdv7Sm2s?start=16",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto105?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "106": {
+      "id": "106",
+      "label": "Completeness",
+      "meta": " RA07 ",
+      "content": "Completeness says that Cauchy sequences must converge.",
+      "notes": "106-snippet.html",
+      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=14",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto106?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "107": {
+      "id": "107",
+      "label": "Subsequences and\nAccumulation Values",
+      "meta": " RA09 ",
+      "content": "A sequence that does not converge may still have converging subsequences.",
+      "notes": "107-snippet.html",
+      "video": "https://www.youtube.com/embed/xZ5vjdZzTUI?start=14",
+      "webwork": "https://bright.jp-g.de/bsom/real_analysis/ratest09.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto107?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "108": {
+      "id": "108",
+      "label": "Bolzano-\nWeierstrass",
+      "meta": "RA10 ",
+      "content": "Every bounded sequence has at least one converging subsequence.",
+      "notes": "108-snippet.html",
+      "video": "https://www.youtube.com/embed/e2QaNklYZGg?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest10/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto108?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/4MKVAhO2q57xmMn1P7ONKg?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "109": {
+      "id": "109",
+      "label": "Limit Inferior and\nLimit Superior",
+      "meta": "RA11+RA12 ",
+      "content": "The largest and smallest limit of all convergent subsequences.",
+      "notes": "109-snippet.html",
+      "video": "https://www.youtube.com/embed/-y0v2V0-_8E?start=21",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest11/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto109?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "110": {
+      "id": "110",
+      "label": "Open, Closed,\nCompact Sets",
+      "meta": " RA13 ",
+      "content": "Important notions for subsets of real numbers.",
+      "notes": "110-snippet.html",
+      "video": "https://www.youtube.com/embed/Wqo4Svs4erw?start=12",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest13/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto110?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "111": {
+      "id": "111",
+      "label": "Heine-Borel\nTheorem",
+      "meta": " RA14 ",
+      "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
+      "notes": "111-snippet.html",
+      "video": "https://www.youtube.com/embed/vjOefDHOVIg?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest14/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto111?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "112": {
+      "id": "112",
+      "label": "Interior, Closure,\nBoundary",
+      "meta": " ",
+      "content": "Topological operations on sets.",
+      "notes": "112-snippet.html",
+      "video": "https://www.youtube.com/embed/",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto112?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "113": {
+      "id": "113",
+      "label": "Uncountability\nof the Reals",
+      "meta": " ",
+      "content": "The real numbers cannot be enumerated.",
+      "notes": "113-snippet.html",
+      "video": "https://www.youtube.com/embed/jCiIsigwaBE",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto113?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/7ElhBgZebKwOXqMsWMGgGJ?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "114": {
+      "id": "114",
+      "label": "Convergence of Bounded Monotonic Sequences",
+      "meta": " ",
+      "content": "If a sequence of real numbers is bounded and monotonic, then it is convergent.",
+      "notes": "114-snippet.html",
+      "video": "",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto114?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "115": {
+      "id": "115",
+      "label": "Cauchy\nSequences",
+      "meta": " RA07 ",
+      "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
+      "notes": "115-snippet.html",
+      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=14",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto106?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "200": {
+      "id": "200",
+      "label": "Partial Sums",
+      "meta": "RA15",
+      "content": "A series is a sequence of partial sums.",
+      "notes": "200-snippet.html",
+      "video": "https://www.youtube.com/embed/BgfP3riDcrc?start=13",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto200?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/4rf4zO7V8UJErJxgzmZFgh?utm_source=generator&theme=0&t=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "201": {
+      "id": "201",
+      "label": "Geometric and\nHarmonic Series",
+      "meta": "RA16",
+      "content": "The most important examples of series.",
+      "notes": "201-snippet.html",
+      "video": "https://www.youtube.com/embed/Y4yRcz-b17A?start=12",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setSequenceandSeries/jj14.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto201?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "203": {
+      "id": "203",
+      "label": "Convergent Series and\nLimit Theorems",
+      "meta": "RA17",
+      "content": "Basic operations with convergent series.",
+      "notes": "203-snippet.html",
+      "video": "https://www.youtube.com/embed/lr12HwXQ3uw?start=20",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSeries4Geometric/ns8_2_23.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto203?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "204": {
+      "id": "204",
+      "label": "Cauchy Criterion",
+      "meta": "RA17",
+      "content": "A series convergence if its partial sums form a Cauchy sequence.",
+      "notes": "204-snippet.html",
+      "video": "https://www.youtube.com/embed/lr12HwXQ3uw?start=130",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/AlfredUniv/anton8e/chapter10/10.4/prob1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto204?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "205": {
+      "id": "205",
+      "label": "Leibniz Criterion",
+      "meta": "RA18",
+      "content": "A convergence criterion for sums based on an alternating sequence.",
+      "notes": "205-snippet.html",
+      "video": "https://www.youtube.com/embed/MjjMwQ6zFko?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_5_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto205?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "206": {
+      "id": "206",
+      "label": "Absolute Convergence",
+      "meta": "RA19",
+      "content": "A strong concept of convergence of series.",
+      "notes": "206-snippet.html",
+      "video": "https://www.youtube.com/embed/mI40-tAtP58?start=21",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_6_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto206?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "207": {
+      "id": "207",
+      "label": "Comparison Test",
+      "meta": "RA19",
+      "content": "If a series converges can be checked with different tests.",
+      "notes": "207-snippet.html",
+      "video": "https://www.youtube.com/embed/mI40-tAtP58?start=160",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section04/SCalcET7-11-4-002a.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto207?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "208": {
+      "id": "208",
+      "label": "Quotient Criterion",
+      "meta": "RA20",
+      "content": "An important criterion to prove absolute convergence by means of ratios of the underlying sequence's terms.",
+      "notes": "208-snippet.html",
+      "video": "https://www.youtube.com/embed/yLbgdL9HAeg?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/9-4-Ratio-test/ratio-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto208?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "209": {
+      "id": "209",
+      "label": "Root Criterion",
+      "meta": "RA20",
+      "content": "An important criterion to prove absolute convergence by means of the behavior of the n-th roots of the underlying sequence's terms.",
+      "notes": "209-snippet.html",
+      "video": "https://www.youtube.com/embed/yLbgdL9HAeg?start=420",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.5_The_Ratio_and_Root_Tests/10.5.37.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto209?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "210": {
+      "id": "210",
+      "label": "Reordering",
+      "meta": "RA21",
+      "content": "Series can be reordered.",
+      "notes": "210-snippet.html",
+      "video": "https://www.youtube.com/embed/GADre0hHc4c?start=9",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest21/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto210?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "211": {
+      "id": "211",
+      "label": "Cauchy Product",
+      "meta": "RA22",
+      "content": "A special way to multiply two absolutely convergent sequences.",
+      "notes": "211-snippet.html",
+      "video": "https://www.youtube.com/embed/tRa0Ex_0Yfo?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest22/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto211?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "300": {
+      "id": "300",
+      "label": "Sequences of\nBounded Functions",
+      "meta": "RA23",
+      "content": "The concept of sequences but for functions instead of real numbers.",
+      "notes": "300-snippet.html",
+      "video": "https://www.youtube.com/embed/RM2hytsyMpc?start=20",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest23/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto300?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "301": {
+      "id": "301",
+      "label": "Pointwise Convergence",
+      "meta": "RA24",
+      "content": "A notion of convergence for sequences functions that reduces the question of convergence to convergence of sequences of real numbers.",
+      "notes": "301-snippet.html",
+      "video": "https://www.youtube.com/embed/Kq_KZpljeXo?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest24/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto301?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "302": {
+      "id": "302",
+      "label": "Uniform Convergence",
+      "meta": "RA25",
+      "content": "A strong notion of convergence for sequences of functions that helps to preserve favorable properties like continuity in the limit.",
+      "notes": "302-snippet.html",
+      "video": "https://www.youtube.com/embed/O2HKxNcom7g?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest25/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto302?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "303": {
+      "id": "303",
+      "label": "Limits of Functions",
+      "meta": "RA26",
+      "content": "How function evaluations change when the argument approaches a certain point.",
+      "notes": "303-snippet.html",
+      "video": "https://www.youtube.com/embed/QoLlvvro6rE?start=15",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setRateChange/3-2-72.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto303?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "304": {
+      "id": "304",
+      "label": "Continuity",
+      "meta": "RA27",
+      "content": "The concept that relates functions with convergent sequences.",
+      "notes": "304-snippet.html",
+      "video": "https://www.youtube.com/embed/8VTG6EsyJh4?start=8",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto304?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "305": {
+      "id": "305",
+      "label": "Epsilon-Delta\nDefinition",
+      "meta": "RA28",
+      "content": "A different notion of continuity using open intervals.",
+      "notes": "305-snippet.html",
+      "video": "https://www.youtube.com/embed/",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto305?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "306": {
+      "id": "306",
+      "label": "Continuity for Sums,\nProducts, Quotients,\nand Compositions",
+      "meta": "RA29",
+      "content": "How combination of continuous functions leads to new continuous functions.",
+      "notes": "306-snippet.html",
+      "video": "https://www.youtube.com/embed/W-E4LqZyEHA?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest29/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto306?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "307": {
+      "id": "307",
+      "label": "Continuous Images\nof Compact Sets\nAre Compact",
+      "meta": "RA30",
+      "content": "A mapping property for continuous functions.",
+      "notes": "307-snippet.html",
+      "video": "https://www.youtube.com/embed/6VWTG4wlRoA?start=11",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest30/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto307?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "308": {
+      "id": "308",
+      "label": "Uniform Limits of \n Continuous Functions",
+      "meta": "RA31",
+      "content": "How to preserve continuity in the limit.",
+      "notes": "308-snippet.html",
+      "video": "https://www.youtube.com/embed/llJruZnO-t4?start=11",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest31/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto308?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "309": {
+      "id": "309",
+      "label": "Intermediate Value\nTheorem",
+      "meta": "RA32",
+      "content": "This theorem tells us that continuous functions don't jump. They have to attain every value between two values in their image.",
+      "notes": "309-snippet.html",
+      "video": "https://www.youtube.com/embed/BNLu4_3Okuk?start=9",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/1.5/APEX_1.5_34.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto309?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio>"},
+    "400": {
+      "id": "400",
+      "label": "Exponential\nFunction",
+      "meta": "RA33",
+      "content": "A special function that can be defined via a power series.",
+      "notes": "400-snippet.html",
+      "video": "https://www.youtube.com/embed/onmh9nzkfDA?start=25",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto400?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+    "401": {
+      "id": "401",
+      "label": "Logarithm Function",
+      "meta": "RA33",
+      "content": "The inverse of the exponential function.",
+      "notes": "401-snippet.html",
+      "video": "https://www.youtube.com/embed/onmh9nzkfDA?start=213",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setLogarithmicFunctions/srw4_3_43.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto401?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "402": {
+      "id": "402",
+      "label": "Polynomials",
+      "meta": "RA33",
+      "content": "A basic class of functions that consists a linear combinations of monomials.",
+      "notes": "402-snippet.html",
+      "video": "https://www.youtube.com/embed/onmh9nzkfDA?start=297",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_03_Polynomial.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto402?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "403": {
+      "id": "403",
+      "label": "Power Series",
+      "meta": "RA33",
+      "content": "A sequence of partial sums of polynomial functions.",
+      "notes": "403-snippet.html",
+      "video": "https://www.youtube.com/embed/onmh9nzkfDA?start=332",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Indiana/Indiana_setSeries8Power/eva8_5a_2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto403?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "500": {
+      "id": "500",
+      "label": "Differentiability",
+      "meta": "RA34",
+      "content": "How to quantify the rate of change of a function.",
+      "notes": "500-snippet.html",
+      "video": "https://www.youtube.com/embed/TLdBLqPTsYc?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.51.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto500?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "501": {
+      "id": "501",
+      "label": "Sum and Product Rule",
+      "meta": "RA35",
+      "content": "Useful rules for differentiating sums or products of differentiable functions.",
+      "notes": "501-snippet.html",
+      "video": "https://www.youtube.com/embed/wp-s9c1IKhI?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setDervProductQuotientRule/s2_2_13.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto501?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "502": {
+      "id": "502",
+      "label": "Chain Rule",
+      "meta": "RA36",
+      "content": "How to differentiate compositions of functions.",
+      "notes": "502-snippet.html",
+      "video": "https://www.youtube.com/embed/g57hlenwvis?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setChainRuleExpLogFunctions/5-3-65.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto502?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "503": {
+      "id": "503",
+      "label": "Uniform Convergence \n for Differentiable Functions",
+      "meta": "RA37",
+      "content": "Compatibility of differentiability with uniform limits.",
+      "notes": "503-snippet.html",
+      "video": "https://www.youtube.com/embed/PwkaPb_sCVQ?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest37/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto503?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "504": {
+      "id": "504",
+      "label": "Examples of \nDifferentiable Functions",
+      "meta": "RA38",
+      "content": "Calculation of derivatives by example.",
+      "notes": "504-snippet.html",
+      "video": "https://www.youtube.com/embed/93i7uKScVvc?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma122DB/set4b/s3_4_10.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto504?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "505": {
+      "id": "505",
+      "label": "Inversion Formula",
+      "meta": "RA39",
+      "content": "How to calculate the derivative of the inverse function.",
+      "notes": "505-snippet.html",
+      "video": "https://www.youtube.com/embed/h0nBAMhdSMk?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.8_Derivatives_of_Inverse_Functions/3.8.7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto505?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "506": {
+      "id": "506",
+      "label": "Rolle's Theorem",
+      "meta": "RA40",
+      "content": "The derivatives of functions with equal boundary conditions always have at least one zero.",
+      "notes": "506-snippet.html",
+      "video": "https://www.youtube.com/embed/5Scawd2WLLA?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest40/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto506?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "507": {
+      "id": "507",
+      "label": "Mean Value Theorem",
+      "meta": "RA41",
+      "content": "This theorem helps us to link monotonicity of a function with values of its derivative.",
+      "notes": "507-snippet.html",
+      "video": "https://www.youtube.com/embed/FQo9OYku5aY?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto507?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/mvt.mp3\">Your browser does not support the <code>audio</code> element.</audio>"
+    },
+    "508": {
+      "id": "508",
+      "label": "Theorem of l'Hospital",
+      "meta": "RA42",
+      "content": "An important tool for calculating limits.",
+      "notes": "508-snippet.html",
+      "video": "https://www.youtube.com/embed/KbS_cRToPFA?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.5_LHopitals_Rule/4.5.40.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto508?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "509": {
+      "id": "509",
+      "label": "Generalisations of\nl'Hospital's Rule",
+      "meta": "RA43",
+      "content": "Further scenarios in which limits can be calculated by l'Hospital's rule.",
+      "notes": "509-snippet.html",
+      "video": "https://www.youtube.com/embed/KuF0JRsWhBk?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.7/APEX_6.7_27.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto509?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "510": {
+      "id": "510",
+      "label": "Higher Derivatives",
+      "meta": "RA44",
+      "content": "Taking derivatives of derivatives of differentiable functions.",
+      "notes": "510-snippet.html",
+      "video": "https://www.youtube.com/embed/vyZ5ESoqsxw?start=11",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=brary/Valdosta/APEX_Calculus/3.4/APEX_3.4_13.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto510?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "511": {
+      "id": "511",
+      "label": "Taylor's Theorem",
+      "meta": "RA45",
+      "content": "An approximation method for differentiable functions.",
+      "notes": "511-snippet.html",
+      "video": "https://www.youtube.com/embed/Pb390hRaLrw?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest45/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto511?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "512": {
+      "id": "512",
+      "label": "Application of\nTaylor's Theorem",
+      "meta": "RA46",
+      "content": "Calculate an approximation via Taylor's Theorem",
+      "notes": "512-snippet.html",
+      "video": "https://www.youtube.com/embed/zRoyHrMNOO8?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/10-2-Taylor-series/Taylor-series-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto512?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "513": {
+      "id": "513",
+      "label": "Proof of\nTaylor's Theorem",
+      "meta": "RA47",
+      "content": "Derive an approximation result from the generalised mean value theorem.",
+      "notes": "513-snippet.html",
+      "video": "https://www.youtube.com/embed/oZZrwKsqVro?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest47/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto513?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "600": {
+      "id": "600",
+      "label": "Partitions and\nStep Functions",
+      "meta": "RA48",
+      "content": "Splitting up an innterval in subintervals and defining functions that are constant on them.",
+      "notes": "600-snippet.html",
+      "video": "https://www.youtube.com/embed/joXBmJ1KInU?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest48/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto600?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "601": {
+      "id": "601",
+      "label": "Riemann Integral for\nStep Functions",
+      "meta": "RA49",
+      "content": "A notion of integral for a simple class of functions.",
+      "notes": "601-snippet.html",
+      "video": "https://www.youtube.com/embed/VdXLenrjIao?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest49/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto601?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "602": {
+      "id": "602",
+      "label": "Linearity and Monotonicity\nof the Riemann Integral",
+      "meta": "RA49",
+      "content": "Important properties of the Riemann integral.",
+      "notes": "602-snippet.html",
+      "video": "https://www.youtube.com/embed/6Pb97_7huwI?start=34",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest50/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto602?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "603": {
+      "id": "603",
+      "label": "Riemann Integral\nfor Bounded Functions",
+      "meta": "RA51",
+      "content": "Notion of integral for a large class of functions.",
+      "notes": "603-snippet.html",
+      "video": "https://www.youtube.com/embed/t8Hh73HxP1o?start=12",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest51/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto603?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "604": {
+      "id": "604",
+      "label": "Examples for\nCalculating the\nRiemann Integral",
+      "meta": "RA52",
+      "content": "Use the approximation by step functions to calculate integrals.",
+      "notes": "604-snippet.html",
+      "video": "https://www.youtube.com/embed/J9qXHzxeDN4?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest52/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto604?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "605": {
+      "id": "605",
+      "label": "Properties of\nthe Riemann Integral",
+      "meta": "RA53",
+      "content": "Important properties of the Riemann integral of bounded functions.",
+      "notes": "605-snippet.html",
+      "video": "https://www.youtube.com/embed/h4XohuM2iK4?start=10",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest53/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto605?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "606": {
+      "id": "606",
+      "label": "First Fundamental\nTheorem of Calculus",
+      "meta": "RA54",
+      "content": "Linking differentiation and integration.",
+      "notes": "606-snippet.html",
+      "video": "https://www.youtube.com/embed/AKhlP6IHDLk?start=13",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap6Sec2/Q21.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto606?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "607": {
+      "id": "607",
+      "label": "Second Fundamental\nTheorem of Calculus",
+      "meta": "RA55",
+      "content": "Characterization of all antiderivatives",
+      "notes": "607-snippet.html",
+      "video": "https://www.youtube.com/embed/SJC4DGuyg4c?start=12",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals4FTC/osu_in_4_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto607?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "608": {
+      "id": "608",
+      "label": "Mean Value Theorem\nof Integration",
+      "meta": "RA56",
+      "content": "Continuous functions attain their mean value.",
+      "notes": "608-snippet.html",
+      "video": "https://www.youtube.com/embed/E4zieCbfdcs?start=12",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest56/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto608?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "609": {
+      "id": "609",
+      "label": "Substitution Rule\nfor Integration",
+      "meta": "RA57",
+      "content": "An important integration rule.",
+      "notes": "609-snippet.html",
+      "video": "https://www.youtube.com/embed/wmZCoV6Y0_c?start=12",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto609?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "610": {
+      "id": "610",
+      "label": "Integration by Parts",
+      "meta": "RA58",
+      "content": "An important integration rule.",
+      "notes": "610-snippet.html",
+      "video": "https://www.youtube.com/embed/wmZCoV6Y0_c?start=12",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals15ByParts/sc5_6_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto610?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "611": {
+      "id": "611",
+      "label": "Partial Fraction\nDecomposition",
+      "meta": "RA59",
+      "content": "How to integrate rational functions.",
+      "notes": "611-snippet.html",
+      "video": "https://www.youtube.com/embed/dLYIijHqH9U?start=10",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartET/s_7_4_prob04.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto611?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "612": {
+      "id": "612",
+      "label": "Improper Riemann Integrals",
+      "meta": "RA60",
+      "content": "How to integrate\non unbounded domains.",
+      "notes": "612-snippet.html",
+      "video": "https://www.youtube.com/embed/Q7qdknAF-ME?start=15",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap7Sec8/Q32.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto612?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    },
+    "613": {
+      "id": "613",
+      "label": "Comparison Test",
+      "meta": "RA61",
+      "content": "Compare improper Riemann integrals to infinite series.",
+      "notes": "613-snippet.html",
+      "video": "https://www.youtube.com/embed/yEp9BTDgOjk?start=13",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest61/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto613?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": ""
+    }
+  },
+  "edges": {
+    "000-001": {
+      "source": "000",
+      "target": "001",
+      "label": "Logical statements usually contain sets and elements"
+    },
+    "000-008": {
+      "source": "000",
+      "target": "008",
+      "label": "Logical deduction techniques are used to derive new logical statements from old ones"
+    },
+    "000-101": {
+      "source": "000",
+      "target": "101",
+      "label": "The definition of convergence is one of the very first logical statements that involves quantifiers."
+    },
+    "000-104": {
+      "source": "000",
+      "target": "104",
+      "label": "Logical Statement, Quantifiers"
+    },
+    "000-111": {
+      "source": "000",
+      "target": "111",
+      "label": "Logical Statement, Quantifiers"
+    },
+    "001-003": {
+      "source": "001",
+      "target": "003",
+      "label": "A mapping operates between two sets."
+    },
+    "001-002": {
+      "source": "001",
+      "target": "002",
+      "label": "Real numbers are a set of numbers."
+    },
+    "001-004": {
+      "source": "001",
+      "target": "004",
+      "label": "Natural numbers are a set of numbers."
+    },
+    "001-005": {
+      "source": "001",
+      "target": "005",
+      "label": "Image and Preimage are special sets related to a mapping."
+    },
+    "101-102": {
+      "source": "101",
+      "target": "102",
+      "label": "Convergent sequences are bounded."
+    },
+    "002-102": {
+      "source": "002",
+      "target": "102",
+      "label": "The statement of boundedness involves a comparison of real numbers."
+    },
+    "001-013": {
+      "source": "001",
+      "target": "013",
+      "label": "Bounded sets are sets of real numbers that don't get arbitrarily small or large."
+    },
+    "005-013": {
+      "source": "005",
+      "target": "013",
+      "label": "If the image or preimage of a real valued map is bounded, one also calls the map bounded."
+    },
+    "013-300": {
+      "source": "013",
+      "target": "300",
+      "label": "If the image of a map is a bounded set, one also calls the map bounded."
+    },
+    "105-300": {
+      "source": "105",
+      "target": "300",
+      "label": "One bound to a map is given by the finite supremum of the set of the absolute function values."
+    },
+    "005-102": {
+      "source": "005",
+      "target": "102",
+      "label": "Boundedness of a sequence means that the image of the sequence is a bounded set."
+    },
+    "100-102": {
+      "source": "100",
+      "target": "102",
+      "label": "Boundedness is a property of sequences."
+    },
+    "003-005": {
+      "source": "003",
+      "target": "005",
+      "label": "A mapping induces images and preimages."
+    },
+    "005-006": {
+      "source": "005",
+      "target": "006",
+      "label": "Injectivity and surjectivity can be expressed in terms of images and preimages."
+    },
+    "005-305": {
+      "source": "005",
+      "target": "305",
+      "label": "Characterize continuity in terms of preimages of open balls."
+    },
+    "005-307": {
+      "source": "005",
+      "target": "307",
+      "label": "Topological properties of images under continuous functions."
+    },
+    "110-307": {
+      "source": "110",
+      "target": "307",
+      "label": "Continuous functions preserve compactness of sets in their image."
+    },
+    "111-307": {
+      "source": "111",
+      "target": "307",
+      "label": "The Heine-Borel theorem gives the existence of maxima and minima for continuous functions defined on compact sets."
+    },
+    "307-506": {
+      "source": "307",
+      "target": "506",
+      "label": "The existence of minima and maxima for continuous functions on compact sets is necessary for the proof of Rolle's theorem."
+    },
+    "000-006": {
+      "source": "000",
+      "target": "006",
+      "label": "Image and Preimage are characterized via logical statements involving quantifiers."
+    },
+    "003-007": {
+      "source": "003",
+      "target": "007",
+      "label": "Composition is an operation on maps."
+    },
+    "001-105": {
+      "source": "001",
+      "target": "105",
+      "label": "Supremum and infimum are numbers associated to sets of real numbers."
+    },
+    "002-105": {
+      "source": "002",
+      "target": "105",
+      "label": "Supremum and infimum are numbers associated to sets of real numbers."
+    },
+    "100-115": {
+      "source": "100",
+      "target": "115",
+      "label": "Being Cauchy is a property of a sequence."
+    },
+    "115-106": {
+      "source": "115",
+      "target": "106",
+      "label": "Completeness can be defined by stating that every Cauchy sequences converges."
+    },
+    "105-106": {
+      "source": "105",
+      "target": "106",
+      "label": "Existence of suprema of bounded sets is a characterization of completeness."
+    },
+    "001-110": {
+      "source": "001",
+      "target": "110",
+      "label": "Open, closed and compact are properties of sets of numbers."
+    },
+    "001-112": {
+      "source": "001",
+      "target": "112",
+      "label": "The interior, the closure or the boundary of a set is a set again."
+    },
+    "002-100": {
+      "source": "002",
+      "target": "100",
+      "label": "A sequence is a map having the real numbers as domain "
+    },
+    "002-101": {
+      "source": "002",
+      "target": "101",
+      "label": "The definition of convergence involves the absolute value of a difference of real numbers and a quantitative comparison with another real number."
+    },
+    "002-106": {
+      "source": "002",
+      "target": "106",
+      "label": "Real numbers are complete by the completeness axiom."
+    },
+    "003-100": {
+      "source": "003",
+      "target": "100",
+      "label": "A sequence is a map of natural numbers "
+    },
+    "003-300": {
+      "source": "003",
+      "target": "300",
+      "label": "Function is just another name for map."
+    },
+    "003-304": {
+      "source": "003",
+      "target": "304",
+      "label": "Continuity is a central notion for maps on the real numbers."
+    },
+    "004-011": {
+      "source": "004",
+      "target": "011",
+      "label": "A lot of identities for sums and products are proved via induction."
+    },
+    "004-100": {
+      "source": "004",
+      "target": "100",
+      "label": "A sequence is a map having the natural numbers as domain."
+    },
+    "006-400": {
+      "source": "006",
+      "target": "400",
+      "label": "The exponential function is a bijective function onto the positive reals."
+    },
+    "400-401": {
+      "source": "400",
+      "target": "401",
+      "label": "The bijectivity of the exponential gives the logarithm function as inverse."
+    },
+    "206-400": {
+      "source": "206",
+      "target": "400",
+      "label": "The exponential series is absolutely convergent."
+    },
+    "211-400": {
+      "source": "211",
+      "target": "400",
+      "label": "The functional equation of the exponential is a consequence of the Cauchy product."
+    },
+    "006-505": {
+      "source": "006",
+      "target": "505",
+      "label": "Bijective differentiable functions can be differentiated using the inversion formula."
+    },
+    "006-401": {
+      "source": "006",
+      "target": "401",
+      "label": "The natural logarithm is the inverse of the exponential function."
+    },
+    "304-401": {
+      "source": "304",
+      "target": "401",
+      "label": "The natural logarithem is the inverse of a continuous function."
+    },
+    "007-306": {
+      "source": "007",
+      "target": "306",
+      "label": "Composition of continuous functions gives a continuous function."
+    },
+    "007-502": {
+      "source": "007",
+      "target": "502",
+      "label": "How to differentiate a composition of functions."
+    },
+    "500-502": {
+      "source": "500",
+      "target": "502",
+      "label": "Break down differentiability of compositions to the differentiability of simpler functions."
+    },
+    "100-101": {
+      "source": "100",
+      "target": "101",
+      "label": "Having a limit is a property of a sequence."
+    },
+    "101-109": {
+      "source": "101",
+      "target": "109",
+      "label": "Limit inferior and limit superior are in particular limits."
+    },
+    "107-109": {
+      "source": "107",
+      "target": "109",
+      "label": "Limit inferior and limit superior are the largest and smallest accumulation points of a subsequence."
+    },
+    "101-103": {
+      "source": "101",
+      "target": "103",
+      "label": "Calculating limits of sums, products or quotients of convergent sequences."
+    },
+    "101-104": {
+      "source": "101",
+      "target": "104",
+      "label": "Monotonicity and boundedness imply convergence."
+    },
+    "101-117": {
+      "source": "101",
+      "target": "115",
+      "label": "Every convergent sequence is also a Cauchy sequence."
+    },
+    "101-110": {
+      "source": "101",
+      "target": "110",
+      "label": "Closedness is characterized by convergence of sequences."
+    },
+    "107-110": {
+      "source": "107",
+      "target": "110",
+      "label": "Compactness is characterized by existence of converging subsequences."
+    },
+    "101-107": {
+      "source": "101",
+      "target": "107",
+      "label": "A sequence may have a convergent subsequence and this limit is then an accumulation value of the original sequence."
+    },
+    "101-108": {
+      "source": "101",
+      "target": "108",
+      "label": "Bolzano Weierstrass guarantees convergence of certain sequences."
+    },
+    "102-104": {
+      "source": "102",
+      "target": "104",
+      "label": "A bound for the sequence is also a bound for the limit by the monotonicity of limits."
+    },
+    "102-108": {
+      "source": "102",
+      "target": "108",
+      "label": "The Bolzano Weierstrass Theorem guarantees the existence of accumulation points for bounded sequences."
+    },
+    "103-203": {
+      "source": "103",
+      "target": "203",
+      "label": "Considering series as limits of sequences of partial sums leads to limit theorems for sequences."
+    },
+    "000-108": {
+      "source": "000",
+      "target": "108",
+      "label": "Bolzano Weierstrass theorem is a logical statement."
+    },
+    "108-109": {
+      "source": "108",
+      "target": "109",
+      "label": "Bolzano Weierstrass theorem guarantees the existence of a limit inferior and superior."
+    },
+    "110-111": {
+      "source": "110",
+      "target": "111",
+      "label": "Heine-Borel theorem characterizes bounded and closed sets."
+    },
+    "110-112": {
+      "source": "110",
+      "target": "112",
+      "label": "Interior is an open set, closure and boundary are closed sets."
+    },
+    "111-112": {
+      "source": "111",
+      "target": "112",
+      "label": "The closure of a bounded set is always compact by Heine-Borel theorem."
+    },
+    "104-111": {
+      "source": "104",
+      "target": "111",
+      "label": "Sandwiching gives rise to the proof using nested intervals in the Heine-Borel theorem."
+    },
+    "104-309": {
+      "source": "104",
+      "target": "309",
+      "label": "The convergence of the intervals is based on monotonicity of the underlying sequences."
+    },
+    "108-309": {
+      "source": "108",
+      "target": "309",
+      "label": "The nested intervals technique used in the proof of the Bolzano-Weierstrass theorem is also used for the proof of the intermediate value theorem."
+    },
+    "107-108": {
+      "source": "107",
+      "target": "108",
+      "label": "Bolzano Weierstrass guarantees existence of accumulation values."
+    },
+    "100-200": {
+      "source": "100",
+      "target": "200",
+      "label": "A series is a sequence of partial sums."
+    },
+    "101-200": {
+      "source": "101",
+      "target": "200",
+      "label": "A convergent series is a convergent sequence."
+    },
+    "011-200": {
+      "source": "011",
+      "target": "200",
+      "label": "Partial sums are described using the formal sum notation."
+    },
+    "200-201": {
+      "source": "200",
+      "target": "201",
+      "label": " "
+    },
+    "200-203": {
+      "source": "200",
+      "target": "203",
+      "label": " "
+    },
+    "200-204": {
+      "source": "200",
+      "target": "204",
+      "label": "The Cauchy criterion works for sequences of partial sums that are Cauchy."
+    },
+    "106-204": {
+      "source": "106",
+      "target": "204",
+      "label": "Cauchy sequences converge, therefore the Cauchy criterion for series gives convergence of a series."
+    },
+    "115-204": {
+      "source": "115",
+      "target": "204",
+      "label": "If the sequence of partial sums is a Cauchy sequence, then it converges."
+    },
+    "102-204": {
+      "source": "102",
+      "target": "204",
+      "label": "The Cauchy criterion involves bounds on certain parts of the partial sum."
+    },
+    "008-204": {
+      "source": "008",
+      "target": "204",
+      "label": "The necessary criterion for series convergence is an implication but no equivalence."
+    },
+    "203-205": {
+      "source": "203",
+      "target": "205",
+      "label": "A sufficient criterion for convergence of a series."
+    },
+    "008-205": {
+      "source": "008",
+      "target": "205",
+      "label": "The Leibniz criterion gives the sufficient condition for convergence of a series but no equivalence."
+    },
+    "200-205": {
+      "source": "200",
+      "target": "205",
+      "label": "The Leibniz criterion makes a statement about partial sums of an alternating sequence."
+    },
+    "104-205": {
+      "source": "104",
+      "target": "205",
+      "label": "The Leibniz criterion makes a statement about partial sums of an monotonic sequence."
+    },
+    "200-206": {
+      "source": "200",
+      "target": "206",
+      "label": "A strong concept of convergence for sequences of partial sums."
+    },
+    "201-206": {
+      "source": "201",
+      "target": "206",
+      "label": "The geometric series is an example of an absolutely convergent sequence."
+    },
+    "205-206": {
+      "source": "205",
+      "target": "206",
+      "label": "The Leibniz theorem shows that the alternating harmonic series is convergent but not absolutely convergent."
+    },
+    "200-207": {
+      "source": "200",
+      "target": "207",
+      "label": "The comparison tests compare the terms of the partial sums to the ones of other series."
+    },
+    "200-208": {
+      "source": "200",
+      "target": "208",
+      "label": " "
+    },
+    "102-209": {
+      "source": "102",
+      "target": "209",
+      "label": "If the nth root of the underlying sequence is bounded by a number striclty smaller than one, the series converges by the root criterion."
+    },
+    "200-210": {
+      "source": "200",
+      "target": "210",
+      "label": "Reordering a series leads to a new sequence of partial sums."
+    },
+    "206-210": {
+      "source": "206",
+      "target": "210",
+      "label": "Reordering an absolutely convergent sequence does not change the limit."
+    },
+    "203-210": {
+      "source": "203",
+      "target": "210",
+      "label": "Reordering of a series may change the limit of the series."
+    },
+    "006-210": {
+      "source": "006",
+      "target": "210",
+      "label": "Reordering of a series is defined via an bijective mapping of natural numbers."
+    },
+    "200-211": {
+      "source": "200",
+      "target": "211",
+      "label": " "
+    },
+    "109-209": {
+      "source": "109",
+      "target": "209",
+      "label": "The root criterion in its limit form gives a condition for the limsup of the underlying sequence."
+    },
+    "209-403": {
+      "source": "209",
+      "target": "403",
+      "label": "The root criterion is useful for determining domains of convergence."
+    },
+    "201-209": {
+      "source": "201",
+      "target": "209",
+      "label": "The geometric series is used in the proof of the root criterion as a majorant."
+    },
+    "201-207": {
+      "source": "201",
+      "target": "207",
+      "label": "The geometric series is often used as a majorant in the comparison test."
+    },
+    "201-208": {
+      "source": "201",
+      "target": "208",
+      "label": "The geometric series is used in the proof of the quotient criterion as a majorant."
+    },
+    "207-208": {
+      "source": "207",
+      "target": "208",
+      "label": "The proof of the quotient criterion relies on majorant criterion."
+    },
+    "208-400": {
+      "source": "208",
+      "target": "400",
+      "label": "By the quotient criterion on can show that the exponential series converges absolutely."
+    },
+    "207-209": {
+      "source": "207",
+      "target": "209",
+      "label": "The proof of the root criterion relies on majorant criterion."
+    },
+    "206-208": {
+      "source": "206",
+      "target": "208",
+      "label": " The quotient criterion is a statement about absolute convergence of a series."
+    },
+    "206-209": {
+      "source": "206",
+      "target": "209",
+      "label": " The root criterion is a statement about absolute convergence of a series."
+    },
+    "206-211": {
+      "source": "206",
+      "target": "211",
+      "label": "Taking the Cauchy product is an operation on two absolute convergent series."
+    },
+    "005-300": {
+      "source": "005",
+      "target": "300",
+      "label": "Boundedness of a function can be expressed in terms of the image or range."
+    },
+    "100-300": {
+      "source": "100",
+      "target": "300",
+      "label": "A sequence of functions gives rise to a sequence of real numbers via point evaluations."
+    },
+    "101-303": {
+      "source": "101",
+      "target": "303",
+      "label": "Limits of functions are limits of sequences of real numbers."
+    },
+    "001-300": {
+      "source": "001",
+      "target": "300",
+      "label": "Bounded functions on an interval form a set."
+    },
+    "300-301": {
+      "source": "300",
+      "target": "301",
+      "label": "Pointwise convergence is a notion of convergence for sequences of functions."
+    },
+    "301-302": {
+      "source": "301",
+      "target": "302",
+      "label": "Pointwise convergence is a weaker notion of convergence for sequences of functions than uniform convergence."
+    },
+    "300-308": {
+      "source": "300",
+      "target": "308",
+      "label": "Properties of the limit of a sequence of continuous functions."
+    },
+    "301-308": {
+      "source": "301",
+      "target": "308",
+      "label": "The pointwise limit of a sequences of continuous functions does not have to be continuous."
+    },
+    "300-400": {
+      "source": "300",
+      "target": "400",
+      "label": "The exponential series can be considered as a sequence of partial sums of functions"
+    },
+    "200-400": {
+      "source": "200",
+      "target": "400",
+      "label": "The exponential series can be considered as a sequence of partial sums of functions"
+    },
+    "300-403": {
+      "source": "300",
+      "target": "403",
+      "label": "A power series is essentially a sequence of partial sums of functions."
+    },
+    "001-010": {
+      "source": "001",
+      "target": "010",
+      "label": "We use different operations to work with multiple sets."
+    },
+    "010-110": {
+      "source": "010",
+      "target": "110",
+      "label": "Set operations may be used to modify set properties like opennes, closedness or compactness."
+    },
+    "304-500": {
+      "source": "304",
+      "target": "500",
+      "label": "Differentiability of a function is a stronger property than continuity."
+    },
+    "500-501": {
+      "source": "500",
+      "target": "501",
+      "label": "How to differentiate a sum of differentiable functions."
+    },
+    "500-506": {
+      "source": "500",
+      "target": "506",
+      "label": "Rolle's theorem makes a statement about zeros of the first derivative of a differentiable function."
+    },
+    "506-507": {
+      "source": "506",
+      "target": "507",
+      "label": "A notion stronger than pointwise convergence is uniform convergence."
+    },
+    "300-302": {
+      "source": "300",
+      "target": "302",
+      "label": "Special notion of convergence for sequences of functions."
+    },
+    "101-304": {
+      "source": "101",
+      "target": "304",
+      "label": "Continuous functions map convergent sequences to convergent sequences."
+    },
+    "304-400": {
+      "source": "304",
+      "target": "400",
+      "label": "The exponential function is continuous."
+    },
+    "103-306": {
+      "source": "103",
+      "target": "306",
+      "label": "Continuity of sums, products, and quotients is preserved as a consequence of the limit theorems for sequences."
+    },
+    "304-306": {
+      "source": "304",
+      "target": "306",
+      "label": "Continuity is preserved under certain operations with functions."
+    },
+    "502-609": {
+      "source": "502",
+      "target": "609",
+      "label": "Integration by substitution is loosely speaking the inverse operation to calculating the derivative via the chain rule."
+    },
+    "304-307": {
+      "source": "304",
+      "target": "307",
+      "label": "Continuity preverves compactness of sets."
+    },
+    "304-309": {
+      "source": "304",
+      "target": "309",
+      "label": "Continuous functions on intervals don't have jumps. Instead they attain every value in between to elements of their range."
+    },
+    "303-304": {
+      "source": "303",
+      "target": "304",
+      "label": "If a function is continuous at a point, the the value coincides with the function limit at this point."
+    },
+    "302-304": {
+      "source": "302",
+      "target": "304",
+      "label": "Uniform convergence of continuous functions leads to a continuous limit function."
+    },
+    "305-308": {
+      "source": "305",
+      "target": "308",
+      "label": "The epsilon-delta criterion allows for an elegant proof of the continuity of the uniform limit of a sequence of continuous functions."
+    },
+    "103-303": {
+      "source": "103",
+      "target": "303",
+      "label": "Calculating limits of functions builds on the limit theorems of sequences."
+    },
+    "402-403": {
+      "source": "402",
+      "target": "403",
+      "label": "Each partial sum of a power series is a polynomial."
+    },
+    "110-305": {
+      "source": "110",
+      "target": "305",
+      "label": "Characterize continuity using open intervals."
+    },
+    "402-511": {
+      "source": "402",
+      "target": "511",
+      "label": "Use polynomials to approximate differentiable functions."
+    },
+    "303-508": {
+      "source": "303",
+      "target": "508",
+      "label": "Calculate limits of functions using l'Hospital's rule."
+    },
+    "403-511": {
+      "source": "403",
+      "target": "511",
+      "label": "A Taylor series is a particular power series."
+    },
+    "508-509": {
+      "source": "508",
+      "target": "509",
+      "label": "Further situations where limits can be calculated using l'Hospital's rule."
+    },
+    "403-503": {
+      "source": "403",
+      "target": "503",
+      "label": "Uniform convergence within the domain of convergence of a power series."
+    },
+    "300-503": {
+      "source": "300",
+      "target": "503",
+      "label": "Differentiability of sequences of functions."
+    },
+    "500-503": {
+      "source": "500",
+      "target": "503",
+      "label": "Differentiability of sequences of functions."
+    },
+    "301-503": {
+      "source": "301",
+      "target": "503",
+      "label": "Proving pointwise convergence of a sequence of differentiable functions is part of proving the differentiability of the limit function."
+    },
+    "302-503": {
+      "source": "302",
+      "target": "503",
+      "label": "Proving uniform convergence of the derivatives of a function is part of proving the differentiability of the limit function."
+    },
+    "510-511": {
+      "source": "510",
+      "target": "511",
+      "label": "Evaluations of higher derivatives form the coefficients of a Taylor polynomial."
+    },
+    "511-512": {
+      "source": "511",
+      "target": "512",
+      "label": "Application of Taylor's theorem to a particular example."
+    },
+    "512-513": {
+      "source": "512",
+      "target": "513",
+      "label": "Proof of Taylor's theorem."
+    },
+    "304-305": {
+      "source": "304",
+      "target": "305",
+      "label": "A different notion of continuity using open balls."
+    },
+    "002-600": {
+      "source": "002",
+      "target": "600",
+      "label": "Functions that are constant on intervals of real numbers."
+    },
+    "003-600": {
+      "source": "003",
+      "target": "600",
+      "label": "Step functions are a particular type of piecewise defined mapping."
+    },
+    "600-601": {
+      "source": "600",
+      "target": "601",
+      "label": "A first notion of area under a function graph for step functions."
+    },
+    "601-603": {
+      "source": "601",
+      "target": "603",
+      "label": "Generalizing the concept of an integral to bounded functions via approximation."
+    },
+    "500-606": {
+      "source": "500",
+      "target": "606",
+      "label": "Differentiation is in some sense the opposite of integration."
+    },
+    "500-606": {
+      "source": "500",
+      "target": "606",
+      "label": "Differentiation is in some sense the opposite of integration."
+    },
+    "601-602": {
+      "source": "601",
+      "target": "602",
+      "label": "The definition of the Riemann integral gives rise to nice properties."
+    },
+    "603-609": {
+      "source": "603",
+      "target": "609",
+      "label": "A tool to calculate the integral of a bounded function."
+    },
+    "006-609": {
+      "source": "006",
+      "target": "609",
+      "label": "Transformations of the domain of integration need to be invertible or at least injective."
+    },
+    "500-609": {
+      "source": "500",
+      "target": "609",
+      "label": "Transformations of the domain of integration need to be differentiable."
+    },
+    "400-609": {
+      "source": "400",
+      "target": "609",
+      "label": "Using the substitution rule may help to calculate integrals of exponentials."
+    },
+    "007-609": {
+      "source": "007",
+      "target": "609",
+      "label": "Some integrands in the substitution rule involve compositions of functions."
+    },
+    "207-613": {
+      "source": "207",
+      "target": "613",
+      "label": "Comparison principles aim at inheriting a nice property from a well-known object to a new object of study."
+    },
+    "606-607": {
+      "source": "606",
+      "target": "607",
+      "label": "The second fundamental theorem tells us how antiderivatives differ."
+    },
+    "500-607": {
+      "source": "500",
+      "target": "607",
+      "label": "The second fundamental theorem connects integration and differentiation."
+    },
+    "601-604": {
+      "source": "601",
+      "target": "604",
+      "label": "By definition the Riemann integral consists of limits of integrals of step functions."
+    },
+    "603-605": {
+      "source": "603",
+      "target": "605",
+      "label": "Properties of the Riemann integral."
+    },
+    "605-609": {
+      "source": "605",
+      "target": "609",
+      "label": "The Riemann integral comes with an order of the integral boundaries."
+    },
+    "605-608": {
+      "source": "605",
+      "target": "608",
+      "label": "A further property of the Riemann integral is the mean-value theorem."
+    },
+    "501-610": {
+      "source": "501",
+      "target": "610",
+      "label": "This integration rule can be seen as an inversion of the product rule of differentiation."
+    },
+    "603-610": {
+      "source": "603",
+      "target": "610",
+      "label": "A further important rule for calculating integrals."
+    },
+    "507-608": {
+      "source": "507",
+      "target": "608",
+      "label": "A further mean value property for integrals instead of derivatives."
+    },
+    "603-604": {
+      "source": "603",
+      "target": "604",
+      "label": "Compute integrals according to the definition."
+    },
+    "603-607": {
+      "source": "603",
+      "target": "607",
+      "label": "The second fundamental theorem connects integration and differentiation."
+    },
+    "203-613": {
+      "source": "203",
+      "target": "613",
+      "label": "Characterize the convergence of an integral by the convergence of a suitable series."
+    },
+    "612-613": {
+      "source": "612",
+      "target": "613",
+      "label": "Estimate improper Riemann integrals via series."
+    },
+    "604-606": {
+      "source": "604",
+      "target": "606",
+      "label": "The fundamental theorem of calculus allows to reuse examples of integrals and derivatives in order to calculate new integrals."
+    },
+    "603-612": {
+      "source": "603",
+      "target": "612",
+      "label": "An improper integral is defined via a limit of Rimeann integrals on bounded sets."
+    },
+    "003-606": {
+      "source": "003",
+      "target": "606",
+      "label": "An antiderivative is also a map."
+    },
+    "303-612": {
+      "source": "303",
+      "target": "612",
+      "label": "An improper integral is defined as the limit of a function (the antiderivative)."
+    },
+    "003-402": {
+      "source": "003",
+      "target": "402",
+      "label": "Polynomials can be interpreted as real valued functions."
+    },
+    "609-611": {
+      "source": "609",
+      "target": "611",
+      "label": "The substitution rule is often used for calculating integrals of rational functions."
+    },
+    "108-106": {
+      "source": "108",
+      "target": "106",
+      "label": "The fact that every Cauchy sequence converges can be derived from the Bolzano-Weierstraß theorem."
+    },
+    "102-117": {
+      "source": "102",
+      "target": "115",
+      "label": "Cauchy sequences are bounded."
+    },
+    "402-611": {
+      "source": "402",
+      "target": "611",
+      "label": "How to integrate rational functions."
+    },
+    "008-009": {
+      "source": "008",
+      "target": "009",
+      "label": "How to construct logical statements."
+    },
+    "004-012": {
+      "source": "004",
+      "target": "012",
+      "label": "Countable sets can be bijectively mapped to the natural numbers or a finite subset of the natural numbers."
+    },
+    "012-113": {
+      "source": "012",
+      "target": "113",
+      "label": "Uncountability of the real numbers in particular means that the reals are not a countable set."
+    },
+    "104-113": {
+      "source": "104",
+      "target": "113",
+      "label": "The uncountability of the reals can be shown via a interval nesting which converges do to the monotonicity of the underlying sequences."
+    },
+    "106-113": {
+      "source": "106",
+      "target": "113",
+      "label": "Uncountability of the real numbers can be proven as a consequence of the completeness of the real numbers."
+    },
+    "006-012": {
+      "source": "006",
+      "target": "012",
+      "label": "Countable sets can be bijectively mapped to the natural numbers or a finite subset of the natural numbers."
+    },
+    "203-207": {
+      "source": "203",
+      "target": "207",
+      "label": "Characterize the convergence/divergence of a series by the convergence/divergence of a majorant/minorant."
+    }
+  }
+}

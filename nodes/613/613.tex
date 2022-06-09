@@ -1,0 +1,52 @@
+\input{packs}
+
+Now we use integrals on unbounded domains to check whether series are convergent or not.
+\begin{Theorem}[Integral Criterion for Series]
+Let $f:[0,\infty)\to\mathbb{R}$ be monotonically decreasing and non-negative. Then the series
+\[\sum_{k=0}^{\infty}f(k)\]
+is convergent if and only if the integral
+\[\int_{0}^{\infty}f(x)dx\]
+converges.
+In the case of convergence, the following estimate holds true:
+\begin{equation}
+\label{eq:intcrit} 
+	0\leq \sum_{k=0}^\infty f(k) -\int_0^\infty f(x)~dx\leq f(0)
+\end{equation}
+\end{Theorem}
+{\em Proof:} Monotonicity of $f$ implies that for $k-1\leq x\leq k$ holds $f(k)\leq f(x)\leq f(k-1)$. Monotonicity of the integral therefore leads to the inequality
+\[f(k)=\int_{k-1}^kf(k)dx\leq \int_{k-1}^kf(x)dx\leq \int_{k-1}^kf(k-1)dx=f(k-1).\]
+Therefore
+\[\int_1^{n+2}f(x)dx\leq\sum_{k=1}^{n+1} f(k)\leq \int_0^{n+1}f(x)dx\leq \sum_{k=0}^{n} f(k).\]
+Using this inequality, we can directly conclude that, if one of the limits (integral or sum) as $n\to\infty$ exists, then the other limit (sum or integral) also exists.
+
+In case of convergence necessarily $(f(k))_{k\in\mathbb{N}_0}$ is a zero sequence. Therefore
+\[0\leq \sum_{k=0}^n f(k) -\int_0^{n+1} f(x)~dx\leq \sum_{k=0}^n f(k) - \sum_{k=1}^{n+1}f(k) =f(0)-f(n+1)\]
+implies (\ref{eq:intcrit}) for $n\rightarrow \infty$.
+$\Box$
+
+\begin{Remark}{}
+Since the convergence of $\int_{a}^{\infty}f(x)dx$ does not depend on $a\in\mathbb{R}$, the above result can also be slightly generalised in a~way that
+the convergence of the series $\sum_{k=a}^{\infty}f(k)$ for $a\in\mathbb{N}$ is equivalent to that of the integral $\int_{a}^{\infty}f(x)dx$.
+\end{Remark}
+
+\begin{example}
+\begin{enumerate}[a)]
+\item Using the results of Example~\ref{ex:infint} b), we see that
+\[\sum_{k=1}^\infty\frac1{k^\alpha}\]
+converges for $\alpha>1$ and is divergent for $\alpha\leq1$.
+\item For $\alpha\in\mathbb{R}$ consider
+\[\sum_{n=2}^\infty\frac1{n(\log(n))^\alpha}.\]
+We have
+\[
+\begin{aligned}
+\int_2^\infty\frac1{x(\log(x))^\alpha}~dx=&\lim_{n\to\infty}\begin{cases}\left.\frac{(\log(x))^{1-\alpha}}{1-\alpha}\right|_{x=2}^{x=n}&:\alpha\neq1,\\
+\left.\log(\log(x))\right|_{x=2}^{x=n}&:\alpha=1\end{cases}\\
+=&\begin{cases}-\frac{(\log(2))^{1-\alpha}}{1-\alpha}&:\alpha>1,\\
+\infty&:\alpha\leq1.\end{cases}
+\end{aligned}
+\]
+Therefore, the series \[\sum_{n=2}^\infty\frac1{n(\log(n))^\alpha}.\]
+is convergent if and only if $\alpha>1$.
+\end{enumerate}
+\end{example}
+

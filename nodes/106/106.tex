@@ -1,0 +1,25 @@
+\input{packs}
+
+
+Now we show that Cauchy sequences in $\mathbb{K}$ are even convergent:
+\begin{Theorem}{}\label{thm:Rcompl}
+Every Cauchy sequence $(a_n)_{n\in\mathbb{N}}$ in $\mathbb{K}$ converges.
+\end{Theorem}
+
+{\em Proof:} 
+Every Cauchy sequence is bounded. Therefore, $(a_n)_{n\in\mathbb{N}}$ is bounded. By the Theorem of Bolzano-Weierstra\ss \ it has a convergent 
+subsequence $(a_{n_k})_{k\in\mathbb{N}}$. Set $a:=\lim_{k\rightarrow\infty} a_{n_k}$. For given $\varepsilon>0$ there exist $N_1,N_2\in\mathbb{N}$ such 
+that $|a_{n_k}-a|<\varepsilon/2$ for all $k\geq N_1$ and $|a_n-a_m|<\varepsilon/2$ for all $n,m\geq N_2$. Thus for $n\geq N:=\max\{N_1,N_2\}$ holds
+$n_n\geq n\geq N$ and $$|a_n-a|\leq|a_n-a_{n_n}+a_{n_n}-a|\leq|a_n-a_{n_n}|+|a_{n_n}-a|< \varepsilon/2+\varepsilon/2=\varepsilon \ . \qquad\Box$$
+
+Theorem \ref{thm:Rcompl} is not true for arbitrary normed $\mathbb{K}$-vector spaces. 
+Those normed $\mathbb{K}$-vector spaces $(V,||\cdot||)$ for which every Cauchy sequence has a limit in $V$ are called complete
+or Banach spaces (in honour of the Polish mathematician Stefan Banach). 
+Without proof we state that all finite dimensional normed $\mathbb{K}$-vector spaces are Banach spaces.
+
+The next result concerns the special property of the real numbers that supremum and infimum are defined for all subsets of the real numbers. This theorem goes back to \textsc{Julius Wilhelm Richard Dedekind} (1831--1916). It follows from the completeness axiom (C):
+\begin{Theorem}[Dedekind's Theorem]
+\label{thm:bndmonseq}
+    Every non-empty bounded set $M\subset \mathbb{R}$ has a~supremum and an~infimum with $\sup M,\inf M\in\mathbb{R}$.
+\end{Theorem}
+

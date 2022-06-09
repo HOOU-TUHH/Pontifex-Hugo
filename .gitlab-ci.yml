@@ -1,54 +1,46 @@
-# This file is a template, and might need editing before it works on your project.
----
-# All available Hugo versions are listed here:
-# https://gitlab.com/pages/hugo/container_registry
-#image: registry.gitlab.com/pages/hugo:latest
-#image: bpack/hugo-npm
-image: node:17-bullseye
+#image: node:17-bullseye
+image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
 
 stages:
-  - testing
   - build
   - review
   - deploy
 
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+###### BUILDING ########
 
-local-build:
+review-build:
   stage: build
-  script:
-    - 'curl --location --output artifacts.zip --header "PRIVATE-TOKEN: zyG98VG64AkTdDKS3cnb" "https://collaborating.tuhh.de/api/v4/projects/6786/jobs/artifacts/dev/download?job=hugo-build"'
-    - unzip artifacts.zip
-    - cp -rf hugoDocs/* content/en/docs/
-    - npm install
-    - npm run build
-  artifacts:
-    paths:
-      - public
-  only:
-    variables:
-      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
-www3-dev-build:
-  stage: build
+  image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}\";" config/production/config.toml
     - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
     - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}js/basic2.js;" layouts/shortcodes/header2.html
-    - 'curl --location --output artifacts.zip --header "PRIVATE-TOKEN: zyG98VG64AkTdDKS3cnb" "https://collaborating.tuhh.de/api/v4/projects/6786/jobs/artifacts/dev/download?job=hugo-build"'
-    - unzip artifacts.zip
-    - cp -rf hugoDocs/* content/en/docs/
-    - npm install
-    - npm run build
+    - /pontifex/bin/build_pontifex.sh
   artifacts:
     paths:
       - public
   only:
     variables:
-      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      - $CI_COMMIT_BRANCH == "dev"
 
-dev-review:
+master-build:
+  stage: build
+  image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
+  script:
+    - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}\";" config/production/config.toml
+    - sed -i -e "s;/js/basic.js;${BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/basic2.js;${BASE_DIR}js/basic2.js;" layouts/shortcodes/header2.html
+    - /pontifex/bin/build_pontifex.sh
+  artifacts:
+    paths:
+      - public
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == "master"
+
+###### REVIEW ########
+
+review-deploy:
   image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
   stage: review
   script:
@@ -65,8 +57,33 @@ dev-review:
     key: "$CI_COMMIT_REF_SLUG"
   environment:
     name: $CI_COMMIT_REF_NAME
+    url: https://$REVIEW_PROXY_HOST_NAME$REVIEW_BASE_DIR
+  # rules:
+  #   - if: $CI_MERGE_REQUEST_ID
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == "dev"
+
+###### DEPLOY ########
+
+master-deploy:
+  image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
+  stage: deploy
+  script:
+#
+# SSH Setup
+#
+    - eval $(ssh-agent -s)  #variablen initialisieren
+    - echo "${SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add -  #private key laden
+    - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts  # .ssh Verzeichnis anlegen und known_hosts dummy
+    - echo "${SSH_KNOWN_HOSTS}" >> ~/.ssh/known_hosts #dummy mit Inhalt füllen 
+    - chmod 700 ~/.ssh   # Berechtigungen setzen
+    - scp -r -P ${SSH_PORT} public/* ${SSH_USER}@${HOST_NAME}:${WEBSERVER_ROOT}/ # möglicherweise ist rsync nicht installiert, dann scp nutzen
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+  environment:
+    name: $CI_COMMIT_REF_NAME
     url: https://$PROXY_HOST_NAME$BASE_DIR
   only:
     variables:
-      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
+      - $CI_COMMIT_BRANCH == "master"

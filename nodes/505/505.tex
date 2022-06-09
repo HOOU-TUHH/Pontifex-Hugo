@@ -1,0 +1,32 @@
+\input{packs}
+
+\begin{Theorem}[Differentiation of inverse functions]
+    Let $I,J\subset\mathbb{R}$ be intervals and let $f:I\to J$ be bijective. If $f$ is differentiable in $x_0\in I$ with $f'(x_0)\neq0$ 
+and if $f^{-1}:J\to I$ is continuous in $y_0=f(x_0)$,
+then the inverse function $f^{-1}$ is differentiable in $y_0:=f(x_0)$ with
+\[\left(f^{-1}\right)'(y_0)=\frac{1}{f'(f^{-1}(y_0))}.\]
+\end{Theorem}
+\white{6cm}{
+{\em Proof:} Let $(y_n)_{n\in\N}$ be a sequence in $J$ with $y_n\neq y_0$ and $\lim_{n\to\infty}y_n=y_0$. Define $x_n:=f^{-1}(y_n)$. 
+Since $f^{-1}$ is continuous, we have $\lim_{n\to\infty}x_n=x_0$ and also $x_n\neq x_0$ by bijectivity of $f$. Thus we conclude
+\[\lim_{n\to \infty}\frac{f^{-1}(y_n)-f^{-1}(y_0)}{y_n-y_0}=
+\lim_{n\to \infty}\frac{x_n-x_0}{f(x_n)-f(x_0)}=\frac1{f'(x_0)}=\frac1{f'(f^{-1}(y_0))}.\]
+\hfill$\Box$
+}
+
+\begin{example}
+\begin{enumerate}[a)]
+    \item $g(x)=\sqrt[n]{x}=x^{\frac{1}{n}}$ is the inverse function of $f:\mathbb{R}^+\to\mathbb{R}^+$, $f(x)=x^n$. Then for $x>0$ holds
+\[g'(x)=\frac{1}{f'(g(x))}=\frac{1}{n(g(x))^{n-1}}=\frac{1}{n\sqrt[n]{x}^{n-1}}=\frac1nx^{-\frac{n-1}{n}}=\frac1nx^{\frac{1}{n}-1}.\]
+\item $\log: (0,\infty)\to\mathbb{R}$ is the inverse function of $\exp$. Then for $x>0$ holds
+\[\log'(x)=\frac1{\exp'(\log(x))}=\frac1{\exp(\log(x))}=\frac1{x}.\]
+\item $\arcsin:[-1,1]\to[-\frac\pi2,\frac\pi2]$ is the inverse function of $\sin$. Then for 
+$x\in (-\frac\pi2,\frac\pi2)$ holds
+\[\arcsin'(x)=\frac1{\sin'(\arcsin(x))}=\frac1{\cos(\arcsin(x))}.\]
+Since $\sin^2(y)+\cos^2(y)=1$ and $\cos(y)\geq0$ for $y\in (-\frac\pi2,\frac\pi2)$, we have
+\[\cos(y)=\sqrt{1-\sin^2(y)}.\]
+Therefore
+\[\arcsin'(x)=\frac1{\sqrt{1-\sin^2(\arcsin(x))}}=\frac1{\sqrt{1-x^2}}.\]
+\end{enumerate}
+\end{example}
+
