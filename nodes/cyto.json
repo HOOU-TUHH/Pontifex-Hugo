@@ -319,6 +319,17 @@
       "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto114?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
       "podcast": ""
     },
+    "115": {
+      "id": "115",
+      "label": "Cauchy Sequences",
+      "meta": " RA07 ",
+      "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
+      "notes": "115-snippet.html",
+      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=14",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto106?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
     "200": {
       "id": "200",
       "label": "Partial Sums",
@@ -916,7 +927,7 @@
     "000-101": {
       "source": "000",
       "target": "101",
-      "label": "Logical Statement, Quantifiers"
+      "label": "The definition of convergence is one of the very first logical statements that involves quantifiers."
     },
     "000-104": {
       "source": "000",
@@ -1023,6 +1034,16 @@
       "target": "105",
       "label": "Supremum and infimum are numbers associated to sets of real numbers."
     },
+    "100-115": {
+      "source": "100",
+      "target": "115",
+      "label": "Being Cauchy is a property of a sequence."
+    },
+    "115-106": {
+      "source": "115",
+      "target": "106",
+      "label": "Completeness can be defined by stating that every Cauchy sequences converges."
+    },
     "105-106": {
       "source": "105",
       "target": "106",
@@ -1046,22 +1067,17 @@
     "002-101": {
       "source": "002",
       "target": "101",
-      "label": "Ordering of Real numbers, absolute Value "
+      "label": "The definition of convergence involves the absolute value of a difference of real numbers and a quantitative comparison with another real number."
     },
     "002-106": {
       "source": "002",
       "target": "106",
-      "label": "Real numbers are complete. Every Cauchy sequence of real numbers converges."
+      "label": "Real numbers are complete by the completeness axiom."
     },
     "003-100": {
       "source": "003",
       "target": "100",
       "label": "A sequence is a map of natural numbers "
-    },
-    "003-101": {
-      "source": "003",
-      "target": "101",
-      "label": "Association of convergent sequence with its limit acts like a map."
     },
     "003-300": {
       "source": "003",
@@ -1082,11 +1098,6 @@
       "source": "004",
       "target": "100",
       "label": "A sequence is a map having the natural numbers as domain."
-    },
-    "004-101": {
-      "source": "004",
-      "target": "101",
-      "label": "Existence of certain indices."
     },
     "006-400": {
       "source": "006",
@@ -1156,17 +1167,17 @@
     "101-103": {
       "source": "101",
       "target": "103",
-      "label": "Operations with convergent sequences "
+      "label": "Calculating limits of sums, products or quotients of convergent sequences."
     },
     "101-104": {
       "source": "101",
       "target": "104",
-      "label": "Monotonicity and boundedness imply convergence "
+      "label": "Monotonicity and boundedness imply convergence."
     },
-    "101-106": {
+    "101-117": {
       "source": "101",
-      "target": "106",
-      "label": "Convergence of Cauchy sequences characterizes completeness "
+      "target": "115",
+      "label": "Every convergent sequence is also a Cauchy sequence."
     },
     "101-110": {
       "source": "101",
@@ -1181,7 +1192,7 @@
     "101-107": {
       "source": "101",
       "target": "107",
-      "label": "Transition to subsequences that converge "
+      "label": "A sequence may have a convergent subsequence and this limit is then an accumulation value of the original sequence."
     },
     "101-108": {
       "source": "101",
@@ -1282,6 +1293,11 @@
       "source": "106",
       "target": "204",
       "label": "Cauchy sequences converge, therefore the Cauchy criterion for series gives convergence of a series."
+    },
+    "115-204": {
+      "source": "115",
+      "target": "204",
+      "label": "If the sequence of partial sums is a Cauchy sequence, then it converges."
     },
     "102-204": {
       "source": "102",
@@ -1818,14 +1834,14 @@
       "target": "106",
       "label": "The fact that every Cauchy sequence converges can be derived from the Bolzano-Weierstraß theorem."
     },
-    "102-106": {
+    "102-117": {
       "source": "102",
-      "target": "106",
+      "target": "115",
       "label": "Cauchy sequences are bounded."
     },
-    "103-106": {
+    "103-117": {
       "source": "103",
-      "target": "106",
+      "target": "115",
       "label": "We need Limit theorems in order to derive properties of Cauchy sequences."
     },
     "402-611": {

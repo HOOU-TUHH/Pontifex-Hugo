@@ -1,0 +1,10 @@
+    "003-101": {
+      "source": "003",
+      "target": "101",
+      "label": "Association of convergent sequence with its limit acts like a map."
+    },
+    "004-101": {
+      "source": "004",
+      "target": "101",
+      "label": "Existence of certain indices."
+    },
