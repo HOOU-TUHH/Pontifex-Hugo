@@ -76,6 +76,24 @@ review-app-deploy:
   rules:
      - if: $CI_MERGE_REQUEST_ID
 
+review-app-deploy:stop:
+  stage: review
+  image: collaborating.tuhh.de:5005/cfg0846/research-topics-mat-tuhh/alpine-ssh
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$REVIEW_SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts
+    - echo "$REVIEW_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+    - chmod 700 ~/.ssh/known_hosts
+    - ssh -p "${REVIEW_SSH_PORT}" "${REVIEW_SSH_USER}"@"${REVIEW_HOST_NAME}" "rm -rf ${REVIEW_WEBSERVER_ROOT}/${CI_COMMIT_REF_NAME}"
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: manual
+  allow_failure: true
+  environment:
+    name: $CI_COMMIT_REF_NAME
+    action: stop
+
 review-deploy:
   image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
   stage: review
