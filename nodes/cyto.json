@@ -1854,11 +1854,6 @@
       "target": "115",
       "label": "Cauchy sequences are bounded."
     },
-    "103-117": {
-      "source": "103",
-      "target": "115",
-      "label": "We need Limit theorems in order to derive properties of Cauchy sequences."
-    },
     "402-611": {
       "source": "402",
       "target": "611",
