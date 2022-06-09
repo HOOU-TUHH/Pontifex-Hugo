@@ -971,7 +971,7 @@
     },
     "005-013": {
       "source": "005",
-      "target": "102",
+      "target": "013",
       "label": "If the image or preimage of a real valued map is bounded, one also calls the map bounded."
     },
     "013-300": {
