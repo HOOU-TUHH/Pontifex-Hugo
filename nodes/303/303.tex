@@ -1,0 +1,50 @@
+\input{packs}
+
+Now we begin to introduce the concept of continuity. 
+
+\begin{Definition}[(One-sided) limits of Functions]
+Let $I\subset\mathbb{K}$, let $f:I\to\mathbb{K}$ be a~function, and let $x_0\in I$. Then we define
+\begin{enumerate}[(i)]
+ \item \emph{the limit of $f$ as $x$ tends to $x_0$} by $c\in\mathbb{K}$
+if \textbf{for all} sequences $(x_n)_{n\in\mathbb{N}}$ in $I\backslash\{x_0\}$ with $\lim_{n\to\infty}x_n=x_0$ holds
+$\lim_{n\to\infty}f(x_n)=c$. In this case, we write
+\[\lim_{x\to x_0}f(x)=c\]
+ \item \emph{the limit of $f$ as $x$ tends from the left to $x_0$} by $c\in\mathbb{K}$
+if $I\subset \mathbb{R}$ and if \textbf{for all} sequences $(x_n)_{n\in\mathbb{N}}$ in $\{x\in I\,:\,x< x_0\}$ with $\lim_{n\to\infty}x_n=x_0$ holds
+$\lim_{n\to\infty}f(x_n)=c$. In this case, we write
+\[\lim_{x\nearrow x_0}f(x)=c.\]
+ \item \emph{the limit of $f$ as $x$ tends from the right to $x_0$} by $c\in\mathbb{K}$
+if $I\subset \mathbb{R}$ and if \textbf{for all} sequences $(x_n)_{n\in\mathbb{N}}$ in $\{x\in I\,:\,x>x_0\}$ with $\lim_{n\to\infty}x_n=x_0$ holds
+$\lim_{n\to\infty}f(x_n)=c$. In this case, we write
+\[\lim_{x\searrow x_0}f(x)=c.\]
+\end{enumerate}
+In all three cases we assume that at least one sequence $(x_n)_{n\in\mathbb{N}}$ with the stated property exists.
+\end{Definition}
+
+\begin{Remark}{}
+From the above definition, we can also conclude that $\lim_{x\to x_0}f(x)$ exists in the case $I\subset \mathbb{R}$ if and only if $\lim_{x\nearrow x_0}f(x)$ and $\lim_{x\searrow x_0}f(x)$ exist and are equal. In this case, there holds
+\[\lim_{x\nearrow x_0}f(x)=\lim_{x\searrow x_0}f(x)=\lim_{x\to x_0}f(x).\]
+Though not explicitly introduced in the above definition, it should be intuitively clear what is meant by the following expressions
+\[\lim_{x\to\infty}f(x)=y,\qquad \lim_{x\to-\infty}f(x)=y,\qquad \lim_{x\to x_0}f(x)=\infty,\qquad \lim_{x\to x_0}f(x)=-\infty.\]
+\end{Remark}
+
+\begin{example}\label{ex:funclim}
+\begin{enumerate}[a)]
+ \item Consider the {\em Heaviside function} $H:\mathbb{R}\to\mathbb{R}$ with
+\[H(x)=\begin{cases}1&,\text{ if }x\geq 0,\\0&,\text{ if }x<0.\end{cases}\]
+Then we have $\lim_{x\nearrow 0}H(x)=0$, since for all $x_n\in\mathbb{R}$ with $x_n<0$ holds $H(x_n)=0$.
+Further, $\lim_{x\searrow 0}H(x)=1$, since for all $x_n\in\mathbb{R}$ with $x_n>0$ holds $H(x_n)=1$. The limit $\lim_{x\to 0}H(x)$ does not exist. E.g., take the sequence $x_n=\frac{(-1)^n}n$. Then
+\[H(x_n)=\begin{cases}1:&\text{if $n$ is even,}\\0:&\text{if $n$ is odd.}\end{cases}\]
+Hence, $(H(x_n))_{n\in\mathbb{N}}$ is divergent.
+
+\item Consider the function $f:\mathbb{R}\to\mathbb{R}$ with
+\[f(x)=\begin{cases}1&,\text{ if }x= 0,\\0&,\text{ if }x\neq0.\end{cases}\]
+Then for all sequences $(x_n)_{n\in\mathbb{N}}$ in $\mathbb{R}\backslash\{0\}$ holds that $(f(x_n))_{n\in\mathbb{N}}$ is a~constant zero sequence. Hence, $\lim_{x\to 0}f(x)=0$.
+
+ \item Consider a {\em polynomial} $p:\mathbb{R}\to\mathbb{R}$ with $p(x)=a_nx^n+\ldots+a_1x+a_0$ for some given $a_0,\ldots,a_n\in\mathbb{R}$. Let $x_0\in\mathbb{R}$.  
+By Theorem~\ref{thm:limformnormed}, we have that for
+all real sequences $(x_n)_{n\in\mathbb{N}}$ converging to $x_0$ holds that $p(x_n)$ converges to $p(x_0)$, i.e.,
+\[\lim_{x\to x_0}p(x)=p(x_0).\]
+\end{enumerate}
+\end{example}
+

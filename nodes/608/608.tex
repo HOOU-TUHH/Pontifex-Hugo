@@ -1,0 +1,30 @@
+\input{packs}
+
+Now we present the mean value theorem of integration and its manifold consequences.
+
+\begin{Theorem}[Mean Value Theorem of Integration]
+Let $f,g:[a,b]\to\mathbb{R}$ be continuous and let $g(x)\geq0$ for all $x\in[a,b]$ (i.e., $g\geq0$). Then there exists some $\hat{x}\in[a,b]$ such that
+\[\int_a^bf(x)g(x)\, dx=f(\hat{x})\cdot \int_a^bg(x)\, dx.\]
+\end{Theorem}
+
+{\em Proof:} Let
+\[m=\min\{f(x)\::\:x\in[a,b]\},\qquad M=\max\{f(x)\::\:x\in[a,b]\}.\]
+Since $g\geq0$, for all $x\in[a,b]$ holds $mg(x)\leq f(x)g(x)\leq Mg(x)$ and, by the monotonicity of the integral holds
+\[m\int_a^bg(x)\, dx=\int_a^bmg(x)\, dx\leq \int_a^bf(x)g(x)\, dx\leq \int_a^bMg(x)\, dx\leq M\int_a^bg(x)\, dx.\]
+Then there exists some $m\leq\mu\leq M$ such that
+\[\mu\int_a^bg(x)\, dx=\int_a^bf(x)g(x)\, dx\]
+Since
+\[\min\{f(x)\::\:x\in[a,b]\}\leq\mu\leq\max\{f(x)\::\:x\in[a,b]\},\]
+the intermediate value theorem implies that there exists some $\hat{x}\in[a,b]$ with $\mu=f(\hat{x})$ and thus
+\[f(\hat{x})\int_a^bg(x)\, dx=\int_a^bf(x)g(x)\, dx.\]
+$\Box$
+
+\begin{Corollary}{}
+Let $f:[a,b]\to\mathbb{R}$ be continuous. Then there exists some $\hat{x}\in[a,b]$ such that
+\[\int_a^bf(x)\, dx=f(\hat{x})\cdot (b-a).\]
+\end{Corollary}
+{\em Proof:} Apply the mean value theorem to $g=1$. Observing that
+\[\int_a^bg(x)\, dx=\int_a^b1\, dx= b-a,\]
+the result then follows immediately.
+$\Box$
+

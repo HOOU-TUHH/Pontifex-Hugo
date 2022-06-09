@@ -10,7 +10,7 @@ $.getJSON(current_id + ".json" , function (data) {
       {
         selector: "node",
         style: {
-          "background-color": "#69e",
+          "background-color": "data(color)",
           label: "data(label)",
         },
       },
@@ -24,7 +24,8 @@ $.getJSON(current_id + ".json" , function (data) {
           "target-arrow-shape": "triangle",
           label: "data(label)",
           "font-size": "14px",
-          color: "#777",
+          color: "data(color)",
+          "line-style": "data(style)",
         },
       },
     ],
@@ -45,6 +46,7 @@ $.getJSON(current_id + ".json" , function (data) {
         "text-outline-color": "#888",
         "background-color": "#888",
         "text-wrap": "wrap",
+        "line-style": "data(style)",
       })
       .selector("node")
       .css({
@@ -55,8 +57,8 @@ $.getJSON(current_id + ".json" , function (data) {
         "text-valign": "center",
         color: "white",
         "text-outline-width": 2,
-        "text-outline-color": "#888",
-        "background-color": "#999999",
+        "text-outline-color": "#1d2d35",
+        "background-color": "data(color)",
       })
       .selector(":selected")
       .css({
@@ -75,7 +77,7 @@ $.getJSON(current_id + ".json" , function (data) {
   cy.userPanningEnabled( false )
   cy.on("tap", "node", node_clicked);
   cy.on("tap", "edge", edge_clicked);
-  cy.getElementById(current_id).style("background-color", "red"); //alt. border-color
+  cy.getElementById(current_id).style("background-color", "#5d2f86"); //alt. border-color
 }
 );
 
@@ -94,9 +96,12 @@ function edge_clicked(evt) {
   var edge = evt.target;
   console.clear();
   console.log(edge.style("label"));
-  if (edge.style("label") == "") {
-    edge.style("label", edge.data("label"));
-  } else {
-    edge.style("label", "");
-  }
+  const std_text = "Click on an edge to get a description of the connection!";
+  //if (edge.style("label") == std_text ) {
+    //edge.style("label", edge.data("label"));
+    document.getElementById('edge-message').innerHTML = "<b>Description of the connection</b>: " +  edge.data("label");
+  //} else {
+    //edge.style("label", "");
+  //  document.getElementById('edge-message').innerHTML = std_text;
+  //}
 }

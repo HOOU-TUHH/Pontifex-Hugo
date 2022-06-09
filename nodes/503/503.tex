@@ -1,0 +1,18 @@
+\imput{packs}
+
+Let $I \subseteq \mathbb{R}$ and $(f_1, f_2, f_3, f_4, f_5,\dots)$ a sequence of functions $f_n \colon I \to \mathbb{R}$. 
+Recall that, if the functions $f_n$ are continuous and there exists a further function $f\colon I \to \mathbb{R}$ such that $f_n$ converges \emph{uniformly} to $f$, then $f$ is also continuous.
+
+Here, we want to deal with the question, if a uniformly converging sequence of \emph{differentiable} functions, also has a differentiable limit function $f$.
+
+\begin{theorem}
+Let $(f_1, f_2, f_3, \dots)$ be a sequence of functions $f_n \colon I \to \mathbb{R}$.
+Assum that
+\begin{enumerate}
+\item $(f_n)_{n \in \mathbb{N}}$ is pointwisely convergent to a functino $f \colon I \to \mathbb{R}$.
+\item $f_n \colon I \to \mathbb{R}$ is differentiable for all $n \in \mathbb{N}$.
+\item There exists $g \colon I \to \mathbb{R}$ with $\|f_n^\prime - g \|_\infty \to 0$ for $n \to \infty$, i.e. the sequence of derivatives $(f_n^\prime)$ converges uniformly to $g$.
+\end{enumerate}
+Then $\|f_n - f\|_\infty \to 0$ for $n \to \infty$ and $f$ is differentiable with $f^\prime = g$.
+\end{theorem}
+

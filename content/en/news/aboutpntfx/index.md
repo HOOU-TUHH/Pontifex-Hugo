@@ -10,8 +10,10 @@ images: ["say-hello-to-doks.png"]
 contributors: ["JPG and FNAG"]
 ---
 
-Developed by [Fabian Gabel](math.fabian-gabel.de) and [Julian Großmann](https://jp-g.de/).
-Using content created for [WeBWorK](https://openwebwork.org/).
+Developed by [Fabian Gabel](https://www.mat.tuhh.de/home/fgabel_en) and [Julian Großmann](https://jp-g.de/).
+Using content created for [WeBWorK](https://openwebwork.org/) and the [Well-defined & wonderful podcast](http://marcus-waurick.de/teaching) by Marcus Waurick.
+
 Created with the [HUGO](https://gohugo.io/) theme [Doks](https://getdoks.org/).
+
 Built with [Pandoc](https://pandoc.org/), [Python](https://www.python.org/), [Docker](https://www.docker.com/) and [GitLab CI/CD](https://about.gitlab.com/).
 

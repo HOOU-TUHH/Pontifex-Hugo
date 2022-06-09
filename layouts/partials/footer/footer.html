@@ -15,11 +15,9 @@
       </div>
     </div>
     <div class="logos">
-      <a href="https://www.tuhh.de/" target="_blank">
-      <img src="{{ path.Dir .Path | relURL | urlize }}/TUHH_logo-wortmarke_en_rgb.png"></a>
-      <a href="https://www.hoou.de/" target="_blank">
-      <img src="{{ path.Dir .Path | relURL | urlize }}/HOOU_farbig_b-g_lang_RGB.png"></a>
-      <img src="{{ path.Dir .Path | relURL | urlize }}/pontifex.png">
+      <img src="{{ .Site.BaseURL }}/TUHH_logo-wortmarke_en_rgb_schwarz.svg">
+      <img src="{{ .Site.BaseURL }}/HOOU_s-w_Strich_lang.svg">
+      <img src="{{ .Site.BaseURL }}/_Pontifex_SW.svg">
     </div>
   </div>
 </footer>

@@ -1,0 +1,38 @@
+\input{packs}
+
+\begin{Definition}[Continuity]
+Let $I\subset\mathbb{K}$ and let $f:I\to\mathbb{K}$ be a~function. Then $f$ is called \emph{ continuous in $x_0\in I$} if
+\[\lim_{x\to x_0}f(x)=f(x_0).\]
+Moreover, $f$ is called \emph{continuous on $I$} if it is continuous in $x_0$ for all $x_0\in I$.
+\end{Definition}
+\begin{Remark}{}
+Sometimes we will just say $f:I\to\mathbb{K}$ is continuous whereby we mean it is continuous on $I$.
+\end{Remark}
+
+\begin{example}
+\begin{enumerate}[a)]
+ \item The {\em constant function} $f:\mathbb{R}\to\mathbb{R}$ with $f(x)=c$ for some $c\in\mathbb{R}$ is continuous on $\mathbb{R}$.
+ \whiteskipsmall
+ \item The Heaviside function is discontinuous at $x_0=0$, but continuous everywhere else.
+  \whiteskipsmall
+ \item The function $f:\mathbb{R}\to\mathbb{R}$ as in Example~\ref{ex:funclim} b) is discontinuous at $x_0=0$, but continuous everywhere else.
+  \whiteskipsmall
+ \item Polynomials are continuous on $\mathbb{R}$.
+   \whiteskipsmall
+ \item {\em Rational functions} $f:I\to\mathbb{K}$ with $f(x)=\frac{p(x)}{q(x)}$ for some polynomials $p,q$ ($q$ is not the zero polynomial) are defined on $I=\{x\in\mathbb{R}\,:\,q(x)\neq0\}$ and are continuous
+on $I$ (due to the formulae for convergent sequences).
+	 \whiteskipsmall
+ \item The {\em absolute value function} $|\cdot|:\mathbb{R}\to\mathbb{R}$, i.e.,
+\[|x|=\begin{cases}x&,\text{ if }x\geq 0,\\-x&,\text{ if }x<0.\end{cases}\]
+ is continuous on $\mathbb{R}$.
+ 	  \whiteskipsmall
+ \item The function $f:\mathbb{R}\to\mathbb{R}$ with
+\[f(x)=\begin{cases}1&,\text{ if }x\in\mathbb{Q},\\0&,\text{ if }x\notin\mathbb{Q}\end{cases}\]
+ is everywhere discontinuous.\\
+       \whiteskipsmall
+{\em Proof:} Let $x_0\in\mathbb{R}$:\\
+First case: $x_0\in\mathbb{Q}$. Then take a~sequence $(x_n)_{n\in\mathbb{N}}$ with $\lim_{n\to \infty}x_n=x_0$ and $x_n\in\mathbb{R}\backslash\mathbb{Q}$ (for instance, $x_n=x_0+\frac{\sqrt{2}}{n}$). Then $f(x_n)=0$ for all $n\in\mathbb{N}$ and thus $\lim_{n\to \infty}x_n=0\neq f(x_0)=1$.\\
+Second case: $x_0\in\mathbb{R}\backslash\mathbb{Q}$. Then take a~sequence $(x_n)_{n\in\mathbb{N}}$ with $\lim_{n\to \infty}x_n=x_0$ and $x_n\in\mathbb{Q}$ (this exists since every real number can be approximated by a~rational number in arbitrary good precision). Then $f(x_n)=1$ for all $n\in\mathbb{N}$ and thus $\lim_{n\to \infty}x_n=1\neq f(x_0)=0$.
+\end{enumerate}
+\end{example}
+

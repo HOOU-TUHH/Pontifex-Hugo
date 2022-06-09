@@ -1,0 +1,35 @@
+\input{packs}
+
+Now we consider a~generalisation of the mean value theorem. This gives us a~completely new tool for the determination of limits.
+\begin{Theorem}[Generalised mean value theorem]
+    Let $f,g:[a,b]\to\mathbb{R}$ be differentiable. Assume that $g'$ has no zero in $(a,b)$. Then there exists some $\hat{x}\in(a,b)$ such that
+\[\frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(\hat{x})}{g'(\hat{x})}.\]
+\end{Theorem}
+{\em Proof:}
+By introducing the function
+\[F(x)=f(x)-f(a)-\frac{f(b)-f(a)}{g(b)-g(a)}\cdot(g(x)-g(a)),\]
+we get $F(a)=F(b)=0$. Now using the Theorem of Rolle, the result follows immediately.\hfill$\Box$
+
+\begin{Theorem}[Theorem of l'Hospital]
+Let $I$ be an interval and let $f,g:I\to\mathbb{R}$ be differentiable. Let $x_0\in I$ and assume that $f(x_0)=g(x_0)=0$ and there exists some neighbourhood $U\subset I$ of $x_0$ such that $g'(x)\neq0$ for all $x\in U\backslash\{x_0\}$. Then, if $\lim_{x\to x_0}\frac{f'(x)}{g'(x)}$ exists, then also $\lim_{x\to x_0}\frac{f(x)}{g(x)}$ exists and
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{f'(x)}{g'(x)}.\]
+\end{Theorem}
+{\em Proof:} Let $(x_n)_{n\in\mathbb{N}}$ be a~sequence with $\lim_{n\to\infty}x_n=x_0$ and $x_n\neq x_0$ for all $n\in\mathbb{N}$. Then, by the generalised mean value theorem, there exists a~sequence $(\hat{x}_n)_{n\in\mathbb{N}}$ with $\hat{x}_n$ between $x_0$ and $x_n$ such that
+\[\frac{f(x_n)}{g(x_n)}=\frac{f(x_n)-f(x_0)}{g(x_n)-g(x_0)}=\frac{f'(\hat{x}_n)}{g'(\hat{x}_n)}.\]
+In particular, since $(\hat{x}_n)_{n\in\mathbb{N}}$ converges to $x_0$, we have
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{f'(x)}{g'(x)}.\]
+$\Box$\\
+
+\begin{example}
+\begin{enumerate}[a)]
+    \item Let $a\in\mathbb{R}$.
+\[\lim_{x\to0,ax>0}\frac{\log(1+ax)}x=\lim_{x\to0,ax>0}\frac{a}{1+ax}=a.\]
+ \item
+\[\lim_{x\to0,ax>0}(1+ax)^{\frac{1}x}=\lim_{x\to0,ax>0}\exp\left(\frac{\log(1+ax)}x\right)=\exp\left(\lim_{x\to0,ax>0}\frac{\log(1+ax)}x\right)=\exp(a).\]
+In particular, for $x=\frac1n$, we have
+\[\lim_{n\to\infty}\left(1+\frac{a}{n}\right)^{n}=\exp(a).\]
+ \item
+\[\lim_{x\to0}\frac{1-\cos(x)}{x^2}=\lim_{x\to0}\frac{\sin(x)}{2x}=\lim_{x\to0}\frac{\cos(x)}{2}=\frac12.\]
+\end{enumerate}
+\end{example}
+

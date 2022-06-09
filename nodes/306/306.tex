@@ -1,0 +1,13 @@
+Next we give a~result on the continuity of sums, products and quotients of functions. This looks very similar to the limit theorem for sequences. Indeed, those results on sums, products and quotients of sequences are the ``main ingredients'' for the proof (which is therefore skipped).
+
+\begin{Theorem}[Continuity of sums{,} products and quotients of functions]\label{eq:sumscont}
+Let $I\subset \mathbb{K}$ and let $f,g:I\to\mathbb{K}$ be continuous in $x_0\in I$. Then also $f+ g$ and $f\cdot g$ are continuous in $x_0$. Furthermore if $g(x_0)\neq0$, then also $\frac{f}g$ is continuous in $x_0$.
+\end{Theorem}
+Now we consider the {\em composition of functions  $f$ and $g$} ($f\circ g$) which is defined by the formula $(f\circ g)(x)=f(g(x))$.
+
+\begin{Theorem}[Continuity of compositions of functions]
+Let $I_1,I_2\subset\mathbb{K}$ and $f:I_1\to\mathbb{K}$, $g:I_2\to\mathbb{K}$ be functions with \[g(I_2)=\{g(x)\,:\,x\in I_2\}\subset I_1.\] Assume that $g$ is continuous in $x_0\in I_2$ and $f$ is continuous in $g(x_0)\in I_1$. Then also $f\circ g$ is continuous in $x_0$.
+\end{Theorem}
+{\em Proof:} Let $(x_n)_{n\in\mathbb{N}}$ be a~sequence in $I_2$ with $\lim_{n\to\infty}x_n=x_0$. By the continuity of $g$ holds $\lim_{n\to\infty}g(x_n)=g(x_0)$.  Then,
+by the continuity of $f$ holds \[\lim_{n\to\infty}f(g(x_n))=f(g(x_0)).\] \hfill$\Box$
+
