@@ -77,8 +77,8 @@ review-app-deploy:
      - if: $CI_MERGE_REQUEST_ID
 
 review-app-deploy:stop:
+  image: eltenedor/alpine-ssh 
   stage: review
-  image: collaborating.tuhh.de:5005/cfg0846/research-topics-mat-tuhh/alpine-ssh
   script:
     - eval $(ssh-agent -s)
     - echo "$REVIEW_SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
