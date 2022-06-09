@@ -4,3 +4,7 @@ public
 .netlify
 .hugo_build.lock
 content
+nodes/*.html
+nodes/*/*.html
+nodes/*/*.json
+nodes/???.md
