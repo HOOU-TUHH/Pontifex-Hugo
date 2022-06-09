@@ -66,12 +66,13 @@ review-app-deploy:
     - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts  # .ssh Verzeichnis anlegen und known_hosts dummy
     - echo "${REVIEW_SSH_KNOWN_HOSTS}" >> ~/.ssh/known_hosts #dummy mit Inhalt füllen 
     - chmod 700 ~/.ssh   # Berechtigungen setzen
-    - scp -r -P ${REVIEW_SSH_PORT} public/* ${REVIEW_SSH_USER}@${REVIEW_HOST_NAME}:${REVIEW_WEBSERVER_ROOT}/${CI_MERGE_REQUEST_ID} # möglicherweise ist rsync nicht installiert, dann scp nutzen
+    - ssh -v -p "${REVIEW_SSH_PORT}" "${REVIEW_SSH_USER}"@"${REVIEW_HOST_NAME}" "mkdir -p ${REVIEW_WEBSERVER_ROOT}/${CI_COMMIT_REF_NAME}/"
+    - scp -r -P ${REVIEW_SSH_PORT} public/* ${REVIEW_SSH_USER}@${REVIEW_HOST_NAME}:${REVIEW_WEBSERVER_ROOT}/${CI_COMMIT_REF_NAME} # möglicherweise ist rsync nicht installiert, dann scp nutzen
   cache:
     key: "$CI_COMMIT_REF_SLUG"
   environment:
     name: $CI_COMMIT_REF_NAME
-    url: https://$REVIEW_PROXY_HOST_NAME$REVIEW_BASE_DIR$CI_MERGE_REQUEST_ID
+    url: https://${REVIEW_PROXY_HOST_NAME}${REVIEW_BASE_DIR}${CI_COMMIT_REF_NAME}
   rules:
      - if: $CI_MERGE_REQUEST_ID
 
