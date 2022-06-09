@@ -145,7 +145,7 @@
     },
     "013": {
       "id": "013",
-      "label": "Bounded Sets, Maxima and Minima",
+      "label": "Bounded Sets,\nMaxima and Minima",
       "meta": "",
       "content": "The values inside a set of real numbers can be bounded.",
       "notes": "013-snippet.html",
@@ -178,7 +178,7 @@
     },
     "102": {
       "id": "102",
-      "label": "Boundedness",
+      "label": "Bounded Sequences",
       "meta": " RA03 ",
       "content": "Sequences can be bounded from above and from below.",
       "notes": "102-snippet.html",
@@ -738,7 +738,7 @@
     },
     "512": {
       "id": "512",
-      "label": "Application for\nTaylor's Theorem",
+      "label": "Application of\nTaylor's Theorem",
       "meta": "RA46",
       "content": "Calculate an approximation via Taylor's Theorem",
       "notes": "512-snippet.html",
@@ -964,10 +964,25 @@
       "target": "102",
       "label": "The statement of boundedness involves a comparison of real numbers."
     },
-    "001-102": {
+    "001-013": {
       "source": "001",
+      "target": "013",
+      "label": "Bounded sets are sets of real numbers that don't get arbitrarily small or large."
+    },
+    "005-013": {
+      "source": "005",
       "target": "102",
-      "label": "Boundedness is a property of sets."
+      "label": "If the image or preimage of a real valued map is bounded, one also calls the map bounded."
+    },
+    "013-300": {
+      "source": "013",
+      "target": "300",
+      "label": "If the image of a map is a bounded set, one also calls the map bounded."
+    },
+    "105-300": {
+      "source": "105",
+      "target": "300",
+      "label": "One bound to a map is given by the finite supremum of the set of the absolute function values."
     },
     "005-102": {
       "source": "005",
