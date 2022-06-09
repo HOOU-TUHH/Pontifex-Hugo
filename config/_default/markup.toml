@@ -24,6 +24,6 @@ defaultMarkdownHandler = "goldmark"
   tabWidth = 4
 
 [tableOfContents]
-  endLevel = 3
+  endLevel = 0
   ordered = false
-  startLevel = 2
+  startLevel = 0
