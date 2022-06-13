@@ -8,6 +8,20 @@ stages:
 
 ###### BUILDING ########
 
+review-app-build:
+  stage: build
+  image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
+  script:
+    - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}\";" config/production/config.toml
+    - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/basic2.js;" layouts/shortcodes/header2.html
+    - /pontifex/bin/build_pontifex.sh
+  artifacts:
+    paths:
+      - public
+  rules:
+     - if: $CI_MERGE_REQUEST_ID
+
 review-build:
   stage: build
   image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
@@ -39,6 +53,46 @@ master-build:
       - $CI_COMMIT_BRANCH == "master"
 
 ###### REVIEW ########
+
+review-app-deploy:
+  image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)
+  stage: review
+  script:
+#
+# SSH Setup
+#
+    - eval $(ssh-agent -s)  #variablen initialisieren
+    - echo "${REVIEW_SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add -  #private key laden
+    - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts  # .ssh Verzeichnis anlegen und known_hosts dummy
+    - echo "${REVIEW_SSH_KNOWN_HOSTS}" >> ~/.ssh/known_hosts #dummy mit Inhalt füllen 
+    - chmod 700 ~/.ssh   # Berechtigungen setzen
+    - ssh -v -p "${REVIEW_SSH_PORT}" "${REVIEW_SSH_USER}"@"${REVIEW_HOST_NAME}" "mkdir -p ${REVIEW_WEBSERVER_ROOT}/${CI_COMMIT_REF_NAME}/"
+    - scp -r -P ${REVIEW_SSH_PORT} public/* ${REVIEW_SSH_USER}@${REVIEW_HOST_NAME}:${REVIEW_WEBSERVER_ROOT}/${CI_COMMIT_REF_NAME} # möglicherweise ist rsync nicht installiert, dann scp nutzen
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+  environment:
+    name: $CI_COMMIT_REF_NAME
+    url: https://${REVIEW_PROXY_HOST_NAME}${REVIEW_BASE_DIR}${CI_COMMIT_REF_NAME}/
+  rules:
+     - if: $CI_MERGE_REQUEST_ID
+
+review-app-deploy:stop:
+  image: eltenedor/alpine-ssh 
+  stage: review
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$REVIEW_SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts
+    - echo "$REVIEW_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+    - chmod 700 ~/.ssh/known_hosts
+    - ssh -p "${REVIEW_SSH_PORT}" "${REVIEW_SSH_USER}"@"${REVIEW_HOST_NAME}" "rm -rf ${REVIEW_WEBSERVER_ROOT}/${CI_COMMIT_REF_NAME}"
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: manual
+  allow_failure: true
+  environment:
+    name: $CI_COMMIT_REF_NAME
+    action: stop
 
 review-deploy:
   image: eltenedor/alpine-ssh #das ist das Image, das wir testweise verwenden können (kann ssh)

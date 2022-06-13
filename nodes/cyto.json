@@ -57,7 +57,7 @@
     },
     "005": {
       "id": "005",
-      "label": "Image and Preimage",
+      "label": "Image and\nPreimage",
       "meta": " SLS05 ",
       "content": "Via images and preimages we describe how functions work on sets.",
       "notes": "005-snippet.html",
@@ -145,7 +145,7 @@
     },
     "013": {
       "id": "013",
-      "label": "Bounded Sets, Maxima and Minima",
+      "label": "Bounded Sets,\nMaxima and Minima",
       "meta": "",
       "content": "The values inside a set of real numbers can be bounded.",
       "notes": "013-snippet.html",
@@ -178,7 +178,7 @@
     },
     "102": {
       "id": "102",
-      "label": "Boundedness",
+      "label": "Bounded\nSequences",
       "meta": " RA03 ",
       "content": "Sequences can be bounded from above and from below.",
       "notes": "102-snippet.html",
@@ -244,7 +244,7 @@
     },
     "108": {
       "id": "108",
-      "label": "Bolzano-Weierstrass",
+      "label": "Bolzano-\nWeierstrass",
       "meta": "RA10 ",
       "content": "Every bounded sequence has at least one converging subsequence.",
       "notes": "108-snippet.html",
@@ -318,6 +318,17 @@
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto114?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
       "podcast": ""
+    },
+    "115": {
+      "id": "115",
+      "label": "Cauchy\nSequences",
+      "meta": " RA07 ",
+      "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
+      "notes": "115-snippet.html",
+      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=14",
+      "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
+      "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto106?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
+      "podcast": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo?utm_source=generator&theme=0\" width=\"100%\" height=\"232\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
     },
     "200": {
       "id": "200",
@@ -727,7 +738,7 @@
     },
     "512": {
       "id": "512",
-      "label": "Application for\nTaylor's Theorem",
+      "label": "Application of\nTaylor's Theorem",
       "meta": "RA46",
       "content": "Calculate an approximation via Taylor's Theorem",
       "notes": "512-snippet.html",
@@ -916,7 +927,7 @@
     "000-101": {
       "source": "000",
       "target": "101",
-      "label": "Logical Statement, Quantifiers"
+      "label": "The definition of convergence is one of the very first logical statements that involves quantifiers."
     },
     "000-104": {
       "source": "000",
@@ -948,15 +959,35 @@
       "target": "005",
       "label": "Image and Preimage are special sets related to a mapping."
     },
+    "101-102": {
+      "source": "101",
+      "target": "102",
+      "label": "Convergent sequences are bounded."
+    },
     "002-102": {
       "source": "002",
       "target": "102",
       "label": "The statement of boundedness involves a comparison of real numbers."
     },
-    "001-102": {
+    "001-013": {
       "source": "001",
-      "target": "102",
-      "label": "Boundedness is a property of sets."
+      "target": "013",
+      "label": "Bounded sets are sets of real numbers that don't get arbitrarily small or large."
+    },
+    "005-013": {
+      "source": "005",
+      "target": "013",
+      "label": "If the image or preimage of a real valued map is bounded, one also calls the map bounded."
+    },
+    "013-300": {
+      "source": "013",
+      "target": "300",
+      "label": "If the image of a map is a bounded set, one also calls the map bounded."
+    },
+    "105-300": {
+      "source": "105",
+      "target": "300",
+      "label": "One bound to a map is given by the finite supremum of the set of the absolute function values."
     },
     "005-102": {
       "source": "005",
@@ -1023,6 +1054,16 @@
       "target": "105",
       "label": "Supremum and infimum are numbers associated to sets of real numbers."
     },
+    "100-115": {
+      "source": "100",
+      "target": "115",
+      "label": "Being Cauchy is a property of a sequence."
+    },
+    "115-106": {
+      "source": "115",
+      "target": "106",
+      "label": "Completeness can be defined by stating that every Cauchy sequences converges."
+    },
     "105-106": {
       "source": "105",
       "target": "106",
@@ -1046,22 +1087,17 @@
     "002-101": {
       "source": "002",
       "target": "101",
-      "label": "Ordering of Real numbers, absolute Value "
+      "label": "The definition of convergence involves the absolute value of a difference of real numbers and a quantitative comparison with another real number."
     },
     "002-106": {
       "source": "002",
       "target": "106",
-      "label": "Real numbers are complete. Every Cauchy sequence of real numbers converges."
+      "label": "Real numbers are complete by the completeness axiom."
     },
     "003-100": {
       "source": "003",
       "target": "100",
       "label": "A sequence is a map that assigns to each natural number a value."
-    },
-    "003-101": {
-      "source": "003",
-      "target": "101",
-      "label": "Association of convergent sequence with its limit acts like a map."
     },
     "003-300": {
       "source": "003",
@@ -1082,11 +1118,6 @@
       "source": "004",
       "target": "100",
       "label": "A sequence is a map having the natural numbers as domain."
-    },
-    "004-101": {
-      "source": "004",
-      "target": "101",
-      "label": "Existence of certain indices."
     },
     "006-400": {
       "source": "006",
@@ -1156,17 +1187,17 @@
     "101-103": {
       "source": "101",
       "target": "103",
-      "label": "Operations with convergent sequences "
+      "label": "Calculating limits of sums, products or quotients of convergent sequences."
     },
     "101-104": {
       "source": "101",
       "target": "104",
-      "label": "Monotonicity and boundedness imply convergence "
+      "label": "Monotonicity and boundedness imply convergence."
     },
-    "101-106": {
+    "101-117": {
       "source": "101",
-      "target": "106",
-      "label": "Convergence of Cauchy sequences characterizes completeness "
+      "target": "115",
+      "label": "Every convergent sequence is also a Cauchy sequence."
     },
     "101-110": {
       "source": "101",
@@ -1181,7 +1212,7 @@
     "101-107": {
       "source": "101",
       "target": "107",
-      "label": "Transition to subsequences that converge "
+      "label": "A sequence may have a convergent subsequence and this limit is then an accumulation value of the original sequence."
     },
     "101-108": {
       "source": "101",
@@ -1191,12 +1222,12 @@
     "102-104": {
       "source": "102",
       "target": "104",
-      "label": "A bound for the sequence is also a bound for the limit."
+      "label": "A bound for the sequence is also a bound for the limit by the monotonicity of limits."
     },
     "102-108": {
       "source": "102",
       "target": "108",
-      "label": "Bolzano Weierstrass requires a bounded sequence to begin with."
+      "label": "The Bolzano Weierstrass Theorem guarantees the existence of accumulation points for bounded sequences."
     },
     "103-203": {
       "source": "103",
@@ -1282,6 +1313,11 @@
       "source": "106",
       "target": "204",
       "label": "Cauchy sequences converge, therefore the Cauchy criterion for series gives convergence of a series."
+    },
+    "115-204": {
+      "source": "115",
+      "target": "204",
+      "label": "If the sequence of partial sums is a Cauchy sequence, then it converges."
     },
     "102-204": {
       "source": "102",
@@ -1442,11 +1478,6 @@
       "source": "001",
       "target": "300",
       "label": "Bounded functions on an interval form a set."
-    },
-    "102-300": {
-      "source": "102",
-      "target": "300",
-      "label": "Boundedness of a function relates to the boundedness of a certain set associated to the function."
     },
     "300-301": {
       "source": "300",
@@ -1683,11 +1714,6 @@
       "target": "602",
       "label": "The definition of the Riemann integral gives rise to nice properties."
     },
-    "102-603": {
-      "source": "102",
-      "target": "603",
-      "label": "Revisiting the concept of boundedness in a continuous setting."
-    },
     "603-609": {
       "source": "603",
       "target": "609",
@@ -1818,15 +1844,10 @@
       "target": "106",
       "label": "The fact that every Cauchy sequence converges can be derived from the Bolzano-Weierstraß theorem."
     },
-    "102-106": {
+    "102-117": {
       "source": "102",
-      "target": "106",
+      "target": "115",
       "label": "Cauchy sequences are bounded."
-    },
-    "103-106": {
-      "source": "103",
-      "target": "106",
-      "label": "We need Limit theorems in order to derive properties of Cauchy sequences."
     },
     "402-611": {
       "source": "402",
