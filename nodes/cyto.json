@@ -314,7 +314,7 @@
       "meta": " ",
       "content": "If a sequence of real numbers is bounded and monotonic, then it is convergent.",
       "notes": "114-snippet.html",
-      "video": "",
+      "video": "https://www.youtube.com/embed/zVeHdyp1l0g",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto114?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
       "podcast": ""
@@ -1905,7 +1905,7 @@
       "label": "The convergence of bounded sequences follows from Dedekind's theorem which guarantees the existence of suprema of bounded sets."
     },
     "105-114": {
-      "source": "106",
+      "source": "105",
       "target": "114",
       "label": "The limit of a monotonic increasing and bounded sequence is precisely the supremum of its function values. An analogous connection holds for the infimum."
     },
