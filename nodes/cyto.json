@@ -310,7 +310,7 @@
     },
     "114": {
       "id": "114",
-      "label": "Convergence of Bounded Monotonic Sequences",
+      "label": "Bounded Monotonic\nSequences",
       "meta": " ",
       "content": "If a sequence of real numbers is bounded and monotonic, then it is convergent.",
       "notes": "114-snippet.html",
@@ -1888,6 +1888,31 @@
       "source": "103",
       "target": "104",
       "label": "The proof and a lot of applications of the sandwich theorem are only possible because the limit theorems allow for elementary calculations with limits."
+    },
+    "101-114": {
+      "source": "101",
+      "target": "114",
+      "label": "If a sequence is bounded and monotonic, then it converges."
+    },
+    "102-114": {
+      "source": "102",
+      "target": "114",
+      "label": "Boundedness alone does not give convergence yet, one also needs monotonicity."
+    },
+    "106-114": {
+      "source": "106",
+      "target": "114",
+      "label": "The convergence of bounded sequences follows from Dedekind's theorem which guarantees the existence of suprema of bounded sets."
+    },
+    "105-114": {
+      "source": "106",
+      "target": "114",
+      "label": "The limit of a monotonic increasing and bounded sequence is precisely the supremum of its function values. An analogous connection holds for the infimum."
+    },
+    "013-102": {
+      "source": "013",
+      "target": "102",
+      "label": "The image of a sequence, i.e. the set of all values that the sequence attains, is a bounded set."
     },
     "203-207": {
       "source": "203",
