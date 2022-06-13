@@ -314,7 +314,7 @@
       "meta": " ",
       "content": "If a sequence of real numbers is bounded and monotonic, then it is convergent.",
       "notes": "114-snippet.html",
-      "video": "https://www.youtube.com/embed/zVeHdyp1l0g",
+      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=450",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto114?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
       "podcast": ""
@@ -1913,6 +1913,11 @@
       "source": "013",
       "target": "102",
       "label": "The image of a sequence, i.e. the set of all values that the sequence attains, is a bounded set."
+    },
+    "114-108": {
+      "source": "114",
+      "target": "108",
+      "label": "The proof of the Bolzano-Weierstrass theorem starts with a bounded sequence constructs a monotonic subsequence which is still bounded."
     },
     "203-207": {
       "source": "203",
