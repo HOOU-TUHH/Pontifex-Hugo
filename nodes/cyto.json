@@ -1914,6 +1914,11 @@
       "target": "205",
       "label": "If the underlying sequence is monotonic decreasing and converging to 0, the corresponding alternating series converges by the Leibniz criterion."
     },
+    "009-105": {
+      "source": "009",
+      "target": "105",
+      "label": "The epsilon-Definitions of infimum and supremum are build with existence-quantifiers and all-quantifiers."
+    },
     "203-207": {
       "source": "203",
       "target": "207",
