@@ -191,7 +191,7 @@
       "id": "103",
       "label": "Limit Theorems",
       "meta": " RA04 ",
-      "content": "Combining limits is a useful tool.",
+      "content": "Combining limits is a useful tool to deduce convergence and the limit of a more complicated sequence from the convergence of simpler building blocks.",
       "notes": "103-snippet.html",
       "video": "https://www.youtube.com/embed/237VMLNVtQs?start=18",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Dartmouth/setStewartCh12S1/problem_7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
@@ -200,9 +200,9 @@
     },
     "104": {
       "id": "104",
-      "label": "Monotonicity and\nSandwich Theorem",
+      "label": "Sandwich Theorem",
       "meta": " RA05 ",
-      "content": "Sandwich a sequence by two converging sequences to get its limit.",
+      "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit.",
       "notes": "104-snippet.html",
       "video": "https://www.youtube.com/embed/Y6rRSip3QN4?start=14",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
@@ -1883,6 +1883,11 @@
       "source": "006",
       "target": "012",
       "label": "Countable sets can be bijectively mapped to the natural numbers or a finite subset of the natural numbers."
+    },
+    "103-104": {
+      "source": "103",
+      "target": "104",
+      "label": "The proof and a lot of applications of the sandwich theorem are only possible because the limit theorems allow for elementary calculations with limits."
     },
     "203-207": {
       "source": "203",
