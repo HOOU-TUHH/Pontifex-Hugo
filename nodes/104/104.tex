@@ -5,19 +5,19 @@
   Further, assume that for all $n\in\mathbb{N}$ holds $a_n\leq b_n$. Then the following holds true:
 \begin{enumerate}[(i)]
  \item $a\leq b$;
- \item If $a=b$ and $(c_n)_{n\in\mathbb{N}}$ is another sequence with $a_n\leq c_n\leq b_n$ for all $n \in \mathbb{N}$, then $(c_n)_{n\in\mathbb{N}}$ is convergent with
+ \item \emph{Sandwich-Theorem}: If $a=b$ and $(c_n)_{n\in\mathbb{N}}$ is another sequence with $a_n\leq c_n\leq b_n$ for all $n \in \mathbb{N}$, then $(c_n)_{n\in\mathbb{N}}$ is convergent with
 \[\lim_{n\to\infty}c_n=a=b.\]
- \hfill {(Sandwich-Theorem)}
+ 
 \end{enumerate}
 \end{Theorem}
 \begin{proof}
 \begin{enumerate}[(i)]
 \item 
-  Consider the sequence of differences between $b_n$ and $a_n$, i.e., $(b_n-a_n)_{n\in\mathbb{N}}$. By Theorem~\ref{thm:limformnormed}, it suffices to show that
+  Consider the sequence of differences between $b_n$ and $a_n$, i.e., $(b_n-a_n)_{n\in\mathbb{N}}$. By the calculation rules for converging sequences, it suffices to show that
 \[b-a=\lim_{n\to\infty}(b_n-a_n)\geq0.\]
 Assume the converse statement, i.e., $b-a<0$. Then, we have that both numbers $a-b$ and $b_n-a_n$ are positive and thus
     \[|a-b-(a_n-b_n)|=a-b+(b_n-a_n)>a-b.\] In particular, there exists no $n\in\mathbb{N}$ such that $|a-b-(a_n-b_n)|<\varepsilon$ for $\varepsilon=a-b>0$. This is a~contradiction to $\lim_{n\to\infty}(b_n-a_n)=b-a$.
-\item Again consider the sequence $(b_n-a_n)_{n\in\mathbb{N}}$ which is tending to zero according to Theorem~\ref{thm:limformnormed}. Further, consider the sequence $(c_n-a_n)_{n\in\mathbb{N}}$. 
+\item Again consider the sequence $(b_n-a_n)_{n\in\mathbb{N}}$ which is tending to zero according to the formulae for converging sequences. Further, consider the sequence $(c_n-a_n)_{n\in\mathbb{N}}$. 
 Then we have
   for all $n\in\mathbb{N}$ that $0\leq c_n-a_n\leq b_n-a_n$.
 Let $\varepsilon>0$. Since $b_n-a_n$ is tending to zero, there exists some $N$ such that for all $n\geq N$ holds $|b_n-a_n-0|<\varepsilon$. Due to $0\leq c_n-a_n\leq b_n-a_n$, we can conclude that for $n\geq N$ holds
@@ -28,7 +28,7 @@ Hence $a=0+a=\lim_{n\rightarrow\infty} (c_n-a_n) + \lim_{n\rightarrow\infty} a_n
 \end{proof}
 
 \begin{Remark}{}\label{rem:n_0mon}
-  Since the modification of finitely many sequence elements does not change the limits (take a~closer look at Definition~\ref{def:convlim}), the statements of Theorem~\ref{thm:monseq} can be slightly generalised by only claiming that there exists some $n_0$ such that for all $n\geq n_0$ holds $a_n\leq b_n$ (resp.\ for all $n\geq n_0$ holds $a_n\leq c_n\leq b_n$ in (ii)). In the proof of (i), one has to replace the words ``there exists no $n\in\mathbb{N}$ such that'' by ``there exists no $n\geq n_0$ such that'' and in the proof of (ii) the number $N$ has to be replaced by $\max\{N,n_0\}$.
+  Since the modification of finitely many sequence elements does not change the limits (take a~closer look at the definition of convergence, the statements of Theorem~\ref{thm:monseq} can be slightly generalised by only claiming that there exists some $n_0$ such that for all $n\geq n_0$ holds $a_n\leq b_n$ (resp.\ for all $n\geq n_0$ holds $a_n\leq c_n\leq b_n$ in (ii)). In the proof of (i), one has to replace the words ``there exists no $n\in\mathbb{N}$ such that'' by ``there exists no $n\geq n_0$ such that'' and in the proof of (ii) the number $N$ has to be replaced by $\max\{N,n_0\}$.
 \end{Remark}
 
 \begin{Attention}{}
@@ -39,7 +39,7 @@ Hence $a=0+a=\lim_{n\rightarrow\infty} (c_n-a_n) + \lim_{n\rightarrow\infty} a_n
 \begin{example}
 \begin{enumerate}[a)]
   \item Consider $(\frac1{n^k})_{n\in\mathbb{N}}$ for some $k\in\mathbb{N}$. We state two alternative ways to show that this sequence tends to zero.
-The first possibility is, of course, an~argumentation as in statement (b) in Remark on page \pageref{rem:seqpot}. The second way to treat this problem is making use of the inequality
+The first possibility is, of course, an~argumentation as in statement (b) of the remarks on limit theorems. The second way to treat this problem is by making use of the inequality
 \[\frac1n\geq\frac1{n^k}>0.\]
     Since we know from Example~\ref{ex:basicconvseq} a) that the sequence $(\frac1n)_{n\in\mathbb{N}}$ tends to zero, statement (ii) of Theorem~\ref{thm:monseq} directly leads to the fact that
     $(\frac1{n^k})_{n\in\mathbb{N}}$ also tends to zero.
@@ -47,7 +47,7 @@ The first possibility is, of course, an~argumentation as in statement (b) in Rem
 \[a_n=\frac{2n^2+5n-1}{-5n^2+n+1}.\]
 Rewriting
 \[a_n=\frac{2+\frac5n-\frac1{n^2}}{-5+\frac1n+\frac1{n^2}},\]
-    and using that both $(\frac1{n})_{n\in\mathbb{N}}$ and $(\frac1{n^2})_{n\in\mathbb{N}}$ tend to zero, we can apply Theorem~\ref{thm:limformnormed} to obtain that
+    and using that both $(\frac1{n})_{n\in\mathbb{N}}$ and $(\frac1{n^2})_{n\in\mathbb{N}}$ tend to zero, we can apply the limit theorems to obtain that
 \[\lim_{n\to\infty}a_n=\lim_{n\to\infty}\frac{2n^2+5n-1}{-5n^2+n+1}=\lim_{n\to\infty}\frac{2+\frac5n-\frac1{n^2}}{-5+\frac1n+\frac1{n^2}}=-\frac25.\]
 \item Consider $(a_n)_{n\in\mathbb{N}}$ with $a_n=\sqrt{n^2+1}-n$. At first glance, none of the so far presented results seem to help to analyse convergence of this sequence. However, we can compute
 \[

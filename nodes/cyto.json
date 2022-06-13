@@ -191,7 +191,7 @@
       "id": "103",
       "label": "Limit Theorems",
       "meta": " RA04 ",
-      "content": "Combining limits is a useful tool.",
+      "content": "Combining limits is a useful tool to deduce convergence and the limit of a more complicated sequence from the convergence of simpler building blocks.",
       "notes": "103-snippet.html",
       "video": "https://www.youtube.com/embed/237VMLNVtQs?start=18",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Dartmouth/setStewartCh12S1/problem_7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
@@ -200,9 +200,9 @@
     },
     "104": {
       "id": "104",
-      "label": "Monotonicity and\nSandwich Theorem",
+      "label": "Sandwich Theorem",
       "meta": " RA05 ",
-      "content": "Sandwich a sequence by two converging sequences to get its limit.",
+      "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit.",
       "notes": "104-snippet.html",
       "video": "https://www.youtube.com/embed/Y6rRSip3QN4?start=14",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
@@ -310,11 +310,11 @@
     },
     "114": {
       "id": "114",
-      "label": "Convergence of Bounded Monotonic Sequences",
+      "label": "Bounded Monotonic\nSequences",
       "meta": " ",
       "content": "If a sequence of real numbers is bounded and monotonic, then it is convergent.",
       "notes": "114-snippet.html",
-      "video": "",
+      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=450",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto114?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
       "podcast": ""
@@ -964,11 +964,6 @@
       "target": "102",
       "label": "Convergent sequences are bounded."
     },
-    "002-102": {
-      "source": "002",
-      "target": "102",
-      "label": "The statement of boundedness involves a comparison of real numbers."
-    },
     "001-013": {
       "source": "001",
       "target": "013",
@@ -1067,7 +1062,7 @@
     "105-106": {
       "source": "105",
       "target": "106",
-      "label": "Existence of suprema of bounded sets is a characterization of completeness."
+      "label": "Existence of suprema of bounded sets is a characterization of completeness (Dedekind's theorem)."
     },
     "001-110": {
       "source": "001",
@@ -1082,7 +1077,7 @@
     "002-100": {
       "source": "002",
       "target": "100",
-      "label": "A sequence is a map having the real numbers as domain "
+      "label": "A sequence is a map having the real numbers as codomain "
     },
     "002-101": {
       "source": "002",
@@ -1097,7 +1092,7 @@
     "003-100": {
       "source": "003",
       "target": "100",
-      "label": "A sequence is a map of natural numbers "
+      "label": "A sequence is a map that assigns to each natural number a value."
     },
     "003-300": {
       "source": "003",
@@ -1217,7 +1212,7 @@
     "101-108": {
       "source": "101",
       "target": "108",
-      "label": "Bolzano Weierstrass guarantees convergence of certain sequences."
+      "label": "The Bolzano-Weierstrass theorem guarantees convergence of certain sequences."
     },
     "102-104": {
       "source": "102",
@@ -1227,7 +1222,7 @@
     "102-108": {
       "source": "102",
       "target": "108",
-      "label": "The Bolzano Weierstrass Theorem guarantees the existence of accumulation points for bounded sequences."
+      "label": "The Bolzano-Weierstrass theorem guarantees the existence of accumulation points for bounded sequences."
     },
     "103-203": {
       "source": "103",
@@ -1237,12 +1232,12 @@
     "000-108": {
       "source": "000",
       "target": "108",
-      "label": "Bolzano Weierstrass theorem is a logical statement."
+      "label": "Bolzano-Weierstrass theorem is a logical statement."
     },
     "108-109": {
       "source": "108",
       "target": "109",
-      "label": "Bolzano Weierstrass theorem guarantees the existence of a limit inferior and superior."
+      "label": "Bolzano-Weierstrass theorem guarantees the existence of a limit inferior and superior."
     },
     "110-111": {
       "source": "110",
@@ -1277,7 +1272,7 @@
     "107-108": {
       "source": "107",
       "target": "108",
-      "label": "Bolzano Weierstrass guarantees existence of accumulation values."
+      "label": "The Bolzano-Weierstrass theorem guarantees existence of accumulation values."
     },
     "100-200": {
       "source": "100",
@@ -1343,11 +1338,6 @@
       "source": "200",
       "target": "205",
       "label": "The Leibniz criterion makes a statement about partial sums of an alternating sequence."
-    },
-    "104-205": {
-      "source": "104",
-      "target": "205",
-      "label": "The Leibniz criterion makes a statement about partial sums of an monotonic sequence."
     },
     "200-206": {
       "source": "200",
@@ -1883,6 +1873,51 @@
       "source": "006",
       "target": "012",
       "label": "Countable sets can be bijectively mapped to the natural numbers or a finite subset of the natural numbers."
+    },
+    "103-104": {
+      "source": "103",
+      "target": "104",
+      "label": "The proof and a lot of applications of the sandwich theorem are only possible because the limit theorems allow for elementary calculations with limits."
+    },
+    "101-114": {
+      "source": "101",
+      "target": "114",
+      "label": "If a sequence is bounded and monotonic, then it converges."
+    },
+    "102-114": {
+      "source": "102",
+      "target": "114",
+      "label": "Boundedness alone does not give convergence yet, one also needs monotonicity."
+    },
+    "106-114": {
+      "source": "106",
+      "target": "114",
+      "label": "The convergence of bounded sequences follows from Dedekind's theorem which guarantees the existence of suprema of bounded sets."
+    },
+    "105-114": {
+      "source": "105",
+      "target": "114",
+      "label": "The limit of a monotonic increasing and bounded sequence is precisely the supremum of its function values. An analogous connection holds for the infimum."
+    },
+    "013-102": {
+      "source": "013",
+      "target": "102",
+      "label": "The image of a sequence, i.e. the set of all values that the sequence attains, is a bounded set."
+    },
+    "114-108": {
+      "source": "114",
+      "target": "108",
+      "label": "The proof of the Bolzano-Weierstrass theorem starts with a bounded sequence constructs a monotonic subsequence which is still bounded."
+    },
+    "114-205": {
+      "source": "114",
+      "target": "205",
+      "label": "If the underlying sequence is monotonic decreasing and converging to 0, the corresponding alternating series converges by the Leibniz criterion."
+    },
+    "009-105": {
+      "source": "009",
+      "target": "105",
+      "label": "The epsilon-Definitions of infimum and supremum are build with existence-quantifiers and all-quantifiers."
     },
     "203-207": {
       "source": "203",

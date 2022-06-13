@@ -2,10 +2,22 @@
 
 \begin{Theorem}[Formulae for convergent sequences]
 \label{thm:limformnormed}
-  Let $(a_n)_{n\in\mathbb{N}}$ and $(b_n)_{n\in\mathbb{N}}$ be a~convergent sequences in $\mathbb{K}$. Then the following holds true:
+  Let $(a_n)_{n\in\mathbb{N}}$ and $(b_n)_{n\in\mathbb{N}}$ be a~convergent sequences in $\mathbb{R}$. Then the following holds true:
 \begin{enumerate}[(i)]
   \item $(a_n+b_n)_{n\in\mathbb{N}}$ is convergent with \[\lim_{n\to\infty}(a_n+b_n)= \lim_{n\to\infty}a_n+\lim_{n\to\infty}b_n.\]
   \item $( a_n\cdot b_n)_{n\in\mathbb{N}}$ is convergent with \[\lim_{n\to\infty}(a_n\cdot b_n)= \lim_{n\to\infty}a_n\cdot\lim_{n\to\infty}b_n.\]
   \item If $\lim_{n\to\infty}b_n\neq0$ and $b_n\neq0$ for all $n\in\mathbb{N}$, then the sequence $(\frac{a_n}{b_n})_{n\in\mathbb{N}}$ is convergent with \[\lim_{n\to\infty}\frac{a_n}{b_n}=\frac{\displaystyle\lim_{n\to\infty}a_n}{\displaystyle\lim_{n\to\infty}b_n}.\]
 \end{enumerate}
 \end{Theorem}
+
+\begin{Remark}{}
+\label{rem:seqpot}
+\begin{enumerate}[(a)]
+\item
+ Since the constant sequence $(a)_{n\in\mathbb{N}}=(a,a,a,\ldots)$ is, of course, convergent to $a$, statement (ii) also implies the formula
+\[\lim_{n\to\infty} ( a\cdot b_n ) = a\cdot\lim_{n\to\infty}b_n.\]
+\item
+ For $k\in\mathbb{N}$, a~$k$-times application of statement (ii) yields that for some convergent sequence $(a_n)_{n\in\mathbb{N}}$, also the sequence $(a_n^k)_{n\in\mathbb{N}}$ is convergent with
+\[\lim_{n\to\infty}a_n^k=\left(\lim_{n\to\infty}a_n\right)^k.\]
+\end{enumerate}
+\end{Remark}

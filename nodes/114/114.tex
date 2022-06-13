@@ -11,7 +11,8 @@
 \end{Definition}
 
 We make essential use of Dedekind's theorem to prove the following result:
-\begin{Theorem}[Convergence of bounded and monotonic sequences]\label{thm:monbndseq}
+\begin{Theorem}[Convergence of bounded and monotonic sequences]
+ \label{thm:monbndseq}
  Let $(a_n)_{n\in\mathbb{N}}$ be a~real sequence that has one of the following properties:
 \begin{itemize}
  \item[--] $(a_n)_{n\in\mathbb{N}}$ is monotonically increasing and bounded from above;
@@ -45,9 +46,9 @@ Using this inequality, we obtain for $n\geq1$
 \[a_{n+1}=\frac{a_n+\frac{2}{a_n}}{2}\geq \sqrt{a_n\cdot\frac2{a_n}}=\sqrt{2}.\]
 Thus, $(a_n)$ is bounded from below. For showing monotonicity, we consider
 \[a_{n+1}-a_n=\frac{a_n+\frac2{a_n}}{2}-a_n=\frac{1}{2a_n}(2-a_n^2).\]
-In particular, if $n\geq2$, we have that $a_n>0$ and $2-a_n^2\leq0$. Thus, $a_{n+1}-a_n\leq0$ for $n\geq2$. An~application of Theorem~\ref{thm:bndmonseq} (resp.\ the slight generalisation in Remark %\ref{rem:monseqgen}
+In particular, if $n\geq2$, we have that $a_n>0$ and $2-a_n^2\leq0$. Thus, $a_{n+1}-a_n\leq0$ for $n\geq2$. An~application of Theorem~\ref{thm:monbndseq} (resp.\ the slight generalisation in Remark %\ref{rem:monseqgen}
 from above) 
-now leads to the existence of some $a\in\mathbb{R}$ with $a=\lim_{n	o\infty}a_n$.\\[2ex]
+now leads to the existence of some $a\in\mathbb{R}$ with $a=\lim_{n	\to\infty}a_n$.\\[2ex]
 To compute the limit, we make use of the relation $\lim_{n \to\infty}a_n=\lim_{n\to\infty}a_{n+1}$ (follows directly from the Definition of limits) and the formulae for limits. This yields
 \[a=\lim_{n \to\infty}a_n=\lim_{n\to\infty}a_{n+1}=\lim_{n\to\infty}\frac{a_n+\frac2{a_n}}{2}=\frac{a+\frac2{a}}{2}.\]
 This relation leads to the equation $2-a^2=0$, i.e., we either have $a=\sqrt{2}$ or $a=-\sqrt{2}$. However, the latter solution cannot be a limit since all sequence elements are positive. Therefore, we have

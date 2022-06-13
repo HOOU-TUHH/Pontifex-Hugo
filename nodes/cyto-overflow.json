@@ -23,3 +23,13 @@
       "target": "603",
       "label": "Revisiting the concept of boundedness in a continuous setting (confusing?)."
     },
+    "104-205": {
+      "source": "104",
+      "target": "205",
+      "label": "The Leibniz criterion makes a statement about partial sums of an monotonic sequence. (not true that 104 should be linked)"
+    },
+    "002-102": {
+      "source": "002",
+      "target": "102",
+      "label": "The statement of boundedness involves a comparison of real numbers. (Real numbers node is too broad)"
+    },
