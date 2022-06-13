@@ -1344,11 +1344,6 @@
       "target": "205",
       "label": "The Leibniz criterion makes a statement about partial sums of an alternating sequence."
     },
-    "104-205": {
-      "source": "104",
-      "target": "205",
-      "label": "The Leibniz criterion makes a statement about partial sums of an monotonic sequence."
-    },
     "200-206": {
       "source": "200",
       "target": "206",
@@ -1918,6 +1913,11 @@
       "source": "114",
       "target": "108",
       "label": "The proof of the Bolzano-Weierstrass theorem starts with a bounded sequence constructs a monotonic subsequence which is still bounded."
+    },
+    "114-205": {
+      "source": "114",
+      "target": "205",
+      "label": "If the underlying sequence is monotonic decreasing and converging to 0, the corresponding alternating series converges by the Leibniz criterion."
     },
     "203-207": {
       "source": "203",
