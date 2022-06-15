@@ -1,5 +1,6 @@
-#image: node:17-bullseye
-image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
+# image: node:17-bullseye
+# image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
+image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-hugo #new default image
 
 stages:
   - build
@@ -10,7 +11,6 @@ stages:
 
 review-app-build:
   stage: build
-  image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}\";" config/production/config.toml
     - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/basic.js;" layouts/shortcodes/header1.html
@@ -24,7 +24,6 @@ review-app-build:
 
 review-build:
   stage: build
-  image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}\";" config/production/config.toml
     - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
@@ -39,7 +38,6 @@ review-build:
 
 master-build:
   stage: build
-  image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}\";" config/production/config.toml
     - sed -i -e "s;/js/basic.js;${BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
