@@ -1,4 +1,4 @@
-custom_css = ["css/style.css"]
+custom_css = ["/css/style.css"]
 
 # Meta Data for SEO
 
