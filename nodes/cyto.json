@@ -244,7 +244,7 @@
     },
     "108": {
       "id": "108",
-      "label": "Bolzano-\nWeierstrass",
+      "label": "Bolzano-Weierstrass",
       "meta": "RA10 ",
       "content": "Every bounded sequence has at least one converging subsequence.",
       "notes": "108-snippet.html",
