@@ -33,3 +33,8 @@
       "target": "102",
       "label": "The statement of boundedness involves a comparison of real numbers. (Real numbers node is too broad)"
     },
+    "102-204": {
+      "source": "102",
+      "target": "204",
+      "label": "The Cauchy criterion for series involves bounds on certain parts of the partial sum. (far fetched?)"
+    }
