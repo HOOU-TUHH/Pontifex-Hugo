@@ -26,8 +26,8 @@ review-build:
   stage: build
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}js/basic2.js;" layouts/shortcodes/header2.html
+    - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}/js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}/js/basic2.js;" layouts/shortcodes/header2.html
     - /pontifex/bin/build_pontifex.sh
   artifacts:
     paths:
@@ -40,8 +40,8 @@ master-build:
   stage: build
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${BASE_DIR}js/basic.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/basic2.js;${BASE_DIR}js/basic2.js;" layouts/shortcodes/header2.html
+    - sed -i -e "s;/js/basic.js;${BASE_DIR}/js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/basic2.js;${BASE_DIR}/js/basic2.js;" layouts/shortcodes/header2.html
     - /pontifex/bin/build_pontifex.sh
   artifacts:
     paths:
