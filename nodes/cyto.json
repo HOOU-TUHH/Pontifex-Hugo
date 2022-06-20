@@ -1366,7 +1366,7 @@
     },
     "102-208": {
       "source": "102",
-      "target": "209",
+      "target": "208",
       "label": "If the sequence of quotients of two consecutive sequence members is bounded by a number strictly smaller than one, then the corresponding series converges by the root criterion."
     },
     "200-210": {
