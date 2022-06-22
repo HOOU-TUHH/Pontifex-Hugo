@@ -33,8 +33,8 @@
   })();
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <script>
     let current_id = "{{ index .Params 0 }}";
@@ -46,10 +46,6 @@
       background-color: #fff;
     }
   </style>
-
-    <button class="btn btn-lg btn-primary" id="start-tour">
-      Start Tour
-    </button><br/><br/>
 
    <p id="edge-message">Click on an <b>arrow</b> to get a description of the connection!</p>
    <div id="cy"></div>
@@ -69,6 +65,3 @@
 })();
 </script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.12.0/css/bootstrap-tour-standalone.css" integrity="sha512-ORucsD7YODPUurPZ4qD14QH3p1hLaNNtLH1mGvAWvNpAQ3LsotwDXE6er5GwAKW2LzX/Sg1T5Y502DbCwIQQpQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.10.1/js/bootstrap-tour.js"></script>
-<script src="/js/pontifex-tour.js"
