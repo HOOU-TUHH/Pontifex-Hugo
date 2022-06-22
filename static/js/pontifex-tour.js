@@ -5,12 +5,11 @@
     debug: true,
     basePath: location.pathname.slice(0, location.pathname.lastIndexOf('/')),
     steps: [{
-      element: "#cy",
+      element: "#edge-message-top",
       title: "The Network",
       content: "Visualizes the network"
     }, {
-      path: "/newPage.html",
-      element: "#my-other-element",
+      element: "#edge-message",
       title: "Title of my step",
       content: "Content of my step"
     }]
