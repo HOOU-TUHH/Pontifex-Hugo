@@ -1,4 +1,4 @@
-$(function() {
+//$(function() {
   
   // define tour
   var tour = new Tour({
@@ -20,10 +20,11 @@ $(function() {
   tour.init();
 
   // start tour
-  $('#start-tour').click(function() {
-    tour.restart();
-  });
+  //$('#start-tour').click(function() {
+  //  tour.restart();
+  //});
+  tour.start();
   
 
-});
+//});
 
