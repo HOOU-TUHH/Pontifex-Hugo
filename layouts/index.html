@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="keyvisual-bg">
-  <img src="{{ .Site.BaseURL }}images/keyvisual.png">
+  <img src="{{ .Site.BaseURL }}/images/keyvisual.png">
 <section class="section container-fluid mt-n3 pb-3">
   <div class="keyvisual-text row justify-content-center">
     <div class="col-lg-12 text-center">
@@ -8,7 +8,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ path.Dir .Path | relURL | urlize }}/docs/level1/" role="button">Start now!</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .Site.BaseURL }}/docs/level1/" role="button">Start now!</a>
       <p class="meta"><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0.</a> <a href="https://www3-dev.tuhh.de/e-10/pontifex/404.html">GitLab v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
@@ -25,7 +25,7 @@
         <div class="col-lg-5">
           <div class="icons">
           <div class="icon-bg">
-          <img class="icon" src="{{ path.Dir .Path | relURL | urlize }}/cap.svg">
+          <img class="icon" src="{{ .Site.BaseURL }}/cap.svg">
           </div></div>
           <h2 class="h4">Learn mathematics</h2>
           <p>An unfamiliar concept appears and you want to refresh the related mathematics knowledge? Then start with a term and discover possibly hidden connections to already known topics thereby building on your previous knowledge!</p>
@@ -33,7 +33,7 @@
         <div class="col-lg-5">
           <div class="icons">
             <div class="icon-bg">
-            <img class="icon" src="{{ path.Dir .Path | relURL | urlize }}/button.svg">
+              <img class="icon" src="{{ .Site.BaseURL }}/button.svg">
             </div></div>
           <h2 class="h4">Use videos</h2>
           <p>In each topic you find a suitable video that explains the concept and helps you to build bridges.</p>
@@ -41,7 +41,7 @@
         <div class="col-lg-5">
           <div class="icons">
             <div class="icon-bg">
-            <img class="icon" src="{{ path.Dir .Path | relURL | urlize }}/writing.svg">
+              <img class="icon" src="{{ .Site.BaseURL }}/writing.svg">
             </div></div>
           <h2 class="h4">Use our notes</h2>
           <p>For each topic you find summaries, the formal definitions, and examples that can guide you on your journey.</p>
@@ -51,7 +51,7 @@
         <div class="col-lg-5">
           <div class="icons">
             <div class="icon-bg">
-            <img class="icon" src="{{ path.Dir .Path | relURL | urlize }}/lupe.svg">
+              <img class="icon" src="{{ .Site.BaseURL }}/lupe.svg">
             </div></div>
           <h2 class="h4">Search for topics</h2>
           <p>Use the integrated search bar to find the exact topic you are struggling with or are interested in.</p>
@@ -59,7 +59,7 @@
         <div class="col-lg-5">
           <div class="icons">
             <div class="icon-bg">
-            <img class="icon" src="{{ path.Dir .Path | relURL | urlize }}/network.svg">
+              <img class="icon" src="{{ .Site.BaseURL }}/network.svg">
             </div></div>
           <h2 class="h4">Use our network</h2>
           <p>Each topic is embedded in the rich network of mathematics and you can see as a graph. You can use it to find the requirements you need in order to understand the topic you searched for.</p>
@@ -67,7 +67,7 @@
         <div class="col-lg-5">
           <div class="icons">
             <div class="icon-bg">
-            <img class="icon" src="{{ path.Dir .Path | relURL | urlize }}/laptop.svg">
+              <img class="icon" src="{{ .Site.BaseURL }}/laptop.svg">
             </div></div>
           <h2 class="h4">Learn with WeBWorK</h2>
           <p>We included suitable electronic exercises for each topic. They can show you if you have really understood the concept.</p>
@@ -82,7 +82,7 @@
 <section class="section section-sm container-fluid">
   <div class="row justify-content-center text-center">
     <div class="col-lg-9">
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ path.Dir .Path | relURL | urlize }}/docs/level1/" role="button">Start now!</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .Site.BaseURL }}/docs/level1/" role="button">Start now!</a>
     </div>
   </div>
 </section>

@@ -37,7 +37,7 @@
       "id": "003",
       "label": "Maps",
       "meta": " SLS04 ",
-      "content": "Maps are the mathematical formulation of a machine that gets inputs and generate outputs. On both sides, sets are needed.",
+      "content": "Maps are the mathematical formulation of a machine that gets inputs and generate outputs. On both sides, sets are needed for the domain and the codomain.",
       "notes": "003-snippet.html",
       "video": "https://www.youtube.com/embed/JoLDwNh1lZ8?start=260",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Functions_Evaluating/Quad_No_Constant.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
@@ -180,7 +180,7 @@
       "id": "102",
       "label": "Bounded\nSequences",
       "meta": " RA03 ",
-      "content": "Sequences can be bounded from above and from below.",
+      "content": "Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.",
       "notes": "102-snippet.html",
       "video": "https://www.youtube.com/embed/k-Wm6gJYfrw?start=221",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
@@ -200,9 +200,9 @@
     },
     "104": {
       "id": "104",
-      "label": "Sandwich Theorem",
+      "label": "Monotonicity of Limits\n and Sandwich Theorem",
       "meta": " RA05 ",
-      "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit.",
+      "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit. The technique of sandwiching can be used to determine limits via nested intervals.",
       "notes": "104-snippet.html",
       "video": "https://www.youtube.com/embed/Y6rRSip3QN4?start=14",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
@@ -244,7 +244,7 @@
     },
     "108": {
       "id": "108",
-      "label": "Bolzano-\nWeierstrass",
+      "label": "Bolzano-Weierstrass",
       "meta": "RA10 ",
       "content": "Every bounded sequence has at least one converging subsequence.",
       "notes": "108-snippet.html",
@@ -332,7 +332,7 @@
     },
     "200": {
       "id": "200",
-      "label": "Partial Sums",
+      "label": "Series and\nPartial Sums",
       "meta": "RA15",
       "content": "A series is a sequence of partial sums.",
       "notes": "200-snippet.html",
@@ -367,7 +367,7 @@
       "id": "204",
       "label": "Cauchy Criterion",
       "meta": "RA17",
-      "content": "A series convergence if its partial sums form a Cauchy sequence.",
+      "content": "A series converges if its partial sums form a Cauchy sequence. As a consequence, for a convergent series, the underlying sequence necessarily needs to converge to zero.",
       "notes": "204-snippet.html",
       "video": "https://www.youtube.com/embed/lr12HwXQ3uw?start=130",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/AlfredUniv/anton8e/chapter10/10.4/prob1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
@@ -510,9 +510,9 @@
       "id": "305",
       "label": "Epsilon-Delta\nDefinition",
       "meta": "RA28",
-      "content": "A different notion of continuity using open intervals.",
+      "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
       "notes": "305-snippet.html",
-      "video": "https://www.youtube.com/embed/",
+      "video": "https://www.youtube.com/embed/4xhyqdjmxHU?start=11",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "discussion": "https://etherpad.studiumdigitale.uni-frankfurt.de/p/discussingbridgesfromandto305?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false",
       "podcast": ""
@@ -543,7 +543,7 @@
       "id": "308",
       "label": "Uniform Limits of \n Continuous Functions",
       "meta": "RA31",
-      "content": "How to preserve continuity in the limit.",
+      "content": "How to preserve continuity in the limit of a sequence of continuous functions.",
       "notes": "308-snippet.html",
       "video": "https://www.youtube.com/embed/llJruZnO-t4?start=11",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest31/quiz.html",
@@ -962,7 +962,7 @@
     "101-102": {
       "source": "101",
       "target": "102",
-      "label": "Convergent sequences are bounded."
+      "label": "Convergent sequences are bounded but not every bounded sequence is convergent."
     },
     "001-013": {
       "source": "001",
@@ -987,12 +987,12 @@
     "005-102": {
       "source": "005",
       "target": "102",
-      "label": "Boundedness of a sequence means that the image of the sequence is a bounded set."
+      "label": "Boundedness of a sequence means that the image of the sequence is a bounded set of real numbers."
     },
     "100-102": {
       "source": "100",
       "target": "102",
-      "label": "Boundedness is a property of sequences."
+      "label": "Boundedness is a property of sequences that tells us how large the sequence values can get at most."
     },
     "003-005": {
       "source": "003",
@@ -1052,7 +1052,7 @@
     "100-115": {
       "source": "100",
       "target": "115",
-      "label": "Being Cauchy is a property of a sequence."
+      "label": "Being Cauchy is a property of a sequence that tells us that the distance between sequence members can get arbitrarily close for large indeces."
     },
     "115-106": {
       "source": "115",
@@ -1092,7 +1092,7 @@
     "003-100": {
       "source": "003",
       "target": "100",
-      "label": "A sequence is a map that assigns to each natural number a value."
+      "label": "A sequence is a map that maps indices (natural numbers) to values (real numbers)."
     },
     "003-300": {
       "source": "003",
@@ -1257,12 +1257,12 @@
     "104-111": {
       "source": "104",
       "target": "111",
-      "label": "Sandwiching gives rise to the proof using nested intervals in the Heine-Borel theorem."
+      "label": "Sandwiching gives rise the technique of nested intervals in the proof of the Heine-Borel theorem."
     },
     "104-309": {
       "source": "104",
       "target": "309",
-      "label": "The convergence of the intervals is based on monotonicity of the underlying sequences."
+      "label": "The nested intervals technique is made possible by the sandwich theorem and helps to prove the intermediate value theorem."
     },
     "108-309": {
       "source": "108",
@@ -1292,7 +1292,7 @@
     "200-201": {
       "source": "200",
       "target": "201",
-      "label": " "
+      "label": "The geometric and harmonic series are one of the most important examples of sequences in real analysis. They also serve as tools in many proofs that involve the derivation of convergence using a comparison criterion."
     },
     "200-203": {
       "source": "200",
@@ -1313,11 +1313,6 @@
       "source": "115",
       "target": "204",
       "label": "If the sequence of partial sums is a Cauchy sequence, then it converges."
-    },
-    "102-204": {
-      "source": "102",
-      "target": "204",
-      "label": "The Cauchy criterion involves bounds on certain parts of the partial sum."
     },
     "008-204": {
       "source": "008",
@@ -1362,12 +1357,17 @@
     "200-208": {
       "source": "200",
       "target": "208",
-      "label": " "
+      "label": ""
     },
     "102-209": {
       "source": "102",
       "target": "209",
-      "label": "If the nth root of the underlying sequence is bounded by a number striclty smaller than one, the series converges by the root criterion."
+      "label": "If the sequence of nth roots of the sequence members is bounded by a number strictly smaller than one, then the corresponding series converges by the root criterion."
+    },
+    "102-208": {
+      "source": "102",
+      "target": "208",
+      "label": "If the sequence of quotients of two consecutive sequence members is bounded by a number strictly smaller than one, then the corresponding series converges by the root criterion."
     },
     "200-210": {
       "source": "200",
@@ -1422,17 +1422,17 @@
     "207-208": {
       "source": "207",
       "target": "208",
-      "label": "The proof of the quotient criterion relies on majorant criterion."
+      "label": "The proof of the quotient criterion relies on the majorant criterion."
     },
     "208-400": {
       "source": "208",
       "target": "400",
-      "label": "By the quotient criterion on can show that the exponential series converges absolutely."
+      "label": "By the quotient criterion, one can show that the exponential series converges absolutely."
     },
     "207-209": {
       "source": "207",
       "target": "209",
-      "label": "The proof of the root criterion relies on majorant criterion."
+      "label": "The proof of the root criterion relies on the majorant criterion."
     },
     "206-208": {
       "source": "206",
@@ -1458,6 +1458,11 @@
       "source": "100",
       "target": "300",
       "label": "A sequence of functions gives rise to a sequence of real numbers via point evaluations."
+    },
+    "100-303": {
+      "source": "100",
+      "target": "303",
+      "label": "In order to calculate a function limit, one starts out with a sequence in the function's domain which is then mapped via the function to a sequence in the function's codomain."
     },
     "101-303": {
       "source": "101",
@@ -1579,10 +1584,15 @@
       "target": "304",
       "label": "If a function is continuous at a point, the the value coincides with the function limit at this point."
     },
-    "302-304": {
+    "302-308": {
       "source": "302",
-      "target": "304",
+      "target": "308",
       "label": "Uniform convergence of continuous functions leads to a continuous limit function."
+    },
+    "304-308": {
+      "source": "304",
+      "target": "308",
+      "label": "Taking uniform limits of continuous functions preserves continuity."
     },
     "305-308": {
       "source": "305",
@@ -1602,7 +1612,7 @@
     "110-305": {
       "source": "110",
       "target": "305",
-      "label": "Characterize continuity using open intervals."
+      "label": "Characterize continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values."
     },
     "402-511": {
       "source": "402",
@@ -1667,7 +1677,7 @@
     "304-305": {
       "source": "304",
       "target": "305",
-      "label": "A different notion of continuity using open balls."
+      "label": "A different but equivalent notion of continuity using open balls. This notion captures the intuition that small deviations in input to a continuous map should also lead to small deviations in the output."
     },
     "002-600": {
       "source": "002",
@@ -1688,11 +1698,6 @@
       "source": "601",
       "target": "603",
       "label": "Generalizing the concept of an integral to bounded functions via approximation."
-    },
-    "500-606": {
-      "source": "500",
-      "target": "606",
-      "label": "Differentiation is in some sense the opposite of integration."
     },
     "500-606": {
       "source": "500",
@@ -1862,7 +1867,7 @@
     "104-113": {
       "source": "104",
       "target": "113",
-      "label": "The uncountability of the reals can be shown via a interval nesting which converges do to the monotonicity of the underlying sequences."
+      "label": "The uncountability of the reals can be shown via an interval nesting which converges do to the monotonicity of the underlying sequences."
     },
     "106-113": {
       "source": "106",
@@ -1907,7 +1912,7 @@
     "114-108": {
       "source": "114",
       "target": "108",
-      "label": "The proof of the Bolzano-Weierstrass theorem starts with a bounded sequence constructs a monotonic subsequence which is still bounded."
+      "label": "The proof of the Bolzano-Weierstrass theorem starts with a bounded sequence and then constructs a monotonic subsequence which is still bounded."
     },
     "114-205": {
       "source": "114",
@@ -1918,6 +1923,11 @@
       "source": "009",
       "target": "105",
       "label": "The epsilon-Definitions of infimum and supremum are build with existence-quantifiers and all-quantifiers."
+    },
+    "204-207": {
+      "source": "204",
+      "target": "207",
+      "label": "The Cauchy criterion applied to a majorizing series gives the convergence of the majorized series."
     },
     "203-207": {
       "source": "203",
