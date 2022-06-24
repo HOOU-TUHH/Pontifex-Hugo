@@ -8,7 +8,7 @@ We will now define the logarithm as the inverse function of the exponential func
 In many books, the above defined function is also denoted by {\em logarithmus naturalis} $\ln$. Before we collect some properties, a~general result about continuity of inverse functions is presented.
 
 
-\begin{Theorem}{Continuity of the inverse function}\label{thm:invcont}
+\begin{Theorem}[Continuity of the inverse function]\label{thm:invcont}
 Let $I,J\subset\mathbb{R}$ be open intervals and let $f:I\to J$ be a~continuous, bijective and strictly monotonically increasing (or decreasing) function. 
 Then the inverse function $f^{-1}:J\to I$ is continuous and strictly monotonically increasing (resp.\ decreasing).
 \end{Theorem}
@@ -19,12 +19,12 @@ First we show strict monotonic increase. Let $y_1,y_2\in J$ with $y_1< y_2$. The
   But this means that $f^{-1}$ is strictly monotonically increasing.
 
 Now we show continuity. 
-Let $\eps>0$ and $y_0\in J=f(I)$. Set $x_0:=f^{-1}(y_0)\in I$. Since $I$ is an open interval, there is  
-an $\eps'>0$ with $\eps'<\eps$ such that $[x_0-\eps',x_0+\eps']\subset I$. 
-Since $f$ is strictly monotonically increasing, $$\delta:=\min\{f(x_0+\eps')-y_0,y_0-f(x_0-\eps')\}>0.$$
-Then for $y\in J$ with $|y-y_0|<\delta$ holds $f(x_0-\eps')< y< f(x_0+\eps')$ and the intermediate value theorem 
-yields $$x:=f^{-1}(y) \in [x_0-\eps',x_0+\eps'] \subset ~ (x_0-\eps,x_0+\eps) ~ = ~ (f^{-1}(y_0)-\eps,f^{-1}(y_0)+\eps)\ ,$$
-i.e. $|f^{-1}(y)-f^{-1}(y_0)|<\eps$. By the $\eps$-$\delta$  criterion this means that $f^{-1}$ is continuous in $y_0$. 
+Let $\varepsilon>0$ and $y_0\in J=f(I)$. Set $x_0:=f^{-1}(y_0)\in I$. Since $I$ is an open interval, there is  
+an $\varepsilon'>0$ with $\varepsilon'<\varepsilon$ such that $[x_0-\varepsilon',x_0+\varepsilon']\subset I$. 
+Since $f$ is strictly monotonically increasing, $$\delta:=\min\{f(x_0+\varepsilon')-y_0,y_0-f(x_0-\varepsilon')\}>0.$$
+Then for $y\in J$ with $|y-y_0|<\delta$ holds $f(x_0-\varepsilon')< y< f(x_0+\varepsilon')$ and the intermediate value theorem 
+yields $$x:=f^{-1}(y) \in [x_0-\varepsilon',x_0+\varepsilon'] \subset ~ (x_0-\varepsilon,x_0+\varepsilon) ~ = ~ (f^{-1}(y_0)-\varepsilon,f^{-1}(y_0)+\varepsilon)\ ,$$
+i.e. $|f^{-1}(y)-f^{-1}(y_0)|<\varepsilon$. By the $\varepsilon$-$\delta$  criterion this means that $f^{-1}$ is continuous in $y_0$. 
 \hfill$\Box$
 \\ \\
 We want to remark that Theorem \ref{thm:invcont} also holds for intervals $I$ and $J$ which are not open. 
@@ -32,7 +32,7 @@ In this case the proof of continuity of $f^{-1}$ in $y_0\in J$ has to be slightl
 This was dropped for simplicity reasons. 
   
 
-\begin{Theorem}{Properties of the Logarithm}
+\begin{Theorem}[Properties of the Logarithm]
  \begin{enumerate}[(i)]
 \item For all $x,y\in~(0,\infty)$ holds $\log(x\cdot y)=\log(x)+\log(y)$.
 \item $\log:~(0,\infty)~\to~\mathbb{R}$ is strictly monotonically increasing.
