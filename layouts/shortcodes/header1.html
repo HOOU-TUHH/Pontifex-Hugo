@@ -4,6 +4,7 @@
 <script defer data-domain="pntfx.com" src="https://plausible.io/js/plausible.js"></script>
 
 
+<!--See https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/mathjax/ -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({ "HTML-CSS": { width:"container", scale:100,linebreaks: { automatic: true } }, SVG: { linebreaks: { automatic: true } }});
   MathJax.Hub.Queue(function () {
@@ -30,16 +31,16 @@
 </script>
 
 <script>let current_id = "{{ index .Params 0 }}";</script>
-  <style>
-    #cy {
-      height: 500px;
-      display: block;
-    }
-  </style>
+<style>
+  #cy {
+    height: 500px;
+    display: block;
+  }
+</style>
 
-   <p>Click on an <b>arrow</b> to get a description of the connection!</p>
-   <div id="cy"></div>
-   <p id="edge-message">Click on an <b>arrow</b> to get a description of the connection!</p>
+<p>Click on an <b>arrow</b> to get a description of the connection!</p>
+<div id="cy"></div>
+<p id="edge-message">Click on an <b>arrow</b> to get a description of the connection!</p>
 
 <script src="/js/basic.js"></script>
 
