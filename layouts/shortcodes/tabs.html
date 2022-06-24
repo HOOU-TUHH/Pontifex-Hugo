@@ -1,8 +1,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
+<!-- https://github.com/rvanhorn/hugo-dynamic-tabs -->
 <nav>
 	<div class="nav nav-tabs" id="nav-tab" role="tablist">
 
@@ -13,9 +13,9 @@
 
 		{{ range $i, $sequence := (seq $tabTotal) }}
 
-		<a class="nav-item nav-link {{ if eq $i 0 }} active {{ end }}"
-		   id="nav-{{ (index $tabID $i) }}" data-toggle="tab" href="#{{ (index $tabID $i) }}"
-		   role="tab" aria-controls="nav-home" aria-selected="true">{{ (replaceRE "(\\s)" "" (index $tabName $i)) }}</a>
+		<a class="nav-link {{ if eq $i 0 }} active {{ end }}{{ if in $tabRightAlign (add 1 $i) }} ms-auto {{ end }}"
+		   id="{{ (index $tabID $i) }}-tab" data-bs-toggle="tab" data-bs-target="#{{ (index $tabID $i) }}"
+		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">{{ (replaceRE "(\\s)" "" (index $tabName $i)) }}</a>
 
 		{{ end }}
 
