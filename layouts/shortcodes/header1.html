@@ -31,7 +31,6 @@
   })();
 </script>
 
-<script>let current_id = "{{ index .Params 0 }}";</script>
 <style>
   #cy {
     height: 500px;
@@ -43,4 +42,5 @@
 <div id="cy"></div>
 <p id="edge-message">Click on an <b>arrow</b> to get a description of the connection!</p>
 
+<script>let current_id = "{{ index .Params 0 }}";</script>
 <script src="/js/basic.js"></script>
