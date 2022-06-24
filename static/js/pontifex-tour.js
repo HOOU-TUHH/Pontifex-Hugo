@@ -5,7 +5,7 @@
     debug: true,
     basePath: location.pathname.slice(0, location.pathname.lastIndexOf('/')),
     steps: [{
-      element: "#edge-message-top",
+      element: "#edge-message",
       title: "The Network",
       content: "Visualizes the network"
     }, {
