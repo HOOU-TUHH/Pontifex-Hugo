@@ -37,4 +37,9 @@
       "source": "102",
       "target": "204",
       "label": "The Cauchy criterion for series involves bounds on certain parts of the partial sum. (far fetched?)"
-    }
+    },
+    "104-111": {
+      "source": "104",
+      "target": "111",
+      "label": "Sandwiching gives rise the technique of nested intervals in the proof of the Heine-Borel theorem. (not correct)"
+    },

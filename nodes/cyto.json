@@ -1254,11 +1254,6 @@
       "target": "112",
       "label": "The closure of a bounded set is always compact by Heine-Borel theorem."
     },
-    "104-111": {
-      "source": "104",
-      "target": "111",
-      "label": "Sandwiching gives rise the technique of nested intervals in the proof of the Heine-Borel theorem."
-    },
     "104-309": {
       "source": "104",
       "target": "309",
@@ -1923,6 +1918,21 @@
       "source": "009",
       "target": "105",
       "label": "The epsilon-Definitions of infimum and supremum are build with existence-quantifiers and all-quantifiers."
+    },
+    "107-111": {
+      "source": "107",
+      "target": "111",
+      "label": "The proof of the Heine-Borel theorem works with convergent subsequences in order to show that compact sets are closed."
+    },
+    "013-111": {
+      "source": "013",
+      "target": "111",
+      "label": "A bounded set that is also closed is a compact set by the Theorem of Heine-Borel.."
+    },
+    "108-111": {
+      "source": "108",
+      "target": "111",
+      "label": "The prof of the Heine-Borel theorem uses the fact that a sequence of elements of a bounded set is a bounded sequence which has a convergent subsequence by the theorem of Bolzano-Weierstrass."
     },
     "204-207": {
       "source": "204",
