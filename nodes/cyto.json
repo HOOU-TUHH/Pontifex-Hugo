@@ -1277,7 +1277,7 @@
     "101-200": {
       "source": "101",
       "target": "200",
-      "label": "A convergent series is a convergent sequence."
+      "label": "A convergent series is a convergent sequence of partial sums."
     },
     "011-200": {
       "source": "011",
