@@ -1254,11 +1254,6 @@
       "target": "112",
       "label": "The closure of a bounded set is always compact by Heine-Borel theorem."
     },
-    "104-111": {
-      "source": "104",
-      "target": "111",
-      "label": "Sandwiching gives rise the technique of nested intervals in the proof of the Heine-Borel theorem."
-    },
     "104-309": {
       "source": "104",
       "target": "309",
@@ -1282,7 +1277,7 @@
     "101-200": {
       "source": "101",
       "target": "200",
-      "label": "A convergent series is a convergent sequence."
+      "label": "A convergent series is a convergent sequence of partial sums."
     },
     "011-200": {
       "source": "011",
@@ -1292,7 +1287,7 @@
     "200-201": {
       "source": "200",
       "target": "201",
-      "label": "The geometric and harmonic series are one of the most important examples of sequences in real analysis. They also serve as tools in many proofs that involve the derivation of convergence using a comparison criterion."
+      "label": "The geometric and harmonic series are one of the most important examples of series in real analysis. They also serve as tools in many proofs that involve the derivation of convergence using a comparison criterion."
     },
     "200-203": {
       "source": "200",
@@ -1354,11 +1349,6 @@
       "target": "207",
       "label": "The comparison tests compare the terms of the partial sums to the ones of other series."
     },
-    "200-208": {
-      "source": "200",
-      "target": "208",
-      "label": ""
-    },
     "102-209": {
       "source": "102",
       "target": "209",
@@ -1392,7 +1382,7 @@
     "200-211": {
       "source": "200",
       "target": "211",
-      "label": " "
+      "label": "The Cauchy product gives a formula for partial sums that can be used in order to define a product of sequences."
     },
     "109-209": {
       "source": "109",
@@ -1923,6 +1913,21 @@
       "source": "009",
       "target": "105",
       "label": "The epsilon-Definitions of infimum and supremum are build with existence-quantifiers and all-quantifiers."
+    },
+    "107-111": {
+      "source": "107",
+      "target": "111",
+      "label": "The proof of the Heine-Borel theorem works with convergent subsequences in order to show that compact sets are closed."
+    },
+    "013-111": {
+      "source": "013",
+      "target": "111",
+      "label": "A bounded set that is also closed is a compact set by the Theorem of Heine-Borel."
+    },
+    "108-111": {
+      "source": "108",
+      "target": "111",
+      "label": "The prof of the Heine-Borel theorem uses the fact that a sequence of elements of a bounded set is a bounded sequence which has a convergent subsequence by the theorem of Bolzano-Weierstrass."
     },
     "204-207": {
       "source": "204",
