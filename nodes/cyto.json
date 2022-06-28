@@ -1277,7 +1277,7 @@
     "101-200": {
       "source": "101",
       "target": "200",
-      "label": "A convergent series is a convergent sequence."
+      "label": "A convergent series is a convergent sequence of partial sums."
     },
     "011-200": {
       "source": "011",
@@ -1287,7 +1287,7 @@
     "200-201": {
       "source": "200",
       "target": "201",
-      "label": "The geometric and harmonic series are one of the most important examples of sequences in real analysis. They also serve as tools in many proofs that involve the derivation of convergence using a comparison criterion."
+      "label": "The geometric and harmonic series are one of the most important examples of series in real analysis. They also serve as tools in many proofs that involve the derivation of convergence using a comparison criterion."
     },
     "200-203": {
       "source": "200",
