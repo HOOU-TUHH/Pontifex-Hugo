@@ -1354,11 +1354,6 @@
       "target": "207",
       "label": "The comparison tests compare the terms of the partial sums to the ones of other series."
     },
-    "200-208": {
-      "source": "200",
-      "target": "208",
-      "label": ""
-    },
     "102-209": {
       "source": "102",
       "target": "209",
@@ -1392,7 +1387,7 @@
     "200-211": {
       "source": "200",
       "target": "211",
-      "label": " "
+      "label": "The Cauchy product gives a formula for partial sums that can be used in order to define a product of sequences."
     },
     "109-209": {
       "source": "109",
