@@ -13,7 +13,7 @@ weight: 100
 toc: true
 ---
 
-## Discover Bridges 
+## Discover Bridges
 
 {{< tabs tabTotal="2" >}}
 {{< tab tabName="Network" >}}
@@ -82,7 +82,7 @@ toc: true
 
 <h4>Discuss your questions by typing below.</h4>
 
-<iframe name="embed_readwrite" src="###ETHERLINK###" width="100%" height="600" frameborder="0"></iframe>
+<div id="vssue"></div>
 
 {{< /tab >}}
 
