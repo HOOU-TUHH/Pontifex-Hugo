@@ -1,3 +1,6 @@
+ [![](https://collaborating.tuhh.de/e-10/pontifex-hugo/-/jobs/artifacts/dev/raw/nodes.svg?job=dynamic_badge)]()
+ [![](https://collaborating.tuhh.de/e-10/pontifex-hugo/-/jobs/artifacts/dev/raw/edges.svg?job=dynamic_badge)]()
+ [![](https://collaborating.tuhh.de/e-10/pontifex-hugo/-/jobs/artifacts/dev/raw/podcasts.svg?job=dynamic_badge)]()
 # Pontifex-core
 
 This repo contains the essential Python and Bash scripts to build the pontifex project using HUGO.

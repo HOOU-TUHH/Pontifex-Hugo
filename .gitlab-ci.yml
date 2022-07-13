@@ -51,6 +51,21 @@ master-build:
     variables:
       - $CI_COMMIT_BRANCH == "master"
 
+dynamic_badge:
+  stage: build
+  image: python:3.10
+  script:
+    - pip install anybadge
+    - python3 bin/compute_stats.py nodes/cyto.json
+  artifacts:
+    paths:
+        - edges.svg
+        - nodes.svg
+        - podcasts.svg
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == "dev"
+
 ###### REVIEW ########
 
 review-app-deploy:
@@ -140,3 +155,4 @@ master-deploy:
   only:
     variables:
       - $CI_COMMIT_BRANCH == "master"
+
