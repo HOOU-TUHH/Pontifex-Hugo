@@ -1,4 +1,4 @@
-"""Make hugo
+"""Make Markdown File 
 
 This script allows the user to put everything into a md-file for hugo
 
@@ -8,7 +8,7 @@ input:  (0) index = xxx
 
 output: xxx.md
 
-usage: python3 makehugo.py xxx
+usage: python3 make_md.py xxx
 """
 
 import json

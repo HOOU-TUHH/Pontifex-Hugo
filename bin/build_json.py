@@ -1,4 +1,4 @@
-"""Make xxx.json
+"""Build xxx.json
 
 This script allows the user to create index.json for a given node in graph.json
 

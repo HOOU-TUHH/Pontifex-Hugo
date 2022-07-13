@@ -98,10 +98,18 @@ This repo contains the essential Python and Bash scripts to build the pontifex p
 ## Python Preprocessing
 
 *.py files in bin
+| Preprocessor | Description |
+| - | - |
+| `build_json.py` | Build JSON file for each node containing only neighbours of distance 1 |
+| `build_md.py` | Build MD file for each node substituting placeholdes by node-specific values |
 
 ## Cytoscape JS
 
 pontifex-graph.js
+
+## Pandoc
+
+Translation of TeX to html with MathJax support is acchieved with pandoc.
 
 ## Dummies and Shortcodes
 
