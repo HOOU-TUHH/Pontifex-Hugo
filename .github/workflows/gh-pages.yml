@@ -24,7 +24,6 @@ jobs:
     - uses: nikeee/setup-pandoc@v1
       with:
         pandoc-version: '2.18' # The pandoc version to download (if necessary) and use.
-    - run: echo "# Test" | pandoc -t html
 
     - name: Set up Node.js 
       uses: actions/setup-node@v3
