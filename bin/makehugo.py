@@ -48,7 +48,6 @@ mynode = mydata["nodes"][index]
 filename = mynode["notes"]
 videolink = mynode["video"]
 webworklink = mynode["webwork"]
-discussionlink = mynode["discussion"]
 title = mynode["label"].replace('\n',' ')
 content = mynode["content"]
 podcast = mynode["podcast"]
@@ -136,10 +135,10 @@ preds = mystring
 succs = mystring2
 
 # define fillers
-fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###", "###PODCAST###" ,"###ETHERLINK###", "###WEBWORKLINK###", "###NTABS###"]
+fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###", "###PODCAST###", "###WEBWORKLINK###", "###NTABS###"]
 
 # put content into same order
-content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, podcast, discussionlink, webworklink, str(ntabs)]
+content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, podcast, webworklink, str(ntabs)]
 
 
 for ind, myline in enumerate(mylines):
