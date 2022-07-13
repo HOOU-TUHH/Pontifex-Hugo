@@ -13,7 +13,7 @@ review-app-build:
   stage: build
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/pontifex-graph.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
     - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/basic2.js;" layouts/shortcodes/header2.html
     - sed -i -e "s;/js/pontifex-tour.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/pontifex-tour.js;" layouts/shortcodes/header1.html
     - bin/build_pontifex.sh
@@ -27,7 +27,7 @@ review-build:
   stage: build
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}/js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/pontifex-graph.js;${REVIEW_BASE_DIR}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
     - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}/js/basic2.js;" layouts/shortcodes/header2.html
     - bin/build_pontifex.sh
   artifacts:
@@ -41,7 +41,7 @@ master-build:
   stage: build
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}/\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${BASE_DIR}/js/basic.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/pontifex-graph.js;${BASE_DIR}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
     - sed -i -e "s;/js/basic2.js;${BASE_DIR}/js/basic2.js;" layouts/shortcodes/header2.html
     - bin/build_pontifex.sh
   artifacts:

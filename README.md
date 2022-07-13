@@ -25,6 +25,29 @@ It has the following structure
 
 #### Nodes
 
+Example entry:
+```json
+    "305": {
+      "id": "305",
+      "label": "Epsilon-Delta\nDefinition",
+      "meta": "RA28",
+      "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
+      "notes": "305-snippet.html",
+      "video": "https://www.youtube.com/embed/4xhyqdjmxHU?start=11",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+```
+
+* `id` should be a unique three digit number. The first digit specifies the chapter (0-6). The second and third digits run from `00` to `99`. The `id` should also be the key of the node.
+* `label` is the text used as title of the node.
+* `meta` contains further information, for the content. In the above example it specifies the name of the video (not processed by any routines)
+* `content` explains the topic, text shows in the introduction below the title
+* `notes` name of the html lecture notes
+* `video` link to youtube
+* `webwork` link to webwork exercise or other webpage that will be embedded via an iframe
+* `podcast` plain html iframe code to go in the podcast section inside the dummy
+
 #### Edges
 
 ### Node Content
@@ -70,7 +93,19 @@ Are embedded using either HUGO shortcodes or in the python preprocessing step.
 
 This repo contains the essential Python and Bash scripts to build the pontifex project using HUGO.
 
-# Prerequisites
+# Developer Info
+
+## Python Preprocessing
+
+*.py files in bin
+
+## Cytoscape JS
+
+pontifex-graph.js
+
+## Dummies and Shortcodes
+
+## Development environment using Docker
 
 Download or clone `pontifex-hugo` first:
 
