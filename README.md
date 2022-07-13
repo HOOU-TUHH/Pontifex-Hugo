@@ -107,11 +107,24 @@ This repo contains the essential Python and Bash scripts to build the pontifex p
 
 pontifex-graph.js
 
+and 
+
+pontifex-overview.js
+
 ## Pandoc
 
 Translation of TeX to html with MathJax support is acchieved with pandoc.
 
 ## Dummies and Shortcodes
+
+dummy_for_hugo.md specifies the overall structure of each page
+
+## Branding and Other Dependencies
+
+Change this for your production server.
+
+* Logos
+* IDs auth etc.
 
 ## Development environment using Docker
 
