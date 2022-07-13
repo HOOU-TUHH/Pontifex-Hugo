@@ -1,21 +1,17 @@
-"""Make xxx.json
+"""Compute stats of graph
 
 Count nodes, edges and podcast episodes
 
-input:  (1) cyto.json
+input:  (1) graph.json
 
-output: index.json in console
+output: Table in console and svgs to embed on webpage
 
-usage: python3 compute_stats.py cyto.json 
+usage: python3 compute_stats.py graph.json 
 """
 
 import json
 import sys
 import anybadge
-
-## function: input: json, id ,  output: json in console print(json)
-
-import logging
 
 with open(sys.argv[1], 'r') as input:
  mydata = json.load(input)
@@ -23,7 +19,7 @@ with open(sys.argv[1], 'r') as input:
 nodes = mydata["nodes"]
 edges = mydata["edges"]
 
-# parse such that inline graph definition works
+# Count non-empty podcasts entries
 output = []
 n_podcasts = 0
 for node in nodes:

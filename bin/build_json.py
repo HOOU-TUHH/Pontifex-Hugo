@@ -1,13 +1,13 @@
-"""Make xxx.json
+"""Build xxx.json
 
-This script allows the user to create index.json for a given node in cyto.json
+This script allows the user to create index.json for a given node in graph.json
 
-input:  (1) cyto.json
+input:  (1) graph.json
         (2) index as number
 
 output: index.json in console
 
-usage: python3 makejson.py cyto.json index > index/index.json
+usage: python3 makejson.py graph.json index > index/index.json
 """
 
 import json
@@ -23,11 +23,6 @@ with open(sys.argv[1], 'r') as input:
 
 index = str(sys.argv[2])
 
-# # Test
-# with open('../nodes/hr_cyto.json', 'r') as f:
-#   mydata = json.load(f)
-# index = "108"
-
 nodes = mydata["nodes"]
 edges = mydata["edges"]
 
@@ -35,7 +30,7 @@ edges = mydata["edges"]
 try:
   mynode = nodes[index]
 except:
-  logging.critical(f"The Node number {index} is missing in cyto.json!")
+  logging.critical(f"The Node number {index} is missing in graph.json!")
   sys.exit(1)
 
 def add_edge_attributes(edge):
