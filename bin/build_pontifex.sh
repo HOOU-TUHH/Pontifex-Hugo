@@ -2,10 +2,11 @@
 # run this from the basedir of the hugo folder
 
 PONTIFEX_BASEDIR=`pwd`
-# docker container will provide PONTIFEX_BIN
+# use local bin folder 
 if [ ! -n "${PONTIFEX_BIN}" ]; then
     PONTIFEX_BIN=`pwd`/bin
 fi
+echo "Using Preprocessing routines from PONTIFEX_BIN=${PONTIFEX_BIN}"
 
 BUILD_DIR=${PONTIFEX_BASEDIR}/content/en/docs
 INPUT_JSON="${PONTIFEX_BASEDIR}/nodes/cyto.json"
