@@ -1,3 +1,53 @@
+# Pontifex-core
+
+This repo contains the essential Python and Bash scripts to build the pontifex project using HUGO.
+
+# Prerequisites
+
+Download or clone `pontifex-hugo` first:
+
+```bash
+git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-hugo.git
+```
+
+# Building the Docker image locally and building the HUGO project
+
+Dowload or clone `pontifex-core`
+```bash
+git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-core.git
+```
+
+Within `pontifex-core` run 
+```bash
+docker build . -t pontifex-core
+```
+
+Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo), run
+```bash
+docker run -it --rm -v `pwd`:/app -w /app pontifex-core /pontifex/bin/build_pontifex.sh
+```
+
+This process should also be carried out every time, an update of `pontifex-core` is carried out.
+
+# Building the HUGO project with an external Docker image
+
+Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo), run
+```bash
+docker run -it --rm -v `pwd`:/app -w /app collaborating.tuhh.de:5005/e-10/hoou/pontifex-core /pontifex/bin/build_pontifex.sh
+```
+
+This will use the root image from the [Container Registry](https://collaborating.tuhh.de/e-10/hoou/pontifex-core/container_registry/).
+
+You may need to
+```
+docker login collaborating.tuhh.de:5005
+```
+and authenticate first. Note that the first time you `docker run` the above command it may take longer as the image needs to be downloaded first.
+
+---
+# HUGO Doks 
+
+
 <p align="center">
   <a href="https://getdoks.org/">
     <img alt="Doks" src="https://doks.netlify.app/doks.svg" width="60">
