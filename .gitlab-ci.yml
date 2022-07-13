@@ -56,7 +56,7 @@ dynamic_badge:
   image: python:3.10
   script:
     - pip install anybadge
-    - python3 bin/compute_stats.py nodes/cyto.json
+    - python3 bin/compute_stats.py nodes/graph.json
   artifacts:
     paths:
         - edges.svg

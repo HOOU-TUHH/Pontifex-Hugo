@@ -1,7 +1,72 @@
  [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/nodes.svg?job=dynamic_badge)]()
  [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/edges.svg?job=dynamic_badge)]()
  [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/podcasts.svg?job=dynamic_badge)]()
-# Pontifex-core
+
+# Pontifex-Hugo
+
+# Getting Started
+
+> If you want to kickstart your own project with Pontifex and HUGO
+
+## Kickstart your own application on GitHub
+
+* Import project
+* Set variables
+* Trigger action
+* Done
+
+## Modifying the content
+
+### Graph Database
+
+All connections are stored in the [JSON]() file `graph.json`.
+This file encodes all nodes and edges and links the relevant metadata.
+It has the following structure
+
+#### Nodes
+
+#### Edges
+
+### Node Content
+
+Based on `dummy_for_hugo`
+
+#### TeX Snippets
+
+#### Markdown Template
+
+#### Further resources
+
+Are embedded using either HUGO shortcodes or in the python preprocessing step.
+
+##### Lecture Notes in TeX Format
+
+* Node content
+* `packages.tex`
+
+##### YouTube Videos
+
+* via shortcode
+* specify link in json
+* based on export snippet on YouTube
+
+##### Podcast Episodes
+
+###### I Frames from Hoster
+
+* go to AnchorFM and copy snippet
+
+##### Discussion Forum
+
+* Vssue
+* Etherpads
+
+##### WeBWorK or other Electronic Exercises
+
+* Via IFrame
+* WeBWorK Template
+
+
 
 This repo contains the essential Python and Bash scripts to build the pontifex project using HUGO.
 

@@ -38,8 +38,8 @@ with open(f"../nodes/dummy_for_hugo.md", 'rt') as myfile:  # open file
     for myline in myfile:                   # For each line in the file,
         mylines.append(myline.rstrip('\n'))
 
-# Read cyto
-with open('../nodes/cyto.json', 'r') as f:
+# Read graph database
+with open('../nodes/graph.json', 'r') as f:
     mydata = json.load(f)
 
 mynode = mydata["nodes"][index]

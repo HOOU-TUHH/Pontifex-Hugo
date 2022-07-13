@@ -9,7 +9,7 @@ fi
 echo "Using Preprocessing routines from PONTIFEX_BIN=${PONTIFEX_BIN}"
 
 BUILD_DIR=${PONTIFEX_BASEDIR}/content/en/docs
-INPUT_JSON="${PONTIFEX_BASEDIR}/nodes/cyto.json"
+INPUT_JSON="${PONTIFEX_BASEDIR}/nodes/graph.json"
 jsonconverter="python3 ${PONTIFEX_BIN}/makejson.py"
 hugoconverter="python3 ${PONTIFEX_BIN}/makehugo.py"
 

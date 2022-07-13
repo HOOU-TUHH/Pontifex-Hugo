@@ -2,11 +2,11 @@
 
 Count nodes, edges and podcast episodes
 
-input:  (1) cyto.json
+input:  (1) graph.json
 
 output: index.json in console
 
-usage: python3 compute_stats.py cyto.json 
+usage: python3 compute_stats.py graph.json 
 """
 
 import json
