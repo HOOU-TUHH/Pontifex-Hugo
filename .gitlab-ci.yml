@@ -13,10 +13,10 @@ review-app-build:
   stage: build
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/basic.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/basic2.js;" layouts/shortcodes/header2.html
+    - sed -i -e "s;/js/pontifex-graph.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/pontifex-overview.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/pontifex-overview.js;" layouts/shortcodes/header2.html
     - sed -i -e "s;/js/pontifex-tour.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/pontifex-tour.js;" layouts/shortcodes/header1.html
-    - /pontifex/bin/build_pontifex.sh
+    - bin/build_pontifex.sh
   artifacts:
     paths:
       - public
@@ -27,9 +27,9 @@ review-build:
   stage: build
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${REVIEW_BASE_DIR}/js/basic.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/basic2.js;${REVIEW_BASE_DIR}/js/basic2.js;" layouts/shortcodes/header2.html
-    - /pontifex/bin/build_pontifex.sh
+    - sed -i -e "s;/js/pontifex-graph.js;${REVIEW_BASE_DIR}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/pontifex-overview.js;${REVIEW_BASE_DIR}/js/pontifex-overview.js;" layouts/shortcodes/header2.html
+    - bin/build_pontifex.sh
   artifacts:
     paths:
       - public
@@ -41,15 +41,30 @@ master-build:
   stage: build
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}/\";" config/production/config.toml
-    - sed -i -e "s;/js/basic.js;${BASE_DIR}/js/basic.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/basic2.js;${BASE_DIR}/js/basic2.js;" layouts/shortcodes/header2.html
-    - /pontifex/bin/build_pontifex.sh
+    - sed -i -e "s;/js/pontifex-graph.js;${BASE_DIR}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
+    - sed -i -e "s;/js/pontifex-overview.js;${BASE_DIR}/js/pontifex-overview.js;" layouts/shortcodes/header2.html
+    - bin/build_pontifex.sh
   artifacts:
     paths:
       - public
   only:
     variables:
       - $CI_COMMIT_BRANCH == "master"
+
+dynamic_badge:
+  stage: build
+  image: python:3.10
+  script:
+    - pip install anybadge
+    - python3 bin/compute_stats.py nodes/graph.json
+  artifacts:
+    paths:
+        - edges.svg
+        - nodes.svg
+        - podcasts.svg
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == "dev"
 
 ###### REVIEW ########
 
@@ -140,3 +155,4 @@ master-deploy:
   only:
     variables:
       - $CI_COMMIT_BRANCH == "master"
+

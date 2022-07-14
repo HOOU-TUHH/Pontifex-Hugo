@@ -106,3 +106,32 @@
     <script src="{{ $index.Permalink }}" integrity="{{ $index.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
 {{ end -}}
+
+<script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+<script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
+
+<script>
+  new Vue({
+    el: '#vssue',
+
+    render: h => h('Vssue', {
+      props: {
+        // here set the title of issue of current page
+        // This will also be used to identify the issue
+        // on GitHub related to the page.
+        title: document.getElementsByTagName('h1')[0].innerHTML,
+
+        // here set the options for your OAuth App
+        options: {
+          owner: 'fabiangabel',
+          repo: 'pontifex-discussion',
+          clientId: 'a0cdf04a686f61956c42',
+          clientSecret: '7bcd2a7dbe151751fbdd601a74d0214fcc69a870', // only required for some of the platforms
+          labels: ['Comment'],
+          prefix: '[Pontifex Website] ',
+
+        },
+      }
+    })
+  })
+</script>

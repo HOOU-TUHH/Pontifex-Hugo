@@ -1,3 +1,178 @@
+ [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/nodes.svg?job=dynamic_badge)]()
+ [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/edges.svg?job=dynamic_badge)]()
+ [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/podcasts.svg?job=dynamic_badge)]()
+
+# Pontifex-Hugo
+
+# Getting Started
+
+> If you want to kickstart your own project with Pontifex and HUGO
+
+## Kickstart your own application on GitHub
+
+* Import project
+* Set variables
+* Trigger action
+* Done
+
+## Modifying the content
+
+### Graph Database
+
+All connections are stored in the [JSON]() file `graph.json`.
+This file encodes all nodes and edges and links the relevant metadata.
+It has the following structure
+
+#### Nodes
+
+Example entry:
+```json
+    "305": {
+      "id": "305",
+      "label": "Epsilon-Delta\nDefinition",
+      "meta": "RA28",
+      "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
+      "notes": "305-snippet.html",
+      "video": "https://www.youtube.com/embed/4xhyqdjmxHU?start=11",
+      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+    },
+```
+
+* `id` should be a unique three digit number. The first digit specifies the chapter (0-6). The second and third digits run from `00` to `99`. The `id` should also be the key of the node.
+* `label` is the text used as title of the node.
+* `meta` contains further information, for the content. In the above example it specifies the name of the video (not processed by any routines)
+* `content` explains the topic, text shows in the introduction below the title
+* `notes` name of the html lecture notes
+* `video` link to youtube
+* `webwork` link to webwork exercise or other webpage that will be embedded via an iframe
+* `podcast` plain html iframe code to go in the podcast section inside the dummy
+
+#### Edges
+
+### Node Content
+
+Based on `dummy_for_hugo`
+
+#### TeX Snippets
+
+#### Markdown Template
+
+#### Further resources
+
+Are embedded using either HUGO shortcodes or in the python preprocessing step.
+
+##### Lecture Notes in TeX Format
+
+* Node content
+* `packages.tex`
+
+##### YouTube Videos
+
+* via shortcode
+* specify link in json
+* based on export snippet on YouTube
+
+##### Podcast Episodes
+
+###### I Frames from Hoster
+
+* go to AnchorFM and copy snippet
+
+##### Discussion Forum
+
+* Vssue
+* Etherpads
+
+##### WeBWorK or other Electronic Exercises
+
+* Via IFrame
+* WeBWorK Template
+
+
+
+This repo contains the essential Python and Bash scripts to build the pontifex project using HUGO.
+
+# Developer Info
+
+## Python Preprocessing
+
+*.py files in bin
+| Preprocessor | Description |
+| - | - |
+| `build_json.py` | Build JSON file for each node containing only neighbours of distance 1 |
+| `build_md.py` | Build MD file for each node substituting placeholdes by node-specific values |
+
+## Cytoscape JS
+
+pontifex-graph.js
+
+and 
+
+pontifex-overview.js
+
+## Pandoc
+
+Translation of TeX to html with MathJax support is acchieved with pandoc.
+
+## Dummies and Shortcodes
+
+dummy_for_hugo.md specifies the overall structure of each page
+
+## Branding and Other Dependencies
+
+Change this for your production server.
+
+* Logos
+* IDs auth etc.
+
+## Development environment using Docker
+
+Download or clone `pontifex-hugo` first:
+
+```bash
+git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-hugo.git
+```
+
+# Building the Docker image locally and building the HUGO project
+
+Dowload or clone `pontifex-hugo`
+```bash
+git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-hugo.git
+```
+
+Within `pontifex-hugo` run 
+```bash
+docker build . -t pontifex-hugo
+```
+
+Now, run 
+```bash
+docker run -it --rm -v `pwd`:/app -w /app pontifex-hugo ./bin/build_pontifex.sh
+```
+to build the project.
+
+This process should also be carried out every time, an update of `pontifex-hugo/{bin/,Dockerfile}` is carried out.
+
+# Building the HUGO project with an external Docker image
+
+Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo), run
+```bash
+docker run -it --rm -v `pwd`:/app -w /app collaborating.tuhh.de:5005/e-10/hoou/pontifex-hugo ./bin/build_pontifex.sh
+```
+
+This will use the root image from the [Container Registry](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/container_registry/).
+
+You may need to
+```
+docker login collaborating.tuhh.de:5005
+```
+and authenticate first. Note that, the first time you `docker run` the above command, it may take longer as the image needs to be downloaded first.
+
+---
+# HUGO Doks 
+
+
 <p align="center">
   <a href="https://getdoks.org/">
     <img alt="Doks" src="https://doks.netlify.app/doks.svg" width="60">
