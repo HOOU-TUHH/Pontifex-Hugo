@@ -18,7 +18,7 @@ add-branding:
   artifacts:
     paths:
       - content
-      - config
+      - layouts
       - static
   rules:
      - if: $CI_BRAND_REPO
