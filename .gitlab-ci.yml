@@ -13,8 +13,10 @@ stages:
 add-branding:
   stage: brand
   script:
-    - git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-brand.git
+    - git clone $CI_BRAND_REPO
     - cp -rvf pontifex-brand/* .
+  rules:
+     - if: $CI_BRAND_REPO
 
 review-app-build:
   stage: build
