@@ -3,11 +3,25 @@
 image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-hugo #new default image
 
 stages:
+  - brand
   - build
   - review
   - deploy
 
 ###### BUILDING ########
+
+add-branding:
+  stage: brand
+  script:
+    - git clone https://${DEPLOY_TOKEN_USERNAME}:${DEPLOY_TOKEN}@${CI_BRAND_REPO}
+    - cp -rvf pontifex-brand/* .
+  artifacts:
+    paths:
+      - content
+      - layouts
+      - static
+  rules:
+     - if: $CI_BRAND_REPO
 
 review-app-build:
   stage: build

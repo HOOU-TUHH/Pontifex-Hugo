@@ -119,12 +119,13 @@ Translation of TeX to html with MathJax support is acchieved with pandoc.
 
 dummy_for_hugo.md specifies the overall structure of each page
 
-## Branding and Other Dependencies
+## Branding 
 
-Change this for your production server.
+All files that apply some sort of branding reside in the private repository
 
-* Logos
-* IDs auth etc.
+https://collaborating.tuhh.de/e-10/hoou/pontifex-brand
+
+Content is copied to their respective locations in the `.gitlab-ci.yml`-stage: `brand`.
 
 ## Development environment using Docker
 
