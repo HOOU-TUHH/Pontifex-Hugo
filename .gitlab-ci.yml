@@ -13,7 +13,6 @@ stages:
 add-branding:
   stage: brand
   script:
-    - git config --system --unset credential.helper
     - git clone https://${DEPLOY_TOKEN_USERNAME}:${DEPLOY_TOKEN}@${CI_BRAND_REPO}
     - ls pontifex-brand/*
     #- git clone $CI_BRAND_REPO
