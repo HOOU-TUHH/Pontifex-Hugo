@@ -38,6 +38,11 @@
   target="_blank"
 
 [[footer]]
+  name = "Feedback"
+  url = "/feedback/"
+  weight = 10
+
+[[footer]]
   name = "Privacy"
   url = "/privacy-policy/"
   weight = 10
