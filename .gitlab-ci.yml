@@ -13,7 +13,7 @@ stages:
 add-branding:
   stage: brand
   script:
-    - git clone http://${USERNAME}:${DEPLOY_TOKEN}@${CI_BRAND_REPO}
+    - git clone http://${DEPLOY_TOKEN_USERNAME}:${DEPLOY_TOKEN}@${CI_BRAND_REPO}
     - ls pontifex-brand/*
     #- git clone $CI_BRAND_REPO
     - cp -rvf pontifex-brand/* .
