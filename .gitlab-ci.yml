@@ -17,6 +17,7 @@ add-branding:
     - cp -rvf pontifex-brand/* .
   artifacts:
     paths:
+      - content
       - config
       - static
   rules:
