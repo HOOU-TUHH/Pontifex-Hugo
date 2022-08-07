@@ -1,6 +1,4 @@
-# image: node:17-bullseye
-# image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
-image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-hugo #new default image
+image: collaborating.tuhh.de:5005/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo
 
 stages:
   - brand
