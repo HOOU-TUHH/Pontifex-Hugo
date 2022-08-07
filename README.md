@@ -121,11 +121,13 @@ dummy_for_hugo.md specifies the overall structure of each page
 
 ## Branding 
 
-All files that apply some sort of branding reside in the private repository
+All files that apply some sort of branding reside in the **private** repository
 
-https://collaborating.tuhh.de/e-10/hoou/pontifex-brand
+https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-brand
 
 Content is copied to their respective locations in the `.gitlab-ci.yml`-stage: `brand`.
+
+As `pontifex-brand` is private, the repo `pontifex-hugo` needs to have an *access token* in the pipeline variables in order to clone `pontifex-brand`. The presently used token was generated within `pontifex-brand`/Settings/Access Tokens with `read repository` scope and added to `pontifex-hugo` as the pipeline variable `PROJECT_TOKEN`.
 
 ## Development environment using Docker
 
