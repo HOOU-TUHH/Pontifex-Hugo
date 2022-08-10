@@ -39,14 +39,14 @@ Example entry:
     },
 ```
 
-* `id` should be a unique three digit number. The first digit specifies the chapter (0-6). The second and third digits run from `00` to `99`. The `id` should also be the key of the node.
-* `label` is the text used as title of the node.
-* `meta` contains further information, for the content. In the above example it specifies the name of the video (not processed by any routines)
-* `content` explains the topic, text shows in the introduction below the title
-* `notes` name of the html lecture notes
-* `video` link to youtube
-* `webwork` link to webwork exercise or other webpage that will be embedded via an iframe
-* `podcast` plain html iframe code to go in the podcast section inside the dummy
+* `id` should be a unique three-digit number. The first digit specifies the chapter (0-9). The second and third digits run from `00` to `99`. The `id` identifies the node and is also used for defining the edges.
+* `label` is the text used as title of the node. It will show as the title of the corresponding webpage and as label of the node in the graph
+* `meta` contains further information for the content. In the above example, it specifies the name of the video; no routine processes this text, so one can use the entry to store further info.
+* `content` explains the topic; this text shows on the top of each webpage below the title
+* `notes` name of the html file containing the lecture notes.
+* `video` link to the youtube video that should be embedded.
+* `webwork` link to webwork exercise or other webpage that will be embedded via an iframe.
+* `podcast` plain html iframe code to go in the *Podcast* section inside the dummy.
 
 #### Edges
 
