@@ -4,6 +4,9 @@
 
 # Pontifex-Hugo
 
+This repo contains the essential Python and Bash scripts to build the pontifex project using HUGO licensed under ....
+It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under ....
+
 # Getting Started
 
 > If you want to kickstart your own project with Pontifex and HUGO
@@ -70,46 +73,62 @@ This entry describes the directed edge going from node `005` to node `300`.
 
 ### Node Content
 
-Based on `dummy_for_hugo`
+During the creation of the website, each node automatically gets it's own standardized markdown page.
+The template for this page can be found in the file `nodes/dummy_for_hugo.md`.
+This file encodes the overall structure of the content page for a node. A change in the template will affect all node pages simultaneously once the webpage has been rebuilt.
+The template uses certain marker-words that are replaced with specific counterparts during the build process. In particular, the information from the JSON database will be filled in.
+In the following, we describe which data needs to be provided in order to start building the webpage.
+
 
 #### TeX Snippets
 
-#### Markdown Template
+Each node provides a section called "Notes". 
+For your nodes to show up here, an `HTML`-file needs to be provided and will be included automatically by the build-process. 
+The name of this `HTML` is stored in the attribute `notes` in each entry of the `JSON` database.
+It should reside in the folder `nodes/xxx/xxx-node.html` where  `xxx` stands for the specific node.
 
-#### Further resources
+The current version of pontifex assumes that you provide a file `nodes/xxx/xxx.tex` for each node, i.e., a `TeX`-file containing the content for each notes-section.
+This file will be parsed to `html` using `pandoc` during the creation process.
+User-specific macros are stored centrally in the file `nodes/packages.tex`. 
 
-Are embedded using either HUGO shortcodes or in the python preprocessing step.
+#### YouTube Videos
 
-##### Lecture Notes in TeX Format
+YouTube Videos are included via the `youtube` shortcode. 
+Here the URL specified in the `video` attribute of the `JSON` database is used.
 
-* Node content
-* `packages.tex`
+#### Podcast Episodes
 
-##### YouTube Videos
+This section is optional and will only be processed when the `podcast` attribute in the `JSON` database is nonempty. 
+En empty entry looks like
+```JSON
+      "podcast": ""
+```
 
-* via shortcode
-* specify link in json
-* based on export snippet on YouTube
+If "podcast" is nonempty, the full html-content will by copied to the corresponding section in the template.
+The original version of pontifex uses either iframe code provided by the podcast hosters, e.g. AnchorFM, 
+```html
+      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+```
+or provides short snippets to include content that has been copied to the server.
+```html
+      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio>"},
+```
 
-##### Podcast Episodes
+#### Discussion Forum
 
-###### I Frames from Hoster
+The current version of pontifex uses a discussion tab on each webpage.
+Each discussion features a GitHub-Like discussion thread provided by [Vssue](https://vssue.js.org/).
+In order to enable Vssues on your own instance of Pontifex, follow the following steps
+* In case you are not hosting your repo on GitHub, create a GitHub repository 
+* Create a token and copy it somewhere...
+* Log in to comment...
 
-* go to AnchorFM and copy snippet
+#### WeBWorK or other Electronic Exercises
 
-##### Discussion Forum
-
-* Vssue
-* Etherpads
-
-##### WeBWorK or other Electronic Exercises
-
-* Via IFrame
-* WeBWorK Template
+The bottom of each page includes an electronic exercise in the form of an iframe.
+See here on how to create iframes using WeBWorK-exercises:
 
 
-
-This repo contains the essential Python and Bash scripts to build the pontifex project using HUGO.
 
 # Developer Info
 
@@ -191,6 +210,9 @@ docker login collaborating.tuhh.de:5005
 and authenticate first. Note that, the first time you `docker run` the above command, it may take longer as the image needs to be downloaded first.
 
 ---
+This is the original documentation for the HUGO theme used by Pontifex.
+
+
 # HUGO Doks 
 
 
