@@ -19,9 +19,10 @@
 
 ### Graph Database
 
-All connections are stored in the [JSON]() file `graph.json`.
-This file encodes all nodes and edges and links the relevant metadata.
-It has the following structure
+All connections are stored in the [JSON](https://en.wikipedia.org/wiki/JSON) file `graph.json`.
+This file encodes all nodes and directed edges. Furthermore, the file contains and links the relevant metadata.
+On the top-level it is a list containing the dictionaries `nodes` and `edges`.
+In the following, we explain how the entries of the dictionaries are constructed.
 
 #### Nodes
 
@@ -39,6 +40,8 @@ Example entry:
     },
 ```
 
+This entry describes the concept node `305` for the concept "Epsilon-Delta Definition"
+
 * `id` should be a unique three digit number. The first digit specifies the chapter (0-6). The second and third digits run from `00` to `99`. The `id` should also be the key of the node.
 * `label` is the text used as title of the node.
 * `meta` contains further information, for the content. In the above example it specifies the name of the video (not processed by any routines)
@@ -49,6 +52,21 @@ Example entry:
 * `podcast` plain html iframe code to go in the podcast section inside the dummy
 
 #### Edges
+
+Example entry:
+```json
+    "005-300": {
+      "source": "005",
+      "target": "300",
+      "label": "Boundedness of a function can be expressed in terms of the image or range."
+    },
+```
+
+This entry describes the directed edge going from node `005` to node `300`.
+
+* `source` is the `id` of the outgoing node
+* `target` is the `id` of the incoming node
+* `label` contains information on why this connection is needed. The content of `label` is displayed when one clicks on the `label` in the graph view. 
 
 ### Node Content
 
