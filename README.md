@@ -2,10 +2,14 @@
  [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/edges.svg?job=dynamic_badge)]()
  [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/podcasts.svg?job=dynamic_badge)]()
 
-# Pontifex-Hugo
+# Pontifex
 
-This repo contains the essential Python and Bash scripts to build the pontifex project using HUGO licensed under ....
+This repo contains the essential Python and Bash scripts to build the pontifex project
 It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under ....
+
+# Terms of Use
+
+> How is the content of Pontifex licensed?
 
 # Getting Started
 
@@ -13,10 +17,12 @@ It also provides all teaching and learning material used in the instance running
 
 ## Kickstart your own application on GitHub
 
-* Import project
-* Set variables
-* Trigger action
-* Done
+* **Import project**: visit https://github.com/new/import and paste the URL `https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo.git`
+* **Enable GitHub Actions**: visit the [repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository) to manage the repository actions and check the boxes next to *Allow all actions  and reusable workflows* and *Read and write permissions*
+* **Triggering the GitHub Action**: every change in your repository files should trigger the action `github-pages`. Visit your repository environments list to find out about the deployment status of your project.
+* Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/pontifex/` to explore your Pontifex application.
+
+For details on the implementation, checkout the GitHub workflow in the file `.github/workflows/gh-pages.yml`
 
 ## Modifying the content
 
@@ -51,8 +57,8 @@ This entry describes the concept node `305` for the concept "Epsilon-Delta Defin
 * `content` explains the topic; this text shows on the top of each webpage below the title
 * `notes` name of the html file containing the lecture notes.
 * `video` link to the youtube video that should be embedded.
-* `webwork` link to webwork exercise or other webpage that will be embedded via an iframe.
-* `podcast` plain html iframe code to go in the *Podcast* section
+* `webwork` link to webwork exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
+* `podcast` plain html-`<iframe>` code to go in the *Podcast* section.
 #### Edges
 
 Example entry:
@@ -75,9 +81,8 @@ This entry describes the directed edge going from node `005` to node `300`.
 During the creation of the website, each node automatically gets it's own standardized markdown page.
 The template for this page can be found in the file `nodes/dummy_for_hugo.md`.
 This file encodes the overall structure of the content page for a node. A change in the template will affect all node pages simultaneously once the webpage has been rebuilt.
-The template uses certain marker-words that are replaced with specific counterparts during the build process. In particular, the information from the JSON database will be filled in.
+The template uses certain marker-words that are replaced with specific counterparts during the build process. In particular, the information from the `JSON` database will be filled in.
 In the following, we describe which data needs to be provided in order to start building the webpage.
-
 
 #### TeX Snippets
 
@@ -89,11 +94,14 @@ It should reside in the folder `nodes/xxx/xxx-node.html` where  `xxx` stands for
 The current version of pontifex assumes that you provide a file `nodes/xxx/xxx.tex` for each node, i.e., a `TeX`-file containing the content for each notes-section.
 This file will be parsed to `html` using `pandoc` during the creation process.
 User-specific macros are stored centrally in the file `nodes/packages.tex`. 
+We suggest to refrain from using user-specific macros as `pandoc` may be struggling to resolve the macros.
+You may find [de-macro](https://ctan.org/pkg/de-macro) helpful for automatized resolution of TeX-macros.
 
 #### YouTube Videos
 
 YouTube Videos are included via the `youtube` shortcode. 
 Here the URL specified in the `video` attribute of the `JSON` database is used.
+See [here](https://support.google.com/youtube/answer/171780?hl=en) for more information on embedding YouTube videos.
 
 #### Podcast Episodes
 
@@ -104,7 +112,7 @@ En empty entry looks like
 ```
 
 If "podcast" is nonempty, the full html-content will by copied to the corresponding section in the template.
-The original version of pontifex uses either iframe code provided by the podcast hosters, e.g. AnchorFM, 
+The original version of pontifex uses either `<iframe>` code provided by the podcast hosters, e.g. AnchorFM, 
 ```html
       "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
 ```
@@ -118,42 +126,58 @@ or provides short snippets to include content that has been copied to the server
 The current version of pontifex uses a discussion tab on each webpage.
 Each discussion features a GitHub-Like discussion thread provided by [Vssue](https://vssue.js.org/).
 In order to enable Vssues on your own instance of Pontifex, follow the following steps
-* In case you are not hosting your repo on GitHub, create a GitHub repository 
-* Create a token and copy it somewhere...
-* Log in to comment...
+* In case you are not hosting your repo on GitHub, create a public repo on GitHub repository and generate the `clientID` and `clientSecret` yourself to make it work. Refer to https://vssue.js.org/guide/github.html for how to do that.
+* Modify the following portion of your `layouts/partial/footer/script-footer.html` by changing all of the exemplary values to the ones of your repo.
+
+```javascript
+// here set the options for your OAuth App
+options: {
+  owner: 'owner',
+  repo: 'repo-name',
+  clientId: 'generate-one-on-github',
+  clientSecret: 'generate-one-on-github', // only required for some of the platforms
+  labels: ['Comment'],
+  prefix: '[Pontifex Website] ',
+},
+```
+
+* Log in to comment.
 
 #### WeBWorK or other Electronic Exercises
 
-The bottom of each page includes an electronic exercise in the form of an iframe.
-See here on how to create iframes using WeBWorK-exercises:
+The bottom of each page includes an electronic [WeBWorK](https://github.com/openwebwork/) exercise in the form of an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
+```json
+"webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+```
+will render the exercise once the webpage has been loaded.
 
-
+Details on the WeBWorK course creation can be found [here](https://michaelgage.blogspot.com/2015/06/whether-writing-full-text-book-or-just.html).
 
 # Developer Info
 
 ## Python Preprocessing
 
-*.py files in bin
+`*.py` files in `bin`-folder:
+
 | Preprocessor | Description |
 | - | - |
-| `build_json.py` | Build JSON file for each node containing only neighbours of distance 1 |
-| `build_md.py` | Build MD file for each node substituting placeholdes by node-specific values |
+| `build_json.py` | Build `JSON` file for each node containing only neighbours of distance 1 |
+| `build_md.py` | Build `MD` file for each node substituting placeholdes by node-specific values |
 
-## Cytoscape JS
+## Cytoscape.js
 
-pontifex-graph.js
+We rely on [Cytoscape.js](https://js.cytoscape.org/) in order to visualize the graph.
 
-and 
-
-pontifex-overview.js
+Colors and functionality of the graph are encoded in the files
+`static/js/vendor/{pontifex-graph,pontifex-overview}.js`
 
 ## Pandoc
 
-Translation of TeX to html with MathJax support is acchieved with pandoc.
+Translation of `TeX` to `HTML` with MathJax support is achieved with `pandoc`.
 
 ## Dummies and Shortcodes
 
-dummy_for_hugo.md specifies the overall structure of each page
+`nodes/dummy_for_hugo.md` specifies the overall structure of each page.
 
 ## Branding 
 
@@ -175,7 +199,7 @@ git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-hugo.git
 
 # Building the Docker image locally and building the HUGO project
 
-Dowload or clone `pontifex-hugo`
+Download or clone `pontifex-hugo`
 ```bash
 git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-hugo.git
 ```
