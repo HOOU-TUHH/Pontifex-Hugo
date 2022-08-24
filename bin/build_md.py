@@ -1,10 +1,9 @@
 """Make Markdown File 
 
 This script allows the user to put everything into a md-file for hugo
+Requires JSON file from prior run of build_json.py 
 
-input:  (0) index = xxx
-        (x) xxx.html
-        (x) xxx.json
+input:  (1) index = xxx
 
 output: xxx.md
 
@@ -18,14 +17,8 @@ import sys
 
 import logging
 
-test = 0
-
-if test == 1:
-    index = "100"
-    path = f"../nodes/{index}/{index}"  # test
-else:
-    index = str(sys.argv[1])
-    path = f"{index}/{index}"
+index = str(sys.argv[1])
+path = f"{index}/{index}"
 
 with open(f"{path}.json", 'r') as input:
     mydata = json.load(input)
@@ -44,7 +37,7 @@ with open('../nodes/graph.json', 'r') as f:
 
 mynode = mydata["nodes"][index]
 
-# read content
+# read content from json file
 filename = mynode["notes"]
 videolink = mynode["video"]
 webworklink = mynode["webwork"]
@@ -67,7 +60,7 @@ with open(f"../nodes/{index}/{filename}", 'rt') as myfile2:
     for myline in myfile2:
         mynotes = mynotes + myline
 
-#preds and succs
+#predecessors and succsessors
 def match_edge(nid):
     """checks if edge has source or target as given id"""
     for edge in edges:
@@ -90,7 +83,6 @@ def snippet(a, b, c=0):
 </tr>
         """
     return string
-
 
 def read_node(node):
     """gives id, label with link and content of a node"""
@@ -123,13 +115,6 @@ for node in nodes:
             mystring += snippet(a, b)
         elif match_edge(nid) == "t":
             mystring2 += snippet(a, b)
-
-# Equal index
-for node in nodes:
-    (nid, a, b) = read_node(node)
-    if nid == index:
-        # mystring += snippet(a, b, 1) # Don't add current node
-        pass
 
 preds = mystring
 succs = mystring2
