@@ -28,7 +28,7 @@ For details on the implementation, checkout the GitHub workflow in the file `.gi
 
 ### Graph Database
 
-All connections are stored in the [JSON](https://en.wikipedia.org/wiki/JSON) file `graph.json`.
+All connections are stored in the [JSON](https://en.wikipedia.org/wiki/JSON) file `nodes/graph.json`.
 This file encodes all nodes and directed edges. Furthermore, the file contains and links the relevant metadata.
 On the top-level it is a list containing the dictionaries `nodes` and `edges`.
 In the following, we explain how the entries of the dictionaries are constructed.
@@ -43,8 +43,8 @@ Example entry:
       "meta": "RA28",
       "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
       "notes": "305-snippet.html",
-      "video": "https://www.youtube.com/embed/4xhyqdjmxHU?start=11",
-      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+      "video": "https://www.youtube-nocookie.com/embed/4xhyqdjmxHU?start=11",
+      "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
       "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
     },
 ```
