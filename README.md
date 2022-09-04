@@ -248,9 +248,8 @@ This process should also be carried out every time, an update of `pontifex-hugo/
 
 Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo), run
 ```bash
-docker run -it --rm -v `pwd`:/app -w /app collaborating.tuhh.de:5005/e-10/hoou/pontifex-hugo ./bin/build_pontifex.sh
+docker run -it --rm -v `pwd`:/app -w /app collaborating.tuhh.de:5005/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo:latest ./bin/build_pontifex.sh
 ```
-
 This will use the root image from the [Container Registry](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/container_registry/).
 
 You may need to
