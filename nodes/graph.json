@@ -6,7 +6,7 @@
       "meta": " SLL01",
       "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
       "notes": "000-snippet.html",
-      "video": "https://www.youtube-nocookie.com/embed/DU4wKBDm2Z4?start=7",
+      "video": "https://www.youtube-nocookie.com/embed/DU4wKBDm2Z4?start=9",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": ""
     },
@@ -106,7 +106,7 @@
       "meta": " SLL03",
       "content": "Sets can be joined or intersected in order to create new sets.",
       "notes": "010-snippet.html",
-      "video": "https://www.youtube-nocookie.com/embed/",
+      "video": "https://www.youtube-nocookie.com/embed/ZdZm6qBCFuo?start=11",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/logicAndSetTheory/prob03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": ""
     },
@@ -124,9 +124,9 @@
       "id": "012",
       "label": "Countable Sets",
       "meta": "",
-      "content": "A notion of cardinality that covers finite sets and thos that can be enumerated via the natural numbers.",
+      "content": "A notion of cardinality that covers finite sets and those that can be enumerated via the natural numbers.",
       "notes": "012-snippet.html",
-      "video": "https://www.youtube-nocookie.com/embed/",
+      "video": "https://www.youtube-nocookie.com/embed/WMgiYh7tac0?start=13",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
     },
@@ -266,7 +266,7 @@
       "meta": " ",
       "content": "Topological operations on sets.",
       "notes": "112-snippet.html",
-      "video": "https://www.youtube-nocookie.com/embed/",
+      "video": "https://www.youtube-nocookie.com/embed/RYtE09eHeqI?start=95",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": ""
     },
