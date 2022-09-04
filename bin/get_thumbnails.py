@@ -36,6 +36,7 @@ for node in nodes:
     if (id != ""):
         os.makedirs(os.path.join(dest,nodeId), exist_ok=True)
         url = f"https://img.youtube.com/vi/{id}/maxresdefault.jpg"
+        print(f"Downloading https://img.youtube.com/vi/{id}/maxresdefault.jpg ...")
         r = requests.get(url, allow_redirects=True)
         with open(f"{dest}/{nodeId}/{id}.jpg", 'wb') as img:
             img.write(requests.get(url).content)
