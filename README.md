@@ -100,9 +100,35 @@ For details on the preprocessing of TeX Snippets, refer to the developer documen
 
 #### YouTube Videos
 
-YouTube Videos are included via the `youtube` [shortcode](https://gohugo.io/content-management/shortcodes/). 
+##### Thumbnails and External Links
+
+In order to cope with internet privacy requirements, the current version of Pontifex does not embed YouTube Videos but external links. This is realized the file `nodes/dummy_for_hugo.md` via the snippet
+```html
+Click [here](https://youtu.be/###YTURLEND###) or on the thumbnail below to open up the YouTube video in a separate tab!
+<a href="https://youtu.be/###YTURLEND###" target="_blank">
+  <img src="./###YTID###.jpg">
+</a>
+```
+In order to keep using this snippet for other YouTube videos, the corresponding thumbnail needs to be saved in the folder `nodes/xxx`, where `xxx` corresponds to the node id.
+The thumbnail name should be `ytid.jpg`, where `ytid` is the YouTube-Id of the corresponding video, e.g., the video `https://youtu.be/iA-Dtf7529M` has the id `iA-Dtf7529M`.
+In order to appropriately download and save the thumbnails, you may use the script `bin/get_thumbnails.py`.
+
+##### YouTube shortcode
+
+Alternatively, you can include YouTube Videos via the `youtube` [shortcode](https://gohugo.io/content-management/shortcodes/). 
 Here the URL specified in the `video` attribute of the `JSON` database is used, starting from `/embed/...`.
 See [here](https://support.google.com/youtube/answer/171780?hl=en) for more information on embedding YouTube videos.
+In order to use the `youtube` shortcode, in the file `nodes/dummy_for_hugo.md`, you need to substitute the paragraph
+```html
+Click [here](https://youtu.be/###YTURLEND###) or on the thumbnail below to open up the YouTube video in a separate tab!
+<a href="https://youtu.be/###YTURLEND###" target="_blank">
+  <img src="./###YTID###.jpg">
+</a>
+```
+by
+```
+{{< youtube "###YTURLEND###">}}
+```
 
 #### Podcast Episodes
 
