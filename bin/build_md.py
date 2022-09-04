@@ -47,6 +47,7 @@ podcast = mynode["podcast"]
 timestamp = "2022-04-01T08:48:57+00:00"
 chapter = f"chapter{index[0]}"
 youtubend = videolink[videolink.find("embed")+6:]
+youtubeid = videolink[videolink.find("embed")+6:videolink.find("embed")+6+11]
 
 # preprocess podcast
 ntabs = 3
@@ -120,10 +121,10 @@ preds = mystring
 succs = mystring2
 
 # define fillers
-fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###", "###PODCAST###", "###WEBWORKLINK###", "###NTABS###"]
+fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###","###YTID###", "###PODCAST###", "###WEBWORKLINK###", "###NTABS###"]
 
 # put content into same order
-content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, podcast, webworklink, str(ntabs)]
+content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, youtubeid, podcast, webworklink, str(ntabs)]
 
 
 for ind, myline in enumerate(mylines):

@@ -72,7 +72,11 @@ toc: true
 {{< /tab >}}
 {{< tab tabName="Video" >}}
 
-{{< youtube "###YTURLEND###">}}
+Click [here](https://youtu.be/###YTURLEND###) or on the thumbnail below to open up the YouTube video in a separate tab!
+<a href="https://youtu.be/###YTURLEND###" target="_blank">
+  <img src="./###YTID###.jpg">
+</a>
+
 
 {{< /tab >}}
 
