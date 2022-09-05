@@ -925,7 +925,7 @@
     "005-305": {
       "source": "005",
       "target": "305",
-      "label": "Characterize continuity in terms of preimages of open balls."
+      "label": "Characterise continuity in terms of preimages of open balls."
     },
     "005-307": {
       "source": "005",
@@ -950,7 +950,7 @@
     "000-006": {
       "source": "000",
       "target": "006",
-      "label": "Image and Preimage are characterized via logical statements involving quantifiers."
+      "label": "Image and Preimage are characterised via logical statements involving quantifiers."
     },
     "003-007": {
       "source": "003",
@@ -1115,12 +1115,12 @@
     "101-110": {
       "source": "101",
       "target": "110",
-      "label": "Closedness is characterized by convergence of sequences."
+      "label": "Closedness is characterised by convergence of sequences."
     },
     "107-110": {
       "source": "107",
       "target": "110",
-      "label": "Compactness is characterized by existence of converging subsequences."
+      "label": "Compactness is characterised by existence of converging subsequences."
     },
     "101-107": {
       "source": "101",
@@ -1160,7 +1160,7 @@
     "110-111": {
       "source": "110",
       "target": "111",
-      "label": "Heine-Borel theorem characterizes bounded and closed sets."
+      "label": "Heine-Borel theorem characterises bounded and closed sets."
     },
     "110-112": {
       "source": "110",
@@ -1520,7 +1520,7 @@
     "110-305": {
       "source": "110",
       "target": "305",
-      "label": "Characterize continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values."
+      "label": "Characterise continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values."
     },
     "402-511": {
       "source": "402",
@@ -1705,7 +1705,7 @@
     "203-613": {
       "source": "203",
       "target": "613",
-      "label": "Characterize the convergence of an integral by the convergence of a suitable series."
+      "label": "Characterise the convergence of an integral by the convergence of a suitable series."
     },
     "612-613": {
       "source": "612",
@@ -1720,7 +1720,7 @@
     "603-612": {
       "source": "603",
       "target": "612",
-      "label": "An improper integral is defined via a limit of Rimeann integrals on bounded sets."
+      "label": "An improper integral is defined via a limit of Riemann integrals on bounded sets."
     },
     "003-606": {
       "source": "003",
@@ -1850,12 +1850,12 @@
     "204-207": {
       "source": "204",
       "target": "207",
-      "label": "The Cauchy criterion applied to a majorizing series gives the convergence of the majorized series."
+      "label": "The Cauchy criterion applied to a majorising series gives the convergence of the majorised series."
     },
     "203-207": {
       "source": "203",
       "target": "207",
-      "label": "Characterize the convergence/divergence of a series by the convergence/divergence of a majorant/minorant."
+      "label": "Characterise the convergence/divergence of a series by the convergence/divergence of a majorant/minorant."
     }
   }
 }
