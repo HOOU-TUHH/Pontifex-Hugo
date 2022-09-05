@@ -45,7 +45,7 @@ Example entry:
       "notes": "305-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/4xhyqdjmxHU?start=11",
       "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/Setsepisodes/--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
 ```
 
@@ -56,9 +56,9 @@ This entry describes the concept node `305` for the concept "Epsilon-Delta Defin
 * `meta` contains further information for the content. In the above example, it specifies the name of the video; no routine processes this text, so one can use the entry to store further info.
 * `content` explains the topic; this text shows on the top of each webpage below the title
 * `notes` name of the html file containing the lecture notes.
-* `video` link to the YouTube video that should be embedded. Currently we use the `youtube` [shortcode](https://gohugo.io/content-management/shortcodes/) such that only the information `/embed/` will be further processed.
-* `webwork` link to webwork exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
-* `podcast` plain html-`<iframe>` code to go in the *Podcast* section.
+* `video` ID (+ optional timestamp) of the YouTube video that should be linked. Can be used to either embed the video via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) or for an external link (currently implemented).
+* `webwork` link to WeBWorK exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
+* `podcast` plain html code to go in the *Podcast* section.
 #### Edges
 
 Example entry:
