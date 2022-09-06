@@ -311,6 +311,12 @@ HUGO-Doks comes with a darkmode capability that has been disabled in order to pr
 darkMode = true
 ```
 
+### Push Mirroring to GitHub
+
+The protected branches `master` and `dev` are [push mirrored](https://docs.gitlab.com/ee/user/project/repository/mirror/push.html) to the GitHub repository: https://github.com/HOOU-TUHH/Pontifex-Hugo.
+
+To this end this repo uses password authentication with a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub using the *repo* and *workflow* scope.
+
 
 # Contributors
 
