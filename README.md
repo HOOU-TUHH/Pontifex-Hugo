@@ -262,6 +262,7 @@ Download or clone `pontifex-hugo` first
 git clone git@collaborating.tuhh.de:hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo.git
 ```
 Follow the instructions on https://docs.docker.com/get-docker/ to install Docker on your machine.
+Note that the process below for building the Pontifex project needs to be repeated each time you modify the source files of your webpage.
 
 ### Building the Docker image locally and building the HUGO project
 
@@ -269,14 +270,13 @@ Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/hoou-an-de
 ```bash
 docker build . -t pontifex-hugo
 ```
+This process should also be carried out every time, an update of `pontifex-hugo/Dockerfile` is carried out.
 
 Now, run 
 ```bash
 docker run -it --rm -v `pwd`:/app -w /app pontifex-hugo ./bin/build_pontifex.sh
 ```
 to build the project.
-
-This process should also be carried out every time, an update of `pontifex-hugo/Dockerfile` is carried out.
 
 ### Building the HUGO project with an external Docker image
 
