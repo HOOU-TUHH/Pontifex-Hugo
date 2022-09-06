@@ -12,10 +12,7 @@ usage: python3 make_md.py xxx
 
 import json
 import sys
-
-# function: input: index = xxx,  output: -
-
-import logging
+import re
 
 index = str(sys.argv[1])
 path = f"{index}/{index}"
@@ -37,6 +34,24 @@ with open('../nodes/graph.json', 'r') as f:
 
 mynode = mydata["nodes"][index]
 
+# preprocess youtube
+def get_youtubeid(link):
+    # regex based on https://stackoverflow.com/a/34833500/
+    pattern = r'(?:https?:\/\/)?(?:[0-9A-Z-]+\.)?(?:youtube|youtu|youtube-nocookie)\.(?:com|be)\/(?:watch\?v=|watch\?.+&v=|embed\/|v\/|.+\?v=)?([^&=\n%\?]{11})'
+    youtubeid = re.search(pattern, link, re.IGNORECASE)
+    if youtubeid is None:
+        return ""
+    else:
+        return youtubeid.group(1)
+
+def get_youtubetime(link):
+    youtubetime =  re.search(r'start=[0-9]*', link, re.IGNORECASE)
+    print(youtubetime)
+    if youtubetime is None:
+        return ""
+    else:
+        return youtubetime.group(0)
+
 # read content from json file
 filename = mynode["notes"]
 videolink = mynode["video"]
@@ -46,8 +61,10 @@ content = mynode["content"]
 podcast = mynode["podcast"]
 timestamp = "2022-04-01T08:48:57+00:00"
 chapter = f"chapter{index[0]}"
-youtubend = videolink[videolink.find("embed")+6:]
-youtubeid = videolink[videolink.find("embed")+6:videolink.find("embed")+6+11]
+youtubeid = get_youtubeid(videolink)
+youtubetime = get_youtubetime(videolink)
+youtubend = youtubeid + "?" + youtubetime
+
 
 # preprocess podcast
 ntabs = 3
