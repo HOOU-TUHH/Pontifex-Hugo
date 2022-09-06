@@ -226,12 +226,7 @@ Follow the instructions on https://docs.docker.com/get-docker/ to install Docker
 
 ### Building the Docker image locally and building the HUGO project
 
-Download or clone `pontifex-hugo`
-```bash
-git clone git@collaborating.tuhh.de:hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo.git
-```
-
-Within `pontifex-hugo` run 
+Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo) run 
 ```bash
 docker build . -t pontifex-hugo
 ```
