@@ -178,7 +178,7 @@ The build process consists of 3 parts:
 We rely on [Cytoscape.js](https://js.cytoscape.org/) in order to visualize the graph.
 
 Colors and functionality of the graph are encoded in the files
-`static/js/vendor/{pontifex-graph,pontifex-overview}.js`
+`static/js/vendor/pontifex-graph.js`
 
 Each page using a Cytoscape.js graph needs to include a specific `header1.html` page. See the shortcode below.
 
@@ -192,7 +192,7 @@ If building the Pontifex project locally without the use of the provided Docker 
 The HUGO project is built using [Node.js](https://nodejs.org/en/).
 If building the Pontifex project locally without the use of the provided Docker container make sure to have a `node` version >= 18.5.
 
-## Dummies and Shortcodes
+## Dummies, templates, and shortcodes
 
 `nodes/dummy_for_hugo.md` specifies the overall structure of each page.
 We use special shortcodes for including WeBWorK exercises and Tabs, see `layouts/shortcodes/` for details.
@@ -205,6 +205,18 @@ The syntax is `{{< header1 "index">}}` where `index` specifies the id of the nod
 ### `header2`
 
 Same as `header1` but this is used only on for the overview page and not in `dummy_for_hugo.md`
+
+### `plausible`
+
+In order to enable [plausible.io](https://plausible.io/), every page that needs web analytics should include `layouts/partials/header/plausible.html` via
+```html
+{{ partial "header/plausible.html" }}
+```
+The unbranded version of pontifex uses an empty file. In order to use your plausible data, change the file content to
+```html
+<script defer data-domain="your-domain.com" src="https://plausible.io/js/plausible.js"></script>
+```
+see, the [Plausible Documentation](https://plausible.io/docs/) for details on registration and implementation on your webpage.
 
 ## Branding 
 
