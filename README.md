@@ -47,7 +47,7 @@ Example entry:
       "notes": "305-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/4xhyqdjmxHU?start=11",
       "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/Setsepisodes/--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
 ```
 
@@ -58,9 +58,9 @@ This entry describes the concept node `305` for the concept "Epsilon-Delta Defin
 * `meta` contains further information for the content. In the above example, it specifies the name of the video; no routine processes this text, so one can use the entry to store further info.
 * `content` explains the topic; this text shows on the top of each webpage below the title
 * `notes` name of the html file containing the lecture notes.
-* `video` link to the YouTube video that should be embedded. Currently we use the `youtube` [shortcode](https://gohugo.io/content-management/shortcodes/) such that only the information `/embed/` will be further processed.
-* `webwork` link to [WeBWorK](https://github.com/openwebwork) exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
-* `podcast` plain html-`<iframe>` code to go in the *Podcast* section.
+* `video` ID (+ optional timestamp) of the YouTube video that should be linked. Can be used to either embed the video via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) or for an external link (currently implemented).
+* `webwork` link to [WeBWorK](https://github.com/openWeBWorK) exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
+* `podcast` plain html code to go in the *Podcast* section.
 #### Edges
 
 Example entry:
@@ -102,9 +102,35 @@ For details on the preprocessing of TeX Snippets, refer to the developer documen
 
 #### YouTube videos
 
-YouTube Videos are included via the `youtube` [shortcode](https://gohugo.io/content-management/shortcodes/). 
+##### Thumbnails and External Links
+
+In order to cope with internet privacy requirements, the current version of Pontifex does not embed YouTube Videos but external links. This is realized the file `nodes/dummy_for_hugo.md` via the snippet
+```html
+Click [here](https://youtu.be/###YTURLEND###) or on the thumbnail below to open up the YouTube video in a separate tab!
+<a href="https://youtu.be/###YTURLEND###" target="_blank">
+  <img src="./###YTID###.jpg">
+</a>
+```
+In order to keep using this snippet for other YouTube videos, the corresponding thumbnail needs to be saved in the folder `nodes/xxx`, where `xxx` corresponds to the node id.
+The thumbnail name should be `ytid.jpg`, where `ytid` is the YouTube-Id of the corresponding video, e.g., the video `https://youtu.be/iA-Dtf7529M` has the id `iA-Dtf7529M`.
+In order to appropriately download and save the thumbnails, you may use the script `bin/get_thumbnails.py`.
+
+##### YouTube shortcode
+
+Alternatively, you can include YouTube Videos via the `youtube` [shortcode](https://gohugo.io/content-management/shortcodes/). 
 Here the URL specified in the `video` attribute of the `JSON` database is used, starting from `/embed/...`.
 See [here](https://support.google.com/youtube/answer/171780?hl=en) for more information on embedding YouTube videos.
+In order to use the `youtube` shortcode, in the file `nodes/dummy_for_hugo.md`, you need to substitute the paragraph
+```html
+Click [here](https://youtu.be/###YTURLEND###) or on the thumbnail below to open up the YouTube video in a separate tab!
+<a href="https://youtu.be/###YTURLEND###" target="_blank">
+  <img src="./###YTID###.jpg">
+</a>
+```
+by
+```
+{{< youtube "###YTURLEND###">}}
+```
 
 #### Podcast episodes
 
@@ -257,7 +283,7 @@ This process should also be carried out every time, an update of `pontifex-hugo/
 
 Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo), run
 ```bash
-docker run -it --rm -v `pwd`:/app -w /app collaborating.tuhh.de:5005/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo ./bin/build_pontifex.sh
+docker run -it --rm -v `pwd`:/app -w /app collaborating.tuhh.de:5005/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo:latest ./bin/build_pontifex.sh
 ```
 
 This will use the root image from the [Container Registry](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo/container_registry/).

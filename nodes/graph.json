@@ -6,7 +6,7 @@
       "meta": " SLL01",
       "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
       "notes": "000-snippet.html",
-      "video": "https://www.youtube-nocookie.com/embed/DU4wKBDm2Z4?start=7",
+      "video": "https://www.youtube-nocookie.com/embed/DU4wKBDm2Z4?start=9",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": ""
     },
@@ -18,7 +18,7 @@
       "notes": "001-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/iA-Dtf7529M?start=14",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/Setsepisodes/--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "002": {
       "id": "002",
@@ -28,7 +28,7 @@
       "notes": "002-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/E2MAvASTcg4?start=19",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Compound_Inequalities/P_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Field-Axioms-e19fud5/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Field-Axioms-e19fud5/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Field-Axioms-e19fud5/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a> <p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "003": {
       "id": "003",
@@ -48,7 +48,7 @@
       "notes": "004-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/WMgiYh7tac0?start=13",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/MC/Proofs/EssayProofs/InductionDivisibility01.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/The-Natural-Numbers--Mathematical-Induction-e186r6n/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/The-Natural-Numbers--Mathematical-Induction-e186r6n/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/The-Natural-Numbers--Mathematical-Induction-e186r6n/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "005": {
       "id": "005",
@@ -106,7 +106,7 @@
       "meta": " SLL03",
       "content": "Sets can be joined or intersected in order to create new sets.",
       "notes": "010-snippet.html",
-      "video": "https://www.youtube-nocookie.com/embed/",
+      "video": "https://www.youtube-nocookie.com/embed/ZdZm6qBCFuo?start=11",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/logicAndSetTheory/prob03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": ""
     },
@@ -124,11 +124,11 @@
       "id": "012",
       "label": "Countable Sets",
       "meta": "",
-      "content": "A notion of cardinality that covers finite sets and thos that can be enumerated via the natural numbers.",
+      "content": "A notion of cardinality that covers finite sets and those that can be enumerated via the natural numbers.",
       "notes": "012-snippet.html",
-      "video": "https://www.youtube-nocookie.com/embed/",
+      "video": "https://www.youtube-nocookie.com/embed/WMgiYh7tac0?start=13",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "013": {
       "id": "013",
@@ -208,7 +208,7 @@
       "notes": "106-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/R2AFZD0jiKQ?start=14",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "107": {
       "id": "107",
@@ -228,7 +228,7 @@
       "notes": "108-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/e2QaNklYZGg?start=10",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest10/quiz.html",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "109": {
       "id": "109",
@@ -266,7 +266,7 @@
       "meta": " ",
       "content": "Topological operations on sets.",
       "notes": "112-snippet.html",
-      "video": "https://www.youtube-nocookie.com/embed/",
+      "video": "https://www.youtube-nocookie.com/embed/RYtE09eHeqI?start=95",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": ""
     },
@@ -278,7 +278,7 @@
       "notes": "113-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/jCiIsigwaBE",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Uncountability-of-IR-Part-2----Uncountability-with-Fabian-Gabel-e1ie2qs/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-2----Uncountability-with-Fabian-Gabel-e1ie2qs/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-2----Uncountability-with-Fabian-Gabel-e1ie2qs/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "114": {
       "id": "114",
@@ -298,7 +298,7 @@
       "notes": "115-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/R2AFZD0jiKQ?start=14",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "200": {
       "id": "200",
@@ -308,7 +308,7 @@
       "notes": "200-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/BgfP3riDcrc?start=13",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Series-e1chf65/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Series-e1chf65/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Series-e1chf65/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "201": {
       "id": "201",
@@ -398,7 +398,7 @@
       "notes": "210-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/GADre0hHc4c?start=9",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest21/quiz.html",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "211": {
       "id": "211",
@@ -468,7 +468,7 @@
       "notes": "305-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/4xhyqdjmxHU?start=11",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "306": {
       "id": "306",
@@ -508,7 +508,8 @@
       "notes": "309-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/BNLu4_3Okuk?start=9",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/1.5/APEX_1.5_34.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio>"},
+      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Großmann.</p>"
+    },
     "400": {
       "id": "400",
       "label": "Exponential\nFunction",
@@ -517,7 +518,7 @@
       "notes": "400-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/onmh9nzkfDA?start=25",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
     "401": {
       "id": "401",
@@ -627,7 +628,7 @@
       "notes": "507-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/FQo9OYku5aY?start=10",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/mvt.mp3\">Your browser does not support the <code>audio</code> element.</audio>"
+      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/mvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Großmann.</p>"
     },
     "508": {
       "id": "508",
@@ -693,7 +694,7 @@
       "id": "600",
       "label": "Partitions and\nStep Functions",
       "meta": "RA48",
-      "content": "Splitting up an innterval in subintervals and defining functions that are constant on them.",
+      "content": "Splitting up an interval in subintervals and defining functions that are constant on them.",
       "notes": "600-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/joXBmJ1KInU?start=10",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest48/quiz.html",
@@ -924,7 +925,7 @@
     "005-305": {
       "source": "005",
       "target": "305",
-      "label": "Characterize continuity in terms of preimages of open balls."
+      "label": "Characterise continuity in terms of preimages of open balls."
     },
     "005-307": {
       "source": "005",
@@ -949,7 +950,7 @@
     "000-006": {
       "source": "000",
       "target": "006",
-      "label": "Image and Preimage are characterized via logical statements involving quantifiers."
+      "label": "Image and Preimage are characterised via logical statements involving quantifiers."
     },
     "003-007": {
       "source": "003",
@@ -1114,12 +1115,12 @@
     "101-110": {
       "source": "101",
       "target": "110",
-      "label": "Closedness is characterized by convergence of sequences."
+      "label": "Closedness is characterised by convergence of sequences."
     },
     "107-110": {
       "source": "107",
       "target": "110",
-      "label": "Compactness is characterized by existence of converging subsequences."
+      "label": "Compactness is characterised by existence of converging subsequences."
     },
     "101-107": {
       "source": "101",
@@ -1159,7 +1160,7 @@
     "110-111": {
       "source": "110",
       "target": "111",
-      "label": "Heine-Borel theorem characterizes bounded and closed sets."
+      "label": "Heine-Borel theorem characterises bounded and closed sets."
     },
     "110-112": {
       "source": "110",
@@ -1424,7 +1425,7 @@
     "010-110": {
       "source": "010",
       "target": "110",
-      "label": "Set operations may be used to modify set properties like opennes, closedness or compactness."
+      "label": "Set operations may be used to modify set properties like openness, closedness or compactness."
     },
     "304-500": {
       "source": "304",
@@ -1479,7 +1480,7 @@
     "304-307": {
       "source": "304",
       "target": "307",
-      "label": "Continuity preverves compactness of sets."
+      "label": "Continuity preserves compactness of sets."
     },
     "304-309": {
       "source": "304",
@@ -1519,7 +1520,7 @@
     "110-305": {
       "source": "110",
       "target": "305",
-      "label": "Characterize continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values."
+      "label": "Characterise continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values."
     },
     "402-511": {
       "source": "402",
@@ -1704,7 +1705,7 @@
     "203-613": {
       "source": "203",
       "target": "613",
-      "label": "Characterize the convergence of an integral by the convergence of a suitable series."
+      "label": "Characterise the convergence of an integral by the convergence of a suitable series."
     },
     "612-613": {
       "source": "612",
@@ -1719,7 +1720,7 @@
     "603-612": {
       "source": "603",
       "target": "612",
-      "label": "An improper integral is defined via a limit of Rimeann integrals on bounded sets."
+      "label": "An improper integral is defined via a limit of Riemann integrals on bounded sets."
     },
     "003-606": {
       "source": "003",
@@ -1849,12 +1850,12 @@
     "204-207": {
       "source": "204",
       "target": "207",
-      "label": "The Cauchy criterion applied to a majorizing series gives the convergence of the majorized series."
+      "label": "The Cauchy criterion applied to a majorising series gives the convergence of the majorised series."
     },
     "203-207": {
       "source": "203",
       "target": "207",
-      "label": "Characterize the convergence/divergence of a series by the convergence/divergence of a majorant/minorant."
+      "label": "Characterise the convergence/divergence of a series by the convergence/divergence of a majorant/minorant."
     }
   }
 }
