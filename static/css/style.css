@@ -1,56 +1,113 @@
 X.wrap.container-xxl {
-    max-width: none;
+  max-width: none;
 }
 
 @media screen and (max-width: 991px) {
-    
-    .keyvisual-bg img {
-        display: none;
-    } 
-
+  .keyvisual-bg img {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 991px) {
-.mt-0 {
+  .mt-0 {
     margin-top: 20px !important;
-}    
+  }
 
-.keyvisual-bg {
+  .keyvisual-bg {
     position: relative;
     text-align: center;
-}
-.keyvisual-bg img {
+  }
+  .keyvisual-bg img {
     max-width: 100%;
-}
+  }
 
-.keyvisual-text {
+  .keyvisual-text {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-}
+  }
 }
 .icons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .icon-bg {
-    height: 70px;
-    width: 70px;
-    border-radius: 60px;
-    background-color: #ddd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 60px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
-    width: 50px;
+  width: 50px;
 }
 
 .logos img {
-    height: 80px;
-    margin: 10px 20px 10px 20px;
+  height: 80px;
+  margin: 10px 20px 10px 20px;
+}
+
+/* Overlay for YouTube vids and podcasts */
+
+.media-container {
+  position: relative;
+}
+
+.image {
+  opacity: .3;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* .media-container:hover .image {
+  opacity: 0.3;
+}
+
+.media-container:hover .middle {
+  opacity: 1;
+} */
+
+.button,
+.button:hover {
+    background-color: #5d2f86;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 16px 52px 16px 32px;
+    /* Due to quick and dirty this icon was generated with https://base64.guru/converter/encode/image
+      The icon was taken from FontAwesome, improved with Inkscape
+    */
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAD9AAAA/QHie4OTAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAfBJREFUSInlljtrFUEUgL97vSB2oiJBo5VERSsfjWIKOxEx/0CwEkS0EC0khRhIjLETLFL6+AGi/0DwdRuDTcBCLAQlausj934We/eyGXfZnd0bGw8M7Jw5c75zznJmBpURjL1qV+1ZLsvq8ZbKCOQpcDrCfrmTmWwDLgEngTGgHRj3gC5wBfgSrG2Ni5OJtFQn1JUKZVJ9lFPqKfVHxf2qttTdwFtgc8Vou8DRHP0OYD/QGsyngclCL+r9mEjVCzkZh2OuSsYfgV2ZWJaAReBXTpxLwMuSiswB10tsQF0NgjlbIaPYTJ+HCnKMTtWEzhRAFwY+10jYMnVlBriRo78LXM3bMArwbAF0PgPtB2v9pqWeLSjv7cBup2v7/FUTcFVo9pB5oT5RJ+qCbxVAFyoGTR1wY2gd8M0C6HwMNBa8x/z7NhqqRrXTFv5uvzvAtZJ9F4E3wGNg+1AbkXFbfTaw6ZmcVGWZHQt8D6/UTlGYOdIHzgBHgG/A+wp7DgXzw+lHDDiFv46wD39Nu2jhn8n/CQ5vjg0j9B/6GrI6JE/VscziZZKn7O+G0E3A+UD3efilPszp5fWS6bSPW+pBkifrxoYZlskKsA/4Csk/fgecA36uI/Q7MJVCAbLH2wH1gfpJ7Y+grKvqB/WeOm5wnP4B8wLxeM612FgAAAAASUVORK5CYII=");
+    background-position: right 20px bottom 55%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+/* Add padding to all tab containers */
+.tab-content {
+  padding-top: 20px;
 }

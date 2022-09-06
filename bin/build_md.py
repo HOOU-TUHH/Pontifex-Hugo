@@ -1,7 +1,7 @@
-"""Make Markdown File 
+"""Make Markdown File
 
 This script allows the user to put everything into a md-file for hugo
-Requires JSON file from prior run of build_json.py 
+Requires JSON file from prior run of build_json.py
 
 input:  (1) index = xxx
 
@@ -80,7 +80,7 @@ if video != "":
     video = '{{< tab tabName="Video">}}\n'+  video +  '\n{{< /tab >}}\n'
 elif youtubelink != "":
     ntabs = ntabs + 1
-    video = '{{< tab tabName="Video">}}\n' + f'Click [here](https://youtu.be/{youtubeid}) or on the thumbnail below to open up the YouTube video in a separate tab!  <a href="https://youtu.be/{youtubeid}?{youtubetime}" target="_blank"> <img src="./{youtubeid}.jpg"></a>' + '\n{{< /tab >}}\n'
+    video = '{{< tab tabName="Video">}}\n' + f'<div class="media-container"><img class="image" src="./{youtubeid}.jpg"><div class="middle"><a class="button" href="https://youtu.be/{youtubeid}?{youtubetime}" target="_blank">Open video on YouTube</a></div></div>' + '\n{{< /tab >}}\n'
 
 # preprocess podcast
 if podcast != "":
