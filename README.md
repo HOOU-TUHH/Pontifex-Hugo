@@ -302,6 +302,15 @@ docker run -it --rm --name apache-server -p 8080:80 -v `pwd`/public:/usr/local/a
 ```
 and open up http://localhost:8080/ in order to view the Pontifex webpage on your machine.
 
+## Further configuration
+
+### Darkmode
+
+HUGO-Doks comes with a darkmode capability that has been disabled in order to prevent the usage of local storage on the client side. In order to activate the darkmode adapt the file `config/_default/params.toml` to read
+```toml
+darkMode = true
+```
+
 
 # Contributors
 
