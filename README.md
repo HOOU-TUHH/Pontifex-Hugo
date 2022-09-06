@@ -122,14 +122,13 @@ Here the URL specified in the `video` attribute of the `JSON` database is used, 
 See [here](https://support.google.com/youtube/answer/171780?hl=en) for more information on embedding YouTube videos.
 In order to use the `youtube` shortcode, in the file `nodes/dummy_for_hugo.md`, you need to substitute the paragraph
 ```html
-Click [here](https://youtu.be/###YTURLEND###) or on the thumbnail below to open up the YouTube video in a separate tab!
-<a href="https://youtu.be/###YTURLEND###" target="_blank">
-  <img src="./###YTID###.jpg">
-</a>
+###VIDEO###
 ```
 by
 ```
+{{< tab tabName="Video">}}
 {{< youtube "###YTURLEND###">}}
+{{< /tab >}}
 ```
 
 #### Podcast episodes
