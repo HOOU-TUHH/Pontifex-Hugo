@@ -74,13 +74,14 @@ Hence, the sequence $(f_n(x))_{n\in\mathbb{N}}$ in $\mathbb{K}$ converges to $f(
 \begin{Remark}{}
 %By the definition of the norm of $\mathcal{B}(I)$, uniform continuity can be equivalently characterized as follows: For all $\varepsilon>0$, there exists some $N$ such that for all $n\geq N$ and $x\in I$ holds
 %\[|f(x)-f_n(x)|<\varepsilon.\]
-Uniform convergence to $f:I\to\mathbb{K}$ means that for all $\varepsilon>0$ holds that all (except finitely many) functions $f_n$ are ``inside some $\varepsilon$-stripe around $f$'' 
-(see Fig.\ \ref{fig:unif_conv}).
+Uniform convergence to $f:I\to\mathbb{K}$ means that for all $\varepsilon>0$ holds that all (except finitely many) functions $f_n$ are ``inside some $\varepsilon$-stripe around $f$''.
 \end{Remark}
 
 \begin{Theorem}{}
 A~sequence $(f_n)_{n\in\mathbb{N}}$ of functions $f_n:I\to\mathbb{K}$ converges uniformly to $f:I\to\mathbb{K}$, if, and only if,
-\begin{equation}\lim_{n\to\infty}||f_n-f||_\infty=\lim_{n\to\infty}\sup\{|f(x)-f_n(x)|\;:\;x\in I\}=0.\label{eq:supunifconv}\end{equation}
+\begin{equation}\label{eq:supunifconv}
+\lim_{n\to\infty}||f_n-f||_\infty=\lim_{n\to\infty}\sup\{|f(x)-f_n(x)|\;:\;x\in I\}=0.
+\end{equation}
 This means that uniform convergence is nothing but convergence with respect to the infinity norm $||\cdot||_\infty$ .
 \end{Theorem}
 
