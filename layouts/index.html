@@ -9,12 +9,12 @@
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .Site.BaseURL }}docs/level1/" role="button">Start now!</a>
-      <p class="meta"><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0.</a> <a href="https://www3-dev.tuhh.de/e-10/pontifex/404.html">GitLab v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
+      <p class="meta"><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0.</a> <a target="_blank" href="https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex">GitLab v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
 </section>
 </div>
-<script defer data-domain="pntfx.com" src="https://plausible.io/js/plausible.js"></script>
+{{ partial "header/plausible.html" }}
 {{ end }}
 
 {{ define "sidebar-prefooter" }}

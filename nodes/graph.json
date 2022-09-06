@@ -6,9 +6,10 @@
       "meta": " SLL01",
       "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
       "notes": "000-snippet.html",
-      "video": "https://www.youtube.com/embed/DU4wKBDm2Z4?start=7",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/DU4wKBDm2Z4?start=9"
     },
     "001": {
       "id": "001",
@@ -16,9 +17,10 @@
       "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
       "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
       "notes": "001-snippet.html",
-      "video": "https://www.youtube.com/embed/iA-Dtf7529M?start=14",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/Setsepisodes/--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/iA-Dtf7529M?start=14"
     },
     "002": {
       "id": "002",
@@ -26,9 +28,10 @@
       "meta": " SLR03  ",
       "content": "In a real analysis, the real numbers are the largest number set we need. They satisfy axioms that represent the idea of a number line.",
       "notes": "002-snippet.html",
-      "video": "https://www.youtube.com/embed/E2MAvASTcg4?start=19",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Compound_Inequalities/P_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Field-Axioms-e19fud5/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Field-Axioms-e19fud5/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Field-Axioms-e19fud5/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a> <p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/E2MAvASTcg4?start=19"
     },
     "003": {
       "id": "003",
@@ -36,9 +39,10 @@
       "meta": " SLS04 ",
       "content": "Maps are the mathematical formulation of a machine that gets inputs and generate outputs. On both sides, sets are needed for the domain and the codomain.",
       "notes": "003-snippet.html",
-      "video": "https://www.youtube.com/embed/JoLDwNh1lZ8?start=260",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Functions_Evaluating/Quad_No_Constant.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/JoLDwNh1lZ8?start=260"
     },
     "004": {
       "id": "004",
@@ -46,9 +50,10 @@
       "meta": " SLN01 + SLN02 + SLN03 + SLN04 ",
       "content": "Using natural numbers is our first mathematical abstraction as children. Mathematical induction is an important technique of proof.",
       "notes": "004-snippet.html",
-      "video": "https://www.youtube.com/embed/WMgiYh7tac0?start=13",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/MC/Proofs/EssayProofs/InductionDivisibility01.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/The-Natural-Numbers--Mathematical-Induction-e186r6n/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/The-Natural-Numbers--Mathematical-Induction-e186r6n/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/The-Natural-Numbers--Mathematical-Induction-e186r6n/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/WMgiYh7tac0?start=13"
     },
     "005": {
       "id": "005",
@@ -56,9 +61,10 @@
       "meta": " SLS05 ",
       "content": "Via images and preimages we describe how functions work on sets.",
       "notes": "005-snippet.html",
-      "video": "https://www.youtube.com/embed/twBYYTJdcjc?start=14",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/twBYYTJdcjc?start=14"
     },
     "006": {
       "id": "006",
@@ -66,9 +72,10 @@
       "meta": " SLS06 ",
       "content": "These are important notions for maps.",
       "notes": "006-snippet.html",
-      "video": "https://www.youtube.com/embed/CSzJchEvfpE?start=9",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMass-Amherst/Abstract-Algebra/PS-Functions/Functions2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/CSzJchEvfpE?start=9"
     },
     "007": {
       "id": "007",
@@ -76,9 +83,10 @@
       "meta": "  SLS07 ",
       "content": "The composition for maps is just applying two maps in a row.",
       "notes": "007-snippet.html",
-      "video": "https://www.youtube.com/embed/NiJ1yWKM9CU?start=13",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/algebraKaufmannSchwitters/ks_8_6_18.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/NiJ1yWKM9CU?start=13"
     },
     "008": {
       "id": "008",
@@ -86,9 +94,10 @@
       "meta": " SLL03",
       "content": "How to get new true proposition from other true propositions.",
       "notes": "008-snippet.html",
-      "video": "https://www.youtube.com/embed/AjdIPOXRgoQ?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setDiscrete/katie5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/AjdIPOXRgoQ?start=10"
     },
     "009": {
       "id": "009",
@@ -96,9 +105,10 @@
       "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
       "content": "Formal mathematical statements are often built by predicates.",
       "notes": "009-snippet.html",
-      "video": "https://www.youtube.com/embed/yIdECC6QExY?start=11",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Predicates/predicateB8.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/yIdECC6QExY?start=11"
     },
     "010": {
       "id": "010",
@@ -106,9 +116,10 @@
       "meta": " SLL03",
       "content": "Sets can be joined or intersected in order to create new sets.",
       "notes": "010-snippet.html",
-      "video": "https://www.youtube.com/embed/",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/logicAndSetTheory/prob03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/ZdZm6qBCFuo?start=11"
     },
     "011": {
       "id": "011",
@@ -116,19 +127,21 @@
       "meta": " SLL03",
       "content": "An important shorthand notation for calculations.",
       "notes": "011-snippet.html",
-      "video": "https://www.youtube.com/embed/S5DdXfxl3ac?start=3",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setIntSigmaNotation/an6_4_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/S5DdXfxl3ac?start=3"
     },
     "012": {
       "id": "012",
       "label": "Countable Sets",
       "meta": "",
-      "content": "A notion of cardinality that covers finite sets and thos that can be enumerated via the natural numbers.",
+      "content": "A notion of cardinality that covers finite sets and those that can be enumerated via the natural numbers.",
       "notes": "012-snippet.html",
-      "video": "https://www.youtube.com/embed/",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/WMgiYh7tac0?start=13"
     },
     "013": {
       "id": "013",
@@ -136,9 +149,10 @@
       "meta": "",
       "content": "The values inside a set of real numbers can be bounded.",
       "notes": "013-snippet.html",
-      "video": "https://www.youtube.com/embed/",
+      "video": "",
       "webwork": "",
-      "podcast": ""
+      "podcast": "",
+      "youtube": ""
     },
     "100": {
       "id": "100",
@@ -146,9 +160,10 @@
       "meta": " RA02 ",
       "content": "These object are needed to define limits later on.",
       "notes": "100-snippet.html",
-      "video": "https://www.youtube.com/embed/1SguKALJji8?start=17",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/1SguKALJji8?start=17"
     },
     "101": {
       "id": "101",
@@ -156,9 +171,10 @@
       "meta": " RA02 ",
       "content": "Convergent sequences have a well-defined limit.",
       "notes": "101-snippet.html",
-      "video": "https://www.youtube.com/embed/1SguKALJji8?start=367",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/1SguKALJji8?start=367"
     },
     "102": {
       "id": "102",
@@ -166,9 +182,10 @@
       "meta": " RA03 ",
       "content": "Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.",
       "notes": "102-snippet.html",
-      "video": "https://www.youtube.com/embed/k-Wm6gJYfrw?start=221",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221"
     },
     "103": {
       "id": "103",
@@ -176,9 +193,10 @@
       "meta": " RA04 ",
       "content": "Combining limits is a useful tool to deduce convergence and the limit of a more complicated sequence from the convergence of simpler building blocks.",
       "notes": "103-snippet.html",
-      "video": "https://www.youtube.com/embed/237VMLNVtQs?start=18",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Dartmouth/setStewartCh12S1/problem_7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/237VMLNVtQs?start=18"
     },
     "104": {
       "id": "104",
@@ -186,9 +204,10 @@
       "meta": " RA05 ",
       "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit. The technique of sandwiching can be used to determine limits via nested intervals.",
       "notes": "104-snippet.html",
-      "video": "https://www.youtube.com/embed/Y6rRSip3QN4?start=14",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/Y6rRSip3QN4?start=14"
     },
     "105": {
       "id": "105",
@@ -196,9 +215,10 @@
       "meta": " RA06 ",
       "content": "Bounded sets always have an supremum and infimum which are generalizations of maximum and minimum.",
       "notes": "105-snippet.html",
-      "video": "https://www.youtube.com/embed/8Cyvdv7Sm2s?start=16",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=%%%&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/8Cyvdv7Sm2s?start=16"
     },
     "106": {
       "id": "106",
@@ -206,9 +226,10 @@
       "meta": " RA07 ",
       "content": "Completeness says that Cauchy sequences must converge.",
       "notes": "106-snippet.html",
-      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=14",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14"
     },
     "107": {
       "id": "107",
@@ -216,9 +237,10 @@
       "meta": " RA09 ",
       "content": "A sequence that does not converge may still have converging subsequences.",
       "notes": "107-snippet.html",
-      "video": "https://www.youtube.com/embed/xZ5vjdZzTUI?start=14",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/real_analysis/ratest09.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/xZ5vjdZzTUI?start=14"
     },
     "108": {
       "id": "108",
@@ -226,9 +248,10 @@
       "meta": "RA10 ",
       "content": "Every bounded sequence has at least one converging subsequence.",
       "notes": "108-snippet.html",
-      "video": "https://www.youtube.com/embed/e2QaNklYZGg?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest10/quiz.html",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/e2QaNklYZGg?start=10"
     },
     "109": {
       "id": "109",
@@ -236,9 +259,10 @@
       "meta": "RA11+RA12 ",
       "content": "The largest and smallest limit of all convergent subsequences.",
       "notes": "109-snippet.html",
-      "video": "https://www.youtube.com/embed/-y0v2V0-_8E?start=21",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest11/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/-y0v2V0-_8E?start=21"
     },
     "110": {
       "id": "110",
@@ -246,9 +270,10 @@
       "meta": " RA13 ",
       "content": "Important notions for subsets of real numbers.",
       "notes": "110-snippet.html",
-      "video": "https://www.youtube.com/embed/Wqo4Svs4erw?start=12",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest13/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/Wqo4Svs4erw?start=12"
     },
     "111": {
       "id": "111",
@@ -256,9 +281,10 @@
       "meta": " RA14 ",
       "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
       "notes": "111-snippet.html",
-      "video": "https://www.youtube.com/embed/vjOefDHOVIg?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest14/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/vjOefDHOVIg?start=10"
     },
     "112": {
       "id": "112",
@@ -266,9 +292,10 @@
       "meta": " ",
       "content": "Topological operations on sets.",
       "notes": "112-snippet.html",
-      "video": "https://www.youtube.com/embed/",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/RYtE09eHeqI?start=95"
     },
     "113": {
       "id": "113",
@@ -276,9 +303,10 @@
       "meta": " ",
       "content": "The real numbers cannot be enumerated.",
       "notes": "113-snippet.html",
-      "video": "https://www.youtube.com/embed/jCiIsigwaBE",
-      "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Uncountability-of-IR-Part-2----Uncountability-with-Fabian-Gabel-e1ie2qs/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "video": "",
+      "webwork": "",
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-2----Uncountability-with-Fabian-Gabel-e1ie2qs/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-2----Uncountability-with-Fabian-Gabel-e1ie2qs/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/jCiIsigwaBE"
     },
     "114": {
       "id": "114",
@@ -286,9 +314,10 @@
       "meta": " ",
       "content": "If a sequence of real numbers is bounded and monotonic, then it is convergent.",
       "notes": "114-snippet.html",
-      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=450",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=450"
     },
     "115": {
       "id": "115",
@@ -296,9 +325,10 @@
       "meta": " RA07 ",
       "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
       "notes": "115-snippet.html",
-      "video": "https://www.youtube.com/embed/R2AFZD0jiKQ?start=14",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14"
     },
     "200": {
       "id": "200",
@@ -306,9 +336,10 @@
       "meta": "RA15",
       "content": "A series is a sequence of partial sums.",
       "notes": "200-snippet.html",
-      "video": "https://www.youtube.com/embed/BgfP3riDcrc?start=13",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Series-e1chf65/a-a6knu04\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Series-e1chf65/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Series-e1chf65/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/BgfP3riDcrc?start=13"
     },
     "201": {
       "id": "201",
@@ -316,9 +347,10 @@
       "meta": "RA16",
       "content": "The most important examples of series.",
       "notes": "201-snippet.html",
-      "video": "https://www.youtube.com/embed/Y4yRcz-b17A?start=12",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setSequenceandSeries/jj14.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/Y4yRcz-b17A?start=12"
     },
     "203": {
       "id": "203",
@@ -326,9 +358,10 @@
       "meta": "RA17",
       "content": "Basic operations with convergent series.",
       "notes": "203-snippet.html",
-      "video": "https://www.youtube.com/embed/lr12HwXQ3uw?start=20",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSeries4Geometric/ns8_2_23.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/lr12HwXQ3uw?start=20"
     },
     "204": {
       "id": "204",
@@ -336,9 +369,10 @@
       "meta": "RA17",
       "content": "A series converges if its partial sums form a Cauchy sequence. As a consequence, for a convergent series, the underlying sequence necessarily needs to converge to zero.",
       "notes": "204-snippet.html",
-      "video": "https://www.youtube.com/embed/lr12HwXQ3uw?start=130",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/AlfredUniv/anton8e/chapter10/10.4/prob1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/lr12HwXQ3uw?start=130"
     },
     "205": {
       "id": "205",
@@ -346,9 +380,10 @@
       "meta": "RA18",
       "content": "A convergence criterion for sums based on an alternating sequence.",
       "notes": "205-snippet.html",
-      "video": "https://www.youtube.com/embed/MjjMwQ6zFko?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_5_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/MjjMwQ6zFko?start=10"
     },
     "206": {
       "id": "206",
@@ -356,9 +391,10 @@
       "meta": "RA19",
       "content": "A strong concept of convergence of series.",
       "notes": "206-snippet.html",
-      "video": "https://www.youtube.com/embed/mI40-tAtP58?start=21",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_6_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/mI40-tAtP58?start=21"
     },
     "207": {
       "id": "207",
@@ -366,9 +402,10 @@
       "meta": "RA19",
       "content": "If a series converges can be checked with different tests.",
       "notes": "207-snippet.html",
-      "video": "https://www.youtube.com/embed/mI40-tAtP58?start=160",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section04/SCalcET7-11-4-002a.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/mI40-tAtP58?start=160"
     },
     "208": {
       "id": "208",
@@ -376,9 +413,10 @@
       "meta": "RA20",
       "content": "An important criterion to prove absolute convergence by means of ratios of the underlying sequence's terms.",
       "notes": "208-snippet.html",
-      "video": "https://www.youtube.com/embed/yLbgdL9HAeg?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/9-4-Ratio-test/ratio-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/yLbgdL9HAeg?start=10"
     },
     "209": {
       "id": "209",
@@ -386,9 +424,10 @@
       "meta": "RA20",
       "content": "An important criterion to prove absolute convergence by means of the behavior of the n-th roots of the underlying sequence's terms.",
       "notes": "209-snippet.html",
-      "video": "https://www.youtube.com/embed/yLbgdL9HAeg?start=420",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.5_The_Ratio_and_Root_Tests/10.5.37.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/yLbgdL9HAeg?start=420"
     },
     "210": {
       "id": "210",
@@ -396,9 +435,10 @@
       "meta": "RA21",
       "content": "Series can be reordered.",
       "notes": "210-snippet.html",
-      "video": "https://www.youtube.com/embed/GADre0hHc4c?start=9",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest21/quiz.html",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/GADre0hHc4c?start=9"
     },
     "211": {
       "id": "211",
@@ -406,9 +446,10 @@
       "meta": "RA22",
       "content": "A special way to multiply two absolutely convergent sequences.",
       "notes": "211-snippet.html",
-      "video": "https://www.youtube.com/embed/tRa0Ex_0Yfo?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest22/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/tRa0Ex_0Yfo?start=10"
     },
     "300": {
       "id": "300",
@@ -416,9 +457,10 @@
       "meta": "RA23",
       "content": "The concept of sequences but for functions instead of real numbers.",
       "notes": "300-snippet.html",
-      "video": "https://www.youtube.com/embed/RM2hytsyMpc?start=20",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest23/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/RM2hytsyMpc?start=20"
     },
     "301": {
       "id": "301",
@@ -426,9 +468,10 @@
       "meta": "RA24",
       "content": "A notion of convergence for sequences functions that reduces the question of convergence to convergence of sequences of real numbers.",
       "notes": "301-snippet.html",
-      "video": "https://www.youtube.com/embed/Kq_KZpljeXo?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest24/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/Kq_KZpljeXo?start=10"
     },
     "302": {
       "id": "302",
@@ -436,9 +479,10 @@
       "meta": "RA25",
       "content": "A strong notion of convergence for sequences of functions that helps to preserve favorable properties like continuity in the limit.",
       "notes": "302-snippet.html",
-      "video": "https://www.youtube.com/embed/O2HKxNcom7g?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest25/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/O2HKxNcom7g?start=10"
     },
     "303": {
       "id": "303",
@@ -446,9 +490,10 @@
       "meta": "RA26",
       "content": "How function evaluations change when the argument approaches a certain point.",
       "notes": "303-snippet.html",
-      "video": "https://www.youtube.com/embed/QoLlvvro6rE?start=15",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setRateChange/3-2-72.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/QoLlvvro6rE?start=15"
     },
     "304": {
       "id": "304",
@@ -456,9 +501,10 @@
       "meta": "RA27",
       "content": "The concept that relates functions with convergent sequences.",
       "notes": "304-snippet.html",
-      "video": "https://www.youtube.com/embed/8VTG6EsyJh4?start=8",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/8VTG6EsyJh4?start=8"
     },
     "305": {
       "id": "305",
@@ -466,9 +512,10 @@
       "meta": "RA28",
       "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
       "notes": "305-snippet.html",
-      "video": "https://www.youtube.com/embed/4xhyqdjmxHU?start=11",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/4xhyqdjmxHU?start=11"
     },
     "306": {
       "id": "306",
@@ -476,9 +523,10 @@
       "meta": "RA29",
       "content": "How combination of continuous functions leads to new continuous functions.",
       "notes": "306-snippet.html",
-      "video": "https://www.youtube.com/embed/W-E4LqZyEHA?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest29/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/W-E4LqZyEHA?start=10"
     },
     "307": {
       "id": "307",
@@ -486,9 +534,10 @@
       "meta": "RA30",
       "content": "A mapping property for continuous functions.",
       "notes": "307-snippet.html",
-      "video": "https://www.youtube.com/embed/6VWTG4wlRoA?start=11",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest30/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/6VWTG4wlRoA?start=11"
     },
     "308": {
       "id": "308",
@@ -496,9 +545,10 @@
       "meta": "RA31",
       "content": "How to preserve continuity in the limit of a sequence of continuous functions.",
       "notes": "308-snippet.html",
-      "video": "https://www.youtube.com/embed/llJruZnO-t4?start=11",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest31/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/llJruZnO-t4?start=11"
     },
     "309": {
       "id": "309",
@@ -506,18 +556,21 @@
       "meta": "RA32",
       "content": "This theorem tells us that continuous functions don't jump. They have to attain every value between two values in their image.",
       "notes": "309-snippet.html",
-      "video": "https://www.youtube.com/embed/BNLu4_3Okuk?start=9",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/1.5/APEX_1.5_34.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio>"},
+      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
+      "youtube": "https://youtu.be/BNLu4_3Okuk?start=9"
+    },
     "400": {
       "id": "400",
       "label": "Exponential\nFunction",
       "meta": "RA33",
       "content": "A special function that can be defined via a power series.",
       "notes": "400-snippet.html",
-      "video": "https://www.youtube.com/embed/onmh9nzkfDA?start=25",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
+      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/onmh9nzkfDA?start=25"
     },
     "401": {
       "id": "401",
@@ -525,9 +578,10 @@
       "meta": "RA33",
       "content": "The inverse of the exponential function.",
       "notes": "401-snippet.html",
-      "video": "https://www.youtube.com/embed/onmh9nzkfDA?start=213",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setLogarithmicFunctions/srw4_3_43.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/onmh9nzkfDA?start=213"
     },
     "402": {
       "id": "402",
@@ -535,9 +589,10 @@
       "meta": "RA33",
       "content": "A basic class of functions that consists a linear combinations of monomials.",
       "notes": "402-snippet.html",
-      "video": "https://www.youtube.com/embed/onmh9nzkfDA?start=297",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_03_Polynomial.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/onmh9nzkfDA?start=297"
     },
     "403": {
       "id": "403",
@@ -545,9 +600,10 @@
       "meta": "RA33",
       "content": "A sequence of partial sums of polynomial functions.",
       "notes": "403-snippet.html",
-      "video": "https://www.youtube.com/embed/onmh9nzkfDA?start=332",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Indiana/Indiana_setSeries8Power/eva8_5a_2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/onmh9nzkfDA?start=332"
     },
     "500": {
       "id": "500",
@@ -555,9 +611,10 @@
       "meta": "RA34",
       "content": "How to quantify the rate of change of a function.",
       "notes": "500-snippet.html",
-      "video": "https://www.youtube.com/embed/TLdBLqPTsYc?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.51.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/TLdBLqPTsYc?start=10"
     },
     "501": {
       "id": "501",
@@ -565,9 +622,10 @@
       "meta": "RA35",
       "content": "Useful rules for differentiating sums or products of differentiable functions.",
       "notes": "501-snippet.html",
-      "video": "https://www.youtube.com/embed/wp-s9c1IKhI?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setDervProductQuotientRule/s2_2_13.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/wp-s9c1IKhI?start=10"
     },
     "502": {
       "id": "502",
@@ -575,9 +633,10 @@
       "meta": "RA36",
       "content": "How to differentiate compositions of functions.",
       "notes": "502-snippet.html",
-      "video": "https://www.youtube.com/embed/g57hlenwvis?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setChainRuleExpLogFunctions/5-3-65.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/g57hlenwvis?start=10"
     },
     "503": {
       "id": "503",
@@ -585,9 +644,10 @@
       "meta": "RA37",
       "content": "Compatibility of differentiability with uniform limits.",
       "notes": "503-snippet.html",
-      "video": "https://www.youtube.com/embed/PwkaPb_sCVQ?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest37/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10"
     },
     "504": {
       "id": "504",
@@ -595,9 +655,10 @@
       "meta": "RA38",
       "content": "Calculation of derivatives by example.",
       "notes": "504-snippet.html",
-      "video": "https://www.youtube.com/embed/93i7uKScVvc?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma122DB/set4b/s3_4_10.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/93i7uKScVvc?start=10"
     },
     "505": {
       "id": "505",
@@ -605,9 +666,10 @@
       "meta": "RA39",
       "content": "How to calculate the derivative of the inverse function.",
       "notes": "505-snippet.html",
-      "video": "https://www.youtube.com/embed/h0nBAMhdSMk?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.8_Derivatives_of_Inverse_Functions/3.8.7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/h0nBAMhdSMk?start=10"
     },
     "506": {
       "id": "506",
@@ -615,9 +677,10 @@
       "meta": "RA40",
       "content": "The derivatives of functions with equal boundary conditions always have at least one zero.",
       "notes": "506-snippet.html",
-      "video": "https://www.youtube.com/embed/5Scawd2WLLA?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest40/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/5Scawd2WLLA?start=10"
     },
     "507": {
       "id": "507",
@@ -625,9 +688,10 @@
       "meta": "RA41",
       "content": "This theorem helps us to link monotonicity of a function with values of its derivative.",
       "notes": "507-snippet.html",
-      "video": "https://www.youtube.com/embed/FQo9OYku5aY?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/mvt.mp3\">Your browser does not support the <code>audio</code> element.</audio>"
+      "podcast": "<audio controls src=\"/e-10/pontifex/podcast/mvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
+      "youtube": "https://youtu.be/FQo9OYku5aY?start=10"
     },
     "508": {
       "id": "508",
@@ -635,9 +699,10 @@
       "meta": "RA42",
       "content": "An important tool for calculating limits.",
       "notes": "508-snippet.html",
-      "video": "https://www.youtube.com/embed/KbS_cRToPFA?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.5_LHopitals_Rule/4.5.40.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/KbS_cRToPFA?start=10"
     },
     "509": {
       "id": "509",
@@ -645,9 +710,10 @@
       "meta": "RA43",
       "content": "Further scenarios in which limits can be calculated by l'Hospital's rule.",
       "notes": "509-snippet.html",
-      "video": "https://www.youtube.com/embed/KuF0JRsWhBk?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.7/APEX_6.7_27.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/KuF0JRsWhBk?start=10"
     },
     "510": {
       "id": "510",
@@ -655,9 +721,10 @@
       "meta": "RA44",
       "content": "Taking derivatives of derivatives of differentiable functions.",
       "notes": "510-snippet.html",
-      "video": "https://www.youtube.com/embed/vyZ5ESoqsxw?start=11",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=brary/Valdosta/APEX_Calculus/3.4/APEX_3.4_13.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/vyZ5ESoqsxw?start=11"
     },
     "511": {
       "id": "511",
@@ -665,9 +732,10 @@
       "meta": "RA45",
       "content": "An approximation method for differentiable functions.",
       "notes": "511-snippet.html",
-      "video": "https://www.youtube.com/embed/Pb390hRaLrw?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest45/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/Pb390hRaLrw?start=10"
     },
     "512": {
       "id": "512",
@@ -675,9 +743,10 @@
       "meta": "RA46",
       "content": "Calculate an approximation via Taylor's Theorem",
       "notes": "512-snippet.html",
-      "video": "https://www.youtube.com/embed/zRoyHrMNOO8?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/10-2-Taylor-series/Taylor-series-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/zRoyHrMNOO8?start=10"
     },
     "513": {
       "id": "513",
@@ -685,19 +754,21 @@
       "meta": "RA47",
       "content": "Derive an approximation result from the generalised mean value theorem.",
       "notes": "513-snippet.html",
-      "video": "https://www.youtube.com/embed/oZZrwKsqVro?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest47/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/oZZrwKsqVro?start=10"
     },
     "600": {
       "id": "600",
       "label": "Partitions and\nStep Functions",
       "meta": "RA48",
-      "content": "Splitting up an innterval in subintervals and defining functions that are constant on them.",
+      "content": "Splitting up an interval in subintervals and defining functions that are constant on them.",
       "notes": "600-snippet.html",
-      "video": "https://www.youtube.com/embed/joXBmJ1KInU?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest48/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/joXBmJ1KInU?start=10"
     },
     "601": {
       "id": "601",
@@ -705,9 +776,10 @@
       "meta": "RA49",
       "content": "A notion of integral for a simple class of functions.",
       "notes": "601-snippet.html",
-      "video": "https://www.youtube.com/embed/VdXLenrjIao?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest49/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/VdXLenrjIao?start=10"
     },
     "602": {
       "id": "602",
@@ -715,9 +787,10 @@
       "meta": "RA49",
       "content": "Important properties of the Riemann integral.",
       "notes": "602-snippet.html",
-      "video": "https://www.youtube.com/embed/6Pb97_7huwI?start=34",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest50/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/6Pb97_7huwI?start=34"
     },
     "603": {
       "id": "603",
@@ -725,9 +798,10 @@
       "meta": "RA51",
       "content": "Notion of integral for a large class of functions.",
       "notes": "603-snippet.html",
-      "video": "https://www.youtube.com/embed/t8Hh73HxP1o?start=12",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest51/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/t8Hh73HxP1o?start=12"
     },
     "604": {
       "id": "604",
@@ -735,9 +809,10 @@
       "meta": "RA52",
       "content": "Use the approximation by step functions to calculate integrals.",
       "notes": "604-snippet.html",
-      "video": "https://www.youtube.com/embed/J9qXHzxeDN4?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest52/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/J9qXHzxeDN4?start=10"
     },
     "605": {
       "id": "605",
@@ -745,9 +820,10 @@
       "meta": "RA53",
       "content": "Important properties of the Riemann integral of bounded functions.",
       "notes": "605-snippet.html",
-      "video": "https://www.youtube.com/embed/h4XohuM2iK4?start=10",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest53/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/h4XohuM2iK4?start=10"
     },
     "606": {
       "id": "606",
@@ -755,9 +831,10 @@
       "meta": "RA54",
       "content": "Linking differentiation and integration.",
       "notes": "606-snippet.html",
-      "video": "https://www.youtube.com/embed/AKhlP6IHDLk?start=13",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap6Sec2/Q21.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/AKhlP6IHDLk?start=13"
     },
     "607": {
       "id": "607",
@@ -765,9 +842,10 @@
       "meta": "RA55",
       "content": "Characterization of all antiderivatives",
       "notes": "607-snippet.html",
-      "video": "https://www.youtube.com/embed/SJC4DGuyg4c?start=12",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals4FTC/osu_in_4_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/SJC4DGuyg4c?start=12"
     },
     "608": {
       "id": "608",
@@ -775,9 +853,10 @@
       "meta": "RA56",
       "content": "Continuous functions attain their mean value.",
       "notes": "608-snippet.html",
-      "video": "https://www.youtube.com/embed/E4zieCbfdcs?start=12",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest56/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/E4zieCbfdcs?start=12"
     },
     "609": {
       "id": "609",
@@ -785,9 +864,10 @@
       "meta": "RA57",
       "content": "An important integration rule.",
       "notes": "609-snippet.html",
-      "video": "https://www.youtube.com/embed/wmZCoV6Y0_c?start=12",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12"
     },
     "610": {
       "id": "610",
@@ -795,9 +875,10 @@
       "meta": "RA58",
       "content": "An important integration rule.",
       "notes": "610-snippet.html",
-      "video": "https://www.youtube.com/embed/wmZCoV6Y0_c?start=12",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals15ByParts/sc5_6_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12"
     },
     "611": {
       "id": "611",
@@ -805,9 +886,10 @@
       "meta": "RA59",
       "content": "How to integrate rational functions.",
       "notes": "611-snippet.html",
-      "video": "https://www.youtube.com/embed/dLYIijHqH9U?start=10",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartET/s_7_4_prob04.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/dLYIijHqH9U?start=10"
     },
     "612": {
       "id": "612",
@@ -815,9 +897,10 @@
       "meta": "RA60",
       "content": "How to integrate\non unbounded domains.",
       "notes": "612-snippet.html",
-      "video": "https://www.youtube.com/embed/Q7qdknAF-ME?start=15",
+      "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap7Sec8/Q32.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/Q7qdknAF-ME?start=15"
     },
     "613": {
       "id": "613",
@@ -825,9 +908,10 @@
       "meta": "RA61",
       "content": "Compare improper Riemann integrals to infinite series.",
       "notes": "613-snippet.html",
-      "video": "https://www.youtube.com/embed/yEp9BTDgOjk?start=13",
+      "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest61/quiz.html",
-      "podcast": ""
+      "podcast": "",
+      "youtube": "https://youtu.be/yEp9BTDgOjk?start=13"
     }
   },
   "edges": {
@@ -924,7 +1008,7 @@
     "005-305": {
       "source": "005",
       "target": "305",
-      "label": "Characterize continuity in terms of preimages of open balls."
+      "label": "Characterise continuity in terms of preimages of open balls."
     },
     "005-307": {
       "source": "005",
@@ -949,7 +1033,7 @@
     "000-006": {
       "source": "000",
       "target": "006",
-      "label": "Image and Preimage are characterized via logical statements involving quantifiers."
+      "label": "Image and Preimage are characterised via logical statements involving quantifiers."
     },
     "003-007": {
       "source": "003",
@@ -1114,12 +1198,12 @@
     "101-110": {
       "source": "101",
       "target": "110",
-      "label": "Closedness is characterized by convergence of sequences."
+      "label": "Closedness is characterised by convergence of sequences."
     },
     "107-110": {
       "source": "107",
       "target": "110",
-      "label": "Compactness is characterized by existence of converging subsequences."
+      "label": "Compactness is characterised by existence of converging subsequences."
     },
     "101-107": {
       "source": "101",
@@ -1159,7 +1243,7 @@
     "110-111": {
       "source": "110",
       "target": "111",
-      "label": "Heine-Borel theorem characterizes bounded and closed sets."
+      "label": "Heine-Borel theorem characterises bounded and closed sets."
     },
     "110-112": {
       "source": "110",
@@ -1424,7 +1508,7 @@
     "010-110": {
       "source": "010",
       "target": "110",
-      "label": "Set operations may be used to modify set properties like opennes, closedness or compactness."
+      "label": "Set operations may be used to modify set properties like openness, closedness or compactness."
     },
     "304-500": {
       "source": "304",
@@ -1479,7 +1563,7 @@
     "304-307": {
       "source": "304",
       "target": "307",
-      "label": "Continuity preverves compactness of sets."
+      "label": "Continuity preserves compactness of sets."
     },
     "304-309": {
       "source": "304",
@@ -1519,7 +1603,7 @@
     "110-305": {
       "source": "110",
       "target": "305",
-      "label": "Characterize continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values."
+      "label": "Characterise continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values."
     },
     "402-511": {
       "source": "402",
@@ -1704,7 +1788,7 @@
     "203-613": {
       "source": "203",
       "target": "613",
-      "label": "Characterize the convergence of an integral by the convergence of a suitable series."
+      "label": "Characterise the convergence of an integral by the convergence of a suitable series."
     },
     "612-613": {
       "source": "612",
@@ -1719,7 +1803,7 @@
     "603-612": {
       "source": "603",
       "target": "612",
-      "label": "An improper integral is defined via a limit of Rimeann integrals on bounded sets."
+      "label": "An improper integral is defined via a limit of Riemann integrals on bounded sets."
     },
     "003-606": {
       "source": "003",
@@ -1744,7 +1828,7 @@
     "108-106": {
       "source": "108",
       "target": "106",
-      "label": "The fact that every Cauchy sequence converges can be derived from the Bolzano-Weierstraß theorem."
+      "label": "The fact that every Cauchy sequence converges can be derived from the Bolzano-Weierstra\u00df theorem."
     },
     "102-117": {
       "source": "102",
@@ -1849,12 +1933,12 @@
     "204-207": {
       "source": "204",
       "target": "207",
-      "label": "The Cauchy criterion applied to a majorizing series gives the convergence of the majorized series."
+      "label": "The Cauchy criterion applied to a majorising series gives the convergence of the majorised series."
     },
     "203-207": {
       "source": "203",
       "target": "207",
-      "label": "Characterize the convergence/divergence of a series by the convergence/divergence of a majorant/minorant."
+      "label": "Characterise the convergence/divergence of a series by the convergence/divergence of a majorant/minorant."
     }
   }
 }

@@ -1,6 +1,4 @@
-# image: node:17-bullseye
-# image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-core
-image: collaborating.tuhh.de:5005/e-10/hoou/pontifex-hugo #new default image
+image: collaborating.tuhh.de:5005/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo
 
 stages:
   - brand
@@ -13,7 +11,7 @@ stages:
 add-branding:
   stage: brand
   script:
-    - git clone https://${DEPLOY_TOKEN_USERNAME}:${DEPLOY_TOKEN}@${CI_BRAND_REPO}
+    - git clone "https://pontifex-brand:${PROJECT_TOKEN}@${CI_BRAND_REPO}"
     - cp -rvf pontifex-brand/* .
   artifacts:
     paths:
@@ -28,7 +26,6 @@ review-app-build:
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/\";" config/production/config.toml
     - sed -i -e "s;/js/pontifex-graph.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/pontifex-overview.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/pontifex-overview.js;" layouts/shortcodes/header2.html
     - sed -i -e "s;/js/pontifex-tour.js;${REVIEW_BASE_DIR}/${CI_COMMIT_REF_NAME}/js/pontifex-tour.js;" layouts/shortcodes/header1.html
     - bin/build_pontifex.sh
   artifacts:
@@ -42,7 +39,6 @@ review-build:
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/\";" config/production/config.toml
     - sed -i -e "s;/js/pontifex-graph.js;${REVIEW_BASE_DIR}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/pontifex-overview.js;${REVIEW_BASE_DIR}/js/pontifex-overview.js;" layouts/shortcodes/header2.html
     - bin/build_pontifex.sh
   artifacts:
     paths:
@@ -56,7 +52,6 @@ master-build:
   script:
     - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}/\";" config/production/config.toml
     - sed -i -e "s;/js/pontifex-graph.js;${BASE_DIR}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
-    - sed -i -e "s;/js/pontifex-overview.js;${BASE_DIR}/js/pontifex-overview.js;" layouts/shortcodes/header2.html
     - bin/build_pontifex.sh
   artifacts:
     paths:

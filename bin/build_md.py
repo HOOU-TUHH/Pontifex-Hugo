@@ -1,10 +1,9 @@
 """Make Markdown File 
 
 This script allows the user to put everything into a md-file for hugo
+Requires JSON file from prior run of build_json.py 
 
-input:  (0) index = xxx
-        (x) xxx.html
-        (x) xxx.json
+input:  (1) index = xxx
 
 output: xxx.md
 
@@ -13,19 +12,10 @@ usage: python3 make_md.py xxx
 
 import json
 import sys
+import re
 
-# function: input: index = xxx,  output: -
-
-import logging
-
-test = 0
-
-if test == 1:
-    index = "100"
-    path = f"../nodes/{index}/{index}"  # test
-else:
-    index = str(sys.argv[1])
-    path = f"{index}/{index}"
+index = str(sys.argv[1])
+path = f"{index}/{index}"
 
 with open(f"{path}.json", 'r') as input:
     mydata = json.load(input)
@@ -44,19 +34,55 @@ with open('../nodes/graph.json', 'r') as f:
 
 mynode = mydata["nodes"][index]
 
-# read content
+# preprocess youtube
+def get_youtubeid(link):
+    # regex based on https://stackoverflow.com/a/34833500/
+    pattern = r'(?:https?:\/\/)?(?:[0-9A-Z-]+\.)?(?:youtube|youtu|youtube-nocookie)\.(?:com|be)\/(?:watch\?v=|watch\?.+&v=|embed\/|v\/|.+\?v=)?([^&=\n%\?]{11})'
+    youtubeid = re.search(pattern, link, re.IGNORECASE)
+    if youtubeid is None:
+        return ""
+    else:
+        return youtubeid.group(1)
+
+def get_youtubetime(link):
+    youtubetime =  re.search(r'start=[0-9]*', link, re.IGNORECASE)
+    if youtubetime is None:
+        return ""
+    else:
+        return youtubetime.group(0)
+
+# read content from json file
 filename = mynode["notes"]
-videolink = mynode["video"]
 webworklink = mynode["webwork"]
 title = mynode["label"].replace('\n',' ')
 content = mynode["content"]
 podcast = mynode["podcast"]
 timestamp = "2022-04-01T08:48:57+00:00"
 chapter = f"chapter{index[0]}"
-youtubend = videolink[videolink.find("embed")+6:]
+
+## WeBWorK
+if webworklink != "":
+    webworkstring = '## Solve the WeBWorK exercise\n {{< webwork "' + f"{webworklink}" + '">}}'
+else:
+    webworkstring = ""
+
+## youtube and video
+video = mynode["video"]
+youtubelink = mynode["youtube"]
+youtubeid = get_youtubeid(youtubelink)
+youtubetime = get_youtubetime(youtubelink)
+youtubend = youtubeid + "?" + youtubetime
+
+ntabs = 2
+# preprocess video / youtube
+if video != "":
+    ntabs = ntabs + 1
+    video = '{{< tab tabName="Video">}}\n'+  video +  '\n{{< /tab >}}\n'
+elif youtubelink != "":
+    ntabs = ntabs + 1
+    video = '{{< tab tabName="Video">}}\n' + f'Click [here](https://youtu.be/{youtubeid}) or on the thumbnail below to open up the YouTube video in a separate tab!  <a href="https://youtu.be/{youtubeid}?{youtubetime}" target="_blank"> <img src="./{youtubeid}.jpg"></a>' + '\n{{< /tab >}}\n'
 
 # preprocess podcast
-ntabs = 3
 if podcast != "":
     ntabs = ntabs + 1
     podcast = '{{< tab tabName="Podcast">}}\n'+  podcast +  '\n{{< /tab >}}\n'
@@ -67,7 +93,7 @@ with open(f"../nodes/{index}/{filename}", 'rt') as myfile2:
     for myline in myfile2:
         mynotes = mynotes + myline
 
-#preds and succs
+#predecessors and succsessors
 def match_edge(nid):
     """checks if edge has source or target as given id"""
     for edge in edges:
@@ -75,7 +101,6 @@ def match_edge(nid):
             return "s"
         if edge["data"]["target"] == nid:
             return "t"
-
 
 def snippet(a, b, c=0):
     """takes input to put it into table form"""
@@ -90,7 +115,6 @@ def snippet(a, b, c=0):
 </tr>
         """
     return string
-
 
 def read_node(node):
     """gives id, label with link and content of a node"""
@@ -124,21 +148,14 @@ for node in nodes:
         elif match_edge(nid) == "t":
             mystring2 += snippet(a, b)
 
-# Equal index
-for node in nodes:
-    (nid, a, b) = read_node(node)
-    if nid == index:
-        # mystring += snippet(a, b, 1) # Don't add current node
-        pass
-
 preds = mystring
 succs = mystring2
 
 # define fillers
-fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###", "###PODCAST###", "###WEBWORKLINK###", "###NTABS###"]
+fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###","###YTID###", "###PODCAST###", '###VIDEO###', "###WEBWORK###", "###NTABS###"]
 
 # put content into same order
-content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, podcast, webworklink, str(ntabs)]
+content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, youtubeid, podcast, video, webworkstring, str(ntabs)]
 
 
 for ind, myline in enumerate(mylines):
