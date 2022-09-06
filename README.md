@@ -218,10 +218,11 @@ As `pontifex-brand` is private, the repo `pontifex-hugo` needs to have an *acces
 
 ## Development environment using Docker
 
-Download or clone `pontifex-hugo` first:
+Download or clone `pontifex-hugo` first
 ```bash
 git clone git@collaborating.tuhh.de:hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo.git
 ```
+Follow the instructions on https://docs.docker.com/get-docker/ to install Docker on your machine.
 
 ### Building the Docker image locally and building the HUGO project
 
@@ -257,6 +258,16 @@ You may need to
 docker login collaborating.tuhh.de:5005
 ```
 and authenticate first. Note that, the first time you `docker run` the above command, it may take longer as the image needs to be downloaded first.
+
+### Starting a webserver
+
+If your build process was successful, you find all files to be hosted in the folder `public`.
+Within your `pontifex-hugo` folder, you may start up a webserver via
+```
+docker run -it --rm --name apache-server -p 8080:80 -v `pwd`/public:/usr/local/apache2/htdocs/ httpd:2.4-alpine
+```
+and open up http://localhost:8080/ in order to view the Pontifex webpage on your machine.
+
 
 # Contributors
 
