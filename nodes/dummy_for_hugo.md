@@ -85,6 +85,5 @@ toc: true
 
 {{< /tabs >}}
 
-## Solve the WeBWorK Exercise
 
-{{< webwork "###WEBWORKLINK###">}}
+###WEBWORK###
