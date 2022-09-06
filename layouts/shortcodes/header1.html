@@ -8,31 +8,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
 <!--BSTOUR-->
 
-<!--See https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/mathjax/ -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({ "HTML-CSS": { width:"container", scale:100,linebreaks: { automatic: true } }, SVG: { linebreaks: { automatic: true } }});
-  MathJax.Hub.Queue(function () {
-    $(".collapse").removeClass("in");
-    });
-</script>
-<script>
-  (function () {
-    var head = document.getElementsByTagName("head")[0],
-      script;
-    script = document.createElement("script");
-    script.type = "text/x-mathjax-config";
-    script[window.opera ? "innerHTML" : "text"] =
-      "MathJax.Hub.Config({\n" +
-      " tex2jax: { inlineMath: [['$','$'], ['\\\\(','\\\\)']] }\n" +
-      "});";
-    head.appendChild(script);
-    script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1//MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    head.appendChild(script);
-  })();
-</script>
+{{ partial "header/mathjax_support.html" . }}
 
 <style>
   #cy {
