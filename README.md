@@ -1,6 +1,6 @@
- [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/nodes.svg?job=dynamic_badge)]()
- [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/edges.svg?job=dynamic_badge)]()
- [![](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/-/jobs/artifacts/dev/raw/podcasts.svg?job=dynamic_badge)]()
+ [![](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex-hugo/-/jobs/artifacts/dev/raw/nodes.svg?job=dynamic_badge)]()
+ [![](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex-hugo/-/jobs/artifacts/dev/raw/edges.svg?job=dynamic_badge)]()
+ [![](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex-hugo/-/jobs/artifacts/dev/raw/podcasts.svg?job=dynamic_badge)]()
 
 # Pontifex
 
@@ -221,14 +221,14 @@ As `pontifex-brand` is private, the repo `pontifex-hugo` needs to have an *acces
 Download or clone `pontifex-hugo` first:
 
 ```bash
-git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-hugo.git
+git clone git@collaborating.tuhh.de:hoou-an-der-tuhh-projekte/pontifex-hugo.git
 ```
 
 # Building the Docker image locally and building the HUGO project
 
 Download or clone `pontifex-hugo`
 ```bash
-git clone git@collaborating.tuhh.de:e-10/hoou/pontifex-hugo.git
+git clone git@collaborating.tuhh.de:hoou-an-der-tuhh-projekte/pontifex-hugo.git
 ```
 
 Within `pontifex-hugo` run 
@@ -246,12 +246,12 @@ This process should also be carried out every time, an update of `pontifex-hugo/
 
 # Building the HUGO project with an external Docker image
 
-Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo), run
+Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex-hugo), run
 ```bash
-docker run -it --rm -v `pwd`:/app -w /app collaborating.tuhh.de:5005/e-10/hoou/pontifex-hugo ./bin/build_pontifex.sh
+docker run -it --rm -v `pwd`:/app -w /app collaborating.tuhh.de:5005/hoou-an-der-tuhh-projekte/pontifex-hugo ./bin/build_pontifex.sh
 ```
 
-This will use the root image from the [Container Registry](https://collaborating.tuhh.de/e-10/hoou/pontifex-hugo/container_registry/).
+This will use the root image from the [Container Registry](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex-hugo/container_registry/).
 
 You may need to
 ```
