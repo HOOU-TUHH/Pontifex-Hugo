@@ -46,7 +46,6 @@ def get_youtubeid(link):
 
 def get_youtubetime(link):
     youtubetime =  re.search(r'start=[0-9]*', link, re.IGNORECASE)
-    print(youtubetime)
     if youtubetime is None:
         return ""
     else:
@@ -54,17 +53,18 @@ def get_youtubetime(link):
 
 # read content from json file
 filename = mynode["notes"]
-videolink = mynode["video"]
 webworklink = mynode["webwork"]
 title = mynode["label"].replace('\n',' ')
 content = mynode["content"]
 podcast = mynode["podcast"]
 timestamp = "2022-04-01T08:48:57+00:00"
 chapter = f"chapter{index[0]}"
-youtubeid = get_youtubeid(videolink)
-youtubetime = get_youtubetime(videolink)
-youtubend = youtubeid + "?" + youtubetime
 
+## youtube
+youtubelink = mynode["youtube"]
+youtubeid = get_youtubeid(youtubelink)
+youtubetime = get_youtubetime(youtubelink)
+youtubend = youtubeid + "?" + youtubetime
 
 # preprocess podcast
 ntabs = 3
@@ -86,7 +86,6 @@ def match_edge(nid):
             return "s"
         if edge["data"]["target"] == nid:
             return "t"
-
 
 def snippet(a, b, c=0):
     """takes input to put it into table form"""
