@@ -169,8 +169,8 @@ Details on the WeBWorK course creation can be found [here](https://michaelgage.b
 
 In order to build the HUGO project, the Bash-script `/bin/build_pontifex.sh` needs to be executed. 
 The build process consists of 3 parts: 
-1) Preprocessing using the Python scripts and [`pandoc`](https://pandoc.org/)
-2) Copying the files to their location to be picked up by HUGO
+1) Preprocessing using the Python scripts and [`pandoc`](https://pandoc.org/).
+2) Copying the files to their location to be picked up by HUGO.
 3) Running HUGO to create the static webpage. The resulting files are then located in the folder `public`.
 
 ## Cytoscape.js
