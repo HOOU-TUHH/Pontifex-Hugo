@@ -13,9 +13,9 @@ It also provides all teaching and learning material used in the instance running
 
 # Getting Started
 
-> If you want to kickstart your own project with Pontifex and HUGO
+> If you want to kick-start your own project with Pontifex and HUGO
 
-## Kickstart your own application on GitHub
+## Kick-start your own application on GitHub
 
 * **Import project**: visit https://github.com/new/import and paste the URL `https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo.git`
 * **Enable GitHub Actions**: visit the [repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository) to manage the repository actions and check the boxes next to 
@@ -140,7 +140,7 @@ En empty entry looks like
 ```
 
 If "podcast" is nonempty, the full `HTML`-content will by copied to the corresponding section in the template.
-The original version of pontifex uses either `<iframe>` code provided by the podcast hosters, e.g. [AnchorFM](https://anchor.fm/), 
+The original version of Pontifex uses either `<iframe>` code provided by the podcast hosters, e.g. [AnchorFM](https://anchor.fm/), 
 ```html
       "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
 ```
@@ -315,7 +315,7 @@ darkMode = true
 
 The protected branches `master` and `dev` are [push mirrored](https://docs.gitlab.com/ee/user/project/repository/mirror/push.html) to the GitHub repository: https://github.com/HOOU-TUHH/Pontifex-Hugo.
 
-To this end this repo uses password authentication with a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub using the *repo* and *workflow* scope.
+To this end, this repo uses password authentication with a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub using the *repo* and *workflow* scope.
 
 
 # Contributors
