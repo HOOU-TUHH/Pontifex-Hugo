@@ -9,7 +9,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/DU4wKBDm2Z4?start=9"
+      "youtube": "https://youtu.be/DU4wKBDm2Z4?start=9",
+      "spotify": ""
     },
     "001": {
       "id": "001",
@@ -19,8 +20,9 @@
       "notes": "001-snippet.html",
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "<div class=\"media-container\"><img class=\"image\" src=\"./wdaw.jpg\"><div class=\"middle\"><a class=\"button\" href=\"https://anchor.fm/profmoppi/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\">Open podcast on Anchor.FM</a></div></div><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/iA-Dtf7529M?start=14"
+      "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/iA-Dtf7529M?start=14",
+      "spotify": "https://open.spotify.com/embed/episode/4dhxy6YLYN7ItlWa0QgsG1"
     },
     "002": {
       "id": "002",
@@ -30,8 +32,9 @@
       "notes": "002-snippet.html",
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Compound_Inequalities/P_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Field-Axioms-e19fud5/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Field-Axioms-e19fud5/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a> <p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/E2MAvASTcg4?start=19"
+      "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/E2MAvASTcg4?start=19",
+      "spotify": "https://open.spotify.com/embed/episode/1i62R3ZdwhjASp1TNJ2Bcy"
     },
     "003": {
       "id": "003",
@@ -42,7 +45,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Functions_Evaluating/Quad_No_Constant.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/JoLDwNh1lZ8?start=260"
+      "youtube": "https://youtu.be/JoLDwNh1lZ8?start=260",
+      "spotify": ""
     },
     "004": {
       "id": "004",
@@ -52,8 +56,9 @@
       "notes": "004-snippet.html",
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/MC/Proofs/EssayProofs/InductionDivisibility01.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/The-Natural-Numbers--Mathematical-Induction-e186r6n/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/The-Natural-Numbers--Mathematical-Induction-e186r6n/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/WMgiYh7tac0?start=13"
+      "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/WMgiYh7tac0?start=13",
+      "spotify": "https://open.spotify.com/embed/episode/30dINCx7oSXMkCcSIOIBrv"
     },
     "005": {
       "id": "005",
@@ -64,7 +69,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/twBYYTJdcjc?start=14"
+      "youtube": "https://youtu.be/twBYYTJdcjc?start=14",
+      "spotify": ""
     },
     "006": {
       "id": "006",
@@ -75,7 +81,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMass-Amherst/Abstract-Algebra/PS-Functions/Functions2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/CSzJchEvfpE?start=9"
+      "youtube": "https://youtu.be/CSzJchEvfpE?start=9",
+      "spotify": ""
     },
     "007": {
       "id": "007",
@@ -86,7 +93,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/algebraKaufmannSchwitters/ks_8_6_18.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/NiJ1yWKM9CU?start=13"
+      "youtube": "https://youtu.be/NiJ1yWKM9CU?start=13",
+      "spotify": ""
     },
     "008": {
       "id": "008",
@@ -97,7 +105,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setDiscrete/katie5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/AjdIPOXRgoQ?start=10"
+      "youtube": "https://youtu.be/AjdIPOXRgoQ?start=10",
+      "spotify": ""
     },
     "009": {
       "id": "009",
@@ -108,7 +117,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Predicates/predicateB8.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/yIdECC6QExY?start=11"
+      "youtube": "https://youtu.be/yIdECC6QExY?start=11",
+      "spotify": ""
     },
     "010": {
       "id": "010",
@@ -119,7 +129,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/logicAndSetTheory/prob03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/ZdZm6qBCFuo?start=11"
+      "youtube": "https://youtu.be/ZdZm6qBCFuo?start=11",
+      "spotify": ""
     },
     "011": {
       "id": "011",
@@ -130,7 +141,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setIntSigmaNotation/an6_4_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/S5DdXfxl3ac?start=3"
+      "youtube": "https://youtu.be/S5DdXfxl3ac?start=3",
+      "spotify": ""
     },
     "012": {
       "id": "012",
@@ -140,8 +152,9 @@
       "notes": "012-snippet.html",
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-1----Countability-with-Fabian-Gabel-e1ie2hr/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/WMgiYh7tac0?start=13"
+      "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/WMgiYh7tac0?start=13",
+      "spotify": "https://open.spotify.com/embed/episode/6JdbJSYkihEiLJQijcPkYO"
     },
     "013": {
       "id": "013",
@@ -152,7 +165,8 @@
       "video": "",
       "webwork": "",
       "podcast": "",
-      "youtube": ""
+      "youtube": "",
+      "spotify": ""
     },
     "100": {
       "id": "100",
@@ -163,7 +177,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/1SguKALJji8?start=17"
+      "youtube": "https://youtu.be/1SguKALJji8?start=17",
+      "spotify": ""
     },
     "101": {
       "id": "101",
@@ -174,7 +189,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/1SguKALJji8?start=367"
+      "youtube": "https://youtu.be/1SguKALJji8?start=367",
+      "spotify": ""
     },
     "102": {
       "id": "102",
@@ -185,7 +201,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221"
+      "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221",
+      "spotify": ""
     },
     "103": {
       "id": "103",
@@ -196,7 +213,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Dartmouth/setStewartCh12S1/problem_7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/237VMLNVtQs?start=18"
+      "youtube": "https://youtu.be/237VMLNVtQs?start=18",
+      "spotify": ""
     },
     "104": {
       "id": "104",
@@ -207,7 +225,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/Y6rRSip3QN4?start=14"
+      "youtube": "https://youtu.be/Y6rRSip3QN4?start=14",
+      "spotify": ""
     },
     "105": {
       "id": "105",
@@ -218,7 +237,8 @@
       "video": "",
       "webwork": "",
       "podcast": "",
-      "youtube": "https://youtu.be/8Cyvdv7Sm2s?start=16"
+      "youtube": "https://youtu.be/8Cyvdv7Sm2s?start=16",
+      "spotify": ""
     },
     "106": {
       "id": "106",
@@ -228,8 +248,9 @@
       "notes": "106-snippet.html",
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14"
+      "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+      "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo"
     },
     "107": {
       "id": "107",
@@ -240,7 +261,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/real_analysis/ratest09.html",
       "podcast": "",
-      "youtube": "https://youtu.be/xZ5vjdZzTUI?start=14"
+      "youtube": "https://youtu.be/xZ5vjdZzTUI?start=14",
+      "spotify": ""
     },
     "108": {
       "id": "108",
@@ -250,8 +272,9 @@
       "notes": "108-snippet.html",
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest10/quiz.html",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/e2QaNklYZGg?start=10"
+      "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/e2QaNklYZGg?start=10",
+      "spotify": "https://open.spotify.com/embed/episode/4MKVAhO2q57xmMn1P7ONKg"
     },
     "109": {
       "id": "109",
@@ -262,7 +285,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest11/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/-y0v2V0-_8E?start=21"
+      "youtube": "https://youtu.be/-y0v2V0-_8E?start=21",
+      "spotify": ""
     },
     "110": {
       "id": "110",
@@ -273,7 +297,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest13/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/Wqo4Svs4erw?start=12"
+      "youtube": "https://youtu.be/Wqo4Svs4erw?start=12",
+      "spotify": ""
     },
     "111": {
       "id": "111",
@@ -284,7 +309,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest14/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/vjOefDHOVIg?start=10"
+      "youtube": "https://youtu.be/vjOefDHOVIg?start=10",
+      "spotify": ""
     },
     "112": {
       "id": "112",
@@ -295,7 +321,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/RYtE09eHeqI?start=95"
+      "youtube": "https://youtu.be/RYtE09eHeqI?start=95",
+      "spotify": ""
     },
     "113": {
       "id": "113",
@@ -305,8 +332,9 @@
       "notes": "113-snippet.html",
       "video": "",
       "webwork": "",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-2----Uncountability-with-Fabian-Gabel-e1ie2qs/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Uncountability-of-IR-Part-2----Uncountability-with-Fabian-Gabel-e1ie2qs/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/jCiIsigwaBE"
+      "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/jCiIsigwaBE",
+      "spotify": "https://open.spotify.com/embed/episode/7ElhBgZebKwOXqMsWMGgGJ"
     },
     "114": {
       "id": "114",
@@ -317,7 +345,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=450"
+      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=450",
+      "spotify": ""
     },
     "115": {
       "id": "115",
@@ -327,8 +356,9 @@
       "notes": "115-snippet.html",
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest07/quiz.html",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14"
+      "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+      "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo"
     },
     "200": {
       "id": "200",
@@ -338,8 +368,9 @@
       "notes": "200-snippet.html",
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Series-e1chf65/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Series-e1chf65/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/BgfP3riDcrc?start=13"
+      "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/BgfP3riDcrc?start=13",
+      "spotify": "https://open.spotify.com/embed/episode/4rf4zO7V8UJErJxgzmZFgh"
     },
     "201": {
       "id": "201",
@@ -350,7 +381,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setSequenceandSeries/jj14.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/Y4yRcz-b17A?start=12"
+      "youtube": "https://youtu.be/Y4yRcz-b17A?start=12",
+      "spotify": ""
     },
     "203": {
       "id": "203",
@@ -361,7 +393,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSeries4Geometric/ns8_2_23.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/lr12HwXQ3uw?start=20"
+      "youtube": "https://youtu.be/lr12HwXQ3uw?start=20",
+      "spotify": ""
     },
     "204": {
       "id": "204",
@@ -372,7 +405,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/AlfredUniv/anton8e/chapter10/10.4/prob1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/lr12HwXQ3uw?start=130"
+      "youtube": "https://youtu.be/lr12HwXQ3uw?start=130",
+      "spotify": ""
     },
     "205": {
       "id": "205",
@@ -383,7 +417,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_5_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/MjjMwQ6zFko?start=10"
+      "youtube": "https://youtu.be/MjjMwQ6zFko?start=10",
+      "spotify": ""
     },
     "206": {
       "id": "206",
@@ -394,7 +429,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_6_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/mI40-tAtP58?start=21"
+      "youtube": "https://youtu.be/mI40-tAtP58?start=21",
+      "spotify": ""
     },
     "207": {
       "id": "207",
@@ -405,7 +441,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section04/SCalcET7-11-4-002a.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/mI40-tAtP58?start=160"
+      "youtube": "https://youtu.be/mI40-tAtP58?start=160",
+      "spotify": ""
     },
     "208": {
       "id": "208",
@@ -416,7 +453,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/9-4-Ratio-test/ratio-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/yLbgdL9HAeg?start=10"
+      "youtube": "https://youtu.be/yLbgdL9HAeg?start=10",
+      "spotify": ""
     },
     "209": {
       "id": "209",
@@ -427,7 +465,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.5_The_Ratio_and_Root_Tests/10.5.37.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/yLbgdL9HAeg?start=420"
+      "youtube": "https://youtu.be/yLbgdL9HAeg?start=420",
+      "spotify": ""
     },
     "210": {
       "id": "210",
@@ -437,8 +476,9 @@
       "notes": "210-snippet.html",
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest21/quiz.html",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/GADre0hHc4c?start=9"
+      "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/GADre0hHc4c?start=9",
+      "spotify": "https://open.spotify.com/embed/episode/6durWHlw2SthLanub3S8Ts"
     },
     "211": {
       "id": "211",
@@ -449,7 +489,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest22/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/tRa0Ex_0Yfo?start=10"
+      "youtube": "https://youtu.be/tRa0Ex_0Yfo?start=10",
+      "spotify": ""
     },
     "300": {
       "id": "300",
@@ -460,7 +501,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest23/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/RM2hytsyMpc?start=20"
+      "youtube": "https://youtu.be/RM2hytsyMpc?start=20",
+      "spotify": ""
     },
     "301": {
       "id": "301",
@@ -471,7 +513,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest24/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/Kq_KZpljeXo?start=10"
+      "youtube": "https://youtu.be/Kq_KZpljeXo?start=10",
+      "spotify": ""
     },
     "302": {
       "id": "302",
@@ -482,7 +525,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest25/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/O2HKxNcom7g?start=10"
+      "youtube": "https://youtu.be/O2HKxNcom7g?start=10",
+      "spotify": ""
     },
     "303": {
       "id": "303",
@@ -493,7 +537,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setRateChange/3-2-72.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/QoLlvvro6rE?start=15"
+      "youtube": "https://youtu.be/QoLlvvro6rE?start=15",
+      "spotify": ""
     },
     "304": {
       "id": "304",
@@ -504,7 +549,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/8VTG6EsyJh4?start=8"
+      "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+      "spotify": ""
     },
     "305": {
       "id": "305",
@@ -514,8 +560,9 @@
       "notes": "305-snippet.html",
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Continuity-Part-1-with-Fabian-Gabel-e1kvb1u\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/4xhyqdjmxHU?start=11"
+      "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/4xhyqdjmxHU?start=11",
+      "spotify": "https://open.spotify.com/embed/episode/5s5SRllj1inf4Noowpf1n0"
     },
     "306": {
       "id": "306",
@@ -526,7 +573,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest29/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/W-E4LqZyEHA?start=10"
+      "youtube": "https://youtu.be/W-E4LqZyEHA?start=10",
+      "spotify": ""
     },
     "307": {
       "id": "307",
@@ -537,7 +585,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest30/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/6VWTG4wlRoA?start=11"
+      "youtube": "https://youtu.be/6VWTG4wlRoA?start=11",
+      "spotify": ""
     },
     "308": {
       "id": "308",
@@ -548,7 +597,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest31/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/llJruZnO-t4?start=11"
+      "youtube": "https://youtu.be/llJruZnO-t4?start=11",
+      "spotify": ""
     },
     "309": {
       "id": "309",
@@ -559,7 +609,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/1.5/APEX_1.5_34.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "<audio controls src=\"/e-10/pontifex/podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
-      "youtube": "https://youtu.be/BNLu4_3Okuk?start=9"
+      "youtube": "https://youtu.be/BNLu4_3Okuk?start=9",
+      "spotify": ""
     },
     "400": {
       "id": "400",
@@ -569,8 +620,9 @@
       "notes": "400-snippet.html",
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
-      "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Exponential-Series-with-Fabian-Gabel-e1iq43j\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
-      "youtube": "https://youtu.be/onmh9nzkfDA?start=25"
+      "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+      "youtube": "https://youtu.be/onmh9nzkfDA?start=25",
+      "spotify": "https://open.spotify.com/embed/episode/3oQqWT2qg2dP0mBnDopNR7"
     },
     "401": {
       "id": "401",
@@ -581,7 +633,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setLogarithmicFunctions/srw4_3_43.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/onmh9nzkfDA?start=213"
+      "youtube": "https://youtu.be/onmh9nzkfDA?start=213",
+      "spotify": ""
     },
     "402": {
       "id": "402",
@@ -592,7 +645,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_03_Polynomial.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/onmh9nzkfDA?start=297"
+      "youtube": "https://youtu.be/onmh9nzkfDA?start=297",
+      "spotify": ""
     },
     "403": {
       "id": "403",
@@ -603,7 +657,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Indiana/Indiana_setSeries8Power/eva8_5a_2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/onmh9nzkfDA?start=332"
+      "youtube": "https://youtu.be/onmh9nzkfDA?start=332",
+      "spotify": ""
     },
     "500": {
       "id": "500",
@@ -614,7 +669,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.51.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/TLdBLqPTsYc?start=10"
+      "youtube": "https://youtu.be/TLdBLqPTsYc?start=10",
+      "spotify": ""
     },
     "501": {
       "id": "501",
@@ -625,7 +681,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setDervProductQuotientRule/s2_2_13.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/wp-s9c1IKhI?start=10"
+      "youtube": "https://youtu.be/wp-s9c1IKhI?start=10",
+      "spotify": ""
     },
     "502": {
       "id": "502",
@@ -636,7 +693,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setChainRuleExpLogFunctions/5-3-65.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/g57hlenwvis?start=10"
+      "youtube": "https://youtu.be/g57hlenwvis?start=10",
+      "spotify": ""
     },
     "503": {
       "id": "503",
@@ -647,7 +705,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest37/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10"
+      "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10",
+      "spotify": ""
     },
     "504": {
       "id": "504",
@@ -658,7 +717,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma122DB/set4b/s3_4_10.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/93i7uKScVvc?start=10"
+      "youtube": "https://youtu.be/93i7uKScVvc?start=10",
+      "spotify": ""
     },
     "505": {
       "id": "505",
@@ -669,7 +729,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.8_Derivatives_of_Inverse_Functions/3.8.7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/h0nBAMhdSMk?start=10"
+      "youtube": "https://youtu.be/h0nBAMhdSMk?start=10",
+      "spotify": ""
     },
     "506": {
       "id": "506",
@@ -680,7 +741,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest40/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/5Scawd2WLLA?start=10"
+      "youtube": "https://youtu.be/5Scawd2WLLA?start=10",
+      "spotify": ""
     },
     "507": {
       "id": "507",
@@ -691,7 +753,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "<audio controls src=\"/e-10/pontifex/podcast/mvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
-      "youtube": "https://youtu.be/FQo9OYku5aY?start=10"
+      "youtube": "https://youtu.be/FQo9OYku5aY?start=10",
+      "spotify": ""
     },
     "508": {
       "id": "508",
@@ -702,7 +765,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.5_LHopitals_Rule/4.5.40.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/KbS_cRToPFA?start=10"
+      "youtube": "https://youtu.be/KbS_cRToPFA?start=10",
+      "spotify": ""
     },
     "509": {
       "id": "509",
@@ -713,7 +777,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.7/APEX_6.7_27.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/KuF0JRsWhBk?start=10"
+      "youtube": "https://youtu.be/KuF0JRsWhBk?start=10",
+      "spotify": ""
     },
     "510": {
       "id": "510",
@@ -724,7 +789,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=brary/Valdosta/APEX_Calculus/3.4/APEX_3.4_13.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/vyZ5ESoqsxw?start=11"
+      "youtube": "https://youtu.be/vyZ5ESoqsxw?start=11",
+      "spotify": ""
     },
     "511": {
       "id": "511",
@@ -735,7 +801,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest45/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/Pb390hRaLrw?start=10"
+      "youtube": "https://youtu.be/Pb390hRaLrw?start=10",
+      "spotify": ""
     },
     "512": {
       "id": "512",
@@ -746,7 +813,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/10-2-Taylor-series/Taylor-series-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/zRoyHrMNOO8?start=10"
+      "youtube": "https://youtu.be/zRoyHrMNOO8?start=10",
+      "spotify": ""
     },
     "513": {
       "id": "513",
@@ -757,7 +825,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest47/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/oZZrwKsqVro?start=10"
+      "youtube": "https://youtu.be/oZZrwKsqVro?start=10",
+      "spotify": ""
     },
     "600": {
       "id": "600",
@@ -768,7 +837,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest48/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/joXBmJ1KInU?start=10"
+      "youtube": "https://youtu.be/joXBmJ1KInU?start=10",
+      "spotify": ""
     },
     "601": {
       "id": "601",
@@ -779,7 +849,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest49/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/VdXLenrjIao?start=10"
+      "youtube": "https://youtu.be/VdXLenrjIao?start=10",
+      "spotify": ""
     },
     "602": {
       "id": "602",
@@ -790,7 +861,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest50/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/6Pb97_7huwI?start=34"
+      "youtube": "https://youtu.be/6Pb97_7huwI?start=34",
+      "spotify": ""
     },
     "603": {
       "id": "603",
@@ -801,7 +873,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest51/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/t8Hh73HxP1o?start=12"
+      "youtube": "https://youtu.be/t8Hh73HxP1o?start=12",
+      "spotify": ""
     },
     "604": {
       "id": "604",
@@ -812,7 +885,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest52/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/J9qXHzxeDN4?start=10"
+      "youtube": "https://youtu.be/J9qXHzxeDN4?start=10",
+      "spotify": ""
     },
     "605": {
       "id": "605",
@@ -823,7 +897,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest53/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/h4XohuM2iK4?start=10"
+      "youtube": "https://youtu.be/h4XohuM2iK4?start=10",
+      "spotify": ""
     },
     "606": {
       "id": "606",
@@ -834,7 +909,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap6Sec2/Q21.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/AKhlP6IHDLk?start=13"
+      "youtube": "https://youtu.be/AKhlP6IHDLk?start=13",
+      "spotify": ""
     },
     "607": {
       "id": "607",
@@ -845,7 +921,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals4FTC/osu_in_4_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/SJC4DGuyg4c?start=12"
+      "youtube": "https://youtu.be/SJC4DGuyg4c?start=12",
+      "spotify": ""
     },
     "608": {
       "id": "608",
@@ -856,7 +933,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest56/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/E4zieCbfdcs?start=12"
+      "youtube": "https://youtu.be/E4zieCbfdcs?start=12",
+      "spotify": ""
     },
     "609": {
       "id": "609",
@@ -867,7 +945,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12"
+      "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+      "spotify": ""
     },
     "610": {
       "id": "610",
@@ -878,7 +957,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals15ByParts/sc5_6_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12"
+      "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+      "spotify": ""
     },
     "611": {
       "id": "611",
@@ -889,7 +969,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartET/s_7_4_prob04.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/dLYIijHqH9U?start=10"
+      "youtube": "https://youtu.be/dLYIijHqH9U?start=10",
+      "spotify": ""
     },
     "612": {
       "id": "612",
@@ -900,7 +981,8 @@
       "video": "",
       "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap7Sec8/Q32.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
       "podcast": "",
-      "youtube": "https://youtu.be/Q7qdknAF-ME?start=15"
+      "youtube": "https://youtu.be/Q7qdknAF-ME?start=15",
+      "spotify": ""
     },
     "613": {
       "id": "613",
@@ -911,7 +993,8 @@
       "video": "",
       "webwork": "https://bright.jp-g.de/bsom/ra/ratest61/quiz.html",
       "podcast": "",
-      "youtube": "https://youtu.be/yEp9BTDgOjk?start=13"
+      "youtube": "https://youtu.be/yEp9BTDgOjk?start=13",
+      "spotify": ""
     }
   },
   "edges": {
