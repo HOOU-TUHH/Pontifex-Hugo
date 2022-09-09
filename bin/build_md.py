@@ -44,6 +44,14 @@ def get_youtubeid(link):
     else:
         return youtubeid.group(1)
 
+def get_spotifyid(link):
+    pattern = r'(?<=episode\/)[0-9a-zA-z]{22}'
+    spotifyid = re.search(pattern, link, re.IGNORECASE)
+    if spotifyid is None:
+        return ""
+    else:
+        return spotifyid.group(0)
+
 def get_youtubetime(link):
     youtubetime =  re.search(r'start=[0-9]*', link, re.IGNORECASE)
     if youtubetime is None:
@@ -57,6 +65,7 @@ webworklink = mynode["webwork"]
 title = mynode["label"].replace('\n',' ')
 content = mynode["content"]
 podcast = mynode["podcast"]
+spotify = mynode["spotify"]
 timestamp = "2022-04-01T08:48:57+00:00"
 chapter = f"chapter{index[0]}"
 
@@ -83,9 +92,12 @@ elif youtubelink != "":
     video = '{{< tab tabName="Video">}}\n' + f'<div class="media-container"><img class="image" src="./{youtubeid}.jpg"><div class="middle"><a class="button" href="https://youtu.be/{youtubeid}?{youtubetime}" target="_blank">Open video on YouTube</a></div></div>' + '\n{{< /tab >}}\n'
 
 # preprocess podcast
-if podcast != "":
+if podcast != "" or spotify != "":
     ntabs = ntabs + 1
-    podcast = '{{< tab tabName="Podcast">}}\n'+  podcast +  '\n{{< /tab >}}\n'
+    if spotify != "":
+        spotifyid = get_spotifyid(spotify)
+        spotify = f'<div class="media-container"><img class="image" src="./{spotifyid}.jpg"><div class="middle"><a class="button" href="{spotify}" target="_blank">Open podcast on Spotify</a></div></div>'
+    podcast = '{{< tab tabName="Podcast">}}\n'+  spotify + podcast +  '\n{{< /tab >}}\n'
 
 # read notes with spaces in front of each line
 mynotes = ""
