@@ -13,9 +13,9 @@ It also provides all teaching and learning material used in the instance running
 
 # Getting Started
 
-> If you want to kickstart your own project with Pontifex and HUGO
+> If you want to kick-start your own project with Pontifex and HUGO
 
-## Kickstart your own application on GitHub
+## Kick-start your own application on GitHub
 
 * **Import project**: visit https://github.com/new/import and paste the URL `https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo.git`
 * **Enable GitHub Actions**: visit the [repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository) to manage the repository actions and check the boxes next to 
@@ -140,7 +140,7 @@ En empty entry looks like
 ```
 
 If "podcast" is nonempty, the full `HTML`-content will by copied to the corresponding section in the template.
-The original version of pontifex uses either `<iframe>` code provided by the podcast hosters, e.g. [AnchorFM](https://anchor.fm/), 
+The original version of Pontifex uses either `<iframe>` code provided by the podcast hosters, e.g. [AnchorFM](https://anchor.fm/), 
 ```html
       "podcast": "<iframe src=\"https://anchor.fm/profmoppi/embed/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" height=\"102px\" width=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\">marcus-waurick.de</a>.</p>"
 ```
@@ -262,6 +262,7 @@ Download or clone `pontifex-hugo` first
 git clone git@collaborating.tuhh.de:hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo.git
 ```
 Follow the instructions on https://docs.docker.com/get-docker/ to install Docker on your machine.
+Note that the process below for building the Pontifex project needs to be repeated each time you modify the source files of your webpage.
 
 ### Building the Docker image locally and building the HUGO project
 
@@ -269,14 +270,13 @@ Within a git-clone of [`pontifex-hugo`](https://collaborating.tuhh.de/hoou-an-de
 ```bash
 docker build . -t pontifex-hugo
 ```
+This process should also be carried out every time, an update of `pontifex-hugo/Dockerfile` is carried out.
 
 Now, run 
 ```bash
 docker run -it --rm -v `pwd`:/app -w /app pontifex-hugo ./bin/build_pontifex.sh
 ```
 to build the project.
-
-This process should also be carried out every time, an update of `pontifex-hugo/Dockerfile` is carried out.
 
 ### Building the HUGO project with an external Docker image
 
@@ -301,6 +301,21 @@ Within your `pontifex-hugo` folder, you may start up a web server via
 docker run -it --rm --name apache-server -p 8080:80 -v `pwd`/public:/usr/local/apache2/htdocs/ httpd:2.4-alpine
 ```
 and open up http://localhost:8080/ in order to view the Pontifex webpage on your machine.
+
+## Further configuration
+
+### Darkmode
+
+HUGO-Doks comes with a darkmode capability that has been disabled in order to prevent the usage of local storage on the client side. In order to activate the darkmode adapt the file `config/_default/params.toml` to read
+```toml
+darkMode = true
+```
+
+### Push Mirroring to GitHub
+
+The protected branches `master` and `dev` are [push mirrored](https://docs.gitlab.com/ee/user/project/repository/mirror/push.html) to the GitHub repository: https://github.com/HOOU-TUHH/Pontifex-Hugo.
+
+To this end, this repo uses password authentication with a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub using the *repo* and *workflow* scope.
 
 
 # Contributors
