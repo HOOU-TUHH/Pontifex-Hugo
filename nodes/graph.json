@@ -904,7 +904,7 @@
     },
     "613": {
       "id": "613",
-      "label": "Comparison Test",
+      "label": "Integral Comparison Test",
       "meta": "RA61",
       "content": "Compare improper Riemann integrals to infinite series.",
       "notes": "613-snippet.html",
