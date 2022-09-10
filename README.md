@@ -24,7 +24,7 @@ It also provides all teaching and learning material used in the instance running
 * **Triggering the GitHub Action**: every change in your repository files should trigger the action `github-pages`. Visit your repository environments list to find out about the deployment status of your project.
 * Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/pontifex/` to explore your Pontifex application.
 
-For details on the implementation, checkout the GitHub workflow in the file `.github/workflows/gh-pages.yml`
+For details on the implementation, checkout the GitHub workflow in the file `.github/workflows/gh-pages.yml`. See also the [Doks documentation](https://getdoks.org/docs/how-to/hosting/deployment/).
 
 ## Modifying the content
 
