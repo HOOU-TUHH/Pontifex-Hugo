@@ -35,7 +35,6 @@ jobs:
     - name: Set baseurl
       run: 
         sed -i -e "s;baseurl.*;baseurl = \"/${{ github.event.repository.name }}//\";" config/production/config.toml
-        sed -i -e "s;/js/pontifex-graph.js;${{ github.event.repository.name }}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
 
     - name: Build Pontifex
       run: bin/build_pontifex.sh
