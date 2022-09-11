@@ -1,7 +1,9 @@
-# taken from https://gohugo.io/hosting-and-deployment/hosting-on-github/
-# and https://github.com/h-enk/doks/blob/master/.github/workflows/node.js-ci.yml
+# based on  
+# https://gohugo.io/hosting-and-deployment/hosting-on-github/
+# https://github.com/h-enk/doks/blob/master/.github/workflows/node.js-ci.yml
+# and https://getdoks.org/docs/how-to/hosting/deployment/
 
-name: github pages
+name: GitHub pages
 
 on:
   push:
@@ -30,11 +32,19 @@ jobs:
       with:
         node-version: 18.9
 
-    - name: Install dependencies
-      run: npm install
+    - name: Set baseurl
+      run: 
+        sed -i -e "s;baseurl.*;baseurl = \"/${{ github.event.repository.name }}//\";" config/production/config.toml
+        sed -i -e "s;/js/pontifex-graph.js;${{ github.event.repository.name }}/js/pontifex-graph.js;" layouts/shortcodes/header1.html
 
-    - name: Build production website
-      run: npm run build
+    - name: Build Pontifex
+      run: bin/build_pontifex.sh
+
+#    - name: Install dependencies
+#      run: npm install
+#
+#    - name: Build production website
+#      run: npm run build
           
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
