@@ -1,49 +1,203 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.20.0/cytoscape.min.js"></script>
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-  type="text/javascript"
-></script>
+<!-- 
+    This is the header file used only for the Level 1 overview.
+    It uses a hard coded CytoJS graph that forwards to the corresponding nodes.
+ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.21.2/cytoscape.min.js"></script>
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({ "HTML-CSS": { width:"container", scale:100,linebreaks: { automatic: true } }, SVG: { linebreaks: { automatic: true } }});
-  MathJax.Hub.Queue(function () {
-    $(".collapse").removeClass("in");
-    });
-</script>
-<script>
-  (function () {
-    var head = document.getElementsByTagName("head")[0],
-      script;
-    script = document.createElement("script");
-    script.type = "text/x-mathjax-config";
-    script[window.opera ? "innerHTML" : "text"] =
-      "MathJax.Hub.Config({\n" +
-      " tex2jax: { inlineMath: [['$','$'], ['\\\\(','\\\\)']] }\n" +
-      "});";
-    head.appendChild(script);
-    script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1//MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    head.appendChild(script);
-  })();
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-<script>
-    let current_id = "{{ index .Params 0 }}";
-  </script>
-  <style>
+<style>
     #cy {
       height: 730px;
       display: block;
-      background-color: #fff;
     }
-  </style>
+</style>
 
-   <div id="cy"></div>
+<div id="cy"></div>
 
-<script src="/js/pontifex-overview.js"></script>
+<script>
+
+  let cy = cytoscape({
+    container: document.getElementById("cy"), // container to render in
+
+    style: cytoscape
+      .stylesheet()
+      .selector("edge")
+      .css({
+        width: 8,
+        "line-color": "#abe8ef",
+        "target-arrow-color": "#abe8ef",
+        "target-arrow-shape": "triangle",
+        label: "", //'data(label)',
+        "font-size": "14px",
+        "curve-style": "bezier",
+        color: "white",
+      })
+      .selector("node")
+      .css({
+        width: "data(size)",
+        height: "data(size)",
+        "text-wrap": "wrap",
+        content: "data(label)",
+        "text-valign": "center",
+        color: "white",
+        "text-outline-width": 2,
+        "text-outline-color": "#1d2d35",
+      })
+      .selector(":selected")
+      .css({
+        "background-color": "black",
+        "line-color": "black",
+        "target-arrow-color": "black",
+        "source-arrow-color": "black",
+        "text-outline-color": "black",
+      }),
+
+    layout: {
+      name: "grid",
+      rows: 1,
+    },
+  });
+
+  cy.add(
+    [
+      {
+        "data": {
+          "id": "000",
+          "label": "Logic and Sets",
+          "size": 105
+        },
+        "group": "nodes",
+        "position": {
+          "x": 150,
+          "y": 60
+        }
+      },
+      {
+        "data": {
+          "id": "100",
+          "label": "Sequences",
+          "size": 105
+        },
+        "group": "nodes",
+        "position": {
+          "x": 250,
+          "y": 160
+        }
+      },
+      {
+        "data": {
+          "id": "200",
+          "label": "Series",
+          "size": 105
+        },
+        "group": "nodes",
+        "position": {
+          "x": 150,
+          "y": 260
+        }
+      },
+      {
+        "data": {
+          "id": "300",
+          "label": "Continuous Functions",
+          "size": 105
+        },
+        "group": "nodes",
+        "position": {
+          "x": 250,
+          "y": 360
+        }
+      },
+      {
+        "data": {
+          "id": "400",
+          "label": "Elementary Functions",
+          "size": 105
+        },
+        "group": "nodes",
+        "position": {
+          "x": 150,
+          "y": 460
+        }
+      },
+      {
+        "data": {
+          "id": "500",
+          "label": "Differentiation",
+          "size": 105
+        },
+        "group": "nodes",
+        "position": {
+          "x": 250,
+          "y": 560
+        }
+      },
+      {
+        "data": {
+          "id": "600",
+          "label": "Integration",
+          "size": 105
+        },
+        "group": "nodes",
+        "position": {
+          "x": 150,
+          "y": 660
+        }
+      },
+      {
+        "data": {
+          "source": "000",
+          "target": "100",
+        },
+        "group": "edges"
+      },
+      {
+        "data": {
+          "source": "100",
+          "target": "200",
+        },
+        "group": "edges"
+      },
+      {
+        "data": {
+          "source": "200",
+          "target": "300",
+        },
+        "group": "edges"
+      },
+      {
+        "data": {
+          "source": "300",
+          "target": "400",
+        },
+        "group": "edges"
+      },
+      {
+        "data": {
+          "source": "400",
+          "target": "500",
+        },
+        "group": "edges"
+      },
+      {
+        "data": {
+          "source": "500",
+          "target": "600",
+        },
+        "group": "edges"
+      }
+    ]
+  );
+  cy.userZoomingEnabled(false);
+  cy.userPanningEnabled(false);
+  cy.on("click", "node", node_clicked);
+  cy.on("tap", "node", node_clicked);
+
+  function node_clicked(evt) {
+    var node = evt.target;
+    const index = node.data()["id"];
+    const first = index[0];
+    window.open(`../chapter${first}/${index}/`, "_self")
+  };
+</script>
+
+{{ partial "header/plausible.html" }}

@@ -1,34 +1,12 @@
-//$.getJSON("/nodes/" + current_id + "/" + current_id + ".json" , function (data) {
+/*
+This is the js file loading the node specific json file and 
+crating the corresponding CytoJS graph
+*/
 $.getJSON(current_id + ".json" , function (data) {
-  console.log(data);
 
   var cy = cytoscape({
     container: document.getElementById("cy"),
     elements: data,
-    style: [
-      // the stylesheet for the graph
-      {
-        selector: "node",
-        style: {
-          "background-color": "data(color)",
-          label: "data(label)",
-        },
-      },
-
-      {
-        selector: "edge",
-        style: {
-          width: 1,
-          "line-color": "#369",
-          "target-arrow-color": "#369",
-          "target-arrow-shape": "triangle",
-          label: "data(label)",
-          "font-size": "14px",
-          color: "data(color)",
-          "line-style": "data(style)",
-        },
-      },
-    ],
 
     style: cytoscape
       .stylesheet()
@@ -97,11 +75,5 @@ function edge_clicked(evt) {
   console.clear();
   console.log(edge.style("label"));
   const std_text = "Click on an edge to get a description of the connection!";
-  //if (edge.style("label") == std_text ) {
-    //edge.style("label", edge.data("label"));
-    document.getElementById('edge-message').innerHTML = "<b>Description of the connection</b>: " +  edge.data("label");
-  //} else {
-    //edge.style("label", "");
-  //  document.getElementById('edge-message').innerHTML = std_text;
-  //}
+  document.getElementById('edge-message').innerHTML = "<b>Description of the connection</b>: " +  edge.data("label");
 }

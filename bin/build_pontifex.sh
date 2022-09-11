@@ -39,6 +39,7 @@ do
   mkdir -p ${BUILD_DIR}/chapter$first/$i
   cp $i/$i.json ${BUILD_DIR}/chapter$first/$i
   cp $i.md ${BUILD_DIR}/chapter$first/
+  cp $i/*.jpg ${BUILD_DIR}/chapter$first/$i
 done
 
 # Run Hugo

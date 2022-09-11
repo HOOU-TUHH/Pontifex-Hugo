@@ -9,11 +9,12 @@
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .Site.BaseURL }}docs/level1/" role="button">Start now!</a>
-      <p class="meta"><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0.</a> <a href="https://www3-dev.tuhh.de/e-10/pontifex/404.html">GitLab v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
+      <p class="meta"><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0.</a> <a target="_blank" href="https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex">GitLab v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
 </section>
 </div>
+{{ partial "header/plausible.html" }}
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
@@ -36,7 +37,7 @@
               <img class="icon" src="{{ .Site.BaseURL }}button.svg">
             </div></div>
           <h2 class="h4">Use videos</h2>
-          <p>In each topic you find a suitable video that explains the concept and helps you to build bridges.</p>
+          <p>In each topic, you find a suitable video that explains the concept and helps you to build bridges.</p>
         </div>
         <div class="col-lg-5">
           <div class="icons">
@@ -44,7 +45,7 @@
               <img class="icon" src="{{ .Site.BaseURL }}writing.svg">
             </div></div>
           <h2 class="h4">Use our notes</h2>
-          <p>For each topic you find summaries, the formal definitions, and examples that can guide you on your journey.</p>
+          <p>For each topic, you find summaries, the formal definitions, and examples that can guide you on your journey.</p>
         </div>
       </div>
       <div class="row justify-content-center text-center">
@@ -62,7 +63,7 @@
               <img class="icon" src="{{ .Site.BaseURL }}network.svg">
             </div></div>
           <h2 class="h4">Use our network</h2>
-          <p>Each topic is embedded in the rich network of mathematics and you can see as a graph. You can use it to find the requirements you need in order to understand the topic you searched for.</p>
+          <p>Each topic is embedded in the rich network of mathematics and visualized by a graph. You can use it to find the requirements you need in order to understand the topic you searched for.</p>
         </div>
         <div class="col-lg-5">
           <div class="icons">
