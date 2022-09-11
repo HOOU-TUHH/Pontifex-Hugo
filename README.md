@@ -4,7 +4,7 @@
 
 # Pontifex
 
-This repo contains the essential Python and Bash scripts to build the Pontifex project
+This repo contains the essential Python and Bash scripts to build the Pontifex project.
 It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under ....
 
 # Terms of Use
