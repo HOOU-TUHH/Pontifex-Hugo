@@ -93,7 +93,7 @@ with open(f"../nodes/{index}/{filename}", 'rt') as myfile2:
     for myline in myfile2:
         mynotes = mynotes + myline
 
-#predecessors and succsessors
+#predecessors and successors
 def match_edge(nid):
     """checks if edge has source or target as given id"""
     for edge in edges:
