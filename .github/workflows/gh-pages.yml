@@ -19,16 +19,16 @@ jobs:
       
     - uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.11'
         
     - uses: nikeee/setup-pandoc@v1
       with:
-        pandoc-version: '2.18' # The pandoc version to download (if necessary) and use.
+        pandoc-version: '2.19.2' # The pandoc version to download (if necessary) and use.
 
     - name: Set up Node.js 
       uses: actions/setup-node@v3
       with:
-        node-version: 18.5
+        node-version: 18.9
 
     - name: Install dependencies
       run: npm install
