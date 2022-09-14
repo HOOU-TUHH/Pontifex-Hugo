@@ -10,7 +10,7 @@ images: ["say-hello-to-doks.png"]
 contributors: ["JPG and FNAG"]
 ---
 
-Developed by [Fabian Gabel](https://www.mat.tuhh.de/home/fgabel_en) and [Julian Großmann](https://jp-g.de/).
+Developed by [Fabian Gabel](https://math.fabian-gabel.de) and [Julian Großmann](https://jp-g.de/).
 Using content created for [WeBWorK](https://github.com/openwebwork) and the [Well-defined and Wonderful podcast](http://marcus-waurick.de/teaching) by Marcus Waurick.
 
 Created with the [HUGO](https://gohugo.io/) theme [Doks](https://getdoks.org/).
