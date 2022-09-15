@@ -102,12 +102,13 @@ For details on the preprocessing of TeX Snippets, refer to the developer documen
 
 ##### Including Images
 
-We recommend using vectorgraphics like `.svg`. If your code contains TiKz, we recommend to use the `standalone` package in order to create an `.svg`-file.
+We recommend using vector graphics like `.svg`. If your code contains TiKz, we recommend to use the `standalone` package in order to create an `.svg`-file.
 
-If your original TeX-file `107/107.tex` includes the file `image.svg` located in the same folder via
+In order to include the image `image.svg` in the node `107`, inside the file `107/107.tex` use the code
 ```latex
 \includegraphics{./image.svg}
 ```
+and place `image.svg` also in the `107` folder.
 
 ###### Using HUGO Shortcodes
 
