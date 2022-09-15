@@ -23,8 +23,8 @@ do
     touch $i/$i.tex #delete this line once all nodes have texfiles
     cp -f packs.tex $i/. #needed for pandoc processing
     pandoc -f latex -t html $i/$i.tex -o $i/$i-snippet.html --mathjax 
-    sed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html #needed to use HUGO Shortcodes in TeX
     rm -f $i/packs.tex #cleanup
+    sed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html #needed if using HUGO Shortcodes in TeX
 
     ## JSON Files and HUGO
     $jsonconverter $INPUT_JSON $i > $i/$i.json
@@ -38,9 +38,12 @@ for i in ???
 do
   first=${i:0:1}
   mkdir -p ${BUILD_DIR}/chapter$first/$i
-  cp $i/$i.json ${BUILD_DIR}/chapter$first/$i
   cp $i.md ${BUILD_DIR}/chapter$first/
-  cp $i/*.jpg ${BUILD_DIR}/chapter$first/$i
+  # copy everything but tex and html to destination
+  for f in `find $i -not -name "*.tex" -not -name "*.html" -type f`
+  do
+    cp -f $f  ${BUILD_DIR}/chapter$first/$i
+  done
 done
 
 # Run Hugo

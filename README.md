@@ -104,18 +104,18 @@ For details on the preprocessing of TeX Snippets, refer to the developer documen
 
 We recommend using vectorgraphics like `.svg`. If your code contains TiKz, we recommend to use the `standalone` package in order to create an `.svg`-file.
 
-If your original TeX-file includes the file `image.svg` located at `/path/to/my/` via
+If your original TeX-file `107/107.tex` includes the file `image.svg` located in the same folder via
 ```latex
-\includegraphics{/path/to/my/image.svg}
+\includegraphics{./image.svg}
 ```
-this command will not be processed properly by Pontifex, as the url on the server is not included.
-In order to let HUGO properly process your line and include the image on the web page, change this line to
-```latex
-\includegraphics{{{< baseurl >}}/images/image.svg}
-```
-Then copy/move the file `image.svg` to `/static/images/`.
 
-`build_pontifex.sh` will take care of correctly escaping the `pandoc` output via `sed`.
+###### Using HUGO Shortcodes
+
+HUGO Shortcodes work inside `.tex` files due to the `sed`-postprocessing
+```bash
+ed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html
+```
+inside `build_pontifex.sh`.
 
 #### YouTube videos
 
