@@ -23,6 +23,7 @@ do
     touch $i/$i.tex #delete this line once all nodes have texfiles
     cp -f packs.tex $i/. #needed for pandoc processing
     pandoc -f latex -t html $i/$i.tex -o $i/$i-snippet.html --mathjax 
+    sed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html #needed to use HUGO Shortcodes in TeX
     rm -f $i/packs.tex #cleanup
 
     ## JSON Files and HUGO
