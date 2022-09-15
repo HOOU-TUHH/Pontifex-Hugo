@@ -100,6 +100,23 @@ We suggest to refrain from using user-specific macros as `pandoc` may be struggl
 You may find [de-macro](https://ctan.org/pkg/de-macro) helpful for automatized resolution of TeX-macros.
 For details on the preprocessing of TeX Snippets, refer to the developer documentation below.
 
+##### Including Images
+
+We recommend using vectorgraphics like `.svg`. If your code contains TiKz, we recommend to use the `standalone` package in order to create an `.svg`-file.
+
+If your original TeX-file `107/107.tex` includes the file `image.svg` located in the same folder via
+```latex
+\includegraphics{./image.svg}
+```
+
+###### Using HUGO Shortcodes
+
+HUGO Shortcodes work inside `.tex` files due to the `sed`-postprocessing
+```bash
+ed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html
+```
+inside `build_pontifex.sh`.
+
 #### YouTube videos
 
 ##### Thumbnails and External Links
