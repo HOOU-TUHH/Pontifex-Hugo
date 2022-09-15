@@ -100,6 +100,23 @@ We suggest to refrain from using user-specific macros as `pandoc` may be struggl
 You may find [de-macro](https://ctan.org/pkg/de-macro) helpful for automatized resolution of TeX-macros.
 For details on the preprocessing of TeX Snippets, refer to the developer documentation below.
 
+##### Including Images
+
+We recommend using vectorgraphics like `.svg`. If your code contains TiKz, we recommend to use the `standalone` package in order to create an `.svg`-file.
+
+If your original TeX-file includes the file `image.svg` located at `/path/to/my/` via
+```latex
+\includegraphics{/path/to/my/image.svg}
+```
+this command will not be processed properly by Pontifex, as the url on the server is not included.
+In order to let HUGO properly process your line and include the image on the web page, change this line to
+```latex
+\includegraphics{{{< baseurl >}}/images/image.svg}
+```
+Then copy/move the file `image.svg` to `/static/images/`.
+
+`build_pontifex.sh` will take care of correctly escaping the `pandoc` output via `sed`.
+
 #### YouTube videos
 
 ##### Thumbnails and External Links
