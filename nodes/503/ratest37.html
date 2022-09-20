@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>The Bright Side of Mathematics - Quiz</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons_bsom/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons_bsom/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons_bsom/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicons_bsom/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicons_bsom/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ "HTML-CSS": { width:"container", scale:100,linebreaks: {
+                         automatic: true } }, SVG: { linebreaks: { automatic: true } }});
+    </script>
+    <script>
+      (function () {
+        var head = document.getElementsByTagName("head")[0],
+          script;
+        script = document.createElement("script");
+        script.type = "text/x-mathjax-config";
+        script[window.opera ? "innerHTML" : "text"] =
+          "MathJax.Hub.Config({\n" +
+          " tex2jax: { inlineMath: [['$','$'], ['\\\\(','\\\\)']] }\n" +
+          "});";
+        head.appendChild(script);
+        script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src =
+          "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1//MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+        head.appendChild(script);
+      })();
+    </script>
+    <script type="text/javascript" src="https://steadyhq.com/widget_loader/cc3f0c7f-1bd0-43b2-a496-8530535f5e26"></script>
+  </head>
+  <body>
+    <div id="main" class="container col-md-6 border">
+    
+    <h1 id="title" class="m-3 text-center text-secondary">Quiz about Real Analysis - Part 37 - Uniform Convergence for Differentiable Functions<hr></h1>
+
+      <div id="questionblock" class="m-2 text-center">
+        <h4 id="issue" class="m-5"></h4>
+
+        <div id="answers" class="d-grid gap-2 mx-auto"></div>
+      </div>
+
+      <div
+        id="note"
+        class="alert alert-warning fade show text-center"
+        role="alert"
+        style="display: none"
+      >
+        <span><strong>Not correct!</strong></span>
+        <span id="tipp">Think about it.</span>
+        <div class="row m-3">
+          <button id="next" type="button" class="btn btn-warning btn-sm">
+            Next question
+          </button>
+        </div>
+      </div>
+
+      <div id="progress" class="progress mb-3 mt-3" style="height: 30px"></div>
+      <div id="progress2" style="height: 40px"></div>
+
+      <div id="lower" class="container text-center mb-3">
+  </div>
+    </div>
+  </body>
+  <!-- Footer -->
+  <footer class="page-footer font-small">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="font-size: small">
+      <a href="https://thebrightsideofmathematics.com">
+        <img
+          src="https://jp-g.de/logo/footerlogo.png"
+          alt="thebrightsideofmathematics.com"
+          height="40px"
+      /></a>
+      &nbsp; The Bright Side of Mathematics
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script>
+let allQuestions = [];
+
+class Question {
+    constructor(issue, answers, correctAnswer, note) {
+        this.issue = issue;
+        this.answers = answers;
+        this.correctAnswer = correctAnswer;
+        this.note = note;
+        allQuestions.push(this);
+    }
+}
+
+let correctClicked = function () {
+    this.classList.replace("btn-outline-dark", "btn-success");
+    progressBars[current].classList.replace("bg-secondary", "bg-success");
+    disableButtons();
+    setTimeout(nextQuestion, 800);
+
+
+}
+let wrongClicked = function () {
+    this.classList.replace("btn-outline-dark", "btn-danger");
+    progressBars[current].classList.replace("bg-secondary", "bg-danger");
+    disableButtons();
+    tipp.innerHTML = allQuestions[current].note;
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    next.innerHTML = "Next question";
+    if (current === allQuestions.length - 1) {
+        next.innerHTML = "Go to the results";
+    }
+
+    note.style.display = "block";
+
+
+}
+
+let nextQuestion = function () {
+    current++;
+    resetQuestion();
+
+    if (current < allQuestions.length) {
+        updateQuestion();
+    } else {
+        showResults();
+    }
+
+}
+
+let showResults = function () {
+
+    let maxPoints = allQuestions.length;
+    let points = 0;
+
+    for (let p of progressBars) {
+        if (p.classList.contains("bg-success")) {
+            points++;
+        }
+    }
+
+    let percent = ((points / maxPoints) * 100).toFixed(2);
+
+    let row = document.createElement("DIV");
+    row.classList.add("row", "text-center");
+    row.innerHTML = `You've reached ${percent}%. `;
+    if (percent == 100) {
+        row.innerHTML += "Wow! Great job!";
+    } else if (percent > 50) {
+        row.innerHTML += "Passed! Try to reach perfection!";
+    } else {
+        row.innerHTML += "Not good enough... View the video again before watching the next one.";
+    }
+
+
+    answers.append(row);
+
+    let reloadButton = document.createElement("BUTTON");
+    reloadButton.classList.add("btn", "btn-dark", "btn-sm", "col-4", "container", "mt-5", "mb-5");
+    reloadButton.innerText = "Try again";
+    reloadButton.addEventListener("click", function () {
+        location.reload();
+    });
+    answers.append(reloadButton);
+
+
+}
+
+let disableButtons = function () {
+    let buttons = document.querySelectorAll('#answers button');
+    for (let i = 0; i < buttons.length; i++) {
+        if (i === allQuestions[current].correctAnswer) {
+            buttons[i].classList.replace("btn-outline-dark", "btn-success");
+        }
+
+        buttons[i].classList.add("disabled");
+    }
+}
+
+let resetQuestion = function () {
+
+    issue.innerHTML = "";
+    answers.innerHTML = "";
+    tipp.innerHTML = "";
+    note.style.display = "none";
+
+
+}
+
+let createProgressBar = function () {
+
+    for (let k = 0; k < allQuestions.length; k++) {
+        let progress = document.createElement("DIV")
+        progress.classList.add("progress-bar", "bg-secondary", "m-1")
+        progress.style = "width: 100%";
+        progress.innerHTML = (k + 1).toString();
+        progressBars.push(progress);
+        progressDIV.append(progress);
+
+    }
+}
+
+let updateQuestion = function () {
+    if (current === 0) {
+        startButton.style.display = "none";
+        startButton.parentNode.removeChild(startButton);
+        document.querySelector("#title").style.display = "none";
+    }
+    let currentQuestion = allQuestions[current];
+    issue.innerHTML = currentQuestion.issue;
+
+    for (let i = 0; i < currentQuestion.answers.length; i++) {
+        let button = document.createElement("BUTTON");
+        button.innerHTML = currentQuestion.answers[i];
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        button.classList.add("btn", "btn-outline-dark", "btn-lg");
+
+        if (i === currentQuestion.correctAnswer) {
+            button.addEventListener("click", correctClicked);
+        } else {
+            button.addEventListener("click", wrongClicked);
+        }
+
+
+        let row = document.createElement("DIV");
+        row.classList.add("row");
+
+        row.append(button);
+        answers.append(row);
+
+    }
+
+}
+
+function shuffle(array,array2) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+       [array2[currentIndex], array2[randomIndex]] = [
+        array2[randomIndex], array2[currentIndex]];
+    }
+  
+    return [array, array2]
+  }
+
+// INPUT GOES HERE. Question Templates can be copied and refilled. Take care!
+let ansQ1 =     [
+"If it is pointwisely convergent, then also uniformly convergent.",
+"If it is uniformly convergent, then also pointwisely convergent.",
+] 
+ 
+let atrQ1 =     [
+0,
+1,
+] 
+ 
+let myanswerspair1 = shuffle(ansQ1,atrQ1)
+let myanswers1 = myanswerspair1[0] 
+let mycorrect1 = myanswerspair1[1].findIndex(rank => rank === 1); 
+ 
+let questionQ1 = new Question(
+"Let $(f_1, f_2, f_3, \\ldots)$ be a sequence of functions $f_n: [0,1] \\rightarrow \\mathbb{R}$. Which implication is correct?", 
+ myanswers1, 
+ mycorrect1, 
+ "The uniform convergence is the stronger property!" 
+ ); 
+ 
+ 
+let ansQ2 =     [
+"If it is pointwisely convergent to $f$, then $f$ is also continuous.",
+"If it is uniformly convergent to $f$, then $f$ is also continuous.",
+"If it is uniformly convergent to $f$, then $f$ is also differentiable.",
+] 
+ 
+let atrQ2 =     [
+0,
+1,
+0,
+] 
+ 
+let myanswerspair2 = shuffle(ansQ2,atrQ2)
+let myanswers2 = myanswerspair2[0] 
+let mycorrect2 = myanswerspair2[1].findIndex(rank => rank === 1); 
+ 
+let questionQ2 = new Question(
+"Let $(f_1, f_2, f_3, \\ldots)$ be a sequence of continuous functions $f_n: [0,1] \\rightarrow \\mathbb{R}$. Which implication is correct?", 
+ myanswers2, 
+ mycorrect2, 
+ "The uniform convergence conserves continuity." 
+ ); 
+ 
+ 
+let ansQ3 =     [
+"No, never!",
+"Yes, always!",
+"In general, it is not.",
+] 
+ 
+let atrQ3 =     [
+0,
+0,
+1,
+] 
+ 
+let myanswerspair3 = shuffle(ansQ3,atrQ3)
+let myanswers3 = myanswerspair3[0] 
+let mycorrect3 = myanswerspair3[1].findIndex(rank => rank === 1); 
+ 
+let questionQ3 = new Question(
+"Let $(f_1, f_2, f_3, \\ldots)$ be a sequence of differentiable functions $f_n: [0,1] \\rightarrow \\mathbb{R}$. If the sequence is uniformly convergent to $f: [0,1] \\rightarrow \\mathbb{R}$, is $f$ also differentiable?", 
+ myanswers3, 
+ mycorrect3, 
+ "The uniform convergence does not conserve differentiability. We need stronger assumptions for this to happen." 
+ ); 
+ 
+ 
+let ansQ4 =     [
+"If $(f_1^\\prime, f_2^\\prime, f_3^\\prime, \\ldots)$ is uniformly convergent, then $f$ is also differentiable.",
+"If $(f_1^\\prime, f_2^\\prime, f_3^\\prime, \\ldots)$ is pointwisely convergent, then $f$ is also differentiable.",
+"If $(f_1^\\prime, f_2^\\prime, f_3^\\prime, \\ldots)$ is pointwisely convergent, then $f$ is not differentiable.",
+] 
+ 
+let atrQ4 =     [
+1,
+0,
+0,
+] 
+ 
+let myanswerspair4 = shuffle(ansQ4,atrQ4)
+let myanswers4 = myanswerspair4[0] 
+let mycorrect4 = myanswerspair4[1].findIndex(rank => rank === 1); 
+ 
+let questionQ4 = new Question(
+"Let $(f_1, f_2, f_3, \\ldots)$ be a sequence of differentiable functions $f_n: [0,1] \\rightarrow \\mathbb{R}$ that is pointwisely convergent to $f: [0,1] \\rightarrow \\mathbb{R}$. Which implication is correct?", 
+ myanswers4, 
+ mycorrect4, 
+ "Watch the video again to remember the important theorem we will use in later videos." 
+ ); 
+ 
+ 
+
+/// END OF INPUT
+
+
+let current = 0;
+let issue = document.querySelector("#issue");
+let answers = document.querySelector("#answers");
+let note = document.querySelector("#note");
+let tipp = document.querySelector("#tipp");
+let next = document.querySelector("#next");
+next.addEventListener("click", nextQuestion);
+
+let progressDIV = document.querySelector("#progress");
+let progressBars = [];
+createProgressBar();
+
+let startButton = document.createElement("BUTTON");
+startButton.classList.add("btn", "btn-dark", "btn-lg", "col-4", "container", "mt-3", "mb-5");
+startButton.innerText = "Start quiz";
+startButton.addEventListener("click", updateQuestion);
+answers.append(startButton);
+
+        function NewTab() {
+            window.open(
+            "https://youtu.be/PwkaPb_sCVQ", "_blank");
+        }
+  </script>
+</html>
+    
