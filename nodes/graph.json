@@ -227,7 +227,7 @@
       "content": "Completeness says that Cauchy sequences must converge.",
       "notes": "106-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest07.html",
+      "webwork": "ratest07.html",
       "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
       "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14"
     },
@@ -238,18 +238,18 @@
       "content": "A sequence that does not converge may still have converging subsequences.",
       "notes": "107-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest09.html",
+      "webwork": "ratest09.html",
       "podcast": "",
       "youtube": "https://youtu.be/xZ5vjdZzTUI?start=14"
     },
     "108": {
       "id": "108",
-      "label": "Bolzano-Weierstrass",
+      "label": "Bolzano-Weierstrass\nTheorem",
       "meta": "RA10 ",
       "content": "Every bounded sequence has at least one converging subsequence.",
       "notes": "108-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest10.html",
+      "webwork": "ratest10.html",
       "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Supremum-of-Sets-and-The-Bolzano--Weierstra-Theorem-e1cevbo/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
       "youtube": "https://youtu.be/e2QaNklYZGg?start=10"
     },
@@ -260,7 +260,7 @@
       "content": "The largest and smallest limit of all convergent subsequences.",
       "notes": "109-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest11.html",
+      "webwork": "ratest11.html",
       "podcast": "",
       "youtube": "https://youtu.be/-y0v2V0-_8E?start=21"
     },
@@ -271,7 +271,7 @@
       "content": "Important notions for subsets of real numbers.",
       "notes": "110-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest13.html",
+      "webwork": "ratest13.html",
       "podcast": "",
       "youtube": "https://youtu.be/Wqo4Svs4erw?start=12"
     },
@@ -282,7 +282,7 @@
       "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
       "notes": "111-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest14.html",
+      "webwork": "ratest14.html",
       "podcast": "",
       "youtube": "https://youtu.be/vjOefDHOVIg?start=10"
     },
@@ -326,7 +326,7 @@
       "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
       "notes": "115-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest07.html",
+      "webwork": "ratest07.html",
       "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sequences-and-the-Completeness-Axiom-with-Gabriel-Barrenechea-e1baas4/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
       "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14"
     },
@@ -436,7 +436,7 @@
       "content": "Series can be reordered.",
       "notes": "210-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest21.html",
+      "webwork": "ratest21.html",
       "podcast": "Click <a href=\"https://anchor.fm/profmoppi/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Rearrangement-of-Series-with-Fabian-Gabel-e1iq2sr/a-a7vb2vp\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
       "youtube": "https://youtu.be/GADre0hHc4c?start=9"
     },
@@ -447,7 +447,7 @@
       "content": "A special way to multiply two absolutely convergent sequences.",
       "notes": "211-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest22.html",
+      "webwork": "ratest22.html",
       "podcast": "",
       "youtube": "https://youtu.be/tRa0Ex_0Yfo?start=10"
     },
@@ -458,7 +458,7 @@
       "content": "The concept of sequences but for functions instead of real numbers.",
       "notes": "300-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest23.html",
+      "webwork": "ratest23.html",
       "podcast": "",
       "youtube": "https://youtu.be/RM2hytsyMpc?start=20"
     },
@@ -469,7 +469,7 @@
       "content": "A notion of convergence for sequences functions that reduces the question of convergence to convergence of sequences of real numbers.",
       "notes": "301-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest24.html",
+      "webwork": "ratest24.html",
       "podcast": "",
       "youtube": "https://youtu.be/Kq_KZpljeXo?start=10"
     },
@@ -480,7 +480,7 @@
       "content": "A strong notion of convergence for sequences of functions that helps to preserve favorable properties like continuity in the limit.",
       "notes": "302-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest25.html",
+      "webwork": "ratest25.html",
       "podcast": "",
       "youtube": "https://youtu.be/O2HKxNcom7g?start=10"
     },
@@ -524,7 +524,7 @@
       "content": "How combination of continuous functions leads to new continuous functions.",
       "notes": "306-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest29.html",
+      "webwork": "ratest29.html",
       "podcast": "",
       "youtube": "https://youtu.be/W-E4LqZyEHA?start=10"
     },
@@ -535,7 +535,7 @@
       "content": "A mapping property for continuous functions.",
       "notes": "307-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest30.html",
+      "webwork": "ratest30.html",
       "podcast": "",
       "youtube": "https://youtu.be/6VWTG4wlRoA?start=11"
     },
@@ -546,7 +546,7 @@
       "content": "How to preserve continuity in the limit of a sequence of continuous functions.",
       "notes": "308-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest31.html",
+      "webwork": "ratest31.html",
       "podcast": "",
       "youtube": "https://youtu.be/llJruZnO-t4?start=11"
     },
@@ -645,7 +645,7 @@
       "content": "Compatibility of differentiability with uniform limits.",
       "notes": "503-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest37.html",
+      "webwork": "ratest37.html",
       "podcast": "",
       "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10"
     },
@@ -678,7 +678,7 @@
       "content": "The derivatives of functions with equal boundary conditions always have at least one zero.",
       "notes": "506-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest40.html",
+      "webwork": "ratest40.html",
       "podcast": "",
       "youtube": "https://youtu.be/5Scawd2WLLA?start=10"
     },
@@ -733,7 +733,7 @@
       "content": "An approximation method for differentiable functions.",
       "notes": "511-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest45.html",
+      "webwork": "ratest45.html",
       "podcast": "",
       "youtube": "https://youtu.be/Pb390hRaLrw?start=10"
     },
@@ -755,7 +755,7 @@
       "content": "Derive an approximation result from the generalised mean value theorem.",
       "notes": "513-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest47.html",
+      "webwork": "ratest47.html",
       "podcast": "",
       "youtube": "https://youtu.be/oZZrwKsqVro?start=10"
     },
@@ -766,7 +766,7 @@
       "content": "Splitting up an interval in subintervals and defining functions that are constant on them.",
       "notes": "600-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest48.html",
+      "webwork": "ratest48.html",
       "podcast": "",
       "youtube": "https://youtu.be/joXBmJ1KInU?start=10"
     },
@@ -777,7 +777,7 @@
       "content": "A notion of integral for a simple class of functions.",
       "notes": "601-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest49.html",
+      "webwork": "ratest49.html",
       "podcast": "",
       "youtube": "https://youtu.be/VdXLenrjIao?start=10"
     },
@@ -788,7 +788,7 @@
       "content": "Important properties of the Riemann integral.",
       "notes": "602-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest50.html",
+      "webwork": "ratest50.html",
       "podcast": "",
       "youtube": "https://youtu.be/6Pb97_7huwI?start=34"
     },
@@ -799,7 +799,7 @@
       "content": "Notion of integral for a large class of functions.",
       "notes": "603-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest51.html",
+      "webwork": "ratest51.html",
       "podcast": "",
       "youtube": "https://youtu.be/t8Hh73HxP1o?start=12"
     },
@@ -810,7 +810,7 @@
       "content": "Use the approximation by step functions to calculate integrals.",
       "notes": "604-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest52.html",
+      "webwork": "ratest52.html",
       "podcast": "",
       "youtube": "https://youtu.be/J9qXHzxeDN4?start=10"
     },
@@ -821,7 +821,7 @@
       "content": "Important properties of the Riemann integral of bounded functions.",
       "notes": "605-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest53.html",
+      "webwork": "ratest53.html",
       "podcast": "",
       "youtube": "https://youtu.be/h4XohuM2iK4?start=10"
     },
@@ -854,7 +854,7 @@
       "content": "Continuous functions attain their mean value.",
       "notes": "608-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest56.html",
+      "webwork": "ratest56.html",
       "podcast": "",
       "youtube": "https://youtu.be/E4zieCbfdcs?start=12"
     },
@@ -904,12 +904,12 @@
     },
     "613": {
       "id": "613",
-      "label": "Comparison Test",
+      "label": "Integral Comparison Test",
       "meta": "RA61",
       "content": "Compare improper Riemann integrals to infinite series.",
       "notes": "613-snippet.html",
       "video": "",
-      "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest61.html",
+      "webwork": "ratest61.html",
       "podcast": "",
       "youtube": "https://youtu.be/yEp9BTDgOjk?start=13"
     }

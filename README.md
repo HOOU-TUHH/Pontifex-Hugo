@@ -4,7 +4,7 @@
 
 # Pontifex
 
-This repo contains the essential Python and Bash scripts to build the Pontifex project
+This repo contains the essential Python and Bash scripts to build the Pontifex project.
 It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under ....
 
 # Terms of Use
@@ -24,7 +24,7 @@ It also provides all teaching and learning material used in the instance running
 * **Triggering the GitHub Action**: every change in your repository files should trigger the action `github-pages`. Visit your repository environments list to find out about the deployment status of your project.
 * Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/pontifex/` to explore your Pontifex application.
 
-For details on the implementation, checkout the GitHub workflow in the file `.github/workflows/gh-pages.yml`
+For details on the implementation, checkout the GitHub workflow in the file `.github/workflows/gh-pages.yml`. See also the [Doks documentation](https://getdoks.org/docs/how-to/hosting/deployment/).
 
 ## Modifying the content
 
@@ -99,6 +99,24 @@ User-specific macros are stored centrally in the file `nodes/packages.tex`.
 We suggest to refrain from using user-specific macros as `pandoc` may be struggling to resolve the macros.
 You may find [de-macro](https://ctan.org/pkg/de-macro) helpful for automatized resolution of TeX-macros.
 For details on the preprocessing of TeX Snippets, refer to the developer documentation below.
+
+##### Including Images
+
+We recommend using vector graphics like `.svg`. If your code contains TiKz, we recommend to use the `standalone` package in order to create an `.svg`-file.
+
+In order to include the image `image.svg` in the node `107`, inside the file `107/107.tex` use the code
+```latex
+\includegraphics{./image.svg}
+```
+and place `image.svg` also in the `107` folder.
+
+###### Using HUGO Shortcodes
+
+HUGO Shortcodes work inside `.tex` files due to the `sed`-postprocessing
+```bash
+ed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html
+```
+inside `build_pontifex.sh`.
 
 #### YouTube videos
 
