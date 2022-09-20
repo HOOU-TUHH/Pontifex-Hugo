@@ -40,7 +40,7 @@ do
   mkdir -p ${BUILD_DIR}/chapter$first/$i
   cp $i.md ${BUILD_DIR}/chapter$first/
   # copy everything but tex and html to destination
-  for f in `find $i -not -name "*.tex" -not -name "*.html" -type f`
+  for f in `find $i -not -name "*.tex" -not -name "*-snippet.html" -type f`
   do
     cp -f $f  ${BUILD_DIR}/chapter$first/$i
   done
