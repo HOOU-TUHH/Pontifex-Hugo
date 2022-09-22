@@ -62,7 +62,7 @@ timestamp = "2022-04-01T08:48:57+00:00"
 chapter = f"chapter{index[0]}"
 
 ## WeBWorK
-webworkstring = f"""## Solve the WeBWorK exercise\n {{{{< webwork "{webworklink}">}}}}""" if webworklink != "" else ""
+webworkstring = f"""## Solve the WeBWorK Exercise\n {{{{< webwork "{webworklink}">}}}}""" if webworklink != "" else ""
 
 ## youtube and video
 video = mynode["video"]
