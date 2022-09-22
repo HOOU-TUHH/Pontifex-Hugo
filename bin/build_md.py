@@ -66,7 +66,7 @@ chapter = f"chapter{index[0]}"
 webworkstring = f"""## Solve the WeBWorK exercise\n {{{{< webwork "{webworklink}">}}}}""" if webworklink != "" else ""
 
 ## Exercise
-
+exercisestring = f"""## Solve the Exercise\n {{{{< webwork "{exerciselink}">}}}}""" if exerciselink != "" else ""
 
 ## youtube and video
 video = mynode["video"]
@@ -154,10 +154,10 @@ preds = mystring
 succs = mystring2
 
 # define fillers
-fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###","###YTID###", "###PODCAST###", '###VIDEO###', "###WEBWORK###", "###NTABS###"]
+fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###","###YTID###", "###PODCAST###", '###VIDEO###', "###WEBWORK###", "###EXERCISE###", "###NTABS###"]
 
 # put content into same order
-content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, youtubeid, podcast, video, webworkstring, str(ntabs)]
+content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, youtubeid, podcast, video, webworkstring, exercisestring, str(ntabs)]
 
 
 for ind, myline in enumerate(mylines):
