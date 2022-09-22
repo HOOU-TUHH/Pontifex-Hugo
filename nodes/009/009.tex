@@ -3,13 +3,13 @@
 
 \begin{Definition}[Predicate]
 If $X$ is any set and $A(x)$ is a logical statement depending on $x \in X$ (and true or false for every $x\in X$),
-we call $A(x)$ a \defi{predicate} with variable $x$.
+we call $A(x)$ a \emph{predicate} with variable $x$.
 Usually, one writes simply $A(x)$ instead of $A(x)=$ true. 
 \end{Definition}
 
 \begin{example}{}
 \[
- X=\mathbb{R}\qquad   A(x) = ``x < 0``
+ X=\mathbb{R}\qquad   A(x) \;=\; x < 0
 \]
 Then we can define the set
 	$$
@@ -20,7 +20,7 @@ Then we can define the set
 \begin{Definition}[Quantifiers $\forall$ and $\exists$]
 We use
 $\forall$~(``for all'') and $\exists$~(``it exists'')
-and call them \defi{quantifiers}.
+and call them \emph{quantifiers}.
 Moreover, we use
 the double point `` $:$ '' inside the set brackets, which means
 ``that fulfil''.  
@@ -42,19 +42,17 @@ Negation of statements with quantifiers:
 
 \begin{example}
 There is no greatest natural number:
-\[
- A(n) = \text{``}n \mbox{ is the greatest natural number'' }
-\]
-\white{3cm}{
+\begin{center}
+ $A(n) \;=\; n$ is the greatest natural  number
+\end{center}
 In our notation: $\neg (\exists n \in \mathbb{N} : A(n))$ this is the same as $\forall n \in \mathbb{N} : \neg A(n)$,
 i.e. \emph{Each $n \in \mathbb{N}$ is not the greatest natural number }.
 But this is clear, because $n+1 > n$. 
-}
 \end{example}
 
 \begin{Faust}[Negation of the quantifier ($\forall$ and $\exists$)]
 \begin{center}
-``$\neg\forall = \exists \neg$''\qquad and\qquad ``$\neg\exists = \forall \neg$''
+$\neg\forall = \exists \neg$ and $\neg\exists = \forall \neg$
 \end{center}
 \end{Faust}
 
