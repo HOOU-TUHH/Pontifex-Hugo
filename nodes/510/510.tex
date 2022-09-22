@@ -82,16 +82,7 @@ $[x_1,x_2]$ of $[a,b]$ lies
 below (above) the secant $$s(x):=\frac{f(x_2)-f(x_1)}{x_2-x_1}\cdot(x-x_1)+f(x_1) \ .$$
 \end{Definition}
 
-% %\begin{minipage}[t]{120mm}
-% \begin{figure}[htp]
-% \begin{center}
-% \includegraphics[width=0.4\textwidth,angle=0]{pics/fconvex.eps} 
-% \includegraphics[width=0.4\textwidth,angle=0]{pics/fconcave.eps} 
-% \caption{convex and concave graphs}
-% \label{fig:convex}
-% \end{center}
-% \end{figure}
-% %\end{minipage}
+\includegraphics{./conc.png}
 
 \begin{Theorem}{} \label{th:convconc}
     Let $f:[a,b]\rightarrow \mathbb{R}$, $a,b\in\mathbb{R}$, $a<b$, be 2-times differentiable. 
@@ -106,17 +97,21 @@ below (above) the secant $$s(x):=\frac{f(x_2)-f(x_1)}{x_2-x_1}\cdot(x-x_1)+f(x_1
 {\em Proof:} We only prove a). The other results follow analogously. 
   Let $x_1<x<x_2$ in $[a,b]$. Since $f''\geq 0$ we know that $f'$ is monotonically increasing.
   By the intermediate value theorem there are $\xi_1\in~(x_1,x)$ and $\xi_2\in~(x,x_2)$ such that
-  \begin{eqnarray*}
-    \frac{f(x)-f(x_1)}{x-x_1} &=& f'(\xi_1) \leq f'(\xi_2) = \frac{f(x_2)-f(x)}{x_2-x} \ .
-  \end{eqnarray*}
+  $$
+    \frac{f(x)-f(x_1)}{x-x_1} = f'(\xi_1) \leq f'(\xi_2) = \frac{f(x_2)-f(x)}{x_2-x} \ .
+  $$
 
   This implies
-  \begin{eqnarray*}
-    && (f(x)-f(x_1))(x_2-x) \leq (f(x_2)-f(x))(x-x_1) \\ \\
-    &\Leftrightarrow& f(x)(x_2-x_1) \leq (f(x_2)-f(x_1))(x-x_1)+f(x_1)(x_2-x_1) \\
-    &\Leftrightarrow& f(x) \leq \frac{f(x_2)-f(x_1)}{x_2-x_1}(x-x_1)+f(x_1)\ .   
-  \end{eqnarray*}
-\hfill$\Box$
+  $$
+    (f(x)-f(x_1))(x_2-x) \leq (f(x_2)-f(x))(x-x_1)
+  $$
+  $$
+    \Leftrightarrow f(x)(x_2-x_1) \leq (f(x_2)-f(x_1))(x-x_1)+f(x_1)(x_2-x_1) 
+  $$
+  $$
+    \Leftrightarrow f(x) \leq \frac{f(x_2)-f(x_1)}{x_2-x_1}(x-x_1)+f(x_1)\ .   
+  $$
+$\Box$
 
 \begin{Definition}{Inflection point}
     Let $f:[a,b]\rightarrow \mathbb{R}$ be a function. We say that $x_0\in ~(a,b)$ is an \emph{inflection point} of $f$ if there is an $\varepsilon>0$ with 
@@ -167,12 +162,14 @@ quantitative behaviour. We give a short list of things that have to be investiga
   \item[4.] Behaviour for $x\longrightarrow \pm\infty$, asymptotes
       
       A straight line $g(x)=ax+b$, $a,b\in\mathbb{R}$, is called an asymptote of $f$ for $x\rightarrow\pm\infty$ 
-            if $\lim_{x\rightarrow\pm\infty}(f(x)-(ax+b)) = 0$. In this case the coefficients $a,b$ can be 
-            successively determined by
-	    \begin{eqnarray*}
-	     a &=& \lim_{x\rightarrow\pm\infty}\frac{f(x)}{x}\ , \\
-	     b &=& \lim_{x\rightarrow\pm\infty}(f(x)-ax) \ .
-	    \end{eqnarray*}
+       if $\lim_{x\rightarrow\pm\infty}(f(x)-(ax+b)) = 0$. In this case the coefficients $a,b$ can be 
+       successively determined by
+       $$
+	     a = \lim_{x\rightarrow\pm\infty}\frac{f(x)}{x}\ , 
+       $$
+       $$
+	     b = \lim_{x\rightarrow\pm\infty}(f(x)-ax) \ .
+       $$
   \item[5.] Zeros
   \item[6.] Extrema, monotonicity behaviour
   \item[7.] Inflection points, convexity/concavity behaviour
@@ -202,9 +199,9 @@ quantitative behaviour. We give a short list of things that have to be investiga
 
         \[ f'(x) \quad \left\{
  	\begin{array}{lll}
-	  <0 &, \frac{8}{3} <x <\infty & \text{, strictly monotonically decreasing} \\
-	  >0 &, 0<x<\frac{8}{3}        & \text{, strictly monotonically increasing} \\
-	  <0 &, -\infty<x<0            & \text{, strictly monotonically decreasing} 
+	  <0 &, \frac{8}{3} <x <\infty & \text{, strictly }\ \text{monotonically decreasing} \\
+	  >0 &, 0<x<\frac{8}{3}        & \text{, strictly }\ \text{monotonically increasing} \\
+	  <0 &, -\infty<x<0            & \text{, strictly }\ \text{monotonically decreasing} 
  	\end{array}
          \right.
          \]
@@ -220,19 +217,13 @@ quantitative behaviour. We give a short list of things that have to be investiga
 
         \[ f''(x) \quad \left\{
  	\begin{array}{lll}
-	  >0 &, 4 <x <\infty 	 	& \text{, strictly convex} \\
-	  <0 &, 0<x<4         & \text{, strictly concave} \\
-	  <0 &, -\infty<x<0             & \text{, strictly concave} 
+	  >0 &, 4 <x <\infty 	 	&, \text{ strictly}\ \text{ convex} \\
+	  <0 &, 0<x<4         &, \text{ strictly}\ \text{ concave} \\
+	  <0 &, -\infty<x<0             &, \text{ strictly}\ \text{concave} 
  	\end{array}
          \right.
          \]
-%   \item[8.] Function graph
-%  \begin{figure}[htp]
-%  \begin{center}
-%  \includegraphics[width=0.8\textwidth,angle=0]{pics/curvedisc.eps} 
-%  %\caption{}
-%  \label{fig:convex}
-%  \end{center}
-%  \end{figure}
+
+         \includegraphics{./curvedisc.png}
 \end{enumerate}
 \end{example}
