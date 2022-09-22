@@ -5,11 +5,11 @@
 # Pontifex
 
 This repo contains the essential Python and Bash scripts to build the Pontifex project.
-It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under ....
+It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 # Terms of Use
 
-> How is the content of Pontifex licensed?
+> How is the content of Pontifex licensed? Distinguish software and teaching material.
 
 # Getting Started
 
