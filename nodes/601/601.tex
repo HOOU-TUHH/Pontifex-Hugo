@@ -23,6 +23,7 @@ Z_2:\quad&a=y_0<y_1<y_2<\ldots<y_{m-1}<y_m=b
 \end{aligned}
 \]
 be two decompositions of $[a,b]$ such that $\phi$ is constant on $(x_{i-1},x_i)$ and $\phi$ is constant on $(y_{j-1},y_j)$ for all $i=1,\ldots,n$, $j=1,\ldots,m$. We distinguish between two cases:
+
 {\bfseries 1st Case:} $Z_2$ is a~refinement of $Z_1$. This means that for all $i\in\{1,\ldots,n\}$ there exists some $j(i)\in\{1,\ldots,m\}$
 with $x_i=y_{j(i)}$. Then for $i$ holds
 \[x_i=y_{j(i)}<y_{j(i)+1}<\ldots<y_{j(i+1)}=x_{i+1}\]
@@ -33,6 +34,7 @@ and $\phi(x)=d_k=c_i$ for $x\in~(y_{k-1},y_k)$, $k\in\{j(i-1)+1,\ldots,j(i)\}$. 
 =&\sum_{i=1}^{n}c_i\sum_{k=j(i-1)+1}^{j(i)}(y_{k}-y_{k-1})\\
 =&\sum_{i=1}^{n}c_i(y_{j(i)}-y_{j(i-1)})=\sum_{i=1}^{n}c_i(x_i-x_{i-1}).
 \end{aligned}\]
+
 {\bfseries 2nd Case:} There exists a~common refinement $Z_3$ of $Z_1$ and $Z_2$, i.e., $Z_3=Z_1\cup Z_2$. Then we have (by using the 1st case)
 \[\sum_{Z_1}...\;=\sum_{Z_3}\ldots\;=\sum_{Z_2}\ldots\;.\]
 $\Box$
