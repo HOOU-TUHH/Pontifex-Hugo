@@ -1248,6 +1248,31 @@
       "target": "502",
       "label": "Break down differentiability of compositions to the differentiability of simpler functions."
     },
+    "500-504": {
+      "source": "500",
+      "target": "504",
+      "label": "We give examples for this notion."
+    },
+    "400-504": {
+      "source": "400",
+      "target": "504",
+      "label": "The exponential function is differentiable."
+    },
+    "401-504": {
+      "source": "401",
+      "target": "504",
+      "label": "The logarithm function is differentiable."
+    },
+    "402-504": {
+      "source": "402",
+      "target": "504",
+      "label": "The polynomials are differentiable functions."
+    },
+    "403-504": {
+      "source": "403",
+      "target": "504",
+      "label": "The functions given by power series are differentiable functions."
+    },
     "100-101": {
       "source": "100",
       "target": "101",
