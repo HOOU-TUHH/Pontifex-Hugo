@@ -55,6 +55,7 @@ def get_youtubetime(link):
 # read content from json file
 filename = mynode["notes"]
 webworklink = mynode["webwork"]
+exerciselink = mynode["exercise"]
 title = mynode["label"].replace('\n',' ')
 content = mynode["content"]
 podcast = mynode["podcast"]
@@ -63,6 +64,9 @@ chapter = f"chapter{index[0]}"
 
 ## WeBWorK
 webworkstring = f"""## Solve the WeBWorK exercise\n {{{{< webwork "{webworklink}">}}}}""" if webworklink != "" else ""
+
+## Exercise
+
 
 ## youtube and video
 video = mynode["video"]
