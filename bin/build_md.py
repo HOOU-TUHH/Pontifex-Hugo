@@ -1,7 +1,7 @@
-"""Make Markdown File 
+"""Make Markdown File
 
 This script allows the user to put everything into a md-file for hugo
-Requires JSON file from prior run of build_json.py 
+Requires JSON file from prior run of build_json.py
 
 input:  (1) index = xxx
 
@@ -13,6 +13,7 @@ usage: python3 make_md.py xxx
 import json
 import sys
 import re
+from collections import defaultdict
 
 index = str(sys.argv[1])
 path = f"{index}/{index}"
@@ -32,7 +33,7 @@ with open(f"../nodes/dummy_for_hugo.md", 'rt') as myfile:  # open file
 with open('../nodes/graph.json', 'r') as f:
     mydata = json.load(f)
 
-mynode = mydata["nodes"][index]
+mynode = defaultdict(str,mydata["nodes"][index])
 
 # preprocess youtube
 def get_youtubeid(link):
@@ -44,6 +45,14 @@ def get_youtubeid(link):
     else:
         return youtubeid.group(1)
 
+def get_spotifyid(link):
+    pattern = r'(?<=episode\/)[0-9a-zA-z]{22}'
+    spotifyid = re.search(pattern, link, re.IGNORECASE)
+    if spotifyid is None:
+        return ""
+    else:
+        return spotifyid.group(0)
+
 def get_youtubetime(link):
     youtubetime =  re.search(r'start=[0-9]*', link, re.IGNORECASE)
     if youtubetime is None:
@@ -54,17 +63,19 @@ def get_youtubetime(link):
 # read content from json file
 filename = mynode["notes"]
 webworklink = mynode["webwork"]
+exerciselink = mynode["exercise"]
 title = mynode["label"].replace('\n',' ')
 content = mynode["content"]
 podcast = mynode["podcast"]
+spotify = mynode["spotify"]
 timestamp = "2022-04-01T08:48:57+00:00"
 chapter = f"chapter{index[0]}"
 
 ## WeBWorK
-if webworklink != "":
-    webworkstring = '## Solve the WeBWorK exercise\n {{< webwork "' + f"{webworklink}" + '">}}'
-else:
-    webworkstring = ""
+webworkstring = f"""## Solve the WeBWorK Exercise\n {{{{< webwork "{webworklink}">}}}}""" if webworklink != "" else ""
+
+## Exercise
+exercisestring = f"""## Solve the Exercise\n {{{{< webwork "{exerciselink}">}}}}""" if exerciselink != "" else ""
 
 ## youtube and video
 video = mynode["video"]
@@ -80,12 +91,15 @@ if video != "":
     video = '{{< tab tabName="Video">}}\n'+  video +  '\n{{< /tab >}}\n'
 elif youtubelink != "":
     ntabs = ntabs + 1
-    video = '{{< tab tabName="Video">}}\n' + f'Click [here](https://youtu.be/{youtubeid}) or on the thumbnail below to open up the YouTube video in a separate tab!  <a href="https://youtu.be/{youtubeid}?{youtubetime}" target="_blank"> <img src="./{youtubeid}.jpg"></a>' + '\n{{< /tab >}}\n'
+    video = '{{< tab tabName="Video">}}\n' + f'<div class="media-container"><img class="image" src="./{youtubeid}.jpg"><div class="middle"><a class="button" href="https://youtu.be/{youtubeid}?{youtubetime}" target="_blank">Open video on YouTube</a></div></div>' + '\n{{< /tab >}}\n'
 
 # preprocess podcast
-if podcast != "":
+if podcast != "" or spotify != "":
     ntabs = ntabs + 1
-    podcast = '{{< tab tabName="Podcast">}}\n'+  podcast +  '\n{{< /tab >}}\n'
+    if spotify != "":
+        spotifyid = get_spotifyid(spotify)
+        spotify = f'<div class="media-container"><img class="image" src="./{spotifyid}.jpg"><div class="middle"><a class="button" href="{spotify}" target="_blank">Open podcast on Spotify</a></div></div>'
+    podcast = '{{< tab tabName="Podcast">}}\n'+  spotify + podcast +  '\n{{< /tab >}}\n'
 
 # read notes with spaces in front of each line
 mynotes = ""
@@ -152,10 +166,10 @@ preds = mystring
 succs = mystring2
 
 # define fillers
-fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###","###YTID###", "###PODCAST###", '###VIDEO###', "###WEBWORK###", "###NTABS###"]
+fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###","###YTID###", "###PODCAST###", '###VIDEO###', "###WEBWORK###", "###EXERCISE###", "###NTABS###"]
 
 # put content into same order
-content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, youtubeid, podcast, video, webworkstring, str(ntabs)]
+content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, youtubeid, podcast, video, webworkstring, exercisestring, str(ntabs)]
 
 
 for ind, myline in enumerate(mylines):

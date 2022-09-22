@@ -5,11 +5,11 @@
 # Pontifex
 
 This repo contains the essential Python and Bash scripts to build the Pontifex project.
-It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under ....
+It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 # Terms of Use
 
-> How is the content of Pontifex licensed?
+> How is the content of Pontifex licensed? Distinguish software and teaching material.
 
 # Getting Started
 
@@ -47,6 +47,7 @@ Example entry:
       "notes": "305-snippet.html",
       "video": "https://www.youtube-nocookie.com/embed/4xhyqdjmxHU?start=11",
       "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
+      "exercise": "quiz.html",
       "podcast": "Click <a href=\"https://anchor.fm/profmoppi/Setsepisodes/--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
     },
 ```
@@ -60,6 +61,7 @@ This entry describes the concept node `305` for the concept "Epsilon-Delta Defin
 * `notes` name of the html file containing the lecture notes.
 * `video` ID (+ optional timestamp) of the YouTube video that should be linked. Can be used to either embed the video via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) or for an external link (currently implemented).
 * `webwork` link to [WeBWorK](https://github.com/openWeBWorK) exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
+* `exercise` html file (with javascript) for a quiz about the video (can be used additionally to WeBWorK or as a substitution)
 * `podcast` plain html code to go in the *Podcast* section.
 #### Edges
 
@@ -198,6 +200,10 @@ The bottom of each page includes an electronic [WeBWorK](https://github.com/open
 will render the exercise once the webpage has been loaded.
 
 Details on the WeBWorK course creation can be found [here](https://michaelgage.blogspot.com/2015/06/whether-writing-full-text-book-or-just.html).
+
+##### Pontifex-Coloring in WeBWorK Buttons
+
+To this end use the CSS-theme `nodes/math4-pontifex-coloring.css` and include it in your WeBWorK-Service.
 
 # Developer info
 
@@ -338,7 +344,12 @@ To this end, this repo uses password authentication with a [personal access toke
 
 # Contributors
 
-Here could be a list of people who have contributed to the project.
+In alphabetical order.
+
+* [Axel Dürkop](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo/-/commits/dev?author=Axel%20D%C3%BCrkop) (C2A Overlay, Embedding of Vssues)
+* Katja Eberhage (Landing Page Design)
+* Fabian Gabel
+* Julian Großmann
 
 ---
 This is the original documentation for the HUGO theme used by Pontifex.

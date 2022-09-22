@@ -5,22 +5,7 @@ Let $[a,b]\subset\mathbb{R}$. A set $\{x_{0},x_{1},\ldots,x_{n}\}$ is called a \
 $$a=x_0<x_1<x_2<\ldots<x_{n-1}<x_n=b.$$
 \end{Definition}
 
-% \begin{center}
-% \begin{tikzpicture}[domain=5:10]
-% \draw[->] (0,0) -- (10,0); %\draw[->] (0,-2) -- (0,5);f
-%  \draw[fill=black](8 ,0) circle(1pt) node[below=2mm] {$x_{n-1}$};
-%  \draw[fill=black](1.5,0) circle(1pt) node[below=2mm] {$x_1$};
-%  \draw[fill=black](2 ,0) circle(1pt) node[below=2mm] {$x_2$};
-%  \draw[fill=black](3.2 ,0) circle(1pt) node[below=2mm] {$x_3$};
-%   \draw[fill=black](4.3 ,0) circle(1pt) node[below=2mm] {$x_4$};
-%   \draw[fill=black](5.2 ,0) circle(1pt) node[below=2mm] {$\cdots$};
-%     \draw[fill=black](6.8 ,0) circle(1pt) node[below=2mm] {$\cdots$};
-%   \draw[color=blue, fill=blue](0.5 ,0) circle(1pt) node[below=2mm] {$a$};
-%   \draw[color=blue, fill=blue](9.5 ,0) circle(1pt) node[below=2mm] {$b$};
-% \end{tikzpicture} 
-% \end{center}
-
-
+\includegraphics{./deco.png}
 
 \begin{Definition}[Step function]
 $f:[a,b]\to\mathbb{R}$ is called a~\emph{step function} if it is piecewisely constant, i.e. there exists a decomposition $\{x_{0},\ldots,x_{n}\}$ of $[a,b]$ and some $c_1,\ldots,c_n\in\mathbb{R}$ such that for all $i=1,\ldots,n$ holds
@@ -28,15 +13,7 @@ $f:[a,b]\to\mathbb{R}$ is called a~\emph{step function} if it is piecewisely con
 The set of step functions on $[a,b]$ is denoted by $\mathcal{T}([a,b])$.
 \end{Definition}
 
-
-% \begin{center}
-% \begin{psfrags}
-% \psfrag{a}{\scriptsize $a$}
-% \psfrag{b}{\scriptsize $b$}
-% \includegraphics[width=0.51\textwidth,angle=0]{pics/stepcft.eps}
-% %\caption{Step function}\label{fig:stepfct}
-% \end{psfrags}
-% \end{center}
+\includegraphics{./step.png}
 
 It can be readily verified that for two step functions $f_1,f_2\in \mathcal{T}([a,b])$ holds
 $f_1+f_2\in \mathcal{T}([a,b])$. As well, we have $\lambda f_1\in \mathcal{T}([a,b])$.  Hence, $\mathcal{T}([a,b])$ is a~vector space. Furthermore, since step functions only attain finitely many values, they are bounded.
