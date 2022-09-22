@@ -344,7 +344,12 @@ To this end, this repo uses password authentication with a [personal access toke
 
 # Contributors
 
-Here could be a list of people who have contributed to the project.
+In alphabetical order.
+
+* [Axel Dürkop](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo/-/commits/dev?author=Axel%20D%C3%BCrkop) (C2A Overlay, Embedding of Vssues)
+* Katja Eberhage (Landing Page Design)
+* Fabian Gabel
+* Julian Großmann
 
 ---
 This is the original documentation for the HUGO theme used by Pontifex.
