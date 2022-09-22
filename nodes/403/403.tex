@@ -28,7 +28,7 @@ is a~power series.
 \end{example}
 
 Next we characterise the domain of convergence.
-\begin{Theorem}{Theorem of Cauchy-Hadamard}
+\begin{Theorem}[Theorem of Cauchy-Hadamard]
 Let a~power series
 \[f(x)=\sum_{k=0}^\infty a_k(x-x_0)^k\]
 be given. Let
@@ -38,19 +38,7 @@ for all $x\in\mathbb{K}$ with $|x-x_0|>r$ holds $x\notin D(f)$.\\
 The number $r$ as defined above is called the {\em radius of convergence}.
 \end{Theorem}
 
-% \begin{figure}[h!]
-% \begin{psfrags}
-% \psfrag{re}{\small $\Re(x)$}
-% \psfrag{im}{\small $\Im(x)$}
-% \psfrag{convergence}{\small convergence}
-% \psfrag{divergence}{\small divergence}
-% \psfrag{r}{\small $r$}
-% \psfrag{x}{\small $x_0$}
-% \centering
-% \includegraphics[width=0.81\textwidth,angle=0]{pics/powser.eps}
-% \caption{Domain of convergence}\label{fig:powser}
-% \end{psfrags}
-% \end{figure}
+\includegraphics{./power.png}
 
 {\em Proof:} We have to show the following two statements:
 \begin{enumerate}[(i)]
@@ -64,13 +52,11 @@ For showing (ii), we also make use of the formula
 \[\limsup_{k \rightarrow \infty} \sqrt[k]{|(x-x_0)^ka_k|}=|x-x_0|\cdot\limsup_{k \rightarrow \infty} \sqrt[k]{|a_k|}>1.\]
 This implies that the sequence $(x-x_0)^ka_k$ does not converge to 0 and therefore, the power series cannot converge.\hfill$\Box$
 
-\white{3cm}{
 Geometrically, the above result implies that for all $x$ inside a~circle with midpoint $x_0$ and radius $r$, 
 the series is convergent and outside this circle, we have divergence.\\
 The Cauchy-Hadamard Theorem characterizes convergence/divergence of the power series in dependence of $x$ whether it is inside 
 or outside the circle around $x_0$ with radius $r$. In the case $|x-x_0|=r$, this result does not tell us anything. Indeed,
 we may have points on the circle with $x\in D(f)$ and also points on the circle with $x\notin D(f)$. 
-}
 
 To see this, let us reconsider Example~\ref{ex:powser} d):\\
 The radius of convergence is given by
