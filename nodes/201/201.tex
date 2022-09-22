@@ -4,7 +4,7 @@
 Before we give some criteria for the convergence of series, we first present the probably most important series and analyze their convergence.
 \begin{example}\label{ex:geomharm}
  \begin{enumerate}[(a)]
-  \item For $q\in\K$, the \emph{geometric series}
+  \item For $q\in\mathbb{K}$, the \emph{geometric series}
 \[ \sum_{k=0}^\infty q^k\]
 is convergent if and only if $|q|<1$.
 
@@ -12,7 +12,6 @@ is convergent if and only if $|q|<1$.
 \[s_n=\sum_{k=0}^nq^k=\begin{cases}\frac{1-q^{n+1}}{1-q}&:\text{ if }q\neq1,\\n+1&:\text{ if }q=1.\end{cases}\]
 Hence, $(s_n)_{n\in\mathbb{N}}$ is convergent if and only if $|q|<1$. In this case we have
 \[ \sum_{k=0}^\infty q^k=\lim_{n\to\infty}s_n=\lim_{n\to\infty}\frac{1-q^{n+1}}{1-q}=\frac{1}{1-q}.\]
-}
 \item The \emph{harmonic series}
 \[ \sum_{k=1}^\infty \frac1k\]
 is divergent to $+\infty$.\\
@@ -32,7 +31,7 @@ As a consequence, the subsequence $(s_{2^l})_{l\in\mathbb{N}}$ is unbounded.\hfi
 is convergent.\\
 {\em Proof:} The sequence of partial sums is strictly monotonically increasing due to
 \[s_{n+1}-s_n=\frac1{(n+1)^\alpha}\geq0.\]
-Therefore, by Theorem~\ref{thm:submon} and Theorem~\ref{thm:monbndseq}, the convergence of $(s_n)_{n\in\mathbb{N}}$ is shown if we find some 
+Therefore, by theorems about convergence of sequences, the convergence of $(s_n)_{n\in\mathbb{N}}$ is shown if we find some 
 bounded subsequence $(s_{n_j})_{j\in\mathbb{N}}$. Again we use the representation for $s_{2^j}-s_{2^{j-1}}$
 as in example b). We can estimate
 \[
