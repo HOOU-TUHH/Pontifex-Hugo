@@ -30,12 +30,14 @@ finds that all sequence members $a_n$ lie in the interval $(a-\varepsilon, a+\va
 	\item Show: $(d_{n})_{n \in \mathbb{N}}$ with $\displaystyle d_n = \frac{1}{\sqrt{1 + \frac{1}{n}}}$ is convergent with limit $1$.
 			\begin{proof}
 			We know that $\sqrt{1 + 1/n}$ is always greater than $1$. Therefore, we can calculate:
-				\begin{align*}
-				|1 - \frac{1}{\sqrt{1 + \frac{1}{n}}} |^2  &\leq 
-				\frac{ 1- 2 \sqrt{1 + \frac{1}{n}} + 1 + \frac{1}{n}}{1 + \frac{1}{n}} \\
-				&\leq		\frac{ 1- 2 + 1 + \frac{1}{n}}{1 + \frac{1}{n}}		= 	
+				$$
+				|1 - \frac{1}{\sqrt{1 + \frac{1}{n}}} |^2  \leq 
+				\frac{ 1- 2 \sqrt{1 + \frac{1}{n}} + 1 + \frac{1}{n}}{1 + \frac{1}{n}} 
+				$$
+				$$
+				\leq		\frac{ 1- 2 + 1 + \frac{1}{n}}{1 + \frac{1}{n}}		= 	
 				\frac{ \frac{1}{n}}{1 + \frac{1}{n}} \leq \frac{1}{n}
-				\end{align*}
+				$$
 			The square root is a monotonically increasing function, and hence, we can put the square root to both
 			sides and get the inequality:
 				$$
