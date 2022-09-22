@@ -13,6 +13,7 @@ usage: python3 make_md.py xxx
 import json
 import sys
 import re
+from collections import defaultdict
 
 index = str(sys.argv[1])
 path = f"{index}/{index}"
@@ -32,7 +33,7 @@ with open(f"../nodes/dummy_for_hugo.md", 'rt') as myfile:  # open file
 with open('../nodes/graph.json', 'r') as f:
     mydata = json.load(f)
 
-mynode = mydata["nodes"][index]
+mynode = defaultdict(str,mydata["nodes"][index])
 
 # preprocess youtube
 def get_youtubeid(link):
@@ -62,6 +63,7 @@ def get_youtubetime(link):
 # read content from json file
 filename = mynode["notes"]
 webworklink = mynode["webwork"]
+exerciselink = mynode["exercise"]
 title = mynode["label"].replace('\n',' ')
 content = mynode["content"]
 podcast = mynode["podcast"]
@@ -70,10 +72,10 @@ timestamp = "2022-04-01T08:48:57+00:00"
 chapter = f"chapter{index[0]}"
 
 ## WeBWorK
-if webworklink != "":
-    webworkstring = '## Solve the WeBWorK exercise\n {{< webwork "' + f"{webworklink}" + '">}}'
-else:
-    webworkstring = ""
+webworkstring = f"""## Solve the WeBWorK Exercise\n {{{{< webwork "{webworklink}">}}}}""" if webworklink != "" else ""
+
+## Exercise
+exercisestring = f"""## Solve the Exercise\n {{{{< webwork "{exerciselink}">}}}}""" if exerciselink != "" else ""
 
 ## youtube and video
 video = mynode["video"]
@@ -105,7 +107,7 @@ with open(f"../nodes/{index}/{filename}", 'rt') as myfile2:
     for myline in myfile2:
         mynotes = mynotes + myline
 
-#predecessors and succsessors
+#predecessors and successors
 def match_edge(nid):
     """checks if edge has source or target as given id"""
     for edge in edges:
@@ -164,10 +166,10 @@ preds = mystring
 succs = mystring2
 
 # define fillers
-fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###","###YTID###", "###PODCAST###", '###VIDEO###', "###WEBWORK###", "###NTABS###"]
+fillers = ["###TITLE###", "###DEC###", "###TIME###", "###CHAP###","###INDEX###", "###TABLEPRED###", "###TABLESUCC###", "###NOTES###", "###YTURLEND###","###YTID###", "###PODCAST###", '###VIDEO###', "###WEBWORK###", "###EXERCISE###", "###NTABS###"]
 
 # put content into same order
-content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, youtubeid, podcast, video, webworkstring, str(ntabs)]
+content = [title, content, timestamp, chapter, index, preds, succs,mynotes, youtubend, youtubeid, podcast, video, webworkstring, exercisestring, str(ntabs)]
 
 
 for ind, myline in enumerate(mylines):
