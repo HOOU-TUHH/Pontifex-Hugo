@@ -1,7 +1,7 @@
 \input{packs}
 
 Now we use integrals on unbounded domains to check whether series are convergent or not.
-\begin{Theorem}[Integral Criterion for Series]
+\begin{Theorem}[Integral Criterion for Series] \label{th:intcrit} 
 Let $f:[0,\infty)\to\mathbb{R}$ be monotonically decreasing and non-negative. Then the series
 \[\sum_{k=0}^{\infty}f(k)\]
 is convergent if and only if the integral
@@ -9,7 +9,6 @@ is convergent if and only if the integral
 converges.
 In the case of convergence, the following estimate holds true:
 \begin{equation}
-\label{eq:intcrit} 
 	0\leq \sum_{k=0}^\infty f(k) -\int_0^\infty f(x)~dx\leq f(0)
 \end{equation}
 \end{Theorem}
@@ -21,7 +20,7 @@ Using this inequality, we can directly conclude that, if one of the limits (inte
 
 In case of convergence necessarily $(f(k))_{k\in\mathbb{N}_0}$ is a zero sequence. Therefore
 \[0\leq \sum_{k=0}^n f(k) -\int_0^{n+1} f(x)~dx\leq \sum_{k=0}^n f(k) - \sum_{k=1}^{n+1}f(k) =f(0)-f(n+1)\]
-implies (\ref{eq:intcrit}) for $n\rightarrow \infty$.
+implies the inequality in Theorem~\ref{th:intcrit} for $n\rightarrow \infty$.
 $\Box$
 
 \begin{Remark}{}
@@ -31,7 +30,7 @@ the convergence of the series $\sum_{k=a}^{\infty}f(k)$ for $a\in\mathbb{N}$ is 
 
 \begin{example}
 \begin{enumerate}[a)]
-\item Using the results of Example~\ref{ex:infint} b), we see that
+\item Using the inproper integral of the function $\int_0^\infty \frac{1}{x^\alpha} dx$, we see that
 \[\sum_{k=1}^\infty\frac1{k^\alpha}\]
 converges for $\alpha>1$ and is divergent for $\alpha\leq1$.
 \item For $\alpha\in\mathbb{R}$ consider
