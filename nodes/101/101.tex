@@ -4,7 +4,7 @@ Next we define the notions of convergence and limits:
 \begin{Definition}[Convergence/divergence of sequences]\label{def:convlim}
     Let $(a_n)_{n\in\mathbb{N}}$ be a~sequence in $\mathbb{K}$. We say that
 \begin{itemize}
- \item[--] $(a_n)_{n\in\mathbb{N}}$ is \emph{convergent to $a\in \K$} if for all $\varepsilon>0$ there exists some $N=N(\varepsilon)\in\mathbb{N}$ such that for all $n\geq N$ holds $|a_n-a|<\varepsilon$. In this case, we write
+ \item[--] $(a_n)_{n\in\mathbb{N}}$ is \emph{convergent to $a\in \mathbb{K}$} if for all $\varepsilon>0$ there exists some $N=N(\varepsilon)\in\mathbb{N}$ such that for all $n\geq N$ holds $|a_n-a|<\varepsilon$. In this case, we write
 \[\lim_{n\to\infty}a_n=a.\]
  \item[--] $(a_n)_{n\in\mathbb{N}}$ is \emph{divergent} if it is not convergent, i.e., for all $a\in \mathbb{K}$ holds: There exists some $\varepsilon>0$ such that for all $N$ there exists some $n>N$ with $|a_n-a|\geq\varepsilon$.
 \end{itemize}
@@ -14,40 +14,7 @@ Next we define the notions of convergence and limits:
 Convergence for real sequences means that if you give any small distance $\varepsilon$, one
 finds that all sequence members $a_n$ lie in the interval $(a-\varepsilon, a+\varepsilon)$ with the exception of only \emph{finitely} many.
 
-%  \begin{center}
-%  \begin{tikzpicture}
-%  \draw[line width=1.5pt] (0,1) to (10, 1);
-%  \fill[fill=green] (5, 1) node[below] {$a$} circle (2pt);
-%  \draw[line width=1pt, style=dashed, green] (8, 0.3)  arc (-40:40:1);
-%  \draw[line width=1pt, style=dashed, green] (2, 1.58)  arc (140:220:1);
-%  %\draw (8,1)
-%  %node
-%  %{$A$};
-%  \draw (8,0)
-%  node
-%  {$a + \varepsilon$};
-%  \draw (2,0)
-%  node
-%  {$a - \varepsilon$};
-%  \fill[fill=blue] (0.2, 1) node[below] {$a_1$} circle (2pt);
-%  \fill[fill=blue] (0.9, 1) node[below] {$a_2$} circle (2pt);
-%  \fill[fill=blue] (1.4, 1) circle (2pt);
-%  \fill[fill=blue] (2, 1) node[below] {$a_N$} circle (2pt);
-%  \fill[fill=blue] (2.4, 1) circle (2pt);
-%  \fill[fill=blue] (2.8, 1) circle (2pt);
-%  \fill[fill=blue] (3.4, 1) circle (2pt);
-%  \fill[fill=blue] (3.2, 1) circle (2pt);
-%  \fill[fill=blue] (4, 1) circle (2pt);
-%  \fill[fill=blue] (4.4, 1) circle (2pt);
-%  \fill[fill=blue] (4.6, 1) circle (2pt);
-%  \fill[fill=blue] (4.7, 1) circle (2pt);
-%  \fill[fill=blue] (4.8, 1) circle (2pt);
-%  \fill[fill=blue] (4.9, 1) circle (2pt);
-%  \fill[fill=blue] (4.99, 1) circle (2pt);
-%  \fill[fill=green] (5, 1) node[below] {$a$} circle (2pt);
-%  \end{tikzpicture}
-%  \end{center}
-%  
+\includegraphics{./conv.png}
 
 \begin{example}
 \begin{itemize}
@@ -97,41 +64,7 @@ finds that all sequence members $a_n$ lie in the interval $(a-\varepsilon, a+\va
 
 What does convergence mean?
 
-% \begin{center}
-% \begin{tikzpicture}
-% \draw[line width=1.5pt] (0,1) to (10, 1);
-% \fill[fill=green] (5, 1) node[below] {$a$} circle (2pt);
-% \draw[line width=1pt, style=dashed, green] (8, 0.3)  arc (-40:40:1);
-% \draw[line width=1pt, style=dashed, green] (2, 1.58)  arc (140:220:1);
-% %\draw (8,1)
-% %node
-% %{$A$};
-% \draw (8,0)
-% node
-% {$a + \varepsilon$};
-% \draw (2,0)
-% node
-% {$a - \varepsilon$};
-% \fill[fill=blue] (0.2, 1) node[below] {$a_1$} circle (2pt);
-% \fill[fill=blue] (0.9, 1) node[below] {$a_2$} circle (2pt);
-% \fill[fill=blue] (1.4, 1) circle (2pt);
-% \fill[fill=blue] (2, 1) node[below] {$a_N$} circle (2pt);
-% \fill[fill=blue] (2.4, 1) circle (2pt);
-% \fill[fill=blue] (2.8, 1) circle (2pt);
-% \fill[fill=blue] (3.4, 1) circle (2pt);
-% \fill[fill=blue] (3.2, 1) circle (2pt);
-% \fill[fill=blue] (6, 1) node[below] {$a_{N+1}$} circle (2pt);
-% \fill[fill=blue] (4.4, 1) circle (2pt);
-% \fill[fill=blue] (4.6, 1) circle (2pt);
-% \fill[fill=blue] (4.7, 1) circle (2pt);
-% \fill[fill=blue] (4.8, 1) circle (2pt);
-% \fill[fill=blue] (4.9, 1) circle (2pt);
-% \fill[fill=blue] (4.99, 1) circle (2pt);
-% \fill[fill=blue] (5.5, 1) circle (2pt);
-% \fill[fill=green] (5, 1) node[below] {$a$} circle (2pt);
-% \end{tikzpicture}
-% \end{center}
-
+\includegraphics{./conv2.png}
 
 Outside any $\varepsilon$-neighbourhood of $a$ only finitely many elements of the sequence exist.
 
