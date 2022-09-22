@@ -5,7 +5,7 @@ Here, we will prove the theorem below.
 \begin{Theorem}{Taylor's formula}
     Let $I$ be an interval and assume that $f:I\to\mathbb{R}$ is $n+1$-times differentiable. Let $x_0\in I$ and $h\in\mathbb{R}$ such that $x_0+h\in I$. 
 Then there exists some $\theta\in(0,1)$ such that
-\[f(x_0+h)=\underbrace{\sum_{k=0}^n\frac{f^{(k)}(x_0)}{k!}h^k}_{\text{``Taylor polynomial''}}+\underbrace{\frac{f^{(n+1)}(x_0+\theta h)}{(n+1)!}h^{n+1}}_{\text{``remainder term''}}.\]
+\[f(x_0+h)=\underbrace{\sum_{k=0}^n\frac{f^{(k)}(x_0)}{k!}h^k}_{\text{Taylor}\ \text{polynomial}}+\underbrace{\frac{f^{(n+1)}(x_0+\theta h)}{(n+1)!}h^{n+1}}_{\text{remainder}\ \text{term}}.\]
 The number $x_0$ is called \emph{expansion point}.
 \end{Theorem}
 {\em Proof:} Remember the generalised mean value theorem
@@ -23,7 +23,7 @@ and
 \[g'(x)=-(n+1)(x_0+h-x)^{n}.\]
 Moreover, we have
 \[F(x_0)=\sum_{k=0}^n\frac{f^{(k)}(x_{0})}{k!}h^k,\quad F(x_0+h)=f(x_0+h),\quad g(x_0)=h^{n+1},\quad g(x_0+h)=0.\]
-Then using (\ref{eq:genmean}), we obtain
+Then using the generalised mean value theorem, we obtain
 \[
 \begin{aligned}
 &f(x_0+h)- \sum_{k=0}^n\frac{f^{(k)}(x_0)}{k!}h^k\\
