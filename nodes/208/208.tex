@@ -14,7 +14,7 @@ Then $\sum_{k=1}^\infty a_k$ converges absolutely.
 {\em Proof:} We inductively obtain that for all $k\geq n_0$ holds
 \[|a_k|\leq q^{k-n_0}|a_{n_0}| \ .\]
 Therefore, the series $\sum_{k=1}^\infty q^{k-n_0}|a_{n_0}|$ is a majorant of $\sum_{k=1}^\infty a_k$. However, the majorant is convergent due to
-\[\sum_{k=1}^\infty q^{k-n_0}|a_{n_0}|=\frac{|a_{n_0}|}{(1-q)q^{n_0-1}}\qquad\text{(see Example~\ref{ex:geomharm} a))}.\]
+\[\sum_{k=1}^\infty q^{k-n_0}|a_{n_0}|=\frac{|a_{n_0}|}{(1-q)q^{n_0-1}}.\]
 The majorant criterion then implies convergence.$\Box$
 
 \begin{Remark}{}
@@ -26,7 +26,8 @@ series that do not fulfill the quotient criterion. For instance, consider the ab
 Observing that
 \[\frac{|a_{k+1}|}{|a_{k}|}=\left|\frac{k}{k+1}\right|^2,\]
 the fact that this expression converges to $1$ implies that there does not exist some $q<1$ for which the quotient criterion is fulfilled.
- However, this series is convergent as we have proven in the Example on the geometric series..\\
+However, this series is convergent as we have proven in the Example on the geometric series.
+
 We could also formulate ``an alternative quotient criterion'' that gives us a~sufficient criterion for divergence. 
 Namely, consider a~real series $\sum_{k=1}^\infty a_k$ with positive $a_k$ and assume that $\frac{a_{k+1}}{a_{k}}\geq 1$ 
 for all $k\geq n_0$ for some fixed $n_0\in\mathbb{N}$. This gives us $0< a_{k}\leq a_{k+1}$, i.e., the sequence $(a_n)_{n\in\mathbb{N}}$ is positive and monotonically increasing. 
@@ -59,12 +60,15 @@ is also sufficient for absolute convergence of $\sum_{k=1}^\infty a_k$. However,
  For $x\in\mathbb{K}$, consider the series
 \[\sum_{k=0}^\infty\frac{x^k}{k!}.\]
 Then an application of the limit form of the quotient criterion yields
-\[\begin{aligned}
-&\,\limsup_{k \rightarrow \infty}\frac{\left|\frac{x^{k+1}}{(k+1)!}\right|}{\left|\frac{x^k}{k!}\right|}
-=\limsup_{k \rightarrow \infty}\frac{|x|^{k+1}}{|x|^k}\frac{k!}{(k+1)!}\\
-=&\,\limsup_{k \rightarrow \infty}|x|\frac1{k+1}
-=\,\lim_{k\to\infty}|x|\frac1{k+1}=0<1.
-\end{aligned}\]
+$$
+\,\limsup_{k \rightarrow \infty}\frac{\left|\frac{x^{k+1}}{(k+1)!}\right|}{\left|\frac{x^k}{k!}\right|}
+$$
+$$
+=\limsup_{k \rightarrow \infty}\frac{|x|^{k+1}}{|x|^k}\frac{k!}{(k+1)!}
+$$
+$$
+=\,\limsup_{k \rightarrow \infty}|x|\frac1{k+1} =\,\lim_{k\to\infty}|x|\frac1{k+1}=0<1.
+$$
 Hence, the series converges absolutely. The series $\sum_{k=0}^\infty\frac{x^k}{k!}$ is called \emph{exponential series} and we will indeed define $\exp(x)$ by this expression.
 \end{example}
 
@@ -93,15 +97,19 @@ By the convergence of the auxiliary sequence $\frac{n!}{(n-k)!n^k}$, there is an
 $$\sum_{k=0}^{K-1}\left|\frac{n!}{(n-k)!n^k}-1\right|\frac{|x|^{k}}{k!} <\frac{\varepsilon}{3} \ . $$
 
 For $n\geq N$ we estimate
-\begin{align*}
+$$
 \left|\left(1+\frac{x}{n}\right)^{n}-\sum_{k=0}^{\infty}\frac{x^{k}}{k!}\right| 
-&= \left|\sum_{k=0}^{n}\binom{n}{k}\frac{x^{k}}{n^{k}}-\sum_{k=0}^{\infty}\frac{x^{k}}{k!} \right|\\
-&\leq \sum_{k=0}^{K-1}\left|\binom{n}{k}\frac{x^{k}}{n^{k}}-\frac{x^{k}}{k!}\right|+\sum_{k=K}^{n} \binom{n}{k}\frac{|x|^{k}}{n^{k}}
-+\underbrace{\sum_{k=K}^{\infty}\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3}. \\
-&= \underbrace{\sum_{k=0}^{K-1}\left|\frac{n!}{(n-k)!n^k}-1\right|\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3}
+= \left|\sum_{k=0}^{n}\binom{n}{k}\frac{x^{k}}{n^{k}}-\sum_{k=0}^{\infty}\frac{x^{k}}{k!} \right|
+$$
+$$
+\leq \sum_{k=0}^{K-1}\left|\binom{n}{k}\frac{x^{k}}{n^{k}}-\frac{x^{k}}{k!}\right|+\sum_{k=K}^{n} \binom{n}{k}\frac{|x|^{k}}{n^{k}}
++\underbrace{\sum_{k=K}^{\infty}\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3}. 
+$$
+$$
+= \underbrace{\sum_{k=0}^{K-1}\left|\frac{n!}{(n-k)!n^k}-1\right|\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3}
 +\underbrace{\sum_{k=K}^{n} \underbrace{\frac{n!}{(n-k)!n^k}}_{\leq 1}\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3}
-+\underbrace{\sum_{k=K}^{\infty}\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3} \\ & < \varepsilon.
-\end{align*}
++\underbrace{\sum_{k=K}^{\infty}\frac{|x|^{k}}{k!}}_{<\,\varepsilon/3} < \varepsilon.
+$$
 
 $\Box$
 
@@ -118,31 +126,29 @@ Let $(a_k)_{k\in\mathbb{N}}$ be  a sequence in $\mathbb{K}$.
            then the series $\sum_{k=1}^{\infty}a_k$ diverges.
 \end{itemize}
 \end{Theorem}
-{\em Proof:}
-  a) For $k\geq k_0$ holds $\frac{|a_{k+1}|}{|a_k|} \leq \frac{k-\beta}{k}$. Thus 
-     $k|a_{k+1}|\leq (k-\beta)|a_k|$ and therefore $\beta|a_k|\leq k |a_k|-k|a_{k+1}|$. 
-     Since $\beta>1$ and $|a_k|>0$ subtracting $|a_k|$ from both sides of this inequality yields
-     \begin{eqnarray}\label{l1:raabecrit}
-	0<(\beta-1)|a_k|\leq (k-1) |a_k|-k|a_{k+1}|=:b_k \ .
-     \end{eqnarray}
-     In particular, this shows that $(k|a_{k+1}|)_{k\geq k_0-1}$ is monotonically decreasing. 
-     Since it is bounded from below by zero, it must converge to some limit $s:=\lim_{k\rightarrow \infty}k|a_{k+1}|$. 
-     Thus also the telescoping series $\sum_{k=k_0}^\infty b_k$ converges to  
-     $\sum_{k=k_0}^\infty (k-1) |a_k|-k|a_{k+1}| = (k_0-1)|a_{k_0}|-s$.
-     From the above estimation and definition of $b_k$, we conclude that $\frac{1}{\beta-1}\sum_{k=k_0}^\infty b_k$ is a convergent majorant
-     of $\sum_{k=k_0}^\infty |a_k|$. By the majorant criterion, $\sum_{k=1}^\infty a_k$ is absolutely convergent.
-\\ \\
-  b) We may assume that $k_0>1$. For $k\geq k_0$ holds $0\neq\frac{a_{k+1}}{a_k} \geq \frac{k-1}{k}>0$. Since the right-hand side is nonnegative,
-     $a_{k}$ and $a_{k+1}$ must have the same sign (either + or -). Since for the same reason $a_{k+1}$ and $a_{k+2}$
-     must also have the same sign we see that all $a_k$ have the same sign for $k\geq k_0$. Without loss of generality
-     we may therefore assume that $a_k>0$ for all $k\geq k_0$. (Otherwise consider the sequence $(-a_k)_{k\in\mathbb{N}}$.)
-     Then $ka_{k+1}\geq (k-1)a_k$ shows that $ka_{k+1}\geq (k_0-1)a_{k_0}=:\alpha >0$ for all $k\geq k_0$, that is 
-     $a_{k+1}\geq \frac{\alpha}{k}$ for $k\geq k_0$.  
-     Consequently, $\sum_{k=k_0}^{\infty}\frac{\alpha}{k}$ is a divergent minorant for the series $\sum_{k=k_0}^{\infty}a_{k+1}$ 
-     so that the minorant criterion implies the divergence of $\sum_{k=1}^{\infty}a_k$.
-$\Box$
+% {\em Proof:}
+%   a) For $k\geq k_0$ holds $\frac{|a_{k+1}|}{|a_k|} \leq \frac{k-\beta}{k}$. Thus 
+%      $k|a_{k+1}|\leq (k-\beta)|a_k|$ and therefore $\beta|a_k|\leq k |a_k|-k|a_{k+1}|$. 
+%      Since $\beta>1$ and $|a_k|>0$ subtracting $|a_k|$ from both sides of this inequality yields
+%      \begin{eqnarray}\label{l1:raabecrit}
+% 	0<(\beta-1)|a_k|\leq (k-1) |a_k|-k|a_{k+1}|=:b_k \ .
+%      \end{eqnarray}
+%      In particular, this shows that $(k|a_{k+1}|)_{k\geq k_0-1}$ is monotonically decreasing. 
+%      Since it is bounded from below by zero, it must converge to some limit $s:=\lim_{k\rightarrow \infty}k|a_{k+1}|$. 
+%      Thus also the telescoping series $\sum_{k=k_0}^\infty b_k$ converges to  
+%      $\sum_{k=k_0}^\infty (k-1) |a_k|-k|a_{k+1}| = (k_0-1)|a_{k_0}|-s$.
+%      From the above estimation and definition of $b_k$, we conclude that $\frac{1}{\beta-1}\sum_{k=k_0}^\infty b_k$ is a convergent majorant
+%      of $\sum_{k=k_0}^\infty |a_k|$. By the majorant criterion, $\sum_{k=1}^\infty a_k$ is absolutely convergent.
+% \\ \\
+%   b) We may assume that $k_0>1$. For $k\geq k_0$ holds $0\neq\frac{a_{k+1}}{a_k} \geq \frac{k-1}{k}>0$. Since the right-hand side is nonnegative,
+%      $a_{k}$ and $a_{k+1}$ must have the same sign (either + or -). Since for the same reason $a_{k+1}$ and $a_{k+2}$
+%      must also have the same sign we see that all $a_k$ have the same sign for $k\geq k_0$. Without loss of generality
+%      we may therefore assume that $a_k>0$ for all $k\geq k_0$. (Otherwise consider the sequence $(-a_k)_{k\in\mathbb{N}}$.)
+%      Then $ka_{k+1}\geq (k-1)a_k$ shows that $ka_{k+1}\geq (k_0-1)a_{k_0}=:\alpha >0$ for all $k\geq k_0$, that is 
+%      $a_{k+1}\geq \frac{\alpha}{k}$ for $k\geq k_0$.  
+%      Consequently, $\sum_{k=k_0}^{\infty}\frac{\alpha}{k}$ is a divergent minorant for the series $\sum_{k=k_0}^{\infty}a_{k+1}$ 
+%      so that the minorant criterion implies the divergence of $\sum_{k=1}^{\infty}a_k$.
+% $\Box$
 
-We want to remark that the assumption $\mathbb{K}=\mathbb{R}$ in b) is not essential. The assertion also holds for $\mathbb{K}=\mathbb{C}$. In this case we have 
-to argue that for $k\geq k_0$ all $a_k = |a_k|e^{i\varphi_k}$ must have the same argument $\varphi_k\in [0,2\pi)$. Then again without loss
-of generality we may assume that $\varphi_k = 0$ for all $k\geq k_0$.
+%We want to remark that the assumption $\mathbb{K}=\mathbb{R}$ in b) is not essential. The assertion also holds for $\mathbb{K}=\mathbb{C}$. In this case we have to argue that for $k\geq k_0$ all $a_k = |a_k|e^{i\varphi_k}$ must have the same argument $\varphi_k\in [0,2\pi)$. Then again without loss of generality we may assume that $\varphi_k = 0$ for all $k\geq k_0$.
 
