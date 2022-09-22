@@ -2,17 +2,9 @@
 
 %\section{Differentiability and Derivatives}
 To motivate the problem, consider the functions $f,g:\mathbb{R}\to\mathbb{R}$ with $f(x)=x^2$ and $g(x)=|x|$.
-% \begin{figure}[h!]
-% \begin{center}
-% \begin{psfrags}
-% \psfrag{origin}{\scriptsize origin}
-% \psfrag{f}{\scriptsize $f$}
-% \psfrag{g}{\scriptsize $g$}
-% \includegraphics[width=0.51\textwidth,angle=0]{pics/difffctex.eps}
-% \caption{Domain of convergence}\label{fig:difffctex}
-% \end{psfrags}
-% \end{center}
-% \end{figure}
+
+\includegraphics{./dom.png}
+
 As we already know, both these functions are continuous. Let us now focus on the qualitative behavior of the functions at the origin.
 \renewcommand{\arraystretch}{1.5}
 \begin{table}[h!]\begin{center}
@@ -30,24 +22,9 @@ A~straight line $y(t)$ going through the points $(x_0,f(x_0))$ and $(x,f(x))$ is
 \[y(t)=f(x_0)+\frac{f(x_0)-f(x)}{x_0-x}(t-x_0) .\]
 In particular, the \emph{slope} of $y$ is the \emph{difference quotient}
 \[\frac{f(x_0)-f(x)}{x_0-x}=\frac{f(x)-f(x_0)}{x-x_0}.\]
-% \begin{figure}[h!]
-% \begin{center}
-% \begin{psfrags}
-% \psfrag{origin}{\scriptsize origin}
-% \psfrag{f}{\scriptsize $f$}
-% \psfrag{y}{\scriptsize $y$}
-% \psfrag{x}{\scriptsize $x$}
-% \psfrag{fx}{\scriptsize $f(x)$}
-% \psfrag{fx0}{\scriptsize $f(x_0)$}
-% \psfrag{x0}{\scriptsize $x_0$}
-% \psfrag{x-x}{\scriptsize $x_0-x$}
-% \psfrag{f-f}{\scriptsize $f(x_0)-f(x)$}
-% \psfrag{g}{\scriptsize $g$}
-% \includegraphics[width=0.81\textwidth,angle=0]{pics/secant.eps}
-% \caption{Secant of a function}\label{fig:secant}
-% \end{psfrags}
-% \end{center}
-% \end{figure}
+
+\includegraphics{./sec.png}
+
 If we now let $x$ tend to $x_0$, we obtain a~tangent of $f$ at $x_0$. This leads to the following definition.
 \begin{Definition}{}\label{def:diff}
     Let $I\subset\mathbb{R}$ be an interval with more than one point or
@@ -87,7 +64,7 @@ Then we have that $|x_0|=x_0$ and, moreover, for $x$ in some neighbourhood of $x
 Then we have that $|x_0|=-x_0$ and, moreover, for $x$ in some neighbourhood of $x_0$ holds $|x|=-x$. Therefore, we have
 \[\lim_{x\to x_0}\frac{|x|-|x_0|}{x-x_0}=\lim_{x\to x_0}\frac{-x+x_0}{x-x_0}=-1.\]
 {\em 3rd Case:} $x_0=0$.\\
-Then the two sequences $(x_n)_{n\in\N}=(\frac1n)_{n\in\N}$, $(y_n)_{n\in\N}=(-\frac1n)_{n\in\N}$ both tend to $x_0=0$. However, we have
+Then the two sequences $(x_n)_{n\in\mathbb{N}}=(\frac1n)_{n\in\mathbb{N}}$, $(y_n)_{n\in\mathbb{N}}=(-\frac1n)_{n\in\mathbb{N}}$ both tend to $x_0=0$. However, we have
 \[\lim_{n\to \infty}\frac{|x_n|-|x_0|}{x_n-x_0}=
 \lim_{n\to \infty}\frac{|\frac1n|-|0|}{\frac1n-0}=1\]
 and
