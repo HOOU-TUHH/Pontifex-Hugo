@@ -199,6 +199,10 @@ will render the exercise once the webpage has been loaded.
 
 Details on the WeBWorK course creation can be found [here](https://michaelgage.blogspot.com/2015/06/whether-writing-full-text-book-or-just.html).
 
+##### Pontifex-Coloring in WeBWorK Buttons
+
+To this end use the CSS-theme `nodes/math4-pontifex-coloring.css` and include it in your WeBWorK-Service.
+
 # Developer info
 
 ## Python preprocessing

@@ -13,6 +13,7 @@ usage: python3 make_md.py xxx
 import json
 import sys
 import re
+from collections import defaultdict
 
 index = str(sys.argv[1])
 path = f"{index}/{index}"
@@ -32,7 +33,7 @@ with open(f"../nodes/dummy_for_hugo.md", 'rt') as myfile:  # open file
 with open('../nodes/graph.json', 'r') as f:
     mydata = json.load(f)
 
-mynode = mydata["nodes"][index]
+mynode = defaultdict(str,mydata["nodes"][index])
 
 # preprocess youtube
 def get_youtubeid(link):
