@@ -2,7 +2,7 @@
  [![](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo/-/jobs/artifacts/dev/raw/edges.svg?job=dynamic_badge)]()
  [![](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo/-/jobs/artifacts/dev/raw/podcasts.svg?job=dynamic_badge)]()
 
-# Pontifex
+# Pontifex = pntfx
 
 This repo contains the essential Python and Bash scripts to build the Pontifex project.
 It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).
