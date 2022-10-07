@@ -9,7 +9,7 @@ It also provides all teaching and learning material used in the instance running
 
 # Terms of Use
 
-> How is the content of Pontifex licensed? Distinguish software and teaching material.
+The software pntfx is licensed under MIT.
 
 # Getting Started
 
