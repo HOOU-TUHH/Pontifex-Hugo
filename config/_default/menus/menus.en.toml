@@ -23,7 +23,7 @@
   target="_blank"
 
 [[main]]
-  name = "About Pontifex"
+  name = "About pntfx"
   weight = 60
   identifier = "aboutpntfx"
   url = "/news/aboutpntfx/"
