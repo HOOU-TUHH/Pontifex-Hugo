@@ -11,6 +11,11 @@ It also provides all teaching and learning material used in the instance running
 
 The software pntfx is licensed under MIT.
 
+If you use pntfx for visualization of your network, please add the following text to your application:
+
+> The data for the interactive network on this webpage was generated with pntfx Copyright Fabian Gabel and Julian Großmann. pntfx is licensed under the MIT license. Visualization of the network uses the open-source graph theory library Cytoscape.js licensed under the MIT license.
+
+
 # Getting Started
 
 > If you want to kick-start your own project with Pontifex and HUGO
