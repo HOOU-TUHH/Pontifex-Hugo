@@ -89,3 +89,11 @@ toc: true
 ###WEBWORK###
 
 ###EXERCISE###
+
+
+<!---
+Don't delete the footer below in your publication.
+-->
+
+<sub><sup>The data for the interactive network on this webpage was generated with pntfx Copyright Fabian Gabel and Julian Großmann. pntfx is licensed under the MIT license. Visualization of the network uses the open-source graph theory library Cytoscape.js licensed under the MIT license.
+</sup></sub>
