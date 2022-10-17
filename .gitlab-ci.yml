@@ -70,7 +70,7 @@ review-build:
 master-build:
   stage: build
   script:
-    - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}/\";" config/production/config.toml
+    - sed -i -e "s;baseurl.*;baseurl = \"${BASE_DIR}\";" config/production/config.toml
     - bin/build_pontifex.sh
   artifacts:
     paths:
