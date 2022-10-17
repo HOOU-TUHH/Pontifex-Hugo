@@ -1,0 +1,13 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Gabel
+    given-names: Fabian
+    orcid: 0000-0002-8053-0284
+  - family-names: Großmann
+    given-names: Julian
+    orcid: 0000-0003-2953-7701
+title: HOOU-TUHH/Pontifex-Hugo: v1.0
+version: v1.0
+date-released: 2022-10-17 
+

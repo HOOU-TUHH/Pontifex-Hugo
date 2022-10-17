@@ -1,0 +1,29 @@
+{
+    "description": "<p>First release of pntfx</p>", 
+    "license": "other-open", 
+    "title": "HOOU-TUHH/Pontifex-Hugo: v1.0", 
+    "version": "v1.0", 
+    "upload_type": "software", 
+    "publication_date": "2022-10-17", 
+    "creators": [
+        {
+            "name": "Fabian Gabel"
+        }, 
+        {
+            "name": "Julian Großmann"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/HOOU-TUHH/Pontifex-Hugo/tree/v1.0", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5281/zenodo.7218005", 
+            "relation": "isVersionOf"
+        }
+    ]
+}
