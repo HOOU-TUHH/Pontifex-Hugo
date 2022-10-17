@@ -23,12 +23,12 @@ If you use pntfx for visualization of your network, please add the following tex
 ## Kick-start your own application on GitHub
 
 * **Import project**: visit https://github.com/new/import and paste the URL `https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo.git`
-* Choose a *Repository Name*, e.g. `my-pntfx-project`
-* **Enable GitHub Actions**: visit the [repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository) to manage the repository actions and check the boxes next to 
+* Choose a *Repository Name*, e.g. `my-pntfx-project` and set the privacy/visibility settings to `public`
+* **Enable GitHub Actions**: visit the [repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository) to manage the repository actions (*Code and automatization/Actions/General* and check the boxes next to 
   * *Allow all actions and reusable workflows* and 
   * *Read and write permissions*.
-* In Settings/General go to *Pages* , select *Deploy from a branch*, and the branch `gh-pages` with `/root` and save
-* **Triggering the GitHub Action**: every change in your repository files should trigger the action `github-pages`. Visit your repository environments list to find out about the deployment status of your project.
+* **Trigger the GitHub Action**: every change in your repository files should trigger the action `github-pages`. Visit your repository environments list to find out about the deployment status of your project. Make a small change to one of the files in order to start the GitHub action.
+* In *Settings/Code and automatization* go to *Pages* , select *Deploy from a branch*, and the branch `gh-pages` with `/root` and save
 * Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/pontifex/` to explore your Pontifex application.
 
 For details on the implementation, checkout the GitHub workflow in the file `.github/workflows/gh-pages.yml`. See also the [Doks documentation](https://getdoks.org/docs/how-to/hosting/deployment/).
