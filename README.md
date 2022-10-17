@@ -2,14 +2,19 @@
  [![](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo/-/jobs/artifacts/dev/raw/edges.svg?job=dynamic_badge)]()
  [![](https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/pontifex-hugo/-/jobs/artifacts/dev/raw/podcasts.svg?job=dynamic_badge)]()
 
-# Pontifex
+# Pontifex = pntfx
 
 This repo contains the essential Python and Bash scripts to build the Pontifex project.
 It also provides all teaching and learning material used in the instance running on the domain [pntfx.com](https://pntfx.com) licensed under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 # Terms of Use
 
-> How is the content of Pontifex licensed? Distinguish software and teaching material.
+The software pntfx is licensed under MIT.
+
+If you use pntfx for visualization of your network, please add the following text to your application:
+
+> The data for the interactive network on this webpage was generated with pntfx Copyright Fabian Gabel and Julian Großmann. pntfx is licensed under the MIT license. Visualization of the network uses the open-source graph theory library Cytoscape.js licensed under the MIT license.
+
 
 # Getting Started
 
@@ -49,7 +54,7 @@ Example entry:
       "webwork": "https://demo.webwork.rochester.edu/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=daemon_course&userID=daemon&course_password=daemon&outputformat=simple",
       "exercise": "quiz.html",
       "podcast": "Click <a href=\"https://anchor.fm/profmoppi/Setsepisodes/--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\">here</a> or on the thumbnail to open up a podcast episode in a separate tab!<a href=\"https://anchor.fm/profmoppi/episodes/Sets--Relations--and-Mappings-e193jss/a-a6knu04\" target=\"_blank\"><img src=\"./well-defined-and-wonderful.jpg\"></a><p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>"
-    },
+    }
 ```
 
 This entry describes the concept node `305` for the concept "Epsilon-Delta Definition"
@@ -61,7 +66,7 @@ This entry describes the concept node `305` for the concept "Epsilon-Delta Defin
 * `notes` name of the html file containing the lecture notes.
 * `video` ID (+ optional timestamp) of the YouTube video that should be linked. Can be used to either embed the video via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) or for an external link (currently implemented).
 * `webwork` link to [WeBWorK](https://github.com/openWeBWorK) exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
-* `exercise` html file (with javascript) for a quiz about the video (can be used additionally to WeBWorK or as a substitution)
+* `exercise` html file (with javascript) for a quiz about the video (can be used additionally to WeBWorK or as a substitution). It will also be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe). 
 * `podcast` plain html code to go in the *Podcast* section.
 #### Edges
 
