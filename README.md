@@ -26,6 +26,7 @@ If you use pntfx for visualization of your network, please add the following tex
 * **Enable GitHub Actions**: visit the [repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository) to manage the repository actions and check the boxes next to 
   * *Allow all actions and reusable workflows* and 
   * *Read and write permissions*.
+* In Settings/General go to *Pages* , select *Deploy from a branch*, and the branch `gh-pages` with `/root` and save
 * **Triggering the GitHub Action**: every change in your repository files should trigger the action `github-pages`. Visit your repository environments list to find out about the deployment status of your project.
 * Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/pontifex/` to explore your Pontifex application.
 
