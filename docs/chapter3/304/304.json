@@ -1,0 +1,284 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "304",
+                        "label": "Continuity",
+                        "meta": "RA27",
+                        "content": "The concept that relates functions with convergent sequences.",
+                        "notes": "304-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "401",
+                        "label": "Logarithm Function",
+                        "meta": "RA33",
+                        "content": "The inverse of the exponential function.",
+                        "notes": "401-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setLogarithmicFunctions/srw4_3_43.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=213",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "500",
+                        "label": "Differentiability",
+                        "meta": "RA34",
+                        "content": "How to quantify the rate of change of a function.",
+                        "notes": "500-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.51.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/TLdBLqPTsYc?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "400",
+                        "label": "Exponential\nFunction",
+                        "meta": "RA33",
+                        "content": "A special function that can be defined via a power series.",
+                        "notes": "400-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=25",
+                        "spotify": "https://open.spotify.com/embed/episode/3oQqWT2qg2dP0mBnDopNR7",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "306",
+                        "label": "Continuity for Sums,\nProducts, Quotients,\nand Compositions",
+                        "meta": "RA29",
+                        "content": "How combination of continuous functions leads to new continuous functions.",
+                        "notes": "306-snippet.html",
+                        "video": "",
+                        "exercise": "ratest29.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/W-E4LqZyEHA?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "307",
+                        "label": "Continuous Images\nof Compact Sets\nAre Compact",
+                        "meta": "RA30",
+                        "content": "A mapping property for continuous functions.",
+                        "notes": "307-snippet.html",
+                        "video": "",
+                        "exercise": "ratest30.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/6VWTG4wlRoA?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "309",
+                        "label": "Intermediate Value\nTheorem",
+                        "meta": "RA32",
+                        "content": "This theorem tells us that continuous functions don't jump. They have to attain every value between two values in their image.",
+                        "notes": "309-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/1.5/APEX_1.5_34.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<audio controls src=\"{{< baseurl >}}podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
+                        "youtube": "https://youtu.be/BNLu4_3Okuk?start=9",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "308",
+                        "label": "Uniform Limits of \n Continuous Functions",
+                        "meta": "RA31",
+                        "content": "How to preserve continuity in the limit of a sequence of continuous functions.",
+                        "notes": "308-snippet.html",
+                        "video": "",
+                        "exercise": "ratest31.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/llJruZnO-t4?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "305",
+                        "label": "Epsilon-Delta\nDefinition",
+                        "meta": "RA28",
+                        "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
+                        "notes": "305-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/4xhyqdjmxHU?start=11",
+                        "spotify": "https://open.spotify.com/embed/episode/5s5SRllj1inf4Noowpf1n0",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "003",
+                        "label": "Maps",
+                        "meta": " SLS04 ",
+                        "content": "Maps are the mathematical formulation of a machine that gets inputs and generate outputs. On both sides, sets are needed for the domain and the codomain.",
+                        "notes": "003-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Functions_Evaluating/Quad_No_Constant.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/JoLDwNh1lZ8?start=260",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "303",
+                        "label": "Limits of Functions",
+                        "meta": "RA26",
+                        "content": "How function evaluations change when the argument approaches a certain point.",
+                        "notes": "303-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setRateChange/3-2-72.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/QoLlvvro6rE?start=15",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "401",
+                        "label": "The natural logarithem is the inverse of a continuous function.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "500",
+                        "label": "Differentiability of a function is a stronger property than continuity.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "400",
+                        "label": "The exponential function is continuous.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "306",
+                        "label": "Continuity is preserved under certain operations with functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "307",
+                        "label": "Continuity preserves compactness of sets.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "309",
+                        "label": "Continuous functions on intervals don't have jumps. Instead they attain every value in between to elements of their range.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "308",
+                        "label": "Taking uniform limits of continuous functions preserves continuity.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "305",
+                        "label": "A different but equivalent notion of continuity using open balls. This notion captures the intuition that small deviations in input to a continuous map should also lead to small deviations in the output.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "304",
+                        "label": "Continuity is a central notion for maps on the real numbers.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "304",
+                        "label": "Continuous functions map convergent sequences to convergent sequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "303",
+                        "target": "304",
+                        "label": "If a function is continuous at a point, the the value coincides with the function limit at this point.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

@@ -1,0 +1,212 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "006",
+                        "label": "Injectivity, Surjectivity,\nBijectivity",
+                        "meta": " SLS06 ",
+                        "content": "These are important notions for maps.",
+                        "notes": "006-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMass-Amherst/Abstract-Algebra/PS-Functions/Functions2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/CSzJchEvfpE?start=9",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "400",
+                        "label": "Exponential\nFunction",
+                        "meta": "RA33",
+                        "content": "A special function that can be defined via a power series.",
+                        "notes": "400-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=25",
+                        "spotify": "https://open.spotify.com/embed/episode/3oQqWT2qg2dP0mBnDopNR7",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "505",
+                        "label": "Inversion Formula",
+                        "meta": "RA39",
+                        "content": "How to calculate the derivative of the inverse function.",
+                        "notes": "505-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.8_Derivatives_of_Inverse_Functions/3.8.7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/h0nBAMhdSMk?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "401",
+                        "label": "Logarithm Function",
+                        "meta": "RA33",
+                        "content": "The inverse of the exponential function.",
+                        "notes": "401-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setLogarithmicFunctions/srw4_3_43.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=213",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "210",
+                        "label": "Reordering",
+                        "meta": "RA21",
+                        "content": "Series can be reordered.",
+                        "notes": "210-snippet.html",
+                        "video": "",
+                        "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest21.html",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/GADre0hHc4c?start=9",
+                        "spotify": "https://open.spotify.com/embed/episode/6durWHlw2SthLanub3S8Ts",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "609",
+                        "label": "Substitution Rule\nfor Integration",
+                        "meta": "RA57",
+                        "content": "An important integration rule.",
+                        "notes": "609-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "012",
+                        "label": "Countable Sets",
+                        "meta": "",
+                        "content": "A notion of cardinality that covers finite sets and those that can be enumerated via the natural numbers.",
+                        "notes": "012-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/WMgiYh7tac0?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/6JdbJSYkihEiLJQijcPkYO",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and\nPreimage",
+                        "meta": " SLS05 ",
+                        "content": "Via images and preimages we describe how functions work on sets.",
+                        "notes": "005-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/twBYYTJdcjc?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "000",
+                        "label": "Logical Statements\nand Operations",
+                        "meta": " SLL01",
+                        "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
+                        "notes": "000-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/DU4wKBDm2Z4?start=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "006",
+                        "target": "400",
+                        "label": "The exponential function is a bijective function onto the positive reals.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "006",
+                        "target": "505",
+                        "label": "Bijective differentiable functions can be differentiated using the inversion formula.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "006",
+                        "target": "401",
+                        "label": "The natural logarithm is the inverse of the exponential function.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "006",
+                        "target": "210",
+                        "label": "Reordering of a series is defined via an bijective mapping of natural numbers.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "006",
+                        "target": "609",
+                        "label": "Transformations of the domain of integration need to be invertible or at least injective.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "006",
+                        "target": "012",
+                        "label": "Countable sets can be bijectively mapped to the natural numbers or a finite subset of the natural numbers.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "005",
+                        "target": "006",
+                        "label": "Injectivity and surjectivity can be expressed in terms of images and preimages.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "000",
+                        "target": "006",
+                        "label": "Image and Preimage are characterised via logical statements involving quantifiers.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

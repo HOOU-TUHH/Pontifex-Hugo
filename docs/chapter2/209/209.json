@@ -1,0 +1,164 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "209",
+                        "label": "Root Criterion",
+                        "meta": "RA20",
+                        "content": "An important criterion to prove absolute convergence by means of the behavior of the n-th roots of the underlying sequence's terms.",
+                        "notes": "209-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.5_The_Ratio_and_Root_Tests/10.5.37.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yLbgdL9HAeg?start=420",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "403",
+                        "label": "Power Series",
+                        "meta": "RA33",
+                        "content": "A sequence of partial sums of polynomial functions.",
+                        "notes": "403-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Indiana/Indiana_setSeries8Power/eva8_5a_2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=332",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Bounded\nSequences",
+                        "meta": " RA03 ",
+                        "content": "Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.",
+                        "notes": "102-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "109",
+                        "label": "Limit Inferior and\nLimit Superior",
+                        "meta": "RA11+RA12 ",
+                        "content": "The largest and smallest limit of all convergent subsequences.",
+                        "notes": "109-snippet.html",
+                        "video": "",
+                        "exercise": "ratest11.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/-y0v2V0-_8E?start=21",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "201",
+                        "label": "Geometric and\nHarmonic Series",
+                        "meta": "RA16",
+                        "content": "The most important examples of series.",
+                        "notes": "201-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setSequenceandSeries/jj14.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Y4yRcz-b17A?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "207",
+                        "label": "Comparison Test",
+                        "meta": "RA19",
+                        "content": "If a series converges can be checked with different tests.",
+                        "notes": "207-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section04/SCalcET7-11-4-002a.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/mI40-tAtP58?start=160",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "206",
+                        "label": "Absolute Convergence",
+                        "meta": "RA19",
+                        "content": "A strong concept of convergence of series.",
+                        "notes": "206-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_6_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/mI40-tAtP58?start=21",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "209",
+                        "target": "403",
+                        "label": "The root criterion is useful for determining domains of convergence.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "209",
+                        "label": "If the sequence of nth roots of the sequence members is bounded by a number strictly smaller than one, then the corresponding series converges by the root criterion.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "109",
+                        "target": "209",
+                        "label": "The root criterion in its limit form gives a condition for the limsup of the underlying sequence.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "201",
+                        "target": "209",
+                        "label": "The geometric series is used in the proof of the root criterion as a majorant.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "207",
+                        "target": "209",
+                        "label": "The proof of the root criterion relies on the majorant criterion.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "206",
+                        "target": "209",
+                        "label": " The root criterion is a statement about absolute convergence of a series.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

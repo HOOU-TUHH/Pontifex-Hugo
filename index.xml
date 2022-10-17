@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pntfx - Building Bridges between Mathematical Concepts on </title>
+    <link>/Pontifex-Hugo//</link>
+    <description>Recent content in pntfx - Building Bridges between Mathematical Concepts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2020-2022 Pontifex</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:47:36 +0000</lastBuildDate>
+    
+        <atom:link href="/Pontifex-Hugo//index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>News</title>
+      <link>/Pontifex-Hugo//news/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:55 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridges</title>
+      <link>/Pontifex-Hugo//docs/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:23 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/Pontifex-Hugo//privacy-policy/</link>
+      <pubDate>Thu, 27 Aug 2020 19:23:18 +0200</pubDate>
+      
+      <guid>/Pontifex-Hugo//privacy-policy/</guid>
+      <description>TLDR: We do not use cookies and we do not collect any personal data.
+Website visitors #  No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No information is monetized.  Effective Date: 14th July 2022</description>
+    </item>
+    
+  </channel>
+</rss>

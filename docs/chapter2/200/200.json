@@ -1,0 +1,308 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "200",
+                        "label": "Series and\nPartial Sums",
+                        "meta": "RA15",
+                        "content": "A series is a sequence of partial sums.",
+                        "notes": "200-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/BgfP3riDcrc?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/4rf4zO7V8UJErJxgzmZFgh"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "201",
+                        "label": "Geometric and\nHarmonic Series",
+                        "meta": "RA16",
+                        "content": "The most important examples of series.",
+                        "notes": "201-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setSequenceandSeries/jj14.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Y4yRcz-b17A?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "203",
+                        "label": "Convergent Series and\nLimit Theorems",
+                        "meta": "RA17",
+                        "content": "Basic operations with convergent series.",
+                        "notes": "203-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSeries4Geometric/ns8_2_23.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/lr12HwXQ3uw?start=20",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "204",
+                        "label": "Cauchy Criterion",
+                        "meta": "RA17",
+                        "content": "A series converges if its partial sums form a Cauchy sequence. As a consequence, for a convergent series, the underlying sequence necessarily needs to converge to zero.",
+                        "notes": "204-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/AlfredUniv/anton8e/chapter10/10.4/prob1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/lr12HwXQ3uw?start=130",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "205",
+                        "label": "Leibniz Criterion",
+                        "meta": "RA18",
+                        "content": "A convergence criterion for sums based on an alternating sequence.",
+                        "notes": "205-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_5_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/MjjMwQ6zFko?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "206",
+                        "label": "Absolute Convergence",
+                        "meta": "RA19",
+                        "content": "A strong concept of convergence of series.",
+                        "notes": "206-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_6_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/mI40-tAtP58?start=21",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "207",
+                        "label": "Comparison Test",
+                        "meta": "RA19",
+                        "content": "If a series converges can be checked with different tests.",
+                        "notes": "207-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section04/SCalcET7-11-4-002a.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/mI40-tAtP58?start=160",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "210",
+                        "label": "Reordering",
+                        "meta": "RA21",
+                        "content": "Series can be reordered.",
+                        "notes": "210-snippet.html",
+                        "video": "",
+                        "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest21.html",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/GADre0hHc4c?start=9",
+                        "spotify": "https://open.spotify.com/embed/episode/6durWHlw2SthLanub3S8Ts",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "211",
+                        "label": "Cauchy Product",
+                        "meta": "RA22",
+                        "content": "A special way to multiply two absolutely convergent sequences.",
+                        "notes": "211-snippet.html",
+                        "video": "",
+                        "exercise": "ratest22.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/tRa0Ex_0Yfo?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "400",
+                        "label": "Exponential\nFunction",
+                        "meta": "RA33",
+                        "content": "A special function that can be defined via a power series.",
+                        "notes": "400-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=25",
+                        "spotify": "https://open.spotify.com/embed/episode/3oQqWT2qg2dP0mBnDopNR7",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "100",
+                        "label": "Sequences",
+                        "meta": " RA02 ",
+                        "content": "These object are needed to define limits later on.",
+                        "notes": "100-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=17",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "011",
+                        "label": "Sums and Products",
+                        "meta": " SLL03",
+                        "content": "An important shorthand notation for calculations.",
+                        "notes": "011-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setIntSigmaNotation/an6_4_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/S5DdXfxl3ac?start=3",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "201",
+                        "label": "The geometric and harmonic series are one of the most important examples of series in real analysis. They also serve as tools in many proofs that involve the derivation of convergence using a comparison criterion.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "203",
+                        "label": " ",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "204",
+                        "label": "The Cauchy criterion works for sequences of partial sums that are Cauchy.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "205",
+                        "label": "The Leibniz criterion makes a statement about partial sums of an alternating sequence.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "206",
+                        "label": "A strong concept of convergence for sequences of partial sums.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "207",
+                        "label": "The comparison tests compare the terms of the partial sums to the ones of other series.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "210",
+                        "label": "Reordering a series leads to a new sequence of partial sums.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "211",
+                        "label": "The Cauchy product gives a formula for partial sums that can be used in order to define a product of sequences.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "400",
+                        "label": "The exponential series can be considered as a sequence of partial sums of functions",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "100",
+                        "target": "200",
+                        "label": "A series is a sequence of partial sums.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "200",
+                        "label": "A convergent series is a convergent sequence of partial sums.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "011",
+                        "target": "200",
+                        "label": "Partial sums are described using the formal sum notation.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

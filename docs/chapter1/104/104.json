@@ -1,0 +1,164 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "104",
+                        "label": "Monotonicity of Limits\n and Sandwich Theorem",
+                        "meta": " RA05 ",
+                        "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit. The technique of sandwiching can be used to determine limits via nested intervals.",
+                        "notes": "104-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Y6rRSip3QN4?start=14",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "309",
+                        "label": "Intermediate Value\nTheorem",
+                        "meta": "RA32",
+                        "content": "This theorem tells us that continuous functions don't jump. They have to attain every value between two values in their image.",
+                        "notes": "309-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/1.5/APEX_1.5_34.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<audio controls src=\"{{< baseurl >}}podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
+                        "youtube": "https://youtu.be/BNLu4_3Okuk?start=9",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "113",
+                        "label": "Uncountability\nof the Reals",
+                        "meta": " ",
+                        "content": "The real numbers cannot be enumerated.",
+                        "notes": "113-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/jCiIsigwaBE",
+                        "spotify": "https://open.spotify.com/embed/episode/7ElhBgZebKwOXqMsWMGgGJ",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "000",
+                        "label": "Logical Statements\nand Operations",
+                        "meta": " SLL01",
+                        "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
+                        "notes": "000-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/DU4wKBDm2Z4?start=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Bounded\nSequences",
+                        "meta": " RA03 ",
+                        "content": "Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.",
+                        "notes": "102-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "103",
+                        "label": "Limit Theorems",
+                        "meta": " RA04 ",
+                        "content": "Combining limits is a useful tool to deduce convergence and the limit of a more complicated sequence from the convergence of simpler building blocks.",
+                        "notes": "103-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Dartmouth/setStewartCh12S1/problem_7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/237VMLNVtQs?start=18",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "104",
+                        "target": "309",
+                        "label": "The nested intervals technique is made possible by the sandwich theorem and helps to prove the intermediate value theorem.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "104",
+                        "target": "113",
+                        "label": "The uncountability of the reals can be shown via an interval nesting which converges do to the monotonicity of the underlying sequences.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "000",
+                        "target": "104",
+                        "label": "Logical Statement, Quantifiers",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "104",
+                        "label": "Monotonicity and boundedness imply convergence.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "104",
+                        "label": "A bound for the sequence is also a bound for the limit by the monotonicity of limits.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "103",
+                        "target": "104",
+                        "label": "The proof and a lot of applications of the sandwich theorem are only possible because the limit theorems allow for elementary calculations with limits.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

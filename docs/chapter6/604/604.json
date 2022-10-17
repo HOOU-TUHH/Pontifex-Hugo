@@ -1,0 +1,92 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "604",
+                        "label": "Examples for\nCalculating the\nRiemann Integral",
+                        "meta": "RA52",
+                        "content": "Use the approximation by step functions to calculate integrals.",
+                        "notes": "604-snippet.html",
+                        "video": "",
+                        "exercise": "ratest52.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/J9qXHzxeDN4?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "606",
+                        "label": "First Fundamental\nTheorem of Calculus",
+                        "meta": "RA54",
+                        "content": "Linking differentiation and integration.",
+                        "notes": "606-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap6Sec2/Q21.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/AKhlP6IHDLk?start=13",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "601",
+                        "label": "Riemann Integral for\nStep Functions",
+                        "meta": "RA49",
+                        "content": "A notion of integral for a simple class of functions.",
+                        "notes": "601-snippet.html",
+                        "video": "",
+                        "exercise": "ratest49.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/VdXLenrjIao?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "603",
+                        "label": "Riemann Integral\nfor Bounded Functions",
+                        "meta": "RA51",
+                        "content": "Notion of integral for a large class of functions.",
+                        "notes": "603-snippet.html",
+                        "video": "",
+                        "exercise": "ratest51.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/t8Hh73HxP1o?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "604",
+                        "target": "606",
+                        "label": "The fundamental theorem of calculus allows to reuse examples of integrals and derivatives in order to calculate new integrals.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "601",
+                        "target": "604",
+                        "label": "By definition the Riemann integral consists of limits of integrals of step functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "604",
+                        "label": "Compute integrals according to the definition.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

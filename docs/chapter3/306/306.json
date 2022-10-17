@@ -1,0 +1,92 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "306",
+                        "label": "Continuity for Sums,\nProducts, Quotients,\nand Compositions",
+                        "meta": "RA29",
+                        "content": "How combination of continuous functions leads to new continuous functions.",
+                        "notes": "306-snippet.html",
+                        "video": "",
+                        "exercise": "ratest29.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/W-E4LqZyEHA?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "007",
+                        "label": "Composition",
+                        "meta": "  SLS07 ",
+                        "content": "The composition for maps is just applying two maps in a row.",
+                        "notes": "007-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/algebraKaufmannSchwitters/ks_8_6_18.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/NiJ1yWKM9CU?start=13",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "103",
+                        "label": "Limit Theorems",
+                        "meta": " RA04 ",
+                        "content": "Combining limits is a useful tool to deduce convergence and the limit of a more complicated sequence from the convergence of simpler building blocks.",
+                        "notes": "103-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Dartmouth/setStewartCh12S1/problem_7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/237VMLNVtQs?start=18",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "304",
+                        "label": "Continuity",
+                        "meta": "RA27",
+                        "content": "The concept that relates functions with convergent sequences.",
+                        "notes": "304-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "007",
+                        "target": "306",
+                        "label": "Composition of continuous functions gives a continuous function.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "103",
+                        "target": "306",
+                        "label": "Continuity of sums, products, and quotients is preserved as a consequence of the limit theorems for sequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "306",
+                        "label": "Continuity is preserved under certain operations with functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

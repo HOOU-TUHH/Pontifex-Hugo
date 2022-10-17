@@ -1,0 +1,260 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "400",
+                        "label": "Exponential\nFunction",
+                        "meta": "RA33",
+                        "content": "A special function that can be defined via a power series.",
+                        "notes": "400-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=25",
+                        "spotify": "https://open.spotify.com/embed/episode/3oQqWT2qg2dP0mBnDopNR7"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "401",
+                        "label": "Logarithm Function",
+                        "meta": "RA33",
+                        "content": "The inverse of the exponential function.",
+                        "notes": "401-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setLogarithmicFunctions/srw4_3_43.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=213",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "504",
+                        "label": "Examples of \nDifferentiable Functions",
+                        "meta": "RA38",
+                        "content": "Calculation of derivatives by example.",
+                        "notes": "504-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma122DB/set4b/s3_4_10.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/93i7uKScVvc?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "609",
+                        "label": "Substitution Rule\nfor Integration",
+                        "meta": "RA57",
+                        "content": "An important integration rule.",
+                        "notes": "609-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "006",
+                        "label": "Injectivity, Surjectivity,\nBijectivity",
+                        "meta": " SLS06 ",
+                        "content": "These are important notions for maps.",
+                        "notes": "006-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMass-Amherst/Abstract-Algebra/PS-Functions/Functions2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/CSzJchEvfpE?start=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "206",
+                        "label": "Absolute Convergence",
+                        "meta": "RA19",
+                        "content": "A strong concept of convergence of series.",
+                        "notes": "206-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_6_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/mI40-tAtP58?start=21",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "211",
+                        "label": "Cauchy Product",
+                        "meta": "RA22",
+                        "content": "A special way to multiply two absolutely convergent sequences.",
+                        "notes": "211-snippet.html",
+                        "video": "",
+                        "exercise": "ratest22.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/tRa0Ex_0Yfo?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "208",
+                        "label": "Quotient Criterion",
+                        "meta": "RA20",
+                        "content": "An important criterion to prove absolute convergence by means of ratios of the underlying sequence's terms.",
+                        "notes": "208-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/9-4-Ratio-test/ratio-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yLbgdL9HAeg?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "300",
+                        "label": "Sequences of\nBounded Functions",
+                        "meta": "RA23",
+                        "content": "The concept of sequences but for functions instead of real numbers.",
+                        "notes": "300-snippet.html",
+                        "video": "",
+                        "exercise": "ratest23.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RM2hytsyMpc?start=20",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "200",
+                        "label": "Series and\nPartial Sums",
+                        "meta": "RA15",
+                        "content": "A series is a sequence of partial sums.",
+                        "notes": "200-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/BgfP3riDcrc?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/4rf4zO7V8UJErJxgzmZFgh",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "304",
+                        "label": "Continuity",
+                        "meta": "RA27",
+                        "content": "The concept that relates functions with convergent sequences.",
+                        "notes": "304-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "400",
+                        "target": "401",
+                        "label": "The bijectivity of the exponential gives the logarithm function as inverse.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "400",
+                        "target": "504",
+                        "label": "The exponential function is differentiable.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "400",
+                        "target": "609",
+                        "label": "Using the substitution rule may help to calculate integrals of exponentials.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "006",
+                        "target": "400",
+                        "label": "The exponential function is a bijective function onto the positive reals.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "206",
+                        "target": "400",
+                        "label": "The exponential series is absolutely convergent.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "211",
+                        "target": "400",
+                        "label": "The functional equation of the exponential is a consequence of the Cauchy product.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "208",
+                        "target": "400",
+                        "label": "By the quotient criterion, one can show that the exponential series converges absolutely.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "400",
+                        "label": "The exponential series can be considered as a sequence of partial sums of functions",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "400",
+                        "label": "The exponential series can be considered as a sequence of partial sums of functions",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "400",
+                        "label": "The exponential function is continuous.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

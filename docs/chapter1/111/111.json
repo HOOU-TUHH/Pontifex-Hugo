@@ -1,0 +1,188 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "111",
+                        "label": "Heine-Borel\nTheorem",
+                        "meta": " RA14 ",
+                        "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
+                        "notes": "111-snippet.html",
+                        "video": "",
+                        "exercise": "ratest14.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vjOefDHOVIg?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "307",
+                        "label": "Continuous Images\nof Compact Sets\nAre Compact",
+                        "meta": "RA30",
+                        "content": "A mapping property for continuous functions.",
+                        "notes": "307-snippet.html",
+                        "video": "",
+                        "exercise": "ratest30.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/6VWTG4wlRoA?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "112",
+                        "label": "Interior, Closure,\nBoundary",
+                        "meta": " ",
+                        "content": "Topological operations on sets.",
+                        "notes": "112-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RYtE09eHeqI?start=95",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "000",
+                        "label": "Logical Statements\nand Operations",
+                        "meta": " SLL01",
+                        "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
+                        "notes": "000-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/DU4wKBDm2Z4?start=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "110",
+                        "label": "Open, Closed,\nCompact Sets",
+                        "meta": " RA13 ",
+                        "content": "Important notions for subsets of real numbers.",
+                        "notes": "110-snippet.html",
+                        "video": "",
+                        "exercise": "ratest13.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Wqo4Svs4erw?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "107",
+                        "label": "Subsequences and\nAccumulation Values",
+                        "meta": " RA09 ",
+                        "content": "A sequence that does not converge may still have converging subsequences.",
+                        "notes": "107-snippet.html",
+                        "video": "",
+                        "exercise": "ratest09.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/xZ5vjdZzTUI?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "013",
+                        "label": "Bounded Sets,\nMaxima and Minima",
+                        "meta": "",
+                        "content": "The values inside a set of real numbers can be bounded.",
+                        "notes": "013-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8Cyvdv7Sm2s?t=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "108",
+                        "label": "Bolzano-Weierstrass\nTheorem",
+                        "meta": "RA10 ",
+                        "content": "Every bounded sequence has at least one converging subsequence.",
+                        "notes": "108-snippet.html",
+                        "video": "",
+                        "exercise": "ratest10.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/e2QaNklYZGg?start=10",
+                        "spotify": "https://open.spotify.com/embed/episode/4MKVAhO2q57xmMn1P7ONKg",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "111",
+                        "target": "307",
+                        "label": "The Heine-Borel theorem gives the existence of maxima and minima for continuous functions defined on compact sets.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "111",
+                        "target": "112",
+                        "label": "The closure of a bounded set is always compact by Heine-Borel theorem.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "000",
+                        "target": "111",
+                        "label": "Logical Statement, Quantifiers",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "110",
+                        "target": "111",
+                        "label": "Heine-Borel theorem characterises bounded and closed sets.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "107",
+                        "target": "111",
+                        "label": "The proof of the Heine-Borel theorem works with convergent subsequences in order to show that compact sets are closed.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "013",
+                        "target": "111",
+                        "label": "A bounded set that is also closed is a compact set by the Theorem of Heine-Borel.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "108",
+                        "target": "111",
+                        "label": "The prof of the Heine-Borel theorem uses the fact that a sequence of elements of a bounded set is a bounded sequence which has a convergent subsequence by the theorem of Bolzano-Weierstrass.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

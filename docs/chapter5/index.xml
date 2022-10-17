@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Differentiation on </title>
+    <link>/Pontifex-Hugo//docs/chapter5/</link>
+    <description>Recent content in Differentiation on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0009</lastBuildDate><atom:link href="/Pontifex-Hugo//docs/chapter5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application of Taylor&#39;s Theorem</title>
+      <link>/Pontifex-Hugo//docs/chapter5/512/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/512/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Chain Rule</title>
+      <link>/Pontifex-Hugo//docs/chapter5/502/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/502/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Differentiability</title>
+      <link>/Pontifex-Hugo//docs/chapter5/500/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/500/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Examples of  Differentiable Functions</title>
+      <link>/Pontifex-Hugo//docs/chapter5/504/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/504/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Generalisations of l&#39;Hospital&#39;s Rule</title>
+      <link>/Pontifex-Hugo//docs/chapter5/509/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/509/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Higher Derivatives</title>
+      <link>/Pontifex-Hugo//docs/chapter5/510/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/510/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Inversion Formula</title>
+      <link>/Pontifex-Hugo//docs/chapter5/505/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/505/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Mean Value Theorem</title>
+      <link>/Pontifex-Hugo//docs/chapter5/507/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/507/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Proof of Taylor&#39;s Theorem</title>
+      <link>/Pontifex-Hugo//docs/chapter5/513/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/513/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Rolle&#39;s Theorem</title>
+      <link>/Pontifex-Hugo//docs/chapter5/506/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter5/506/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,164 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "403",
+                        "label": "Power Series",
+                        "meta": "RA33",
+                        "content": "A sequence of partial sums of polynomial functions.",
+                        "notes": "403-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Indiana/Indiana_setSeries8Power/eva8_5a_2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=332",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "504",
+                        "label": "Examples of \nDifferentiable Functions",
+                        "meta": "RA38",
+                        "content": "Calculation of derivatives by example.",
+                        "notes": "504-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma122DB/set4b/s3_4_10.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/93i7uKScVvc?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "511",
+                        "label": "Taylor's Theorem",
+                        "meta": "RA45",
+                        "content": "An approximation method for differentiable functions.",
+                        "notes": "511-snippet.html",
+                        "video": "",
+                        "exercise": "ratest45.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Pb390hRaLrw?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "503",
+                        "label": "Uniform Convergence \n for Differentiable Functions",
+                        "meta": "RA37",
+                        "content": "Compatibility of differentiability with uniform limits.",
+                        "notes": "503-snippet.html",
+                        "video": "",
+                        "exercise": "ratest37.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "209",
+                        "label": "Root Criterion",
+                        "meta": "RA20",
+                        "content": "An important criterion to prove absolute convergence by means of the behavior of the n-th roots of the underlying sequence's terms.",
+                        "notes": "209-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.5_The_Ratio_and_Root_Tests/10.5.37.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yLbgdL9HAeg?start=420",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "300",
+                        "label": "Sequences of\nBounded Functions",
+                        "meta": "RA23",
+                        "content": "The concept of sequences but for functions instead of real numbers.",
+                        "notes": "300-snippet.html",
+                        "video": "",
+                        "exercise": "ratest23.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RM2hytsyMpc?start=20",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "402",
+                        "label": "Polynomials",
+                        "meta": "RA33",
+                        "content": "A basic class of functions that consists a linear combinations of monomials.",
+                        "notes": "402-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_03_Polynomial.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=297",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "403",
+                        "target": "504",
+                        "label": "The functions given by power series are differentiable functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "403",
+                        "target": "511",
+                        "label": "A Taylor series is a particular power series.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "403",
+                        "target": "503",
+                        "label": "Uniform convergence within the domain of convergence of a power series.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "209",
+                        "target": "403",
+                        "label": "The root criterion is useful for determining domains of convergence.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "403",
+                        "label": "A power series is essentially a sequence of partial sums of functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "402",
+                        "target": "403",
+                        "label": "Each partial sum of a power series is a polynomial.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

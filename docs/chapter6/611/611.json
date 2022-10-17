@@ -1,0 +1,68 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "611",
+                        "label": "Partial Fraction\nDecomposition",
+                        "meta": "RA59",
+                        "content": "How to integrate rational functions.",
+                        "notes": "611-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartET/s_7_4_prob04.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/dLYIijHqH9U?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "609",
+                        "label": "Substitution Rule\nfor Integration",
+                        "meta": "RA57",
+                        "content": "An important integration rule.",
+                        "notes": "609-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "402",
+                        "label": "Polynomials",
+                        "meta": "RA33",
+                        "content": "A basic class of functions that consists a linear combinations of monomials.",
+                        "notes": "402-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_03_Polynomial.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=297",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "609",
+                        "target": "611",
+                        "label": "The substitution rule is often used for calculating integrals of rational functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "402",
+                        "target": "611",
+                        "label": "How to integrate rational functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

@@ -1,0 +1,308 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "300",
+                        "label": "Sequences of\nBounded Functions",
+                        "meta": "RA23",
+                        "content": "The concept of sequences but for functions instead of real numbers.",
+                        "notes": "300-snippet.html",
+                        "video": "",
+                        "exercise": "ratest23.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RM2hytsyMpc?start=20",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "301",
+                        "label": "Pointwise Convergence",
+                        "meta": "RA24",
+                        "content": "A notion of convergence for sequences functions that reduces the question of convergence to convergence of sequences of real numbers.",
+                        "notes": "301-snippet.html",
+                        "video": "",
+                        "exercise": "ratest24.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Kq_KZpljeXo?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "308",
+                        "label": "Uniform Limits of \n Continuous Functions",
+                        "meta": "RA31",
+                        "content": "How to preserve continuity in the limit of a sequence of continuous functions.",
+                        "notes": "308-snippet.html",
+                        "video": "",
+                        "exercise": "ratest31.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/llJruZnO-t4?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "400",
+                        "label": "Exponential\nFunction",
+                        "meta": "RA33",
+                        "content": "A special function that can be defined via a power series.",
+                        "notes": "400-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=25",
+                        "spotify": "https://open.spotify.com/embed/episode/3oQqWT2qg2dP0mBnDopNR7",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "403",
+                        "label": "Power Series",
+                        "meta": "RA33",
+                        "content": "A sequence of partial sums of polynomial functions.",
+                        "notes": "403-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Indiana/Indiana_setSeries8Power/eva8_5a_2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=332",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "302",
+                        "label": "Uniform Convergence",
+                        "meta": "RA25",
+                        "content": "A strong notion of convergence for sequences of functions that helps to preserve favorable properties like continuity in the limit.",
+                        "notes": "302-snippet.html",
+                        "video": "",
+                        "exercise": "ratest25.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/O2HKxNcom7g?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "503",
+                        "label": "Uniform Convergence \n for Differentiable Functions",
+                        "meta": "RA37",
+                        "content": "Compatibility of differentiability with uniform limits.",
+                        "notes": "503-snippet.html",
+                        "video": "",
+                        "exercise": "ratest37.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "013",
+                        "label": "Bounded Sets,\nMaxima and Minima",
+                        "meta": "",
+                        "content": "The values inside a set of real numbers can be bounded.",
+                        "notes": "013-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8Cyvdv7Sm2s?t=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "105",
+                        "label": "Supremum and\nInfimum of Sets",
+                        "meta": " RA06 ",
+                        "content": "Bounded sets always have an supremum and infimum which are generalizations of maximum and minimum.",
+                        "notes": "105-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8Cyvdv7Sm2s?start=16",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "003",
+                        "label": "Maps",
+                        "meta": " SLS04 ",
+                        "content": "Maps are the mathematical formulation of a machine that gets inputs and generate outputs. On both sides, sets are needed for the domain and the codomain.",
+                        "notes": "003-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Functions_Evaluating/Quad_No_Constant.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/JoLDwNh1lZ8?start=260",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and\nPreimage",
+                        "meta": " SLS05 ",
+                        "content": "Via images and preimages we describe how functions work on sets.",
+                        "notes": "005-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/twBYYTJdcjc?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "100",
+                        "label": "Sequences",
+                        "meta": " RA02 ",
+                        "content": "These object are needed to define limits later on.",
+                        "notes": "100-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=17",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/iA-Dtf7529M?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/4dhxy6YLYN7ItlWa0QgsG1",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "301",
+                        "label": "Pointwise convergence is a notion of convergence for sequences of functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "308",
+                        "label": "Properties of the limit of a sequence of continuous functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "400",
+                        "label": "The exponential series can be considered as a sequence of partial sums of functions",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "403",
+                        "label": "A power series is essentially a sequence of partial sums of functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "302",
+                        "label": "Special notion of convergence for sequences of functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "503",
+                        "label": "Differentiability of sequences of functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "013",
+                        "target": "300",
+                        "label": "If the image of a map is a bounded set, one also calls the map bounded.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "105",
+                        "target": "300",
+                        "label": "One bound to a map is given by the finite supremum of the set of the absolute function values.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "300",
+                        "label": "Function is just another name for map.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "005",
+                        "target": "300",
+                        "label": "Boundedness of a function can be expressed in terms of the image or range.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "100",
+                        "target": "300",
+                        "label": "A sequence of functions gives rise to a sequence of real numbers via point evaluations.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "300",
+                        "label": "Bounded functions on an interval form a set.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

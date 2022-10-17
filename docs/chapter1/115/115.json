@@ -1,0 +1,140 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "115",
+                        "label": "Cauchy\nSequences",
+                        "meta": " RA07 ",
+                        "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
+                        "notes": "115-snippet.html",
+                        "video": "",
+                        "exercise": "ratest07.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "106",
+                        "label": "Completeness",
+                        "meta": " RA07 ",
+                        "content": "Completeness says that Cauchy sequences must converge.",
+                        "notes": "106-snippet.html",
+                        "video": "",
+                        "exercise": "ratest07.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "204",
+                        "label": "Cauchy Criterion",
+                        "meta": "RA17",
+                        "content": "A series converges if its partial sums form a Cauchy sequence. As a consequence, for a convergent series, the underlying sequence necessarily needs to converge to zero.",
+                        "notes": "204-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/AlfredUniv/anton8e/chapter10/10.4/prob1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/lr12HwXQ3uw?start=130",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "100",
+                        "label": "Sequences",
+                        "meta": " RA02 ",
+                        "content": "These object are needed to define limits later on.",
+                        "notes": "100-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=17",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Bounded\nSequences",
+                        "meta": " RA03 ",
+                        "content": "Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.",
+                        "notes": "102-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "115",
+                        "target": "106",
+                        "label": "Completeness can be defined by stating that every Cauchy sequences converges.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "115",
+                        "target": "204",
+                        "label": "If the sequence of partial sums is a Cauchy sequence, then it converges.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "100",
+                        "target": "115",
+                        "label": "Being Cauchy is a property of a sequence that tells us that the distance between sequence members can get arbitrarily close for large indeces.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "115",
+                        "label": "Every convergent sequence is also a Cauchy sequence.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "115",
+                        "label": "Cauchy sequences are bounded.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

@@ -1,0 +1,92 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "112",
+                        "label": "Interior, Closure,\nBoundary",
+                        "meta": " ",
+                        "content": "Topological operations on sets.",
+                        "notes": "112-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RYtE09eHeqI?start=95",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/iA-Dtf7529M?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/4dhxy6YLYN7ItlWa0QgsG1",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "110",
+                        "label": "Open, Closed,\nCompact Sets",
+                        "meta": " RA13 ",
+                        "content": "Important notions for subsets of real numbers.",
+                        "notes": "110-snippet.html",
+                        "video": "",
+                        "exercise": "ratest13.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Wqo4Svs4erw?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "111",
+                        "label": "Heine-Borel\nTheorem",
+                        "meta": " RA14 ",
+                        "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
+                        "notes": "111-snippet.html",
+                        "video": "",
+                        "exercise": "ratest14.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vjOefDHOVIg?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "112",
+                        "label": "The interior, the closure or the boundary of a set is a set again.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "110",
+                        "target": "112",
+                        "label": "Interior is an open set, closure and boundary are closed sets.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "111",
+                        "target": "112",
+                        "label": "The closure of a bounded set is always compact by Heine-Borel theorem.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

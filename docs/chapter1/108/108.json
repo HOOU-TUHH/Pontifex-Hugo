@@ -1,0 +1,236 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "108",
+                        "label": "Bolzano-Weierstrass\nTheorem",
+                        "meta": "RA10 ",
+                        "content": "Every bounded sequence has at least one converging subsequence.",
+                        "notes": "108-snippet.html",
+                        "video": "",
+                        "exercise": "ratest10.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/e2QaNklYZGg?start=10",
+                        "spotify": "https://open.spotify.com/embed/episode/4MKVAhO2q57xmMn1P7ONKg"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "109",
+                        "label": "Limit Inferior and\nLimit Superior",
+                        "meta": "RA11+RA12 ",
+                        "content": "The largest and smallest limit of all convergent subsequences.",
+                        "notes": "109-snippet.html",
+                        "video": "",
+                        "exercise": "ratest11.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/-y0v2V0-_8E?start=21",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "309",
+                        "label": "Intermediate Value\nTheorem",
+                        "meta": "RA32",
+                        "content": "This theorem tells us that continuous functions don't jump. They have to attain every value between two values in their image.",
+                        "notes": "309-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/1.5/APEX_1.5_34.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<audio controls src=\"{{< baseurl >}}podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
+                        "youtube": "https://youtu.be/BNLu4_3Okuk?start=9",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "106",
+                        "label": "Completeness",
+                        "meta": " RA07 ",
+                        "content": "Completeness says that Cauchy sequences must converge.",
+                        "notes": "106-snippet.html",
+                        "video": "",
+                        "exercise": "ratest07.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "111",
+                        "label": "Heine-Borel\nTheorem",
+                        "meta": " RA14 ",
+                        "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
+                        "notes": "111-snippet.html",
+                        "video": "",
+                        "exercise": "ratest14.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vjOefDHOVIg?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Bounded\nSequences",
+                        "meta": " RA03 ",
+                        "content": "Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.",
+                        "notes": "102-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "000",
+                        "label": "Logical Statements\nand Operations",
+                        "meta": " SLL01",
+                        "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
+                        "notes": "000-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/DU4wKBDm2Z4?start=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "107",
+                        "label": "Subsequences and\nAccumulation Values",
+                        "meta": " RA09 ",
+                        "content": "A sequence that does not converge may still have converging subsequences.",
+                        "notes": "107-snippet.html",
+                        "video": "",
+                        "exercise": "ratest09.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/xZ5vjdZzTUI?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "114",
+                        "label": "Bounded Monotonic\nSequences",
+                        "meta": " ",
+                        "content": "If a sequence of real numbers is bounded and monotonic, then it is convergent.",
+                        "notes": "114-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=450",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "108",
+                        "target": "109",
+                        "label": "Bolzano-Weierstrass theorem guarantees the existence of a limit inferior and superior.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "108",
+                        "target": "309",
+                        "label": "The nested intervals technique used in the proof of the Bolzano-Weierstrass theorem is also used for the proof of the intermediate value theorem.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "108",
+                        "target": "106",
+                        "label": "The fact that every Cauchy sequence converges can be derived from the Bolzano-Weierstra\u00df theorem.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "108",
+                        "target": "111",
+                        "label": "The prof of the Heine-Borel theorem uses the fact that a sequence of elements of a bounded set is a bounded sequence which has a convergent subsequence by the theorem of Bolzano-Weierstrass.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "108",
+                        "label": "The Bolzano-Weierstrass theorem guarantees convergence of certain sequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "108",
+                        "label": "The Bolzano-Weierstrass theorem guarantees the existence of accumulation points for bounded sequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "000",
+                        "target": "108",
+                        "label": "Bolzano-Weierstrass theorem is a logical statement.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "107",
+                        "target": "108",
+                        "label": "The Bolzano-Weierstrass theorem guarantees existence of accumulation values.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "114",
+                        "target": "108",
+                        "label": "The proof of the Bolzano-Weierstrass theorem starts with a bounded sequence and then constructs a monotonic subsequence which is still bounded.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

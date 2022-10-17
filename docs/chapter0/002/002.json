@@ -1,0 +1,164 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "002",
+                        "label": "Real Numbers",
+                        "meta": " SLR03  ",
+                        "content": "In a real analysis, the real numbers are the largest number set we need. They satisfy axioms that represent the idea of a number line.",
+                        "notes": "002-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Compound_Inequalities/P_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/E2MAvASTcg4?start=19",
+                        "spotify": "https://open.spotify.com/embed/episode/1i62R3ZdwhjASp1TNJ2Bcy"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "105",
+                        "label": "Supremum and\nInfimum of Sets",
+                        "meta": " RA06 ",
+                        "content": "Bounded sets always have an supremum and infimum which are generalizations of maximum and minimum.",
+                        "notes": "105-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8Cyvdv7Sm2s?start=16",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "100",
+                        "label": "Sequences",
+                        "meta": " RA02 ",
+                        "content": "These object are needed to define limits later on.",
+                        "notes": "100-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=17",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "106",
+                        "label": "Completeness",
+                        "meta": " RA07 ",
+                        "content": "Completeness says that Cauchy sequences must converge.",
+                        "notes": "106-snippet.html",
+                        "video": "",
+                        "exercise": "ratest07.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "600",
+                        "label": "Partitions and\nStep Functions",
+                        "meta": "RA48",
+                        "content": "Splitting up an interval in subintervals and defining functions that are constant on them.",
+                        "notes": "600-snippet.html",
+                        "video": "",
+                        "exercise": "ratest48.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/joXBmJ1KInU?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/iA-Dtf7529M?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/4dhxy6YLYN7ItlWa0QgsG1",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "002",
+                        "target": "105",
+                        "label": "Supremum and infimum are numbers associated to sets of real numbers.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "002",
+                        "target": "100",
+                        "label": "A sequence is a map having the real numbers as codomain ",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "002",
+                        "target": "101",
+                        "label": "The definition of convergence involves the absolute value of a difference of real numbers and a quantitative comparison with another real number.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "002",
+                        "target": "106",
+                        "label": "Real numbers are complete by the completeness axiom.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "002",
+                        "target": "600",
+                        "label": "Functions that are constant on intervals of real numbers.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "002",
+                        "label": "Real numbers are a set of numbers.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

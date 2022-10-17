@@ -1,0 +1,92 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "211",
+                        "label": "Cauchy Product",
+                        "meta": "RA22",
+                        "content": "A special way to multiply two absolutely convergent sequences.",
+                        "notes": "211-snippet.html",
+                        "video": "",
+                        "exercise": "ratest22.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/tRa0Ex_0Yfo?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "400",
+                        "label": "Exponential\nFunction",
+                        "meta": "RA33",
+                        "content": "A special function that can be defined via a power series.",
+                        "notes": "400-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=25",
+                        "spotify": "https://open.spotify.com/embed/episode/3oQqWT2qg2dP0mBnDopNR7",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "200",
+                        "label": "Series and\nPartial Sums",
+                        "meta": "RA15",
+                        "content": "A series is a sequence of partial sums.",
+                        "notes": "200-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/BgfP3riDcrc?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/4rf4zO7V8UJErJxgzmZFgh",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "206",
+                        "label": "Absolute Convergence",
+                        "meta": "RA19",
+                        "content": "A strong concept of convergence of series.",
+                        "notes": "206-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_6_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/mI40-tAtP58?start=21",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "211",
+                        "target": "400",
+                        "label": "The functional equation of the exponential is a consequence of the Cauchy product.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "211",
+                        "label": "The Cauchy product gives a formula for partial sums that can be used in order to define a product of sequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "206",
+                        "target": "211",
+                        "label": "Taking the Cauchy product is an operation on two absolute convergent series.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

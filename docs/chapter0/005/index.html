@@ -1,0 +1,1733 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preload" as="font" href="/Pontifex-Hugo/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/Pontifex-Hugo/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/Pontifex-Hugo/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+
+  
+  <link rel="stylesheet" href="/Pontifex-Hugo/main.13d8085deb27f7cf44b29ae6d056f0581406e625a4f92b7849a047c936c1ee8e18f1ac2a4092add2a52c86eb5e51e44facc0afb43f52b564dab08db6e52b2874.css" integrity="sha512-E9gIXesn989Esprm0FbwWBQG5iWk&#43;St4SaBHyTbB7o4Y8awqQJKt0qUshuteUeRPrMCvtD9StWTasI225SsodA==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+<link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
+
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>Image and Preimage - pntfx</title>
+<meta name="description" content="Via images and preimages we describe how functions work on sets.">
+<link rel="canonical" href="/Pontifex-Hugo//docs/chapter0/005/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Image and Preimage">
+<meta property="og:description" content="Via images and preimages we describe how functions work on sets.">
+<meta property="og:url" content="/Pontifex-Hugo//docs/chapter0/005/">
+<meta property="og:site_name" content="pntfx">
+<meta property="article:published_time" content="2020-10-06T08:48:57+00:00">
+  <meta property="article:modified_time" content="2022-04-01T08:48:57+00:00">
+  
+  <meta property="og:image" content="/Pontifex-Hugo/doks.png"/>
+      <meta property="og:image:alt" content="pntfx">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@...">
+<meta name="twitter:creator" content="@...">
+<meta name="twitter:title" content="Image and Preimage">
+<meta name="twitter:description" content="Via images and preimages we describe how functions work on sets.">
+<meta name="twitter:image" content="/Pontifex-Hugo/doks.png">
+    <meta name="twitter:image:alt" content="Image and Preimage">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "/#/schema/organization/1",
+      "name": "Doks",
+      "url": "/",
+      "sameAs": [
+        , "https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex/"
+        ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "/#/schema/image/1",
+          "url": "/pntfx.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Doks"
+        },
+        "image": {
+          "@id": "/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "/#/schema/website/1",
+      "url": "/",
+      "name": "pntfx",
+      "description": "pntfx is a HOOU project.",
+      "publisher": {
+          "@id": "/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "/Pontifex-Hugo//docs/chapter0/005/",
+      "url": "/Pontifex-Hugo//docs/chapter0/005/",
+      "name": "Image and Preimage",
+      "description": "Via images and preimages we describe how functions work on sets.",
+      "isPartOf": {
+        "@id": "/#/schema/website/1"
+      },
+      "about": {
+          "@id": "/#/schema/organization/1"
+        },
+      "datePublished": "2020-10-06T08:48:57CET",
+      "dateModified": "2022-04-01T08:48:57CET",
+      "breadcrumb": {
+        "@id": "/Pontifex-Hugo//docs/chapter0/005/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "/Pontifex-Hugo//docs/chapter0/005/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["/Pontifex-Hugo//docs/chapter0/005/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "/Pontifex-Hugo//docs/chapter0/005/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "/Pontifex-Hugo//",
+          "url": "/Pontifex-Hugo//",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "/Pontifex-Hugo//docs/",
+          "url": "/Pontifex-Hugo//docs/",
+          "name": "Docs"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "/Pontifex-Hugo//docs/chapter0/",
+          "url": "/Pontifex-Hugo//docs/chapter0/",
+          "name": "Chapter0"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "item": {
+          "@id": "/Pontifex-Hugo//docs/chapter0/005/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "/#/schema/article/1",
+          "headline": "Image and Preimage",
+          "description": "Via images and preimages we describe how functions work on sets.",
+          "isPartOf": {
+            "@id": "/Pontifex-Hugo//docs/chapter0/005/"
+          },
+          "mainEntityOfPage": {
+            "@id": "/Pontifex-Hugo//docs/chapter0/005/"
+          },
+          "datePublished": "2020-10-06T08:48:57CET",
+          "dateModified": "2022-04-01T08:48:57CET",
+          "author": {
+            "@id": "/#/schema/person/2"
+          },
+          "publisher": {
+              "@id": "/#/schema/organization/1"
+            },
+          "image": {
+            "@id": "/Pontifex-Hugo//docs/chapter0/005/#/schema/image/2"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "/#/schema/person/2",
+          "name": "JPG and FNAG",
+          "sameAs": [
+            "https://twitter.com/..."
+            , "https://www.linkedin.com/in/..."
+            , "https://github.com/h-enk"
+            ]
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "/Pontifex-Hugo//docs/chapter0/005/#/schema/image/2",
+          "url": "/Pontifex-Hugo/doks.png",
+          "contentUrl": "/Pontifex-Hugo/doks.png",
+          "caption": "Image and Preimage"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="apple-touch-icon" sizes="180x180" href="/Pontifex-Hugo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Pontifex-Hugo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Pontifex-Hugo/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="/Pontifex-Hugo/site.webmanifest">
+
+  <link rel="stylesheet" href="/Pontifex-Hugo/css/style.css">
+</head>
+  <body class="docs single">
+    <div class="header-bar"></div>
+
+<header class="navbar navbar-expand-md navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+    <a class="navbar-brand p-0 me-auto" href="/Pontifex-Hugo/" aria-label="pntfx">
+      pntfx
+    </a>
+
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+
+    <div class="offcanvas offcanvas-start border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="/Pontifex-Hugo/">pntfx</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body px-4">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
+              <li class="nav-item">
+                <a class="nav-link ps-0 py-1" href="/Pontifex-Hugo/Pontifex-Hugo/docs/level1/">Network</a>
+              </li>
+            
+          
+              <li class="nav-item">
+                <a class="nav-link ps-0 py-1" href="/Pontifex-Hugo/Pontifex-Hugo/news/">News</a>
+              </li>
+            
+          
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Information
+                  <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                      <a class="dropdown-item" href="https://hoou.de">Hamburg Open Online University</a>
+                    </li>
+                  <li>
+                      <a class="dropdown-item" href="/Pontifex-Hugo/Pontifex-Hugo/news/aboutpntfx/">About pntfx</a>
+                    </li>
+                  </ul>
+              </li>
+            
+          </ul>
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://github.com/HOOU-TUHH"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><small class="ms-2 d-md-none">GitHub</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link ps-0 py-1" href="https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gitlab"><path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path></svg><small class="ms-2 d-md-none">GitLab</small></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    </nav>
+</header>
+
+<nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+
+    <form class="doks-search position-relative flex-grow-1 me-auto">
+      <input id="search" class="form-control is-search" type="search" placeholder="Search a notion..." aria-label="Search notions..." autocomplete="off">
+      <div id="suggestions" class="shadow bg-white rounded d-none"></div>
+    </form>
+    <button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+
+  </div>
+</nav>
+
+<div class="container-xxl">
+  <aside class="doks-sidebar">
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-b6c738cc963c1440fa44a9f1768f7d16" aria-expanded="true">
+          Logic and Sets
+        </button>
+        <div class="collapse show" id="section-b6c738cc963c1440fa44a9f1768f7d16">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/013/">Bounded Sets, Maxima and Minima</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/007/">Composition</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/012/">Countable Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded active" href="/Pontifex-Hugo//docs/chapter0/005/">Image and Preimage</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/006/">Injectivity, Surjectivity, Bijectivity</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/008/">Logical Deduction</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/000/">Logical Statements and Operations</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/003/">Maps</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/004/">Natural Numbers and Induction</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/010/">Operations on Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/009/">Predicates and Quantifiers</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/002/">Real Numbers</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/001/">Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/011/">Sums and Products</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-8fc9078d67a0ac4d2e7be05faec7af6f" aria-expanded="false">
+          Sequences
+        </button>
+        <div class="collapse" id="section-8fc9078d67a0ac4d2e7be05faec7af6f">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/108/">Bolzano-Weierstrass Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/114/">Bounded Monotonic Sequences</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/102/">Bounded Sequences</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/115/">Cauchy Sequences</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/106/">Completeness</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/101/">Convergence</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/111/">Heine-Borel Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/112/">Interior, Closure, Boundary</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/109/">Limit Inferior and Limit Superior</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/103/">Limit Theorems</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/104/">Monotonicity of Limits  and Sandwich Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/110/">Open, Closed, Compact Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/100/">Sequences</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/107/">Subsequences and Accumulation Values</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/105/">Supremum and Infimum of Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/113/">Uncountability of the Reals</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-9d948e617b083222afc868add2f50ec2" aria-expanded="false">
+          Series
+        </button>
+        <div class="collapse" id="section-9d948e617b083222afc868add2f50ec2">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/206/">Absolute Convergence</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/204/">Cauchy Criterion</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/211/">Cauchy Product</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/207/">Comparison Test</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/203/">Convergent Series and Limit Theorems</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/201/">Geometric and Harmonic Series</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/205/">Leibniz Criterion</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/208/">Quotient Criterion</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/210/">Reordering</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/209/">Root Criterion</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/200/">Series and Partial Sums</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-dc8017f990bbe7854dc1585dcd25aaad" aria-expanded="false">
+          Continuous Functions
+        </button>
+        <div class="collapse" id="section-dc8017f990bbe7854dc1585dcd25aaad">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/304/">Continuity</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/306/">Continuity for Sums, Products, Quotients, and Compositions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/307/">Continuous Images of Compact Sets Are Compact</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/305/">Epsilon-Delta Definition</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/309/">Intermediate Value Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/303/">Limits of Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/301/">Pointwise Convergence</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/300/">Sequences of Bounded Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/302/">Uniform Convergence</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/308/">Uniform Limits of   Continuous Functions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-a88946db0835e354bc73fcd0ba0b55e4" aria-expanded="false">
+          Elementary Functions
+        </button>
+        <div class="collapse" id="section-a88946db0835e354bc73fcd0ba0b55e4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter4/400/">Exponential Function</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter4/401/">Logarithm Function</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter4/402/">Polynomials</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter4/403/">Power Series</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-784fdff252cd6ffeaea3b7322548ba6c" aria-expanded="false">
+          Differentiation
+        </button>
+        <div class="collapse" id="section-784fdff252cd6ffeaea3b7322548ba6c">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/512/">Application of Taylor&#39;s Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/502/">Chain Rule</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/500/">Differentiability</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/504/">Examples of  Differentiable Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/509/">Generalisations of l&#39;Hospital&#39;s Rule</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/510/">Higher Derivatives</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/505/">Inversion Formula</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/507/">Mean Value Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/513/">Proof of Taylor&#39;s Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/506/">Rolle&#39;s Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/501/">Sum and Product Rule</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/511/">Taylor&#39;s Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/508/">Theorem of l&#39;Hospital</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/503/">Uniform Convergence   for Differentiable Functions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-1115b855bb2a508bc2ca0609cc2d0f65" aria-expanded="false">
+          Integration
+        </button>
+        <div class="collapse" id="section-1115b855bb2a508bc2ca0609cc2d0f65">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/604/">Examples for Calculating the Riemann Integral</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/606/">First Fundamental Theorem of Calculus</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/612/">Improper Riemann Integrals</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/613/">Integral Comparison Test</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/610/">Integration by Parts</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/602/">Linearity and Monotonicity of the Riemann Integral</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/608/">Mean Value Theorem of Integration</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/611/">Partial Fraction Decomposition</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/600/">Partitions and Step Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/605/">Properties of the Riemann Integral</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/603/">Riemann Integral for Bounded Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/601/">Riemann Integral for Step Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/607/">Second Fundamental Theorem of Calculus</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/609/">Substitution Rule for Integration</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+    </nav>
+  </aside>
+</div>
+
+
+    <div class="wrap container-xxl" role="document">
+      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			<nav class="docs-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-b6c738cc963c1440fa44a9f1768f7d16" aria-expanded="true">
+          Logic and Sets
+        </button>
+        <div class="collapse show" id="section-b6c738cc963c1440fa44a9f1768f7d16">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/013/">Bounded Sets, Maxima and Minima</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/007/">Composition</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/012/">Countable Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded active" href="/Pontifex-Hugo//docs/chapter0/005/">Image and Preimage</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/006/">Injectivity, Surjectivity, Bijectivity</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/008/">Logical Deduction</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/000/">Logical Statements and Operations</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/003/">Maps</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/004/">Natural Numbers and Induction</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/010/">Operations on Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/009/">Predicates and Quantifiers</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/002/">Real Numbers</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/001/">Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter0/011/">Sums and Products</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-8fc9078d67a0ac4d2e7be05faec7af6f" aria-expanded="false">
+          Sequences
+        </button>
+        <div class="collapse" id="section-8fc9078d67a0ac4d2e7be05faec7af6f">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/108/">Bolzano-Weierstrass Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/114/">Bounded Monotonic Sequences</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/102/">Bounded Sequences</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/115/">Cauchy Sequences</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/106/">Completeness</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/101/">Convergence</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/111/">Heine-Borel Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/112/">Interior, Closure, Boundary</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/109/">Limit Inferior and Limit Superior</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/103/">Limit Theorems</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/104/">Monotonicity of Limits  and Sandwich Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/110/">Open, Closed, Compact Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/100/">Sequences</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/107/">Subsequences and Accumulation Values</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/105/">Supremum and Infimum of Sets</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter1/113/">Uncountability of the Reals</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-9d948e617b083222afc868add2f50ec2" aria-expanded="false">
+          Series
+        </button>
+        <div class="collapse" id="section-9d948e617b083222afc868add2f50ec2">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/206/">Absolute Convergence</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/204/">Cauchy Criterion</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/211/">Cauchy Product</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/207/">Comparison Test</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/203/">Convergent Series and Limit Theorems</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/201/">Geometric and Harmonic Series</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/205/">Leibniz Criterion</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/208/">Quotient Criterion</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/210/">Reordering</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/209/">Root Criterion</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter2/200/">Series and Partial Sums</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-dc8017f990bbe7854dc1585dcd25aaad" aria-expanded="false">
+          Continuous Functions
+        </button>
+        <div class="collapse" id="section-dc8017f990bbe7854dc1585dcd25aaad">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/304/">Continuity</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/306/">Continuity for Sums, Products, Quotients, and Compositions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/307/">Continuous Images of Compact Sets Are Compact</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/305/">Epsilon-Delta Definition</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/309/">Intermediate Value Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/303/">Limits of Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/301/">Pointwise Convergence</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/300/">Sequences of Bounded Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/302/">Uniform Convergence</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter3/308/">Uniform Limits of   Continuous Functions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-a88946db0835e354bc73fcd0ba0b55e4" aria-expanded="false">
+          Elementary Functions
+        </button>
+        <div class="collapse" id="section-a88946db0835e354bc73fcd0ba0b55e4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter4/400/">Exponential Function</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter4/401/">Logarithm Function</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter4/402/">Polynomials</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter4/403/">Power Series</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-784fdff252cd6ffeaea3b7322548ba6c" aria-expanded="false">
+          Differentiation
+        </button>
+        <div class="collapse" id="section-784fdff252cd6ffeaea3b7322548ba6c">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/512/">Application of Taylor&#39;s Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/502/">Chain Rule</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/500/">Differentiability</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/504/">Examples of  Differentiable Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/509/">Generalisations of l&#39;Hospital&#39;s Rule</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/510/">Higher Derivatives</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/505/">Inversion Formula</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/507/">Mean Value Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/513/">Proof of Taylor&#39;s Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/506/">Rolle&#39;s Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/501/">Sum and Product Rule</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/511/">Taylor&#39;s Theorem</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/508/">Theorem of l&#39;Hospital</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter5/503/">Uniform Convergence   for Differentiable Functions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-1115b855bb2a508bc2ca0609cc2d0f65" aria-expanded="false">
+          Integration
+        </button>
+        <div class="collapse" id="section-1115b855bb2a508bc2ca0609cc2d0f65">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/604/">Examples for Calculating the Riemann Integral</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/606/">First Fundamental Theorem of Calculus</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/612/">Improper Riemann Integrals</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/613/">Integral Comparison Test</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/610/">Integration by Parts</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/602/">Linearity and Monotonicity of the Riemann Integral</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/608/">Mean Value Theorem of Integration</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/611/">Partial Fraction Decomposition</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/600/">Partitions and Step Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/605/">Properties of the Riemann Integral</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/603/">Riemann Integral for Bounded Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/601/">Riemann Integral for Step Functions</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/607/">Second Fundamental Theorem of Calculus</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/Pontifex-Hugo//docs/chapter6/609/">Substitution Rule for Integration</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+    <h3>On this page</h3>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#discover-bridges">Discover Bridges</a></li>
+    <li><a href="#study-image-and-preimage">Study <em>Image and Preimage</em></a></li>
+    <li><a href="#solve-the-webwork-exercise">Solve the WeBWorK Exercise</a></li>
+  </ul>
+</nav>
+  </div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>Image and Preimage</h1>
+			<p class="lead">Via images and preimages we describe how functions work on sets.</p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				<div class="page-links">
+    <h3>On this page</h3>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#discover-bridges">Discover Bridges</a></li>
+    <li><a href="#study-image-and-preimage">Study <em>Image and Preimage</em></a></li>
+    <li><a href="#solve-the-webwork-exercise">Solve the WeBWorK Exercise</a></li>
+  </ul>
+</nav>
+  </div>
+
+			</nav>
+			<h2 id="discover-bridges">Discover Bridges <a href="#discover-bridges" class="anchor" aria-hidden="true">#</a></h2>
+
+
+<nav>
+	<div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+		
+		
+		
+		
+
+		
+
+		<a class="nav-link  active "
+		   id="dacbfe-tab" data-bs-toggle="tab" data-bs-target="#dacbfe"
+		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Network</a>
+
+		
+
+		<a class="nav-link "
+		   id="cebdaf-tab" data-bs-toggle="tab" data-bs-target="#cebdaf"
+		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Table</a>
+
+		
+
+	</div>
+</nav>
+
+<div class="tab-content" id="nav-tab-content">
+
+	
+
+
+
+
+
+<div class="tab-pane fade show active " id="dacbfe" role="tabpanel" aria-labelledby="nav-1">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.21.2/cytoscape.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+  code.has-jax {
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important;
+    border: none !important;
+    font-size: 100%;
+}
+</style>
+<style>
+  #cy {
+    height: 500px;
+    display: block;
+  }
+</style>
+<p>Click on an <b>arrow</b> to get a description of the connection!</p>
+<div id="cy"></div>
+<p id="edge-message">Click on an <b>arrow</b> to get a description of the connection!</p>
+<script>let current_id = "005";</script>
+<script src="/Pontifex-Hugo//js/pontifex-graph.js"></script>
+
+
+</div>
+
+
+
+
+
+
+<div class="tab-pane fade show " id="cebdaf" role="tabpanel" aria-labelledby="nav-1">
+
+	<details open>
+<summary><b><u>Show requirements</u></b></summary>
+<div class="table-responsive-sm">
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col">Concept</th>
+    <th scope="col">Content</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="../../chapter0/001/">Sets</a></th>
+<td>Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.</td>
+</tr>
+<tr>
+<th scope="row"><a href="../../chapter0/003/">Maps</a></th>
+<td>Maps are the mathematical formulation of a machine that gets inputs and generate outputs. On both sides, sets are needed for the domain and the codomain.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</details>
+<details open>
+<summary><b><u>Show consequences</u></b></summary>
+<div class="table-responsive-sm">
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col">Concept</th>
+    <th scope="col">Content</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="../../chapter0/013/">Bounded Sets,
+Maxima and Minima</a></th>
+<td>The values inside a set of real numbers can be bounded.</td>
+</tr>
+<tr>
+<th scope="row"><a href="../../chapter1/102/">Bounded
+Sequences</a></th>
+<td>Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.</td>
+</tr>
+<tr>
+<th scope="row"><a href="../../chapter0/006/">Injectivity, Surjectivity,
+Bijectivity</a></th>
+<td>These are important notions for maps.</td>
+</tr>
+<tr>
+<th scope="row"><a href="../../chapter3/305/">Epsilon-Delta
+Definition</a></th>
+<td>A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.</td>
+</tr>
+<tr>
+<th scope="row"><a href="../../chapter3/307/">Continuous Images
+of Compact Sets
+Are Compact</a></th>
+<td>A mapping property for continuous functions.</td>
+</tr>
+<tr>
+<th scope="row"><a href="../../chapter3/300/">Sequences of
+Bounded Functions</a></th>
+<td>The concept of sequences but for functions instead of real numbers.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</details>
+
+
+</div>
+
+
+
+</div>
+
+<h2 id="study-image-and-preimage">Study <em>Image and Preimage</em> <a href="#study-image-and-preimage" class="anchor" aria-hidden="true">#</a></h2>
+
+
+<nav>
+	<div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+		
+		
+		
+		
+
+		
+
+		<a class="nav-link  active "
+		   id="eacfdb-tab" data-bs-toggle="tab" data-bs-target="#eacfdb"
+		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Notes</a>
+
+		
+
+		<a class="nav-link "
+		   id="bcfeda-tab" data-bs-toggle="tab" data-bs-target="#bcfeda"
+		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Video</a>
+
+		
+
+		<a class="nav-link "
+		   id="afbecd-tab" data-bs-toggle="tab" data-bs-target="#afbecd"
+		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Discussion</a>
+
+		
+
+	</div>
+</nav>
+
+<div class="tab-content" id="nav-tab-content">
+
+	
+
+
+
+
+
+<div class="tab-pane fade show active " id="eacfdb" role="tabpanel" aria-labelledby="nav-1">
+
+	<p>For every well-defined map <span class="math inline">\(f: X\to
+Y\)</span> and <span class="math inline">\(A\subset X\)</span>, <span
+class="math inline">\(B \subset Y\)</span> we are interested in the
+following sets:</p>
+<div class="Definition">
+<p><strong>Definition 1</strong>. <em>Let <span class="math inline">\(f:
+X\rightarrow Y\)</span> be a function and <span
+class="math inline">\(A\subset X\)</span> and <span
+class="math inline">\(B\subset Y\)</span> some sets.</em></p>
+<p><em><span class="math display">\[f(A):= \{ f(x): x\in A\}\]</span> is
+called the <em>image</em> of <span class="math inline">\(A\)</span>
+under <span class="math inline">\(f\)</span>.</em></p>
+<p><img src="./image.png" alt="image" /></p>
+<p><em><span class="math display">\[f^{-1}(B):= \{ x\in X: f(x) \in B
+\}\]</span> is called the <em>preimage</em> of <span
+class="math inline">\(B\)</span> under <span
+class="math inline">\(f\)</span>. <img src="./preimage.png"
+alt="image" /></em></p>
+</div>
+<p>Note that the preimage can also be the empty set if none of the
+elements in <span class="math inline">\(B\)</span> are “hit” by the
+map.</p>
+<p>To describe the behaviour of a map, the following sets are very
+important:</p>
+<div class="Definition">
+<p><strong>Definition 2</strong> (Range and fiber). <em>Let <span
+class="math inline">\(f: X\rightarrow Y\)</span> be a map. Then <span
+class="math display">\[\begin{aligned}
+\mathrm{Ran}(f) &amp;:= f(X) = \{ f(x) : x \in X \}
+\end{aligned}\]</span> is called the <em>range</em> of <span
+class="math inline">\(f\)</span>. For each <span
+class="math inline">\(y\in Y\)</span> the set <span
+class="math display">\[\begin{aligned}
+f^{-1}(\{y \}) &amp;:= \{ x \in X : f(x) = y \}
+\end{aligned}\]</span> is called a <em>fiber</em> of <span
+class="math inline">\(f\)</span>.</em></p>
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="tab-pane fade show " id="bcfeda" role="tabpanel" aria-labelledby="nav-1">
+
+	<div class="media-container"><img class="image" src="./twBYYTJdcjc.jpg"><div class="middle"><a class="button" href="https://youtu.be/twBYYTJdcjc?start=14" target="_blank">Open video on YouTube</a></div></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="tab-pane fade show " id="afbecd" role="tabpanel" aria-labelledby="nav-1">
+
+	<h4>Discuss your questions by typing below.</h4>
+<div id="vssue"></div>
+
+
+</div>
+
+
+
+</div>
+
+<h2 id="solve-the-webwork-exercise">Solve the WeBWorK Exercise <a href="#solve-the-webwork-exercise" class="anchor" aria-hidden="true">#</a></h2>
+
+<iframe
+  class="embed-responsive-item"
+  style="border-width: 0"
+  src="https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&amp;answersSubmitted=0&amp;sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&amp;problemSeed=123567890&amp;displayMode=MathJax&amp;courseID=pontifex&amp;userID=pontifexuser&amp;course_password=ki%28JH7j3m4%29k_46%29&amp;outputformat=simple"
+  width="100%"
+>
+</iframe><script>iFrameResize({log:true,inPageLinks:true,resizeFrom:'child'})</script>
+<!---
+Don't delete the footer below in your publication.
+-->
+<p><sub><sup>The data for the interactive network on this webpage was generated with pntfx Copyright Fabian Gabel and Julian Großmann. pntfx is licensed under the MIT license. Visualization of the network uses the open-source graph theory library Cytoscape.js licensed under the MIT license.
+</sup></sub></p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="/Pontifex-Hugo/docs/chapter5/510/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; Higher Derivatives
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="/Pontifex-Hugo/docs/chapter6/612/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					Improper Riemann Integrals &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <div class="container-xxl">
+    <div class="row">
+      <div class="col-lg-8 order-last order-lg-first">
+        <ul class="list-inline">
+          <li class="list-inline-item">Powered by <a href="https://collaborating.tuhh.de/hoou-an-der-tuhh-projekte/pontifex" target="_blank">pntfx</a>. pntfx is a <a href="https://www.hoou.de" target="_blank">HOOU</a> project by <a href="https://math.fabian-gabel.de" target="_blank">Fabian Gabel</a> and <a href="https://www.jp-g.de" target="_blank">Julian Großmann</a> licensed under the <a href="mit-licence.org" target="_blank">MIT License</a>. The content on this webpage is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 order-first order-lg-last text-lg-end">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="/Pontifex-Hugo/Pontifex-Hugo/feedback/">Feedback</a></li>
+          <li class="list-inline-item"><a href="/Pontifex-Hugo/Pontifex-Hugo/impressum/">Impressum</a></li>
+          <li class="list-inline-item"><a href="/Pontifex-Hugo/Pontifex-Hugo/privacy-policy/">Privacy</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="logos">
+      <img src="/Pontifex-Hugo///images/pontifex-logo.svg">
+      <img src="/Pontifex-Hugo///images/institute-logo.svg">
+      <img src="/Pontifex-Hugo///images/university-logo.svg">
+    </div>
+  </div>
+</footer>
+
+    <script src="/Pontifex-Hugo/js/bootstrap.min.f93d87ed312fd94eae9a720e5988a3bd322bcdd099518866fc5668e18610cca0077fc356b3edfc727dedf5f773dab0a6d87a870e4b616595e76381163dd5a730.js" integrity="sha512-&#43;T2H7TEv2U6umnIOWYijvTIrzdCZUYhm/FZo4YYQzKAHf8NWs&#43;38cn3t9fdz2rCm2HqHDkthZZXnY4EWPdWnMA==" crossorigin="anonymous" defer></script>
+  <script src="/Pontifex-Hugo/js/highlight.min.c5598eb09618e5f6c9cab0a11acaf1f84c9897577d85bd570dbc87f75e21e1ea1bedec85d33b1341a100815dabbdefdf7ed21f26065f5ee3150deb34342a0227.js" integrity="sha512-xVmOsJYY5fbJyrChGsrx&#43;EyYl1d9hb1XDbyH914h4eob7eyF0zsTQaEAgV2rve/fftIfJgZfXuMVDes0NCoCJw==" crossorigin="anonymous" defer></script>
+  <script src="/Pontifex-Hugo/main.min.5f8e36aed7f2c7f0a91e340809e4b14f3b90a4d001ff4acb9a3e4f1f65a91e26e6e147b5b47a268769d46b80c6aa89e700489717a8c4bedfdce78b21f766ccc3.js" integrity="sha512-X442rtfyx/CpHjQICeSxTzuQpNAB/0rLmj5PH2WpHibm4Ue1tHomh2nUa4DGqonnAEiXF6jEvt/c54sh92bMww==" crossorigin="anonymous" defer></script>
+  <script src="/Pontifex-Hugo/index.min.22c57ee1a1a8e5e4bafee614d7f2ca879d2d3f5389fb7a8132e7f249816fc6db29fc763e6acf091b42f7a71946364e9e49cf6610d2cb54a8489a7f669eefb8ec.js" integrity="sha512-IsV&#43;4aGo5eS6/uYU1/LKh50tP1OJ&#43;3qBMufySYFvxtsp/HY&#43;as8JG0L3pxlGNk6eSc9mENLLVKhImn9mnu&#43;47A==" crossorigin="anonymous" defer></script>
+  <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+<script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
+
+<script>
+  new Vue({
+    el: '#vssue',
+
+    render: h => h('Vssue', {
+      props: {
+        
+        
+        
+        title: document.getElementsByTagName('h1')[0].innerHTML,
+
+        
+        options: {
+          owner: 'fabiangabel',
+          repo: 'pontifex-discussion',
+          clientId: 'a0cdf04a686f61956c42',
+          clientSecret: '7bcd2a7dbe151751fbdd601a74d0214fcc69a870', 
+          labels: ['Comment'],
+          prefix: '[Pontifex Website] ',
+
+        },
+      }
+    })
+  })
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,116 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "305",
+                        "label": "Epsilon-Delta\nDefinition",
+                        "meta": "RA28",
+                        "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
+                        "notes": "305-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/4xhyqdjmxHU?start=11",
+                        "spotify": "https://open.spotify.com/embed/episode/5s5SRllj1inf4Noowpf1n0"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "308",
+                        "label": "Uniform Limits of \n Continuous Functions",
+                        "meta": "RA31",
+                        "content": "How to preserve continuity in the limit of a sequence of continuous functions.",
+                        "notes": "308-snippet.html",
+                        "video": "",
+                        "exercise": "ratest31.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/llJruZnO-t4?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and\nPreimage",
+                        "meta": " SLS05 ",
+                        "content": "Via images and preimages we describe how functions work on sets.",
+                        "notes": "005-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/twBYYTJdcjc?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "110",
+                        "label": "Open, Closed,\nCompact Sets",
+                        "meta": " RA13 ",
+                        "content": "Important notions for subsets of real numbers.",
+                        "notes": "110-snippet.html",
+                        "video": "",
+                        "exercise": "ratest13.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Wqo4Svs4erw?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "304",
+                        "label": "Continuity",
+                        "meta": "RA27",
+                        "content": "The concept that relates functions with convergent sequences.",
+                        "notes": "304-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "305",
+                        "target": "308",
+                        "label": "The epsilon-delta criterion allows for an elegant proof of the continuity of the uniform limit of a sequence of continuous functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "005",
+                        "target": "305",
+                        "label": "Characterise continuity in terms of preimages of open balls.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "110",
+                        "target": "305",
+                        "label": "Characterise continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "305",
+                        "label": "A different but equivalent notion of continuity using open balls. This notion captures the intuition that small deviations in input to a continuous map should also lead to small deviations in the output.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

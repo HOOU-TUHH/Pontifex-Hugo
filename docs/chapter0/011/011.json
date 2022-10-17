@@ -1,0 +1,68 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "011",
+                        "label": "Sums and Products",
+                        "meta": " SLL03",
+                        "content": "An important shorthand notation for calculations.",
+                        "notes": "011-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setIntSigmaNotation/an6_4_02.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/S5DdXfxl3ac?start=3",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "200",
+                        "label": "Series and\nPartial Sums",
+                        "meta": "RA15",
+                        "content": "A series is a sequence of partial sums.",
+                        "notes": "200-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/BgfP3riDcrc?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/4rf4zO7V8UJErJxgzmZFgh",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "004",
+                        "label": "Natural Numbers\nand Induction",
+                        "meta": " SLN01 + SLN02 + SLN03 + SLN04 ",
+                        "content": "Using natural numbers is our first mathematical abstraction as children. Mathematical induction is an important technique of proof.",
+                        "notes": "004-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/MC/Proofs/EssayProofs/InductionDivisibility01.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/WMgiYh7tac0?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/30dINCx7oSXMkCcSIOIBrv",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "011",
+                        "target": "200",
+                        "label": "Partial sums are described using the formal sum notation.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "004",
+                        "target": "011",
+                        "label": "A lot of identities for sums and products are proved via induction.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

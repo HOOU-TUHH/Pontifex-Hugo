@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Continuous Functions on </title>
+    <link>/Pontifex-Hugo//docs/chapter3/</link>
+    <description>Recent content in Continuous Functions on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0011</lastBuildDate><atom:link href="/Pontifex-Hugo//docs/chapter3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuity</title>
+      <link>/Pontifex-Hugo//docs/chapter3/304/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/304/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Continuity for Sums, Products, Quotients, and Compositions</title>
+      <link>/Pontifex-Hugo//docs/chapter3/306/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/306/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Continuous Images of Compact Sets Are Compact</title>
+      <link>/Pontifex-Hugo//docs/chapter3/307/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/307/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Epsilon-Delta Definition</title>
+      <link>/Pontifex-Hugo//docs/chapter3/305/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/305/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Intermediate Value Theorem</title>
+      <link>/Pontifex-Hugo//docs/chapter3/309/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/309/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Limits of Functions</title>
+      <link>/Pontifex-Hugo//docs/chapter3/303/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/303/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Pointwise Convergence</title>
+      <link>/Pontifex-Hugo//docs/chapter3/301/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/301/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Sequences of Bounded Functions</title>
+      <link>/Pontifex-Hugo//docs/chapter3/300/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/300/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Uniform Convergence</title>
+      <link>/Pontifex-Hugo//docs/chapter3/302/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/302/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Uniform Limits of   Continuous Functions</title>
+      <link>/Pontifex-Hugo//docs/chapter3/308/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter3/308/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+  </channel>
+</rss>

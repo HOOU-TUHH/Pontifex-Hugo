@@ -1,0 +1,212 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "110",
+                        "label": "Open, Closed,\nCompact Sets",
+                        "meta": " RA13 ",
+                        "content": "Important notions for subsets of real numbers.",
+                        "notes": "110-snippet.html",
+                        "video": "",
+                        "exercise": "ratest13.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Wqo4Svs4erw?start=12",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "307",
+                        "label": "Continuous Images\nof Compact Sets\nAre Compact",
+                        "meta": "RA30",
+                        "content": "A mapping property for continuous functions.",
+                        "notes": "307-snippet.html",
+                        "video": "",
+                        "exercise": "ratest30.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/6VWTG4wlRoA?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "111",
+                        "label": "Heine-Borel\nTheorem",
+                        "meta": " RA14 ",
+                        "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
+                        "notes": "111-snippet.html",
+                        "video": "",
+                        "exercise": "ratest14.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vjOefDHOVIg?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "112",
+                        "label": "Interior, Closure,\nBoundary",
+                        "meta": " ",
+                        "content": "Topological operations on sets.",
+                        "notes": "112-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setAlgebraIntervals/ur_ab_10_1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RYtE09eHeqI?start=95",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "305",
+                        "label": "Epsilon-Delta\nDefinition",
+                        "meta": "RA28",
+                        "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
+                        "notes": "305-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/4xhyqdjmxHU?start=11",
+                        "spotify": "https://open.spotify.com/embed/episode/5s5SRllj1inf4Noowpf1n0",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/iA-Dtf7529M?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/4dhxy6YLYN7ItlWa0QgsG1",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "107",
+                        "label": "Subsequences and\nAccumulation Values",
+                        "meta": " RA09 ",
+                        "content": "A sequence that does not converge may still have converging subsequences.",
+                        "notes": "107-snippet.html",
+                        "video": "",
+                        "exercise": "ratest09.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/xZ5vjdZzTUI?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "010",
+                        "label": "Operations on Sets",
+                        "meta": " SLL03",
+                        "content": "Sets can be joined or intersected in order to create new sets.",
+                        "notes": "010-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/logicAndSetTheory/prob03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/ZdZm6qBCFuo?start=11",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "110",
+                        "target": "307",
+                        "label": "Continuous functions preserve compactness of sets in their image.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "110",
+                        "target": "111",
+                        "label": "Heine-Borel theorem characterises bounded and closed sets.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "110",
+                        "target": "112",
+                        "label": "Interior is an open set, closure and boundary are closed sets.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "110",
+                        "target": "305",
+                        "label": "Characterise continuity using open intervals. This notion tries to capture the intuition that, for a continuous mapping, small deviations in the input values should also lead to small deviations in the output values.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "110",
+                        "label": "Open, closed and compact are properties of sets of numbers.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "110",
+                        "label": "Closedness is characterised by convergence of sequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "107",
+                        "target": "110",
+                        "label": "Compactness is characterised by existence of converging subsequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "010",
+                        "target": "110",
+                        "label": "Set operations may be used to modify set properties like openness, closedness or compactness.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

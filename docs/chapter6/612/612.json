@@ -1,0 +1,92 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "612",
+                        "label": "Improper Riemann Integrals",
+                        "meta": "RA60",
+                        "content": "How to integrate\non unbounded domains.",
+                        "notes": "612-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap7Sec8/Q32.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Q7qdknAF-ME?start=15",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "613",
+                        "label": "Integral Comparison Test",
+                        "meta": "RA61",
+                        "content": "Compare improper Riemann integrals to infinite series.",
+                        "notes": "613-snippet.html",
+                        "video": "",
+                        "exercise": "ratest61.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yEp9BTDgOjk?start=13",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "603",
+                        "label": "Riemann Integral\nfor Bounded Functions",
+                        "meta": "RA51",
+                        "content": "Notion of integral for a large class of functions.",
+                        "notes": "603-snippet.html",
+                        "video": "",
+                        "exercise": "ratest51.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/t8Hh73HxP1o?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "303",
+                        "label": "Limits of Functions",
+                        "meta": "RA26",
+                        "content": "How function evaluations change when the argument approaches a certain point.",
+                        "notes": "303-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setRateChange/3-2-72.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/QoLlvvro6rE?start=15",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "612",
+                        "target": "613",
+                        "label": "Estimate improper Riemann integrals via series.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "612",
+                        "label": "An improper integral is defined via a limit of Riemann integrals on bounded sets.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "303",
+                        "target": "612",
+                        "label": "An improper integral is defined as the limit of a function (the antiderivative).",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

@@ -1,0 +1,116 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "008",
+                        "label": "Logical Deduction",
+                        "meta": " SLL03",
+                        "content": "How to get new true proposition from other true propositions.",
+                        "notes": "008-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setDiscrete1Logic/ur_dis_1_9.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/AjdIPOXRgoQ?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "204",
+                        "label": "Cauchy Criterion",
+                        "meta": "RA17",
+                        "content": "A series converges if its partial sums form a Cauchy sequence. As a consequence, for a convergent series, the underlying sequence necessarily needs to converge to zero.",
+                        "notes": "204-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/AlfredUniv/anton8e/chapter10/10.4/prob1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/lr12HwXQ3uw?start=130",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "205",
+                        "label": "Leibniz Criterion",
+                        "meta": "RA18",
+                        "content": "A convergence criterion for sums based on an alternating sequence.",
+                        "notes": "205-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_5_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/MjjMwQ6zFko?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "009",
+                        "label": "Predicates and Quantifiers",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Formal mathematical statements are often built by predicates.",
+                        "notes": "009-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Predicates/predicateB8.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yIdECC6QExY?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "000",
+                        "label": "Logical Statements\nand Operations",
+                        "meta": " SLL01",
+                        "content": "Logic is the foundation to formulate proofs and to understand the language of mathematics.",
+                        "notes": "000-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Logic/ttcontratautB4.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/DU4wKBDm2Z4?start=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "008",
+                        "target": "204",
+                        "label": "The necessary criterion for series convergence is an implication but no equivalence.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "008",
+                        "target": "205",
+                        "label": "The Leibniz criterion gives the sufficient condition for convergence of a series but no equivalence.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "008",
+                        "target": "009",
+                        "label": "How to construct logical statements.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "000",
+                        "target": "008",
+                        "label": "Logical deduction techniques are used to derive new logical statements from old ones",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

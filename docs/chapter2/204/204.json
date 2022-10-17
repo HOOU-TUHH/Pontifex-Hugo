@@ -1,0 +1,140 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "204",
+                        "label": "Cauchy Criterion",
+                        "meta": "RA17",
+                        "content": "A series converges if its partial sums form a Cauchy sequence. As a consequence, for a convergent series, the underlying sequence necessarily needs to converge to zero.",
+                        "notes": "204-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/AlfredUniv/anton8e/chapter10/10.4/prob1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/lr12HwXQ3uw?start=130",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "207",
+                        "label": "Comparison Test",
+                        "meta": "RA19",
+                        "content": "If a series converges can be checked with different tests.",
+                        "notes": "207-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section04/SCalcET7-11-4-002a.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/mI40-tAtP58?start=160",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "200",
+                        "label": "Series and\nPartial Sums",
+                        "meta": "RA15",
+                        "content": "A series is a sequence of partial sums.",
+                        "notes": "200-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/BgfP3riDcrc?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/4rf4zO7V8UJErJxgzmZFgh",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "106",
+                        "label": "Completeness",
+                        "meta": " RA07 ",
+                        "content": "Completeness says that Cauchy sequences must converge.",
+                        "notes": "106-snippet.html",
+                        "video": "",
+                        "exercise": "ratest07.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "115",
+                        "label": "Cauchy\nSequences",
+                        "meta": " RA07 ",
+                        "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
+                        "notes": "115-snippet.html",
+                        "video": "",
+                        "exercise": "ratest07.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "008",
+                        "label": "Logical Deduction",
+                        "meta": " SLL03",
+                        "content": "How to get new true proposition from other true propositions.",
+                        "notes": "008-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setDiscrete1Logic/ur_dis_1_9.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/AjdIPOXRgoQ?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "204",
+                        "target": "207",
+                        "label": "The Cauchy criterion applied to a majorising series gives the convergence of the majorised series.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "204",
+                        "label": "The Cauchy criterion works for sequences of partial sums that are Cauchy.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "106",
+                        "target": "204",
+                        "label": "Cauchy sequences converge, therefore the Cauchy criterion for series gives convergence of a series.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "115",
+                        "target": "204",
+                        "label": "If the sequence of partial sums is a Cauchy sequence, then it converges.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "008",
+                        "target": "204",
+                        "label": "The necessary criterion for series convergence is an implication but no equivalence.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

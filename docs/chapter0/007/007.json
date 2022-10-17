@@ -1,0 +1,116 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "007",
+                        "label": "Composition",
+                        "meta": "  SLS07 ",
+                        "content": "The composition for maps is just applying two maps in a row.",
+                        "notes": "007-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/algebraKaufmannSchwitters/ks_8_6_18.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/NiJ1yWKM9CU?start=13",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "306",
+                        "label": "Continuity for Sums,\nProducts, Quotients,\nand Compositions",
+                        "meta": "RA29",
+                        "content": "How combination of continuous functions leads to new continuous functions.",
+                        "notes": "306-snippet.html",
+                        "video": "",
+                        "exercise": "ratest29.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/W-E4LqZyEHA?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "502",
+                        "label": "Chain Rule",
+                        "meta": "RA36",
+                        "content": "How to differentiate compositions of functions.",
+                        "notes": "502-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setChainRuleExpLogFunctions/5-3-65.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/g57hlenwvis?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "609",
+                        "label": "Substitution Rule\nfor Integration",
+                        "meta": "RA57",
+                        "content": "An important integration rule.",
+                        "notes": "609-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "003",
+                        "label": "Maps",
+                        "meta": " SLS04 ",
+                        "content": "Maps are the mathematical formulation of a machine that gets inputs and generate outputs. On both sides, sets are needed for the domain and the codomain.",
+                        "notes": "003-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Intermediate_Algebra/Functions_Evaluating/Quad_No_Constant.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/JoLDwNh1lZ8?start=260",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "007",
+                        "target": "306",
+                        "label": "Composition of continuous functions gives a continuous function.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "007",
+                        "target": "502",
+                        "label": "How to differentiate a composition of functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "007",
+                        "target": "609",
+                        "label": "Some integrands in the substitution rule involve compositions of functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "003",
+                        "target": "007",
+                        "label": "Composition is an operation on maps.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

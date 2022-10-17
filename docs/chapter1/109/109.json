@@ -1,0 +1,116 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "109",
+                        "label": "Limit Inferior and\nLimit Superior",
+                        "meta": "RA11+RA12 ",
+                        "content": "The largest and smallest limit of all convergent subsequences.",
+                        "notes": "109-snippet.html",
+                        "video": "",
+                        "exercise": "ratest11.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/-y0v2V0-_8E?start=21",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "209",
+                        "label": "Root Criterion",
+                        "meta": "RA20",
+                        "content": "An important criterion to prove absolute convergence by means of the behavior of the n-th roots of the underlying sequence's terms.",
+                        "notes": "209-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.5_The_Ratio_and_Root_Tests/10.5.37.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yLbgdL9HAeg?start=420",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "107",
+                        "label": "Subsequences and\nAccumulation Values",
+                        "meta": " RA09 ",
+                        "content": "A sequence that does not converge may still have converging subsequences.",
+                        "notes": "107-snippet.html",
+                        "video": "",
+                        "exercise": "ratest09.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/xZ5vjdZzTUI?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "108",
+                        "label": "Bolzano-Weierstrass\nTheorem",
+                        "meta": "RA10 ",
+                        "content": "Every bounded sequence has at least one converging subsequence.",
+                        "notes": "108-snippet.html",
+                        "video": "",
+                        "exercise": "ratest10.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/e2QaNklYZGg?start=10",
+                        "spotify": "https://open.spotify.com/embed/episode/4MKVAhO2q57xmMn1P7ONKg",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "109",
+                        "target": "209",
+                        "label": "The root criterion in its limit form gives a condition for the limsup of the underlying sequence.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "109",
+                        "label": "Limit inferior and limit superior are in particular limits.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "107",
+                        "target": "109",
+                        "label": "Limit inferior and limit superior are the largest and smallest accumulation points of a subsequence.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "108",
+                        "target": "109",
+                        "label": "Bolzano-Weierstrass theorem guarantees the existence of a limit inferior and superior.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

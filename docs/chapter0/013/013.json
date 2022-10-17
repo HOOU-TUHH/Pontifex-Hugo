@@ -1,0 +1,140 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "013",
+                        "label": "Bounded Sets,\nMaxima and Minima",
+                        "meta": "",
+                        "content": "The values inside a set of real numbers can be bounded.",
+                        "notes": "013-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8Cyvdv7Sm2s?t=9",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "300",
+                        "label": "Sequences of\nBounded Functions",
+                        "meta": "RA23",
+                        "content": "The concept of sequences but for functions instead of real numbers.",
+                        "notes": "300-snippet.html",
+                        "video": "",
+                        "exercise": "ratest23.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RM2hytsyMpc?start=20",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Bounded\nSequences",
+                        "meta": " RA03 ",
+                        "content": "Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.",
+                        "notes": "102-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "111",
+                        "label": "Heine-Borel\nTheorem",
+                        "meta": " RA14 ",
+                        "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
+                        "notes": "111-snippet.html",
+                        "video": "",
+                        "exercise": "ratest14.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vjOefDHOVIg?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "001",
+                        "label": "Sets",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Sets are the basic building blocks for a lot of mathematics. In order to rigorously define numbers and doing real analysis, we need to know how to work with sets.",
+                        "notes": "001-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/iA-Dtf7529M?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/4dhxy6YLYN7ItlWa0QgsG1",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and\nPreimage",
+                        "meta": " SLS05 ",
+                        "content": "Via images and preimages we describe how functions work on sets.",
+                        "notes": "005-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/twBYYTJdcjc?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "013",
+                        "target": "300",
+                        "label": "If the image of a map is a bounded set, one also calls the map bounded.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "013",
+                        "target": "102",
+                        "label": "The image of a sequence, i.e. the set of all values that the sequence attains, is a bounded set.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "013",
+                        "target": "111",
+                        "label": "A bounded set that is also closed is a compact set by the Theorem of Heine-Borel.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "001",
+                        "target": "013",
+                        "label": "Bounded sets are sets of real numbers that don't get arbitrarily small or large.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "005",
+                        "target": "013",
+                        "label": "If the image or preimage of a real valued map is bounded, one also calls the map bounded.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

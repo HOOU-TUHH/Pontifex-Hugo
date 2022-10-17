@@ -1,0 +1,140 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "503",
+                        "label": "Uniform Convergence \n for Differentiable Functions",
+                        "meta": "RA37",
+                        "content": "Compatibility of differentiability with uniform limits.",
+                        "notes": "503-snippet.html",
+                        "video": "",
+                        "exercise": "ratest37.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "403",
+                        "label": "Power Series",
+                        "meta": "RA33",
+                        "content": "A sequence of partial sums of polynomial functions.",
+                        "notes": "403-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Indiana/Indiana_setSeries8Power/eva8_5a_2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=332",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "300",
+                        "label": "Sequences of\nBounded Functions",
+                        "meta": "RA23",
+                        "content": "The concept of sequences but for functions instead of real numbers.",
+                        "notes": "300-snippet.html",
+                        "video": "",
+                        "exercise": "ratest23.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RM2hytsyMpc?start=20",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "500",
+                        "label": "Differentiability",
+                        "meta": "RA34",
+                        "content": "How to quantify the rate of change of a function.",
+                        "notes": "500-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.51.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/TLdBLqPTsYc?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "301",
+                        "label": "Pointwise Convergence",
+                        "meta": "RA24",
+                        "content": "A notion of convergence for sequences functions that reduces the question of convergence to convergence of sequences of real numbers.",
+                        "notes": "301-snippet.html",
+                        "video": "",
+                        "exercise": "ratest24.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Kq_KZpljeXo?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "302",
+                        "label": "Uniform Convergence",
+                        "meta": "RA25",
+                        "content": "A strong notion of convergence for sequences of functions that helps to preserve favorable properties like continuity in the limit.",
+                        "notes": "302-snippet.html",
+                        "video": "",
+                        "exercise": "ratest25.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/O2HKxNcom7g?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "403",
+                        "target": "503",
+                        "label": "Uniform convergence within the domain of convergence of a power series.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "503",
+                        "label": "Differentiability of sequences of functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "503",
+                        "label": "Differentiability of sequences of functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "301",
+                        "target": "503",
+                        "label": "Proving pointwise convergence of a sequence of differentiable functions is part of proving the differentiability of the limit function.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "302",
+                        "target": "503",
+                        "label": "Proving uniform convergence of the derivatives of a function is part of proving the differentiability of the limit function.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

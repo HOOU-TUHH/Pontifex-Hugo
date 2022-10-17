@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integration on </title>
+    <link>/Pontifex-Hugo//docs/chapter6/</link>
+    <description>Recent content in Integration on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0008</lastBuildDate><atom:link href="/Pontifex-Hugo//docs/chapter6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Examples for Calculating the Riemann Integral</title>
+      <link>/Pontifex-Hugo//docs/chapter6/604/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/604/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>First Fundamental Theorem of Calculus</title>
+      <link>/Pontifex-Hugo//docs/chapter6/606/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/606/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Improper Riemann Integrals</title>
+      <link>/Pontifex-Hugo//docs/chapter6/612/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/612/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Integral Comparison Test</title>
+      <link>/Pontifex-Hugo//docs/chapter6/613/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/613/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Integration by Parts</title>
+      <link>/Pontifex-Hugo//docs/chapter6/610/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/610/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Linearity and Monotonicity of the Riemann Integral</title>
+      <link>/Pontifex-Hugo//docs/chapter6/602/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/602/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Mean Value Theorem of Integration</title>
+      <link>/Pontifex-Hugo//docs/chapter6/608/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/608/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Partial Fraction Decomposition</title>
+      <link>/Pontifex-Hugo//docs/chapter6/611/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/611/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Partitions and Step Functions</title>
+      <link>/Pontifex-Hugo//docs/chapter6/600/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/600/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+    <item>
+      <title>Properties of the Riemann Integral</title>
+      <link>/Pontifex-Hugo//docs/chapter6/605/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/chapter6/605/</guid>
+      <description>Discover Bridges #  Network Table         MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true }, options: { skipHtmlTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;] } }; window.addEventListener(&#39;load&#39;, (event) = { document.querySelectorAll(&#34;mjx-container&#34;).forEach(function(x){ x.parentElement.classList += &#39;has-jax&#39;}) });     code.has-jax { -webkit-font-smoothing: antialiased; background: inherit !important; border: none !important; font-size: 100%; }   #cy { height: 500px; display: block; }  Click on an arrow to get a description of the connection!</description>
+    </item>
+    
+  </channel>
+</rss>

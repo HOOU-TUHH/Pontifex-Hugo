@@ -1,0 +1,92 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "605",
+                        "label": "Properties of\nthe Riemann Integral",
+                        "meta": "RA53",
+                        "content": "Important properties of the Riemann integral of bounded functions.",
+                        "notes": "605-snippet.html",
+                        "video": "",
+                        "exercise": "ratest53.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/h4XohuM2iK4?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "609",
+                        "label": "Substitution Rule\nfor Integration",
+                        "meta": "RA57",
+                        "content": "An important integration rule.",
+                        "notes": "609-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "608",
+                        "label": "Mean Value Theorem\nof Integration",
+                        "meta": "RA56",
+                        "content": "Continuous functions attain their mean value.",
+                        "notes": "608-snippet.html",
+                        "video": "",
+                        "exercise": "ratest56.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/E4zieCbfdcs?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "603",
+                        "label": "Riemann Integral\nfor Bounded Functions",
+                        "meta": "RA51",
+                        "content": "Notion of integral for a large class of functions.",
+                        "notes": "603-snippet.html",
+                        "video": "",
+                        "exercise": "ratest51.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/t8Hh73HxP1o?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "605",
+                        "target": "609",
+                        "label": "The Riemann integral comes with an order of the integral boundaries.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "605",
+                        "target": "608",
+                        "label": "A further property of the Riemann integral is the mean-value theorem.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "605",
+                        "label": "Properties of the Riemann integral.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

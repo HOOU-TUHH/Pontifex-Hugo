@@ -1,0 +1,92 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "309",
+                        "label": "Intermediate Value\nTheorem",
+                        "meta": "RA32",
+                        "content": "This theorem tells us that continuous functions don't jump. They have to attain every value between two values in their image.",
+                        "notes": "309-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/1.5/APEX_1.5_34.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<audio controls src=\"{{< baseurl >}}podcast/imvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
+                        "youtube": "https://youtu.be/BNLu4_3Okuk?start=9",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "104",
+                        "label": "Monotonicity of Limits\n and Sandwich Theorem",
+                        "meta": " RA05 ",
+                        "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit. The technique of sandwiching can be used to determine limits via nested intervals.",
+                        "notes": "104-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Y6rRSip3QN4?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "108",
+                        "label": "Bolzano-Weierstrass\nTheorem",
+                        "meta": "RA10 ",
+                        "content": "Every bounded sequence has at least one converging subsequence.",
+                        "notes": "108-snippet.html",
+                        "video": "",
+                        "exercise": "ratest10.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/e2QaNklYZGg?start=10",
+                        "spotify": "https://open.spotify.com/embed/episode/4MKVAhO2q57xmMn1P7ONKg",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "304",
+                        "label": "Continuity",
+                        "meta": "RA27",
+                        "content": "The concept that relates functions with convergent sequences.",
+                        "notes": "304-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "104",
+                        "target": "309",
+                        "label": "The nested intervals technique is made possible by the sandwich theorem and helps to prove the intermediate value theorem.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "108",
+                        "target": "309",
+                        "label": "The nested intervals technique used in the proof of the Bolzano-Weierstrass theorem is also used for the proof of the intermediate value theorem.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "309",
+                        "label": "Continuous functions on intervals don't have jumps. Instead they attain every value in between to elements of their range.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

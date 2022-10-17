@@ -1,0 +1,261 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "500",
+                        "label": "Differentiability",
+                        "meta": "RA34",
+                        "content": "How to quantify the rate of change of a function.",
+                        "notes": "500-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.51.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/TLdBLqPTsYc?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "502",
+                        "label": "Chain Rule",
+                        "meta": "RA36",
+                        "content": "How to differentiate compositions of functions.",
+                        "notes": "502-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setChainRuleExpLogFunctions/5-3-65.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/g57hlenwvis?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "510",
+                        "label": "Higher Derivatives",
+                        "meta": "RA44",
+                        "content": "Taking derivatives of derivatives of differentiable functions.",
+                        "notes": "510-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "exercise": "ratest44.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vyZ5ESoqsxw?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "504",
+                        "label": "Examples of \nDifferentiable Functions",
+                        "meta": "RA38",
+                        "content": "Calculation of derivatives by example.",
+                        "notes": "504-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma122DB/set4b/s3_4_10.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/93i7uKScVvc?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "501",
+                        "label": "Sum and Product Rule",
+                        "meta": "RA35",
+                        "content": "Useful rules for differentiating sums or products of differentiable functions.",
+                        "notes": "501-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setDervProductQuotientRule/s2_2_13.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wp-s9c1IKhI?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "506",
+                        "label": "Rolle's Theorem",
+                        "meta": "RA40",
+                        "content": "The derivatives of functions with equal boundary conditions always have at least one zero.",
+                        "notes": "506-snippet.html",
+                        "video": "",
+                        "exercise": "ratest40.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/5Scawd2WLLA?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "503",
+                        "label": "Uniform Convergence \n for Differentiable Functions",
+                        "meta": "RA37",
+                        "content": "Compatibility of differentiability with uniform limits.",
+                        "notes": "503-snippet.html",
+                        "video": "",
+                        "exercise": "ratest37.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "606",
+                        "label": "First Fundamental\nTheorem of Calculus",
+                        "meta": "RA54",
+                        "content": "Linking differentiation and integration.",
+                        "notes": "606-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap6Sec2/Q21.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/AKhlP6IHDLk?start=13",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "609",
+                        "label": "Substitution Rule\nfor Integration",
+                        "meta": "RA57",
+                        "content": "An important integration rule.",
+                        "notes": "609-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "607",
+                        "label": "Second Fundamental\nTheorem of Calculus",
+                        "meta": "RA55",
+                        "content": "Characterization of all antiderivatives",
+                        "notes": "607-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals4FTC/osu_in_4_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/SJC4DGuyg4c?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "304",
+                        "label": "Continuity",
+                        "meta": "RA27",
+                        "content": "The concept that relates functions with convergent sequences.",
+                        "notes": "304-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "502",
+                        "label": "Break down differentiability of compositions to the differentiability of simpler functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "510",
+                        "label": "Differentiability can be used several times for some functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "504",
+                        "label": "We give examples for this notion.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "501",
+                        "label": "How to differentiate a sum of differentiable functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "506",
+                        "label": "Rolle's theorem makes a statement about zeros of the first derivative of a differentiable function.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "503",
+                        "label": "Differentiability of sequences of functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "606",
+                        "label": "Differentiation is in some sense the opposite of integration.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "609",
+                        "label": "Transformations of the domain of integration need to be differentiable.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "607",
+                        "label": "The second fundamental theorem connects integration and differentiation.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "500",
+                        "label": "Differentiability of a function is a stronger property than continuity.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

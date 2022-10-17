@@ -1,0 +1,68 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "608",
+                        "label": "Mean Value Theorem\nof Integration",
+                        "meta": "RA56",
+                        "content": "Continuous functions attain their mean value.",
+                        "notes": "608-snippet.html",
+                        "video": "",
+                        "exercise": "ratest56.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/E4zieCbfdcs?start=12",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "605",
+                        "label": "Properties of\nthe Riemann Integral",
+                        "meta": "RA53",
+                        "content": "Important properties of the Riemann integral of bounded functions.",
+                        "notes": "605-snippet.html",
+                        "video": "",
+                        "exercise": "ratest53.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/h4XohuM2iK4?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "507",
+                        "label": "Mean Value Theorem",
+                        "meta": "RA41",
+                        "content": "This theorem helps us to link monotonicity of a function with values of its derivative.",
+                        "notes": "507-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.1.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<audio controls src=\"{{< baseurl >}}podcast/mvt.mp3\">Your browser does not support the <code>audio</code> element.</audio><p>An episode by Fabian Gabel and Julian Gro\u00dfmann.</p>",
+                        "youtube": "https://youtu.be/FQo9OYku5aY?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "605",
+                        "target": "608",
+                        "label": "A further property of the Riemann integral is the mean-value theorem.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "507",
+                        "target": "608",
+                        "label": "A further mean value property for integrals instead of derivatives.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

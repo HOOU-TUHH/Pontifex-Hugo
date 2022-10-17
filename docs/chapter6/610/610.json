@@ -1,0 +1,68 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "610",
+                        "label": "Integration by Parts",
+                        "meta": "RA58",
+                        "content": "An important integration rule.",
+                        "notes": "610-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals15ByParts/sc5_6_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/2EH3XnaDPKU?t=12",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "501",
+                        "label": "Sum and Product Rule",
+                        "meta": "RA35",
+                        "content": "Useful rules for differentiating sums or products of differentiable functions.",
+                        "notes": "501-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Union/setDervProductQuotientRule/s2_2_13.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wp-s9c1IKhI?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "603",
+                        "label": "Riemann Integral\nfor Bounded Functions",
+                        "meta": "RA51",
+                        "content": "Notion of integral for a large class of functions.",
+                        "notes": "603-snippet.html",
+                        "video": "",
+                        "exercise": "ratest51.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/t8Hh73HxP1o?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "501",
+                        "target": "610",
+                        "label": "This integration rule can be seen as an inversion of the product rule of differentiation.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "610",
+                        "label": "A further important rule for calculating integrals.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

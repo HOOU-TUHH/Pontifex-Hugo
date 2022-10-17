@@ -1,0 +1,140 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "307",
+                        "label": "Continuous Images\nof Compact Sets\nAre Compact",
+                        "meta": "RA30",
+                        "content": "A mapping property for continuous functions.",
+                        "notes": "307-snippet.html",
+                        "video": "",
+                        "exercise": "ratest30.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/6VWTG4wlRoA?start=11",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "506",
+                        "label": "Rolle's Theorem",
+                        "meta": "RA40",
+                        "content": "The derivatives of functions with equal boundary conditions always have at least one zero.",
+                        "notes": "506-snippet.html",
+                        "video": "",
+                        "exercise": "ratest40.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/5Scawd2WLLA?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and\nPreimage",
+                        "meta": " SLS05 ",
+                        "content": "Via images and preimages we describe how functions work on sets.",
+                        "notes": "005-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/twBYYTJdcjc?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "110",
+                        "label": "Open, Closed,\nCompact Sets",
+                        "meta": " RA13 ",
+                        "content": "Important notions for subsets of real numbers.",
+                        "notes": "110-snippet.html",
+                        "video": "",
+                        "exercise": "ratest13.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Wqo4Svs4erw?start=12",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "111",
+                        "label": "Heine-Borel\nTheorem",
+                        "meta": " RA14 ",
+                        "content": "The theorem connecting the concept of compactness with boundedness and closedness.",
+                        "notes": "111-snippet.html",
+                        "video": "",
+                        "exercise": "ratest14.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vjOefDHOVIg?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "304",
+                        "label": "Continuity",
+                        "meta": "RA27",
+                        "content": "The concept that relates functions with convergent sequences.",
+                        "notes": "304-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "307",
+                        "target": "506",
+                        "label": "The existence of minima and maxima for continuous functions on compact sets is necessary for the proof of Rolle's theorem.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "005",
+                        "target": "307",
+                        "label": "Topological properties of images under continuous functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "110",
+                        "target": "307",
+                        "label": "Continuous functions preserve compactness of sets in their image.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "111",
+                        "target": "307",
+                        "label": "The Heine-Borel theorem gives the existence of maxima and minima for continuous functions defined on compact sets.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "307",
+                        "label": "Continuity preserves compactness of sets.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

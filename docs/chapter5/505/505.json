@@ -1,0 +1,44 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "505",
+                        "label": "Inversion Formula",
+                        "meta": "RA39",
+                        "content": "How to calculate the derivative of the inverse function.",
+                        "notes": "505-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.8_Derivatives_of_Inverse_Functions/3.8.7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/h0nBAMhdSMk?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "006",
+                        "label": "Injectivity, Surjectivity,\nBijectivity",
+                        "meta": " SLS06 ",
+                        "content": "These are important notions for maps.",
+                        "notes": "006-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMass-Amherst/Abstract-Algebra/PS-Functions/Functions2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/CSzJchEvfpE?start=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "006",
+                        "target": "505",
+                        "label": "Bijective differentiable functions can be differentiated using the inversion formula.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

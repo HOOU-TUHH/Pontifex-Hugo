@@ -1,0 +1,260 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "102",
+                        "label": "Bounded\nSequences",
+                        "meta": " RA03 ",
+                        "content": "Sequences can be bounded from above and from below. The values of a bounded sequence cannot become arbitrarily large.",
+                        "notes": "102-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-037.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/k-Wm6gJYfrw?start=221",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "104",
+                        "label": "Monotonicity of Limits\n and Sandwich Theorem",
+                        "meta": " RA05 ",
+                        "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit. The technique of sandwiching can be used to determine limits via nested intervals.",
+                        "notes": "104-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Y6rRSip3QN4?start=14",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "108",
+                        "label": "Bolzano-Weierstrass\nTheorem",
+                        "meta": "RA10 ",
+                        "content": "Every bounded sequence has at least one converging subsequence.",
+                        "notes": "108-snippet.html",
+                        "video": "",
+                        "exercise": "ratest10.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/e2QaNklYZGg?start=10",
+                        "spotify": "https://open.spotify.com/embed/episode/4MKVAhO2q57xmMn1P7ONKg",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "209",
+                        "label": "Root Criterion",
+                        "meta": "RA20",
+                        "content": "An important criterion to prove absolute convergence by means of the behavior of the n-th roots of the underlying sequence's terms.",
+                        "notes": "209-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.5_The_Ratio_and_Root_Tests/10.5.37.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yLbgdL9HAeg?start=420",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "208",
+                        "label": "Quotient Criterion",
+                        "meta": "RA20",
+                        "content": "An important criterion to prove absolute convergence by means of ratios of the underlying sequence's terms.",
+                        "notes": "208-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/9-4-Ratio-test/ratio-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yLbgdL9HAeg?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "115",
+                        "label": "Cauchy\nSequences",
+                        "meta": " RA07 ",
+                        "content": "The sequence members of a Cauchy Sequence eventually become arbitrarily close to each other.",
+                        "notes": "115-snippet.html",
+                        "video": "",
+                        "exercise": "ratest07.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "114",
+                        "label": "Bounded Monotonic\nSequences",
+                        "meta": " ",
+                        "content": "If a sequence of real numbers is bounded and monotonic, then it is convergent.",
+                        "notes": "114-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section01/SCalcET7-11-1-027.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=450",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "101",
+                        "label": "Convergence",
+                        "meta": " RA02 ",
+                        "content": "Convergent sequences have a well-defined limit.",
+                        "notes": "101-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=367",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "005",
+                        "label": "Image and\nPreimage",
+                        "meta": " SLS05 ",
+                        "content": "Via images and preimages we describe how functions work on sets.",
+                        "notes": "005-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Mizzou/Algebra/functions_domain_range/fun_dom_19.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/twBYYTJdcjc?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "100",
+                        "label": "Sequences",
+                        "meta": " RA02 ",
+                        "content": "These object are needed to define limits later on.",
+                        "notes": "100-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/UMN/calculusStewartCCC/s_11_1_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/1SguKALJji8?start=17",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "013",
+                        "label": "Bounded Sets,\nMaxima and Minima",
+                        "meta": "",
+                        "content": "The values inside a set of real numbers can be bounded.",
+                        "notes": "013-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8Cyvdv7Sm2s?t=9",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "104",
+                        "label": "A bound for the sequence is also a bound for the limit by the monotonicity of limits.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "108",
+                        "label": "The Bolzano-Weierstrass theorem guarantees the existence of accumulation points for bounded sequences.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "209",
+                        "label": "If the sequence of nth roots of the sequence members is bounded by a number strictly smaller than one, then the corresponding series converges by the root criterion.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "208",
+                        "label": "If the sequence of quotients of two consecutive sequence members is bounded by a number strictly smaller than one, then the corresponding series converges by the root criterion.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "115",
+                        "label": "Cauchy sequences are bounded.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "102",
+                        "target": "114",
+                        "label": "Boundedness alone does not give convergence yet, one also needs monotonicity.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "101",
+                        "target": "102",
+                        "label": "Convergent sequences are bounded but not every bounded sequence is convergent.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "005",
+                        "target": "102",
+                        "label": "Boundedness of a sequence means that the image of the sequence is a bounded set of real numbers.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "100",
+                        "target": "102",
+                        "label": "Boundedness is a property of sequences that tells us how large the sequence values can get at most.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "013",
+                        "target": "102",
+                        "label": "The image of a sequence, i.e. the set of all values that the sequence attains, is a bounded set.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

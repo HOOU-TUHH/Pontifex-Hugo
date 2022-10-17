@@ -1,0 +1,116 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "601",
+                        "label": "Riemann Integral for\nStep Functions",
+                        "meta": "RA49",
+                        "content": "A notion of integral for a simple class of functions.",
+                        "notes": "601-snippet.html",
+                        "video": "",
+                        "exercise": "ratest49.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/VdXLenrjIao?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "603",
+                        "label": "Riemann Integral\nfor Bounded Functions",
+                        "meta": "RA51",
+                        "content": "Notion of integral for a large class of functions.",
+                        "notes": "603-snippet.html",
+                        "video": "",
+                        "exercise": "ratest51.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/t8Hh73HxP1o?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "602",
+                        "label": "Linearity and Monotonicity\nof the Riemann Integral",
+                        "meta": "RA49",
+                        "content": "Important properties of the Riemann integral.",
+                        "notes": "602-snippet.html",
+                        "video": "",
+                        "exercise": "ratest50.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/6Pb97_7huwI?start=34",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "604",
+                        "label": "Examples for\nCalculating the\nRiemann Integral",
+                        "meta": "RA52",
+                        "content": "Use the approximation by step functions to calculate integrals.",
+                        "notes": "604-snippet.html",
+                        "video": "",
+                        "exercise": "ratest52.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/J9qXHzxeDN4?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "600",
+                        "label": "Partitions and\nStep Functions",
+                        "meta": "RA48",
+                        "content": "Splitting up an interval in subintervals and defining functions that are constant on them.",
+                        "notes": "600-snippet.html",
+                        "video": "",
+                        "exercise": "ratest48.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/joXBmJ1KInU?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "601",
+                        "target": "603",
+                        "label": "Generalizing the concept of an integral to bounded functions via approximation.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "601",
+                        "target": "602",
+                        "label": "The definition of the Riemann integral gives rise to nice properties.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "601",
+                        "target": "604",
+                        "label": "By definition the Riemann integral consists of limits of integrals of step functions.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "600",
+                        "target": "601",
+                        "label": "A first notion of area under a function graph for step functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

@@ -1,0 +1,188 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "603",
+                        "label": "Riemann Integral\nfor Bounded Functions",
+                        "meta": "RA51",
+                        "content": "Notion of integral for a large class of functions.",
+                        "notes": "603-snippet.html",
+                        "video": "",
+                        "exercise": "ratest51.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/t8Hh73HxP1o?start=12",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "609",
+                        "label": "Substitution Rule\nfor Integration",
+                        "meta": "RA57",
+                        "content": "An important integration rule.",
+                        "notes": "609-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Valdosta/APEX_Calculus/6.1/APEX_6.1_3-6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/wmZCoV6Y0_c?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "605",
+                        "label": "Properties of\nthe Riemann Integral",
+                        "meta": "RA53",
+                        "content": "Important properties of the Riemann integral of bounded functions.",
+                        "notes": "605-snippet.html",
+                        "video": "",
+                        "exercise": "ratest53.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/h4XohuM2iK4?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "610",
+                        "label": "Integration by Parts",
+                        "meta": "RA58",
+                        "content": "An important integration rule.",
+                        "notes": "610-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals15ByParts/sc5_6_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/2EH3XnaDPKU?t=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "604",
+                        "label": "Examples for\nCalculating the\nRiemann Integral",
+                        "meta": "RA52",
+                        "content": "Use the approximation by step functions to calculate integrals.",
+                        "notes": "604-snippet.html",
+                        "video": "",
+                        "exercise": "ratest52.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/J9qXHzxeDN4?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "607",
+                        "label": "Second Fundamental\nTheorem of Calculus",
+                        "meta": "RA55",
+                        "content": "Characterization of all antiderivatives",
+                        "notes": "607-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setIntegrals4FTC/osu_in_4_15.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/SJC4DGuyg4c?start=12",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "612",
+                        "label": "Improper Riemann Integrals",
+                        "meta": "RA60",
+                        "content": "How to integrate\non unbounded domains.",
+                        "notes": "612-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Michigan/Chap7Sec8/Q32.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Q7qdknAF-ME?start=15",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "601",
+                        "label": "Riemann Integral for\nStep Functions",
+                        "meta": "RA49",
+                        "content": "A notion of integral for a simple class of functions.",
+                        "notes": "601-snippet.html",
+                        "video": "",
+                        "exercise": "ratest49.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/VdXLenrjIao?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "609",
+                        "label": "A tool to calculate the integral of a bounded function.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "605",
+                        "label": "Properties of the Riemann integral.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "610",
+                        "label": "A further important rule for calculating integrals.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "604",
+                        "label": "Compute integrals according to the definition.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "607",
+                        "label": "The second fundamental theorem connects integration and differentiation.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "603",
+                        "target": "612",
+                        "label": "An improper integral is defined via a limit of Riemann integrals on bounded sets.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "601",
+                        "target": "603",
+                        "label": "Generalizing the concept of an integral to bounded functions via approximation.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

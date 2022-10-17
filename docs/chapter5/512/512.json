@@ -1,0 +1,68 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "512",
+                        "label": "Application of\nTaylor's Theorem",
+                        "meta": "RA46",
+                        "content": "Calculate an approximation via Taylor's Theorem",
+                        "notes": "512-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/10-2-Taylor-series/Taylor-series-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/zRoyHrMNOO8?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "513",
+                        "label": "Proof of\nTaylor's Theorem",
+                        "meta": "RA47",
+                        "content": "Derive an approximation result from the generalised mean value theorem.",
+                        "notes": "513-snippet.html",
+                        "video": "",
+                        "exercise": "ratest47.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/oZZrwKsqVro?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "511",
+                        "label": "Taylor's Theorem",
+                        "meta": "RA45",
+                        "content": "An approximation method for differentiable functions.",
+                        "notes": "511-snippet.html",
+                        "video": "",
+                        "exercise": "ratest45.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Pb390hRaLrw?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "512",
+                        "target": "513",
+                        "label": "Proof of Taylor's theorem.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "511",
+                        "target": "512",
+                        "label": "Application of Taylor's theorem to a particular example.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

@@ -1,0 +1,44 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "602",
+                        "label": "Linearity and Monotonicity\nof the Riemann Integral",
+                        "meta": "RA49",
+                        "content": "Important properties of the Riemann integral.",
+                        "notes": "602-snippet.html",
+                        "video": "",
+                        "exercise": "ratest50.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/6Pb97_7huwI?start=34",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "601",
+                        "label": "Riemann Integral for\nStep Functions",
+                        "meta": "RA49",
+                        "content": "A notion of integral for a simple class of functions.",
+                        "notes": "601-snippet.html",
+                        "video": "",
+                        "exercise": "ratest49.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/VdXLenrjIao?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "601",
+                        "target": "602",
+                        "label": "The definition of the Riemann integral gives rise to nice properties.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

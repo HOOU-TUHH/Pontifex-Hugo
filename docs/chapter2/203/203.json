@@ -1,0 +1,164 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "203",
+                        "label": "Convergent Series and\nLimit Theorems",
+                        "meta": "RA17",
+                        "content": "Basic operations with convergent series.",
+                        "notes": "203-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSeries4Geometric/ns8_2_23.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/lr12HwXQ3uw?start=20",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "205",
+                        "label": "Leibniz Criterion",
+                        "meta": "RA18",
+                        "content": "A convergence criterion for sums based on an alternating sequence.",
+                        "notes": "205-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ma123DB/set11/s11_5_5.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/MjjMwQ6zFko?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "210",
+                        "label": "Reordering",
+                        "meta": "RA21",
+                        "content": "Series can be reordered.",
+                        "notes": "210-snippet.html",
+                        "video": "",
+                        "webwork": "https://thebrightsideofmathematics.com/pntfx-quizzes/real_analysis/ratest21.html",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/GADre0hHc4c?start=9",
+                        "spotify": "https://open.spotify.com/embed/episode/6durWHlw2SthLanub3S8Ts",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "613",
+                        "label": "Integral Comparison Test",
+                        "meta": "RA61",
+                        "content": "Compare improper Riemann integrals to infinite series.",
+                        "notes": "613-snippet.html",
+                        "video": "",
+                        "exercise": "ratest61.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yEp9BTDgOjk?start=13",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "207",
+                        "label": "Comparison Test",
+                        "meta": "RA19",
+                        "content": "If a series converges can be checked with different tests.",
+                        "notes": "207-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section04/SCalcET7-11-4-002a.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/mI40-tAtP58?start=160",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "103",
+                        "label": "Limit Theorems",
+                        "meta": " RA04 ",
+                        "content": "Combining limits is a useful tool to deduce convergence and the limit of a more complicated sequence from the convergence of simpler building blocks.",
+                        "notes": "103-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Dartmouth/setStewartCh12S1/problem_7.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/237VMLNVtQs?start=18",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "200",
+                        "label": "Series and\nPartial Sums",
+                        "meta": "RA15",
+                        "content": "A series is a sequence of partial sums.",
+                        "notes": "200-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.2_Summing_an_Infinite_Series/10.2.3.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/BgfP3riDcrc?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/4rf4zO7V8UJErJxgzmZFgh",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "203",
+                        "target": "205",
+                        "label": "A sufficient criterion for convergence of a series.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "203",
+                        "target": "210",
+                        "label": "Reordering of a series may change the limit of the series.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "203",
+                        "target": "613",
+                        "label": "Characterise the convergence of an integral by the convergence of a suitable series.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "203",
+                        "target": "207",
+                        "label": "Characterise the convergence/divergence of a series by the convergence/divergence of a majorant/minorant.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "103",
+                        "target": "203",
+                        "label": "Considering series as limits of sequences of partial sums leads to limit theorems for sequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "200",
+                        "target": "203",
+                        "label": " ",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

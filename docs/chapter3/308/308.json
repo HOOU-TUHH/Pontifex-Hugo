@@ -1,0 +1,140 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "308",
+                        "label": "Uniform Limits of \n Continuous Functions",
+                        "meta": "RA31",
+                        "content": "How to preserve continuity in the limit of a sequence of continuous functions.",
+                        "notes": "308-snippet.html",
+                        "video": "",
+                        "exercise": "ratest31.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/llJruZnO-t4?start=11",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "300",
+                        "label": "Sequences of\nBounded Functions",
+                        "meta": "RA23",
+                        "content": "The concept of sequences but for functions instead of real numbers.",
+                        "notes": "300-snippet.html",
+                        "video": "",
+                        "exercise": "ratest23.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RM2hytsyMpc?start=20",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "301",
+                        "label": "Pointwise Convergence",
+                        "meta": "RA24",
+                        "content": "A notion of convergence for sequences functions that reduces the question of convergence to convergence of sequences of real numbers.",
+                        "notes": "301-snippet.html",
+                        "video": "",
+                        "exercise": "ratest24.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Kq_KZpljeXo?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "302",
+                        "label": "Uniform Convergence",
+                        "meta": "RA25",
+                        "content": "A strong notion of convergence for sequences of functions that helps to preserve favorable properties like continuity in the limit.",
+                        "notes": "302-snippet.html",
+                        "video": "",
+                        "exercise": "ratest25.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/O2HKxNcom7g?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "304",
+                        "label": "Continuity",
+                        "meta": "RA27",
+                        "content": "The concept that relates functions with convergent sequences.",
+                        "notes": "304-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/ASU-topics/setContinuity/4-1-57.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8VTG6EsyJh4?start=8",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "305",
+                        "label": "Epsilon-Delta\nDefinition",
+                        "meta": "RA28",
+                        "content": "A different notion of continuity using open intervals. If the input to a continuous function varies less than delta, then the output values should vary less than epsilon.",
+                        "notes": "305-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Berkeley/StewCalcET7e/2.4/2-4-03.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/4xhyqdjmxHU?start=11",
+                        "spotify": "https://open.spotify.com/embed/episode/5s5SRllj1inf4Noowpf1n0",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "308",
+                        "label": "Properties of the limit of a sequence of continuous functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "301",
+                        "target": "308",
+                        "label": "The pointwise limit of a sequences of continuous functions does not have to be continuous.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "302",
+                        "target": "308",
+                        "label": "Uniform convergence of continuous functions leads to a continuous limit function.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "304",
+                        "target": "308",
+                        "label": "Taking uniform limits of continuous functions preserves continuity.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "305",
+                        "target": "308",
+                        "label": "The epsilon-delta criterion allows for an elegant proof of the continuity of the uniform limit of a sequence of continuous functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

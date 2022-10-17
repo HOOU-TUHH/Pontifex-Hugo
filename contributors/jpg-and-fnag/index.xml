@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JPG and FNAG on </title>
+    <link>/Pontifex-Hugo//contributors/jpg-and-fnag/</link>
+    <description>Recent content in JPG and FNAG on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 04 Nov 2020 09:19:42 +0100</lastBuildDate><atom:link href="/Pontifex-Hugo//contributors/jpg-and-fnag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pntfx did it - Say hello to Doks 👋</title>
+      <link>/Pontifex-Hugo//news/say-hello-to-doks/</link>
+      <pubDate>Wed, 04 Nov 2020 09:19:42 +0100</pubDate>
+      
+      <guid>/Pontifex-Hugo//news/say-hello-to-doks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pntfx is a HOOU project at TUHH</title>
+      <link>/Pontifex-Hugo//news/aboutpntfx/</link>
+      <pubDate>Wed, 04 Nov 2020 09:19:42 +0100</pubDate>
+      
+      <guid>/Pontifex-Hugo//news/aboutpntfx/</guid>
+      <description>Developed by Fabian Gabel  and Julian Großmann  . Using content created for WeBWorK  and the Well-defined and Wonderful podcast  by Marcus Waurick.
+Created with the HUGO  theme Doks  .
+Built with Pandoc  , Python  , Docker  , and GitLab CI/CD  .</description>
+    </item>
+    
+  </channel>
+</rss>

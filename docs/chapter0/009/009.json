@@ -1,0 +1,68 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "009",
+                        "label": "Predicates and Quantifiers",
+                        "meta": " SLS01 + SLS02 + SLS03 + SLS04 ",
+                        "content": "Formal mathematical statements are often built by predicates.",
+                        "notes": "009-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/SDSU/Discrete/Predicates/predicateB8.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/yIdECC6QExY?start=11",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "105",
+                        "label": "Supremum and\nInfimum of Sets",
+                        "meta": " RA06 ",
+                        "content": "Bounded sets always have an supremum and infimum which are generalizations of maximum and minimum.",
+                        "notes": "105-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/8Cyvdv7Sm2s?start=16",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "008",
+                        "label": "Logical Deduction",
+                        "meta": " SLL03",
+                        "content": "How to get new true proposition from other true propositions.",
+                        "notes": "008-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setDiscrete1Logic/ur_dis_1_9.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/AjdIPOXRgoQ?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "009",
+                        "target": "105",
+                        "label": "The epsilon-Definitions of infimum and supremum are build with existence-quantifiers and all-quantifiers.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "008",
+                        "target": "009",
+                        "label": "How to construct logical statements.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

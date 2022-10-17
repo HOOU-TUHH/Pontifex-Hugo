@@ -1,0 +1,69 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "510",
+                        "label": "Higher Derivatives",
+                        "meta": "RA44",
+                        "content": "Taking derivatives of derivatives of differentiable functions.",
+                        "notes": "510-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "exercise": "ratest44.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vyZ5ESoqsxw?start=11",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "511",
+                        "label": "Taylor's Theorem",
+                        "meta": "RA45",
+                        "content": "An approximation method for differentiable functions.",
+                        "notes": "511-snippet.html",
+                        "video": "",
+                        "exercise": "ratest45.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Pb390hRaLrw?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "500",
+                        "label": "Differentiability",
+                        "meta": "RA34",
+                        "content": "How to quantify the rate of change of a function.",
+                        "notes": "500-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.51.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/TLdBLqPTsYc?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "510",
+                        "target": "511",
+                        "label": "Evaluations of higher derivatives form the coefficients of a Taylor polynomial.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "500",
+                        "target": "510",
+                        "label": "Differentiability can be used several times for some functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

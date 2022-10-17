@@ -1,0 +1,116 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "302",
+                        "label": "Uniform Convergence",
+                        "meta": "RA25",
+                        "content": "A strong notion of convergence for sequences of functions that helps to preserve favorable properties like continuity in the limit.",
+                        "notes": "302-snippet.html",
+                        "video": "",
+                        "exercise": "ratest25.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/O2HKxNcom7g?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "308",
+                        "label": "Uniform Limits of \n Continuous Functions",
+                        "meta": "RA31",
+                        "content": "How to preserve continuity in the limit of a sequence of continuous functions.",
+                        "notes": "308-snippet.html",
+                        "video": "",
+                        "exercise": "ratest31.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/llJruZnO-t4?start=11",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "503",
+                        "label": "Uniform Convergence \n for Differentiable Functions",
+                        "meta": "RA37",
+                        "content": "Compatibility of differentiability with uniform limits.",
+                        "notes": "503-snippet.html",
+                        "video": "",
+                        "exercise": "ratest37.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/PwkaPb_sCVQ?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "301",
+                        "label": "Pointwise Convergence",
+                        "meta": "RA24",
+                        "content": "A notion of convergence for sequences functions that reduces the question of convergence to convergence of sequences of real numbers.",
+                        "notes": "301-snippet.html",
+                        "video": "",
+                        "exercise": "ratest24.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Kq_KZpljeXo?start=10",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "300",
+                        "label": "Sequences of\nBounded Functions",
+                        "meta": "RA23",
+                        "content": "The concept of sequences but for functions instead of real numbers.",
+                        "notes": "300-snippet.html",
+                        "video": "",
+                        "exercise": "ratest23.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/RM2hytsyMpc?start=20",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "302",
+                        "target": "308",
+                        "label": "Uniform convergence of continuous functions leads to a continuous limit function.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "302",
+                        "target": "503",
+                        "label": "Proving uniform convergence of the derivatives of a function is part of proving the differentiability of the limit function.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "301",
+                        "target": "302",
+                        "label": "Pointwise convergence is a weaker notion of convergence for sequences of functions than uniform convergence.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "300",
+                        "target": "302",
+                        "label": "Special notion of convergence for sequences of functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

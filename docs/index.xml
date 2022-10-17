@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bridges on </title>
+    <link>/Pontifex-Hugo//docs/</link>
+    <description>Recent content in Bridges on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:23 +0000</lastBuildDate><atom:link href="/Pontifex-Hugo//docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start Building Bridges</title>
+      <link>/Pontifex-Hugo//docs/level1/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:45 +0015</pubDate>
+      
+      <guid>/Pontifex-Hugo//docs/level1/</guid>
+      <description>The search bar should be your starting point. However, if you are not sure what to search for, you could start with one of chapters below. Just click on the topic to start with the first lecture in the corresponding chapter.
+  #cy { height: 730px; display: block; }    let cy = cytoscape({ container: document.getElementById(&#34;cy&#34;), style: cytoscape .stylesheet() .selector(&#34;edge&#34;) .css({ width: 8, &#34;line-color&#34;: &#34;#abe8ef&#34;, &#34;target-arrow-color&#34;: &#34;#abe8ef&#34;, &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

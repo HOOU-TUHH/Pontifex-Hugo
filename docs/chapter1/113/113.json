@@ -1,0 +1,92 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "113",
+                        "label": "Uncountability\nof the Reals",
+                        "meta": " ",
+                        "content": "The real numbers cannot be enumerated.",
+                        "notes": "113-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/jCiIsigwaBE",
+                        "spotify": "https://open.spotify.com/embed/episode/7ElhBgZebKwOXqMsWMGgGJ"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "012",
+                        "label": "Countable Sets",
+                        "meta": "",
+                        "content": "A notion of cardinality that covers finite sets and those that can be enumerated via the natural numbers.",
+                        "notes": "012-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Rochester/setSetTheory1/ur_st_1_6.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "<p>Fabian Gabel and Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/WMgiYh7tac0?start=13",
+                        "spotify": "https://open.spotify.com/embed/episode/6JdbJSYkihEiLJQijcPkYO",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "104",
+                        "label": "Monotonicity of Limits\n and Sandwich Theorem",
+                        "meta": " RA05 ",
+                        "content": "Taking limits respects weak inequalities and sandwiching a sequence by two converging sequences reveals its limit. The technique of sandwiching can be used to determine limits via nested intervals.",
+                        "notes": "104-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Hope/Calc2/APEX_08_01_Sequences/Q_17.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Y6rRSip3QN4?start=14",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "106",
+                        "label": "Completeness",
+                        "meta": " RA07 ",
+                        "content": "Completeness says that Cauchy sequences must converge.",
+                        "notes": "106-snippet.html",
+                        "video": "",
+                        "exercise": "ratest07.html",
+                        "podcast": "<p>Courtesy of Marcus Waurick. <i>Well-defined & Wonderful podcast</i>, <a href=\"https://www.marcus-waurick.de/teaching\" target=\"_blank\">marcus-waurick.de</a>.</p>",
+                        "youtube": "https://youtu.be/R2AFZD0jiKQ?start=14",
+                        "spotify": "https://open.spotify.com/embed/episode/2oh22JbFBcqSdfBJHEYUGo",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "012",
+                        "target": "113",
+                        "label": "Uncountability of the real numbers in particular means that the reals are not a countable set.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "104",
+                        "target": "113",
+                        "label": "The uncountability of the reals can be shown via an interval nesting which converges do to the monotonicity of the underlying sequences.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "106",
+                        "target": "113",
+                        "label": "Uncountability of the real numbers can be proven as a consequence of the completeness of the real numbers.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}

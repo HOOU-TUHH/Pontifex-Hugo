@@ -1,0 +1,117 @@
+{
+      "nodes": [
+            {
+                  "data": {
+                        "id": "511",
+                        "label": "Taylor's Theorem",
+                        "meta": "RA45",
+                        "content": "An approximation method for differentiable functions.",
+                        "notes": "511-snippet.html",
+                        "video": "",
+                        "exercise": "ratest45.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/Pb390hRaLrw?start=10",
+                        "spotify": ""
+                  }
+            },
+            {
+                  "data": {
+                        "id": "512",
+                        "label": "Application of\nTaylor's Theorem",
+                        "meta": "RA46",
+                        "content": "Calculate an approximation via Taylor's Theorem",
+                        "notes": "512-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/FortLewis/Calc2/10-2-Taylor-series/Taylor-series-05.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/zRoyHrMNOO8?start=10",
+                        "spotify": "",
+                        "color": "#b8b8b8"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "402",
+                        "label": "Polynomials",
+                        "meta": "RA33",
+                        "content": "A basic class of functions that consists a linear combinations of monomials.",
+                        "notes": "402-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_03_Polynomial.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=297",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "403",
+                        "label": "Power Series",
+                        "meta": "RA33",
+                        "content": "A sequence of partial sums of polynomial functions.",
+                        "notes": "403-snippet.html",
+                        "video": "",
+                        "webwork": "https://jupyterhub.mat.tu-harburg.de/webwork2/html2xml?&answersSubmitted=0&sourceFilePath=Library/Indiana/Indiana_setSeries8Power/eva8_5a_2.pg&problemSeed=123567890&displayMode=MathJax&courseID=pontifex&userID=pontifexuser&course_password=ki(JH7j3m4)k_46)&outputformat=simple",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/onmh9nzkfDA?start=332",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            },
+            {
+                  "data": {
+                        "id": "510",
+                        "label": "Higher Derivatives",
+                        "meta": "RA44",
+                        "content": "Taking derivatives of derivatives of differentiable functions.",
+                        "notes": "510-snippet.html",
+                        "video": "",
+                        "webwork": "",
+                        "exercise": "ratest44.html",
+                        "podcast": "",
+                        "youtube": "https://youtu.be/vyZ5ESoqsxw?start=11",
+                        "spotify": "",
+                        "color": "#abe8ef"
+                  }
+            }
+      ],
+      "edges": [
+            {
+                  "data": {
+                        "source": "511",
+                        "target": "512",
+                        "label": "Application of Taylor's theorem to a particular example.",
+                        "color": "#b8b8b8",
+                        "style": "dashed"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "402",
+                        "target": "511",
+                        "label": "Use polynomials to approximate differentiable functions.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "403",
+                        "target": "511",
+                        "label": "A Taylor series is a particular power series.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            },
+            {
+                  "data": {
+                        "source": "510",
+                        "target": "511",
+                        "label": "Evaluations of higher derivatives form the coefficients of a Taylor polynomial.",
+                        "color": "#abe8ef",
+                        "style": "solid"
+                  }
+            }
+      ]
+}
