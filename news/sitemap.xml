@@ -2,6 +2,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>/Pontifex-Hugo//news/bridge2mint/</loc>
+      <lastmod>2022-11-04T09:19:42+01:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/Pontifex-Hugo//news/doksshowcase/</loc>
+      <lastmod>2022-11-04T09:19:42+01:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
       <loc>/Pontifex-Hugo//news/say-hello-to-doks/</loc>
       <lastmod>2020-11-04T09:19:42+01:00</lastmod>
       <changefreq>weekly</changefreq>

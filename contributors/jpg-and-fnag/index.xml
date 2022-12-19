@@ -6,7 +6,27 @@
     <description>Recent content in JPG and FNAG on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 04 Nov 2020 09:19:42 +0100</lastBuildDate><atom:link href="/Pontifex-Hugo//contributors/jpg-and-fnag/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2022 09:19:42 +0100</lastBuildDate><atom:link href="/Pontifex-Hugo//contributors/jpg-and-fnag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bridge2mint - a project built using pntfx</title>
+      <link>/Pontifex-Hugo//news/bridge2mint/</link>
+      <pubDate>Fri, 04 Nov 2022 09:19:42 +0100</pubDate>
+      
+      <guid>/Pontifex-Hugo//news/bridge2mint/</guid>
+      <description>We are happy to share another project built with pntfx: bridge2mint.
+This project by the Institute the of Mathematics  at TU Hamburg  features a &amp;ldquo;knowledge network of funcamental mathematical convcepts for a successful start in MINT studies&amp;rdquo;. Available in Enlglish and German.
+Visit www3.tuhh.de/e-10/bridge2mint/  for more information and check out the GitLab Repositories  .</description>
+    </item>
+    
+    <item>
+      <title>doks showcase is featuring pntfx</title>
+      <link>/Pontifex-Hugo//news/doksshowcase/</link>
+      <pubDate>Fri, 04 Nov 2022 09:19:42 +0100</pubDate>
+      
+      <guid>/Pontifex-Hugo//news/doksshowcase/</guid>
+      <description>We are proud to be featured in the Doks Showcase  . So far, we are the only Doks project using the Cytocoscape.js  powered graph navigation functionality  .</description>
+    </item>
+    
     <item>
       <title>Pntfx did it - Say hello to Doks 👋</title>
       <link>/Pontifex-Hugo//news/say-hello-to-doks/</link>
