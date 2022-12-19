@@ -1,6 +1,6 @@
 ---
 title: "bridge2mint - a project built using pntfx"
-description: ""
+description: "A new pntfx-powered project available in English and German."
 lead: ""
 date: 2022-11-04T09:19:42+01:00
 lastmod: 2022-11-04T09:19:42+01:00
