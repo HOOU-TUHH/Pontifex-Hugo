@@ -58,7 +58,7 @@ review-app-build:
 review-build:
   stage: build
   script:
-    - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}/\";" config/production/config.toml
+    - sed -i -e "s;baseurl.*;baseurl = \"${REVIEW_BASE_DIR}\";" config/production/config.toml
     - bin/build_pontifex.sh
   artifacts:
     paths:
