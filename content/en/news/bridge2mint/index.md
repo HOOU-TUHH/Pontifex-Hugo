@@ -12,7 +12,7 @@ contributors: ["JPG and FNAG"]
 
 We are happy to share another project built with pntfx: **bridge2mint**. 
 
-This project by the [Institute the of Mathematics](https://www.mat.tuhh.de/index_en.html) at [TU Hamburg](https://www.tuhh.de/tuhh/en/startpage.html) features a "knowledge network of funcamental mathematical convcepts for a successful start in MINT studies". Available in Enlglish and German.
+This project by the [Institute of Mathematics](https://www.mat.tuhh.de/index_en.html) at [TU Hamburg](https://www.tuhh.de/tuhh/en/startpage.html) features a "knowledge network of fundamental mathematical concepts for a successful start in MINT studies". Available in English and German.
 
-Visit [www3.tuhh.de/e-10/bridge2mint/](https://www3.tuhh.de/e-10/bridge2mint/) for more information and check out the [GitLab Repositories](https://collaborating.tuhh.de/e-10/bridge2mint).
+Visit [www3.tuhh.de/e-10/bridge2mint/](https://www3.tuhh.de/e-10/bridge2mint/) for more information and check out the [GitLab repositories](https://collaborating.tuhh.de/e-10/bridge2mint).
 
