@@ -212,6 +212,14 @@ Details on the WeBWorK course creation can be found [here](https://michaelgage.b
 
 To this end use the CSS-theme `nodes/math4-pontifex-coloring.css` and include it in your WeBWorK-Service.
 
+## Adding Branding to your pntfx Project
+
+In order to add a university or institute logo, just overwrite the files
+
+`/static/images/university-logo.svg` and `/static/images/institute-logo.svg`
+
+or use a separate repository for branding your project as described in the developer info below.
+
 # Developer info
 
 ## Python preprocessing
