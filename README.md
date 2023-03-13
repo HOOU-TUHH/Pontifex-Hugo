@@ -123,7 +123,7 @@ and place `image.svg` also in the `107` folder.
 
 HUGO Shortcodes work inside `.tex` files due to the `sed`-postprocessing
 ```bash
-ed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html
+sed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html
 ```
 inside `build_pontifex.sh`.
 
