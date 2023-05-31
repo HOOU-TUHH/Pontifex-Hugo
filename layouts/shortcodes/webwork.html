@@ -1,8 +1,16 @@
 
 <iframe
+  id="webwork"
   class="embed-responsive-item"
   style="border-width: 0"
   src="{{ index .Params 0 }}"
   width="100%"
 >
-</iframe><script>iFrameResize({log:true,inPageLinks:true,resizeFrom:'child'})</script>
+</iframe><script>
+\\randomize seed 
+let mysrc = document.getElementById('webwork').src;
+let newsrc = mysrc.replace(/Seed=[0-9]+/g,"Seed="+Math.floor(Math.random()*10000000));
+document.getElementById('webwork').src = newsrc;
+\\resizer
+iFrameResize({log:true,inPageLinks:true,resizeFrom:'child'});
+</script>
