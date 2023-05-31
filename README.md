@@ -67,7 +67,7 @@ This entry describes the concept node `305` for the concept "Epsilon-Delta Defin
 * `content` explains the topic; this text shows on the top of each webpage below the title
 * `notes` name of the html file containing the lecture notes.
 * `video` ID (+ optional timestamp) of the YouTube video that should be linked. Can be used to either embed the video via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) or for an external link (currently implemented).
-* `webwork` link to [WeBWorK](https://github.com/openWeBWorK) exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
+* `webwork` link to [WeBWorK](https://github.com/openWeBWorK) exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe). 
 * `exercise` html file (with javascript) for a quiz about the video (can be used additionally to WeBWorK or as a substitution). It will also be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe). 
 * `podcast` plain html code to go in the *Podcast* section.
 #### Edges
@@ -207,6 +207,8 @@ The bottom of each page includes an electronic [WeBWorK](https://github.com/open
 will render the exercise once the webpage has been loaded.
 
 Details on the WeBWorK course creation can be found [here](https://michaelgage.blogspot.com/2015/06/whether-writing-full-text-book-or-just.html).
+
+The problemSeed is randomized via JavaScript+RegEx and will change everytime the page is reloaded, see `/layouts/shortcodes/webwork.html` for details.
 
 ##### Pontifex-Coloring in WeBWorK Buttons
 
