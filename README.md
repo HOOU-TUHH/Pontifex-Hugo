@@ -29,7 +29,7 @@ If you use pntfx for visualization of your network, please add the following tex
   * *Read and write permissions*.
 * **Trigger the GitHub Action**: every change in your repository files should trigger the action `github-pages`. Visit your repository environments list to find out about the deployment status of your project. Make a small change to one of the files in order to start the GitHub action.
 * In *Settings/Code and automatization* go to *Pages* , select *Deploy from a branch*, and the branch `gh-pages` with `/root` and save
-* Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/pontifex/` to explore your Pontifex application.
+* Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/my-pntfx-project/` to explore your Pontifex application.
 
 For details on the implementation, checkout the GitHub workflow in the file `.github/workflows/gh-pages.yml`. See also the [Doks documentation](https://getdoks.org/docs/how-to/hosting/deployment/).
 
