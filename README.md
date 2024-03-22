@@ -29,7 +29,7 @@ If you use pntfx for visualization of your network, please add the following tex
   * *Read and write permissions*.
 * **Trigger the GitHub Action**: every change in your repository files should trigger the action `github-pages`. Visit your repository environments list to find out about the deployment status of your project. Make a small change to one of the files in order to start the GitHub action.
 * In *Settings/Code and automatization* go to *Pages* , select *Deploy from a branch*, and the branch `gh-pages` with `/root` and save
-* Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/pontifex/` to explore your Pontifex application.
+* Once the GitHub-Action has finished, visit the page `https://your-github-username.github.io/my-pntfx-project/` to explore your Pontifex application.
 
 For details on the implementation, checkout the GitHub workflow in the file `.github/workflows/gh-pages.yml`. See also the [Doks documentation](https://getdoks.org/docs/how-to/hosting/deployment/).
 
@@ -67,7 +67,7 @@ This entry describes the concept node `305` for the concept "Epsilon-Delta Defin
 * `content` explains the topic; this text shows on the top of each webpage below the title
 * `notes` name of the html file containing the lecture notes.
 * `video` ID (+ optional timestamp) of the YouTube video that should be linked. Can be used to either embed the video via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) or for an external link (currently implemented).
-* `webwork` link to [WeBWorK](https://github.com/openWeBWorK) exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
+* `webwork` link to [WeBWorK](https://github.com/openWeBWorK) exercise or other webpage that will be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe). 
 * `exercise` html file (with javascript) for a quiz about the video (can be used additionally to WeBWorK or as a substitution). It will also be embedded via an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe). 
 * `podcast` plain html code to go in the *Podcast* section.
 #### Edges
@@ -123,7 +123,7 @@ and place `image.svg` also in the `107` folder.
 
 HUGO Shortcodes work inside `.tex` files due to the `sed`-postprocessing
 ```bash
-ed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html
+sed -i -e 's/{{&lt; baseurl &gt;}}/{{< baseurl >}}/g' $i/$i-snippet.html
 ```
 inside `build_pontifex.sh`.
 
@@ -208,9 +208,19 @@ will render the exercise once the webpage has been loaded.
 
 Details on the WeBWorK course creation can be found [here](https://michaelgage.blogspot.com/2015/06/whether-writing-full-text-book-or-just.html).
 
+The problemSeed is randomized via JavaScript+RegEx and will change everytime the page is reloaded, see `/layouts/shortcodes/webwork.html` for details.
+
 ##### Pontifex-Coloring in WeBWorK Buttons
 
 To this end use the CSS-theme `nodes/math4-pontifex-coloring.css` and include it in your WeBWorK-Service.
+
+## Adding Branding to your pntfx Project
+
+In order to add a university or institute logo, just overwrite the files
+
+`/static/images/university-logo.svg` and `/static/images/institute-logo.svg`
+
+or use a separate repository for branding your project as described in the developer info below.
 
 # Developer info
 
