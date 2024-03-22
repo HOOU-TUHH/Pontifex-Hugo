@@ -65,7 +65,7 @@
                   "data": {
                         "source": "506",
                         "target": "507",
-                        "label": "A notion stronger than pointwise convergence is uniform convergence.",
+                        "label": "Rolle's theorem is needed for the proof of the mean value theorem. One can also view Rolle's theorem as a special case of the mean value theorem.",
                         "color": "#b8b8b8",
                         "style": "dashed"
                   }

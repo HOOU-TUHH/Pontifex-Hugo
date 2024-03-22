@@ -1354,13 +1354,13 @@
 		
 
 		<a class="nav-link  active "
-		   id="cdaebf-tab" data-bs-toggle="tab" data-bs-target="#cdaebf"
+		   id="afedcb-tab" data-bs-toggle="tab" data-bs-target="#afedcb"
 		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Network</a>
 
 		
 
 		<a class="nav-link "
-		   id="bacdfe-tab" data-bs-toggle="tab" data-bs-target="#bacdfe"
+		   id="edcafb-tab" data-bs-toggle="tab" data-bs-target="#edcafb"
 		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Table</a>
 
 		
@@ -1376,7 +1376,7 @@
 
 
 
-<div class="tab-pane fade show active " id="cdaebf" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade show active " id="afedcb" role="tabpanel" aria-labelledby="nav-1">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.21.2/cytoscape.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -1433,7 +1433,7 @@
 
 
 
-<div class="tab-pane fade show " id="bacdfe" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade show " id="edcafb" role="tabpanel" aria-labelledby="nav-1">
 
 	<details open>
 <summary><b><u>Show requirements</u></b></summary>
@@ -1495,19 +1495,19 @@
 		
 
 		<a class="nav-link  active "
-		   id="bdceaf-tab" data-bs-toggle="tab" data-bs-target="#bdceaf"
+		   id="cdafeb-tab" data-bs-toggle="tab" data-bs-target="#cdafeb"
 		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Notes</a>
 
 		
 
 		<a class="nav-link "
-		   id="edafbc-tab" data-bs-toggle="tab" data-bs-target="#edafbc"
+		   id="ecbdaf-tab" data-bs-toggle="tab" data-bs-target="#ecbdaf"
 		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Video</a>
 
 		
 
 		<a class="nav-link "
-		   id="fdaceb-tab" data-bs-toggle="tab" data-bs-target="#fdaceb"
+		   id="cdafbe-tab" data-bs-toggle="tab" data-bs-target="#cdafbe"
 		   type="button" role="tab" aria-controls="nav-home" aria-selected="true">Discussion</a>
 
 		
@@ -1523,7 +1523,7 @@
 
 
 
-<div class="tab-pane fade show active " id="bdceaf" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade show active " id="cdafeb" role="tabpanel" aria-labelledby="nav-1">
 
 	<p>Here we consider derivatives of derivatives (of derivatives ...) and
 discuss consequences for the search for local extrema of functions.</p>
@@ -1924,7 +1924,7 @@ strictly}\ \text{concave}
 
 
 
-<div class="tab-pane fade show " id="edafbc" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade show " id="ecbdaf" role="tabpanel" aria-labelledby="nav-1">
 
 	<div class="media-container"><img class="image" src="./vyZ5ESoqsxw.jpg"><div class="middle"><a class="button" href="https://youtu.be/vyZ5ESoqsxw?start=11" target="_blank">Open video on YouTube</a></div></div>
 
@@ -1939,7 +1939,7 @@ strictly}\ \text{concave}
 
 
 
-<div class="tab-pane fade show " id="fdaceb" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade show " id="cdafbe" role="tabpanel" aria-labelledby="nav-1">
 
 	<h4>Discuss your questions by typing below.</h4>
 <div id="vssue"></div>
@@ -1952,14 +1952,22 @@ strictly}\ \text{concave}
 </div>
 
 <h2 id="solve-the-exercise">Solve the Exercise <a href="#solve-the-exercise" class="anchor" aria-hidden="true">#</a></h2>
-
 <iframe
+  id="webwork"
   class="embed-responsive-item"
   style="border-width: 0"
   src="ratest44.html"
   width="100%"
 >
-</iframe><script>iFrameResize({log:true,inPageLinks:true,resizeFrom:'child'})</script>
+</iframe><script>
+iFrameResize({log:true,inPageLinks:true,resizeFrom:'child'})</script>
+
+<script>
+  let mysrc = document.getElementById('webwork').src;
+  let newsrc = mysrc.replace(/Seed=[0-9]+/g,"Seed="+Math.floor(Math.random()*10000000));
+  document.getElementById('webwork').src = newsrc;
+</script>
+
 <!---
 Don't delete the footer below in your publication.
 -->
@@ -2021,7 +2029,7 @@ Don't delete the footer below in your publication.
     <script src="/Pontifex-Hugo/js/bootstrap.min.f93d87ed312fd94eae9a720e5988a3bd322bcdd099518866fc5668e18610cca0077fc356b3edfc727dedf5f773dab0a6d87a870e4b616595e76381163dd5a730.js" integrity="sha512-&#43;T2H7TEv2U6umnIOWYijvTIrzdCZUYhm/FZo4YYQzKAHf8NWs&#43;38cn3t9fdz2rCm2HqHDkthZZXnY4EWPdWnMA==" crossorigin="anonymous" defer></script>
   <script src="/Pontifex-Hugo/js/highlight.min.c5598eb09618e5f6c9cab0a11acaf1f84c9897577d85bd570dbc87f75e21e1ea1bedec85d33b1341a100815dabbdefdf7ed21f26065f5ee3150deb34342a0227.js" integrity="sha512-xVmOsJYY5fbJyrChGsrx&#43;EyYl1d9hb1XDbyH914h4eob7eyF0zsTQaEAgV2rve/fftIfJgZfXuMVDes0NCoCJw==" crossorigin="anonymous" defer></script>
   <script src="/Pontifex-Hugo/main.min.5f8e36aed7f2c7f0a91e340809e4b14f3b90a4d001ff4acb9a3e4f1f65a91e26e6e147b5b47a268769d46b80c6aa89e700489717a8c4bedfdce78b21f766ccc3.js" integrity="sha512-X442rtfyx/CpHjQICeSxTzuQpNAB/0rLmj5PH2WpHibm4Ue1tHomh2nUa4DGqonnAEiXF6jEvt/c54sh92bMww==" crossorigin="anonymous" defer></script>
-  <script src="/Pontifex-Hugo/index.min.2b8058dbaa9a549819e8aabb4abb2bc5dd726dc449810362954a770751356a163a3a41757c9d98a84b914a5753549dca1def01e05f001b9d5bbf573233b60d9d.js" integrity="sha512-K4BY26qaVJgZ6Kq7Srsrxd1ybcRJgQNilUp3B1E1ahY6OkF1fJ2YqEuRSldTVJ3KHe8B4F8AG51bv1cyM7YNnQ==" crossorigin="anonymous" defer></script>
+  <script src="/Pontifex-Hugo/index.min.69285e801af3da835c99eb1abcf0fcca1f1cb2640a5c2ef2cb32df7fb0874bcb96391050a41d5f07e0feec297dfe2938cbe04a4942c683a20749a190c27be44a.js" integrity="sha512-aShegBrz2oNcmesavPD8yh8csmQKXC7yyzLff7CHS8uWORBQpB1fB&#43;D&#43;7Cl9/ik4y&#43;BKSULGg6IHSaGQwnvkSg==" crossorigin="anonymous" defer></script>
   <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
 <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
 
@@ -2051,6 +2059,24 @@ Don't delete the footer below in your publication.
     })
   })
 </script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://wanalytics.rz.tuhh.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '35']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
 
   </body>
 </html>
